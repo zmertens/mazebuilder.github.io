@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sidewinder_0',['sidewinder',['../classmazes_1_1sidewinder.html',1,'mazes']]]
+  ['maze_0',['maze',['../structmazes_1_1maze.html',1,'mazes']]]
 ];

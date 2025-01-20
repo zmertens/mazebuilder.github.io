@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['args_0',['args',['../classmazes_1_1args.html',1,'mazes']]],
-  ['args_5fbuilder_1',['args_builder',['../classmazes_1_1args__builder.html',1,'mazes']]],
-  ['args_5fbuilder_5finterface_2',['args_builder_interface',['../classmazes_1_1args__builder__interface.html',1,'mazes']]]
+  ['algos_5finterface_0',['algos_interface',['../classmazes_1_1algos__interface.html',1,'mazes']]],
+  ['args_1',['args',['../structmazes_1_1args.html',1,'mazes']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['writer_0',['writer',['../classmazes_1_1writer.html',1,'mazes']]]
+  ['overview_0',['Overview',['../index.html',1,'']]]
 ];

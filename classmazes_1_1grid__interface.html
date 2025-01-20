@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -11,12 +12,15 @@
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -50,17 +54,29 @@ $(function() { codefold.init(0); });
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() {
-  initMenu('',true,false,'search.php','Search',false);
+  initMenu('',true,false,'search.php','Search',true);
   $(function() { init_search(); });
 });
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){ initResizable(false); });
+$(function(){initNavTree('classmazes_1_1grid__interface.html',''); initResizable(true); });
 /* @license-end */
 </script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -82,12 +98,6 @@ $(function(){ initResizable(false); });
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespacemazes.html">mazes</a></li><li class="navelem"><a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a></li>  </ul>
-</div>
-</div><!-- top -->
-<div id="doc-content">
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -99,17 +109,8 @@ $(function(){ initResizable(false); });
 <div class="dynheader">
 Inheritance diagram for mazes::grid_interface:</div>
 <div class="dyncontent">
-<div class="center"><img src="classmazes_1_1grid__interface__inherit__graph.png" border="0" usemap="#amazes_1_1grid__interface_inherit__map" alt="Inheritance graph"/></div>
-<map name="amazes_1_1grid__interface_inherit__map" id="amazes_1_1grid__interface_inherit__map">
-<area shape="rect" title=" " alt="" coords="167,5,313,32"/>
-<area shape="rect" href="classmazes_1_1colored__grid.html" title=" " alt="" coords="5,80,144,107"/>
-<area shape="poly" title=" " alt="" coords="198,41,105,82,102,77,196,36"/>
-<area shape="rect" href="classmazes_1_1distance__grid.html" title=" " alt="" coords="167,80,312,107"/>
-<area shape="poly" title=" " alt="" coords="242,48,242,80,237,80,237,48"/>
-<area shape="rect" href="classmazes_1_1grid.html" title=" " alt="" coords="336,80,426,107"/>
-<area shape="poly" title=" " alt="" coords="279,37,358,77,355,82,277,42"/>
-</map>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmazes_1_1grid__interface__inherit__graph.svg" width="431" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -158,18 +159,21 @@ virtual std::optional&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" 
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a475fc9718ec4f8e438655f7b55d6fd0f" id="r_a475fc9718ec4f8e438655f7b55d6fd0f"><td class="memItemLeft" align="right" valign="top"><a id="a475fc9718ec4f8e438655f7b55d6fd0f" name="a475fc9718ec4f8e438655f7b55d6fd0f"></a>
-std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;&lt;</b> (std::ostream &amp;os, <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &amp;g)</td></tr>
-<tr class="separator:a475fc9718ec4f8e438655f7b55d6fd0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e1b52d9144d93b6dc24c139580e98fa" id="r_a1e1b52d9144d93b6dc24c139580e98fa"><td class="memItemLeft" align="right" valign="top"><a id="a1e1b52d9144d93b6dc24c139580e98fa" name="a1e1b52d9144d93b6dc24c139580e98fa"></a>
+std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;&lt;</b> (std::ostream &amp;os, const <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &amp;g)</td></tr>
+<tr class="separator:a1e1b52d9144d93b6dc24c139580e98fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>C:/Users/zachm/Desktop/zmertens-MazeBuilder/include/MazeBuilder/<a class="el" href="grid__interface_8h_source.html">grid_interface.h</a></li>
 </ul>
 </div><!-- contents -->
-<!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
-</small></address>
 </div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemazes.html">mazes</a></li><li class="navelem"><a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+  </ul>
+</div>
 </body>
 </html>

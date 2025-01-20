@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['grid_0',['grid',['../classmazes_1_1grid.html',1,'mazes']]],
-  ['grid_5finterface_1',['grid_interface',['../classmazes_1_1grid__interface.html',1,'mazes']]]
+  ['factory_0',['factory',['../classmazes_1_1factory.html',1,'mazes']]],
+  ['for_20handling_20project_20includes_1',['class for handling project includes',['../group___primary.html',1,'']]]
 ];
