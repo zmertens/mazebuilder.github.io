@@ -1,0 +1,10 @@
+<map id="configurator.h" name="configurator.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="26,5,126,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,155,59,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,34,49,81,37,139,32,138,44,79,66,31"/>
+<area shape="rect" id="Node000003" href="$enums_8h.html" title="Enumerations for the maze builder program." alt="" coords="58,80,206,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="88,31,115,66,111,69,84,34"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="116,109,63,147,60,143,113,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="93,155,171,181"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="135,107,135,139,129,139,129,107"/>
+</map>

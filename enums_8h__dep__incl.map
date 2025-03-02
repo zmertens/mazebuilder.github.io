@@ -1,0 +1,26 @@
+<map id="enums.h" name="enums.h">
+<area shape="rect" id="Node000001" title="Enumerations for the maze builder program." alt="" coords="158,5,230,32"/>
+<area shape="rect" id="Node000002" href="$configurator_8h.html" title=" " alt="" coords="5,80,106,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,42,81,82,79,77,155,37"/>
+<area shape="rect" id="Node000003" href="$factory_8h.html" title=" " alt="" coords="85,155,156,181"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="184,47,129,155,125,153,179,45"/>
+<area shape="rect" id="Node000004" href="$maze__builder_8h.html" title="This file includes all the headers in the maze builder library." alt="" coords="234,304,344,331"/>
+<area shape="poly" id="edge15_Node000001_Node000004" title=" " alt="" coords="203,46,228,140,265,255,285,302,280,304,260,257,223,141,198,48"/>
+<area shape="rect" id="Node000005" href="$grid__interface_8h.html" title=" " alt="" coords="254,80,364,107"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="228,38,290,77,287,82,226,43"/>
+<area shape="rect" id="Node000009" href="$maze_8h.html" title=" " alt="" coords="369,155,433,181"/>
+<area shape="poly" id="edge14_Node000001_Node000009" title=" " alt="" coords="246,21,278,28,314,39,348,55,377,78,390,96,398,117,403,154,398,155,393,119,385,99,374,82,345,59,312,43,277,33,245,27"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="79,116,112,152,108,156,75,120"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="135,194,153,225,177,254,216,282,256,301,254,306,213,286,174,258,149,228,130,197"/>
+<area shape="rect" id="Node000006" href="$grid_8h.html" title=" " alt="" coords="286,155,340,181"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="313,122,315,154,309,154,308,123"/>
+<area shape="poly" id="edge12_Node000005_Node000009" title=" " alt="" coords="338,114,387,152,383,156,335,119"/>
+<area shape="poly" id="edge11_Node000006_Node000004" title=" " alt="" coords="293,195,281,212,273,230,270,249,273,269,285,303,280,304,267,270,265,249,268,229,277,209,288,192"/>
+<area shape="rect" id="Node000007" href="$colored__grid_8h.html" title=" " alt="" coords="282,229,384,256"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="323,196,332,228,327,230,318,197"/>
+<area shape="rect" id="Node000008" href="$distance__grid_8h.html" title=" " alt="" coords="408,229,517,256"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="354,186,437,226,435,231,351,191"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="320,271,299,305,294,302,315,268"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="419,265,320,306,318,301,417,260"/>
+<area shape="poly" id="edge13_Node000009_Node000004" title=" " alt="" coords="449,179,485,191,518,209,530,219,537,231,538,244,531,258,519,268,500,278,452,293,344,313,343,307,451,288,498,273,516,264,527,254,532,243,532,232,526,222,515,213,483,196,447,184"/>
+</map>

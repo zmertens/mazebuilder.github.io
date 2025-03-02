@@ -1,0 +1,9 @@
+<map id="algo_interface.h" name="algo_interface.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="80,5,194,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,74,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,35,70,73,67,69,118,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="98,80,176,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="140,33,140,64,134,64,134,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="199,80,264,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="155,30,205,68,201,73,152,35"/>
+</map>
