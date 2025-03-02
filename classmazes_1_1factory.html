@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Maze Builder: mazes::factory Class Reference</title>
+<title>Maze Builder Docs: mazes::factory Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder<span id="projectnumber">&#160;6.0.1</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.0.1</span>
    </div>
   </td>
  </tr>
@@ -105,15 +105,58 @@ $(function(){initNavTree('classmazes_1_1factory.html',''); initResizable(true); 
   <div class="headertitle"><div class="title">mazes::factory Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Factory provides a way to create mazes.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="factory_8h_source.html">factory.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:abaf36f96ebdf761b9ab972553c5c4b0c" id="r_abaf36f96ebdf761b9ab972553c5c4b0c"><td class="memItemLeft" align="right" valign="top"><a id="abaf36f96ebdf761b9ab972553c5c4b0c" name="abaf36f96ebdf761b9ab972553c5c4b0c"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>gen</b> (<a class="el" href="namespacemazes.html#ae0aa1ea98192d8b6f2cd015b30fb5657">algos</a> maze_type, std::unique_ptr&lt; <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &gt; &amp;_grid, const std::function&lt; int(int, int)&gt; &amp;get_int, const std::mt19937 &amp;rng)</td></tr>
-<tr class="separator:abaf36f96ebdf761b9ab972553c5c4b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb97107d66b9dc6b92ad7a753be95649" id="r_acb97107d66b9dc6b92ad7a753be95649"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; std::unique_ptr&lt; <a class="el" href="classmazes_1_1maze.html">maze</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb97107d66b9dc6b92ad7a753be95649">create</a> (<a class="el" href="classmazes_1_1configurator.html">configurator</a> const &amp;config) noexcept</td></tr>
+<tr class="memdesc:acb97107d66b9dc6b92ad7a753be95649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a maze pointer.  <br /></td></tr>
+<tr class="separator:acb97107d66b9dc6b92ad7a753be95649"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Factory provides a way to create mazes. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="acb97107d66b9dc6b92ad7a753be95649" name="acb97107d66b9dc6b92ad7a753be95649"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb97107d66b9dc6b92ad7a753be95649">&#9670;&#160;</a></span>create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::optional&lt; std::unique_ptr&lt; <a class="el" href="classmazes_1_1maze.html">maze</a> &gt; &gt; mazes::factory::create </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmazes_1_1configurator.html">configurator</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a maze pointer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">config</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/zachm/Desktop/zmertens-MazeBuilder/include/MazeBuilder/<a class="el" href="factory_8h_source.html">factory.h</a></li>
+<li><a class="el" href="factory_8h_source.html">factory.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

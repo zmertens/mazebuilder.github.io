@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['algos_0',['algos',['../namespacemazes.html#ae0aa1ea98192d8b6f2cd015b30fb5657',1,'mazes']]]
+  ['algo_0',['algo',['../namespacemazes.html#aa61978cb14a922fcab3ffcc1889a7f8a',1,'mazes']]]
 ];

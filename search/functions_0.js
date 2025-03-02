@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['compute_5fgeometry_0',['compute_geometry',['../classmazes_1_1computations.html#a08587628bad9eb36db7a11ae47d1ae5d',1,'mazes::computations']]]
+  ['append_0',['append',['../classmazes_1_1grid.html#a9336b1a5bce6d2a452e5485fc2a45f47',1,'mazes::grid']]]
 ];

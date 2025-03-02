@@ -24,9 +24,23 @@
 */
 var NAVTREE =
 [
-  [ "Maze Builder", "index.html", [
-    [ "Overview", "index.html", "index" ],
-    [ "Topics", "topics.html", "topics" ],
+  [ "Maze Builder Docs", "index.html", [
+    [ "Maze Builder", "index.html#autotoc_md0", [
+      [ "Help Message", "index.html#autotoc_md4", [
+        [ "Exports", "index.html#autotoc_md2", null ],
+        [ "Examples", "index.html#autotoc_md6", null ]
+      ] ],
+      [ "CMake Configuration and Testing", "index.html#autotoc_md8", [
+        [ "Examples", "index.html#autotoc_md10", null ],
+        [ "Testing", "index.html#autotoc_md11", null ],
+        [ "Build for the Web", "index.html#autotoc_md12", null ]
+      ] ],
+      [ "JSON payloads", "index.html#autotoc_md14", null ],
+      [ "Scripts", "index.html#autotoc_md15", null ],
+      [ "Web Interface", "index.html#autotoc_md17", null ],
+      [ "TODO | 6.0.1-build", "index.html#autotoc_md18", null ],
+      [ "More Learning Resources", "index.html#autotoc_md19", null ]
+    ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -40,19 +54,20 @@ var NAVTREE =
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ]
+        [ "Functions", "functions_func.html", null ],
+        [ "Variables", "functions_vars.html", null ],
+        [ "Related Symbols", "functions_rela.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ]
-    ] ],
-    [ "Examples", "examples.html", "examples" ]
+    ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"algos__interface_8h_source.html"
+"algo__interface_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

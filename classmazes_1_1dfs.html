@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Maze Builder: mazes::dfs Class Reference</title>
+<title>Maze Builder Docs: mazes::dfs Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder<span id="projectnumber">&#160;6.0.1</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.0.1</span>
    </div>
   </td>
  </tr>
@@ -105,26 +105,36 @@ $(function(){initNavTree('classmazes_1_1dfs.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">mazes::dfs Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Depth-first search algorithm for generating mazes.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="dfs_8h_source.html">dfs.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for mazes::dfs:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmazes_1_1dfs__inherit__graph.svg" width="167" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmazes_1_1dfs__inherit__graph.svg" width="160" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for mazes::dfs:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmazes_1_1dfs__coll__graph.svg" width="167" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmazes_1_1dfs__coll__graph.svg" width="160" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adb4910eabaf7e83d23f7d98ee4e3c604" id="r_adb4910eabaf7e83d23f7d98ee4e3c604"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb4910eabaf7e83d23f7d98ee4e3c604">run</a> (const std::unique_ptr&lt; <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &gt; &amp;_grid, const std::function&lt; int(int, int)&gt; &amp;get_int, const std::mt19937 &amp;rng) const noexcept override</td></tr>
-<tr class="separator:adb4910eabaf7e83d23f7d98ee4e3c604"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classmazes_1_1algos__interface"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmazes_1_1algos__interface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmazes_1_1algos__interface.html">mazes::algos_interface</a></td></tr>
+<tr class="memitem:a8e4fa5335544dc09a7f5891aa5cfd12b" id="r_a8e4fa5335544dc09a7f5891aa5cfd12b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e4fa5335544dc09a7f5891aa5cfd12b">run</a> (const std::unique_ptr&lt; <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &gt; &amp;g, const std::function&lt; int(int, int)&gt; &amp;get_int, const std::mt19937 &amp;rng) const noexcept override</td></tr>
+<tr class="memdesc:a8e4fa5335544dc09a7f5891aa5cfd12b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the depth-first search algorithm.  <br /></td></tr>
+<tr class="separator:a8e4fa5335544dc09a7f5891aa5cfd12b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classmazes_1_1algo__interface"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmazes_1_1algo__interface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmazes_1_1algo__interface.html">mazes::algo_interface</a></td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="adb4910eabaf7e83d23f7d98ee4e3c604" name="adb4910eabaf7e83d23f7d98ee4e3c604"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb4910eabaf7e83d23f7d98ee4e3c604">&#9670;&#160;</a></span>run()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Depth-first search algorithm for generating mazes. </p>
+<p>Also-known-as the recursive backtracker algorithm</p>
+<p>This algorithm is used to generate mazes by visiting each cell in the grid and carving a path to the next cell </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8e4fa5335544dc09a7f5891aa5cfd12b" name="a8e4fa5335544dc09a7f5891aa5cfd12b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e4fa5335544dc09a7f5891aa5cfd12b">&#9670;&#160;</a></span>run()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -135,7 +145,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual bool mazes::dfs::run </td>
           <td>(</td>
-          <td class="paramtype">const std::unique_ptr&lt; <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>_grid</em></span>, </td>
+          <td class="paramtype">const std::unique_ptr&lt; <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>g</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -155,12 +165,23 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classmazes_1_1algos__interface.html">mazes::algos_interface</a>.</p>
+<p>Run the depth-first search algorithm. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">g</td><td></td></tr>
+    <tr><td class="paramname">get_int</td><td></td></tr>
+    <tr><td class="paramname">rng</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>success or failure </dd></dl>
+
+<p>Implements <a class="el" href="classmazes_1_1algo__interface.html#a0822ad1a9d2c56432e7fae22d27cb91b">mazes::algo_interface</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/zachm/Desktop/zmertens-MazeBuilder/include/MazeBuilder/<a class="el" href="dfs_8h_source.html">dfs.h</a></li>
+<li><a class="el" href="dfs_8h_source.html">dfs.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

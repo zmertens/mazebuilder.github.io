@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['overview_0',['Overview',['../index.html',1,'']]]
+  ['builder_20docs_0',['Maze Builder Docs',['../index.html',1,'']]]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Maze Builder: mazes::args Struct Reference</title>
+<title>Maze Builder Docs: mazes::args Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder<span id="projectnumber">&#160;6.0.1</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.0.1</span>
    </div>
   </td>
  </tr>
@@ -102,9 +102,10 @@ $(function(){initNavTree('structmazes_1_1args.html',''); initResizable(true); })
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="structmazes_1_1args-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">mazes::args Struct Reference</div></div>
+  <div class="headertitle"><div class="title">mazes::args Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -115,50 +116,211 @@ $(function(){initNavTree('structmazes_1_1args.html',''); initResizable(true); })
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1737e8263b93c6acd4fec600d6253350" id="r_a1737e8263b93c6acd4fec600d6253350"><td class="memItemLeft" align="right" valign="top"><a id="a1737e8263b93c6acd4fec600d6253350" name="a1737e8263b93c6acd4fec600d6253350"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>parse</b> (const std::vector&lt; std::string &gt; &amp;arg) noexcept</td></tr>
-<tr class="separator:a1737e8263b93c6acd4fec600d6253350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09c82286f61e78d5a1933f3be1ed2764" id="r_a09c82286f61e78d5a1933f3be1ed2764"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09c82286f61e78d5a1933f3be1ed2764">parse</a> (const std::vector&lt; std::string &gt; &amp;arguments) noexcept</td></tr>
+<tr class="memdesc:a09c82286f61e78d5a1933f3be1ed2764"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse program arguments from a vector of strings.  <br /></td></tr>
+<tr class="separator:a09c82286f61e78d5a1933f3be1ed2764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac75c703e63c5cea22281f2042cd7adda" id="r_ac75c703e63c5cea22281f2042cd7adda"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac75c703e63c5cea22281f2042cd7adda">parse</a> (const std::string &amp;arguments) noexcept</td></tr>
+<tr class="memdesc:ac75c703e63c5cea22281f2042cd7adda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse program arguments from a string.  <br /></td></tr>
+<tr class="separator:ac75c703e63c5cea22281f2042cd7adda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3086d1b11e6b9845974adea817e6b960" id="r_a3086d1b11e6b9845974adea817e6b960"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3086d1b11e6b9845974adea817e6b960">get</a> (const std::string &amp;key) const noexcept</td></tr>
+<tr class="memdesc:a3086d1b11e6b9845974adea817e6b960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a value from the args map.  <br /></td></tr>
+<tr class="separator:a3086d1b11e6b9845974adea817e6b960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a75e65bcc03d23dfa712449a2f40adf" id="r_a4a75e65bcc03d23dfa712449a2f40adf"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; std::string, std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a75e65bcc03d23dfa712449a2f40adf">get</a> () const noexcept</td></tr>
+<tr class="memdesc:a4a75e65bcc03d23dfa712449a2f40adf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get entire the args map.  <br /></td></tr>
+<tr class="separator:a4a75e65bcc03d23dfa712449a2f40adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a69bb82da228ab695bba260b2015dffe5" id="r_a69bb82da228ab695bba260b2015dffe5"><td class="memItemLeft" align="right" valign="top"><a id="a69bb82da228ab695bba260b2015dffe5" name="a69bb82da228ab695bba260b2015dffe5"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>algo</b></td></tr>
-<tr class="separator:a69bb82da228ab695bba260b2015dffe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad99ac733bc74261b3e5199f309f0a98c" id="r_ad99ac733bc74261b3e5199f309f0a98c"><td class="memItemLeft" align="right" valign="top"><a id="ad99ac733bc74261b3e5199f309f0a98c" name="ad99ac733bc74261b3e5199f309f0a98c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>distances</b></td></tr>
-<tr class="separator:ad99ac733bc74261b3e5199f309f0a98c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cf435e80e4de48ecddbfb9d0d3bad07" id="r_a4cf435e80e4de48ecddbfb9d0d3bad07"><td class="memItemLeft" align="right" valign="top"><a id="a4cf435e80e4de48ecddbfb9d0d3bad07" name="a4cf435e80e4de48ecddbfb9d0d3bad07"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>output</b></td></tr>
-<tr class="separator:a4cf435e80e4de48ecddbfb9d0d3bad07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2dabeef323f8fabc333c4591a2f5ac7e" id="r_a2dabeef323f8fabc333c4591a2f5ac7e"><td class="memItemLeft" align="right" valign="top"><a id="a2dabeef323f8fabc333c4591a2f5ac7e" name="a2dabeef323f8fabc333c4591a2f5ac7e"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>seed</b></td></tr>
-<tr class="separator:a2dabeef323f8fabc333c4591a2f5ac7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95743fbdc207c1efa07abcce84745d78" id="r_a95743fbdc207c1efa07abcce84745d78"><td class="memItemLeft" align="right" valign="top"><a id="a95743fbdc207c1efa07abcce84745d78" name="a95743fbdc207c1efa07abcce84745d78"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>columns</b></td></tr>
-<tr class="separator:a95743fbdc207c1efa07abcce84745d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3eb7a004d1b905770534ebb07f95d3f2" id="r_a3eb7a004d1b905770534ebb07f95d3f2"><td class="memItemLeft" align="right" valign="top"><a id="a3eb7a004d1b905770534ebb07f95d3f2" name="a3eb7a004d1b905770534ebb07f95d3f2"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>rows</b></td></tr>
-<tr class="separator:a3eb7a004d1b905770534ebb07f95d3f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e1433741ecb8a47e9971e9f6892f223" id="r_a5e1433741ecb8a47e9971e9f6892f223"><td class="memItemLeft" align="right" valign="top"><a id="a5e1433741ecb8a47e9971e9f6892f223" name="a5e1433741ecb8a47e9971e9f6892f223"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>height</b></td></tr>
-<tr class="separator:a5e1433741ecb8a47e9971e9f6892f223"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ce20b3ea823edb730b1d5db7eb2b81e" id="r_a8ce20b3ea823edb730b1d5db7eb2b81e"><td class="memItemLeft" align="right" valign="top"><a id="a8ce20b3ea823edb730b1d5db7eb2b81e" name="a8ce20b3ea823edb730b1d5db7eb2b81e"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>version</b></td></tr>
-<tr class="separator:a8ce20b3ea823edb730b1d5db7eb2b81e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6be7d0ecf97f4cb238e2787d23bf755c" id="r_a6be7d0ecf97f4cb238e2787d23bf755c"><td class="memItemLeft" align="right" valign="top"><a id="a6be7d0ecf97f4cb238e2787d23bf755c" name="a6be7d0ecf97f4cb238e2787d23bf755c"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>help</b></td></tr>
-<tr class="separator:a6be7d0ecf97f4cb238e2787d23bf755c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2408953b30e88f8950aa92789df80c1" id="r_ad2408953b30e88f8950aa92789df80c1"><td class="memItemLeft" align="right" valign="top"><a id="ad2408953b30e88f8950aa92789df80c1" name="ad2408953b30e88f8950aa92789df80c1"></a>
+std::unordered_map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>args_map</b></td></tr>
+<tr class="separator:ad2408953b30e88f8950aa92789df80c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:acdc44ca0198e6d356be41446a9e99a8b" id="r_acdc44ca0198e6d356be41446a9e99a8b"><td class="memItemLeft" align="right" valign="top"><a id="acdc44ca0198e6d356be41446a9e99a8b" name="acdc44ca0198e6d356be41446a9e99a8b"></a>
+static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><b>ArgsPattern</b> = R&quot;pattern([\-\.\=\w\s\d]+)pattern&quot;</td></tr>
+<tr class="memdesc:acdc44ca0198e6d356be41446a9e99a8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Regular expression pattern for checking arguments. <br /></td></tr>
+<tr class="separator:acdc44ca0198e6d356be41446a9e99a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:af9606e60ffecdd985660cdd323873547" id="r_af9606e60ffecdd985660cdd323873547"><td class="memItemLeft" align="right" valign="top"><a id="af9606e60ffecdd985660cdd323873547" name="af9606e60ffecdd985660cdd323873547"></a>
-std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;&lt;</b> (std::ostream &amp;os, const <a class="el" href="structmazes_1_1args.html">args</a> &amp;a)</td></tr>
-<tr class="separator:af9606e60ffecdd985660cdd323873547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabe2035b8479a69a9ec28cc50bb4a1e6" id="r_aabe2035b8479a69a9ec28cc50bb4a1e6"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabe2035b8479a69a9ec28cc50bb4a1e6">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="structmazes_1_1args.html">args</a> &amp;a) noexcept</td></tr>
+<tr class="memdesc:aabe2035b8479a69a9ec28cc50bb4a1e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the arguments to a string output.  <br /></td></tr>
+<tr class="separator:aabe2035b8479a69a9ec28cc50bb4a1e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Simple argument handler. </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>C:/Users/zachm/Desktop/zmertens-MazeBuilder/include/MazeBuilder/<a class="el" href="args_8h_source.html">args.h</a></li>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4a75e65bcc03d23dfa712449a2f40adf" name="a4a75e65bcc03d23dfa712449a2f40adf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a75e65bcc03d23dfa712449a2f40adf">&#9670;&#160;</a></span>get() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::unordered_map&lt; std::string, std::string &gt; &amp; mazes::args::get </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get entire the args map. </p>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="a3086d1b11e6b9845974adea817e6b960" name="a3086d1b11e6b9845974adea817e6b960"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3086d1b11e6b9845974adea817e6b960">&#9670;&#160;</a></span>get() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mazes::args::get </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get a value from the args map. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="ac75c703e63c5cea22281f2042cd7adda" name="ac75c703e63c5cea22281f2042cd7adda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac75c703e63c5cea22281f2042cd7adda">&#9670;&#160;</a></span>parse() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mazes::args::parse </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>arguments</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parse program arguments from a string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arguments</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="a09c82286f61e78d5a1933f3be1ed2764" name="a09c82286f61e78d5a1933f3be1ed2764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09c82286f61e78d5a1933f3be1ed2764">&#9670;&#160;</a></span>parse() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mazes::args::parse </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>arguments</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parse program arguments from a vector of strings. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arguments</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Symbol Documentation</h2>
+<a id="aabe2035b8479a69a9ec28cc50bb4a1e6" name="aabe2035b8479a69a9ec28cc50bb4a1e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabe2035b8479a69a9ec28cc50bb4a1e6">&#9670;&#160;</a></span>operator&lt;&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>os</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structmazes_1_1args.html">args</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Display the arguments to a string output. </p>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="args_8h_source.html">args.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

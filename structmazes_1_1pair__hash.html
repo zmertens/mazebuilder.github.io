@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Maze Builder: mazes::pair_hash Struct Reference</title>
+<title>Maze Builder Docs: mazes::pair_hash Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder<span id="projectnumber">&#160;6.0.1</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.0.1</span>
    </div>
   </td>
  </tr>
@@ -102,26 +102,70 @@ $(function(){initNavTree('structmazes_1_1pair__hash.html',''); initResizable(tru
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="structmazes_1_1pair__hash-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">mazes::pair_hash Struct Reference</div></div>
+  <div class="headertitle"><div class="title">mazes::pair_hash Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Useful to store a block's 2D positioning in a grid / chunk-based world.  
+<p>Hashing function to store a block's (x, z) position.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="hash_8h_source.html">hash.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a67969cede9c12c45eb595d0823662b20" id="r_a67969cede9c12c45eb595d0823662b20"><td class="memTemplParams" colspan="2"><a id="a67969cede9c12c45eb595d0823662b20" name="a67969cede9c12c45eb595d0823662b20"></a>
-template&lt;class T1 , class T2 &gt; </td></tr>
-<tr class="memitem:a67969cede9c12c45eb595d0823662b20"><td class="memTemplItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><b>operator()</b> (const std::pair&lt; T1, T2 &gt; &amp;p) const</td></tr>
+<tr class="memitem:a67969cede9c12c45eb595d0823662b20" id="r_a67969cede9c12c45eb595d0823662b20"><td class="memTemplParams" colspan="2">template&lt;class T1 , class T2 &gt; </td></tr>
+<tr class="memitem:a67969cede9c12c45eb595d0823662b20"><td class="memTemplItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a67969cede9c12c45eb595d0823662b20">operator()</a> (const std::pair&lt; T1, T2 &gt; &amp;p) const</td></tr>
+<tr class="memdesc:a67969cede9c12c45eb595d0823662b20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hash function for a pair.  <br /></td></tr>
 <tr class="separator:a67969cede9c12c45eb595d0823662b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Useful to store a block's 2D positioning in a grid / chunk-based world. </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>C:/Users/zachm/Desktop/zmertens-MazeBuilder/include/MazeBuilder/<a class="el" href="hash_8h_source.html">hash.h</a></li>
+<div class="textblock"><p>Hashing function to store a block's (x, z) position. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a67969cede9c12c45eb595d0823662b20" name="a67969cede9c12c45eb595d0823662b20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67969cede9c12c45eb595d0823662b20">&#9670;&#160;</a></span>operator()()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T1 , class T2 &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t mazes::pair_hash::operator() </td>
+          <td>(</td>
+          <td class="paramtype">const std::pair&lt; T1, T2 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Hash function for a pair. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T1</td><td></td></tr>
+    <tr><td class="paramname">T2</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the hash value </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="hash_8h_source.html">hash.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

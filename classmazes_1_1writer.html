@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Maze Builder: mazes::writer Class Reference</title>
+<title>Maze Builder Docs: mazes::writer Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder<span id="projectnumber">&#160;6.0.1</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.0.1</span>
    </div>
   </td>
  </tr>
@@ -105,21 +105,118 @@ $(function(){initNavTree('classmazes_1_1writer.html',''); initResizable(true); }
   <div class="headertitle"><div class="title">mazes::writer Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Handles file writing for text, stdout, images, and object files.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="writer_8h_source.html">writer.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a531544f0021dede94f72586b2152f024" id="r_a531544f0021dede94f72586b2152f024"><td class="memItemLeft" align="right" valign="top"><a id="a531544f0021dede94f72586b2152f024" name="a531544f0021dede94f72586b2152f024"></a>
-outputs&#160;</td><td class="memItemRight" valign="bottom"><b>get_output_type</b> (const std::string &amp;filename) const noexcept</td></tr>
-<tr class="separator:a531544f0021dede94f72586b2152f024"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed76b2a6f19a001df537c1cd412ba2eb" id="r_aed76b2a6f19a001df537c1cd412ba2eb"><td class="memItemLeft" align="right" valign="top"><a id="aed76b2a6f19a001df537c1cd412ba2eb" name="aed76b2a6f19a001df537c1cd412ba2eb"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (const std::string &amp;filename, const std::string &amp;data) const noexcept</td></tr>
-<tr class="separator:aed76b2a6f19a001df537c1cd412ba2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a8c30be6a52f74a89215a4ff7f07329" id="r_a0a8c30be6a52f74a89215a4ff7f07329"><td class="memItemLeft" align="right" valign="top"><a id="a0a8c30be6a52f74a89215a4ff7f07329" name="a0a8c30be6a52f74a89215a4ff7f07329"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>write_png</b> (const std::string &amp;filename, const std::vector&lt; std::uint8_t &gt; &amp;data, const unsigned int w=1, const unsigned int h=1) const</td></tr>
-<tr class="separator:a0a8c30be6a52f74a89215a4ff7f07329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae68fc4fe1f856abeb03f9b66a18f91a7" id="r_ae68fc4fe1f856abeb03f9b66a18f91a7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae68fc4fe1f856abeb03f9b66a18f91a7">write</a> (const std::string &amp;filename, const std::string &amp;data, unsigned int w=1, unsigned int h=1) const noexcept</td></tr>
+<tr class="memdesc:ae68fc4fe1f856abeb03f9b66a18f91a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles writing to an image file.  <br /></td></tr>
+<tr class="separator:ae68fc4fe1f856abeb03f9b66a18f91a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaff55ff8ac454bd3eb92089b5833500" id="r_abaff55ff8ac454bd3eb92089b5833500"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaff55ff8ac454bd3eb92089b5833500">write</a> (std::ostream &amp;oss, const std::string &amp;data) const noexcept</td></tr>
+<tr class="memdesc:abaff55ff8ac454bd3eb92089b5833500"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles writing to an output stream.  <br /></td></tr>
+<tr class="separator:abaff55ff8ac454bd3eb92089b5833500"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Handles file writing for text, stdout, images, and object files. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae68fc4fe1f856abeb03f9b66a18f91a7" name="ae68fc4fe1f856abeb03f9b66a18f91a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae68fc4fe1f856abeb03f9b66a18f91a7">&#9670;&#160;</a></span>write() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mazes::writer::write </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>w</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>h</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handles writing to an image file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td></td></tr>
+    <tr><td class="paramname">data</td><td>the string to write to a file </td></tr>
+    <tr><td class="paramname">w</td><td>1 width in pixels </td></tr>
+    <tr><td class="paramname">h</td><td>1 height in pixels </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="abaff55ff8ac454bd3eb92089b5833500" name="abaff55ff8ac454bd3eb92089b5833500"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaff55ff8ac454bd3eb92089b5833500">&#9670;&#160;</a></span>write() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mazes::writer::write </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>oss</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handles writing to an output stream. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">oss</td><td></td></tr>
+    <tr><td class="paramname">data</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/zachm/Desktop/zmertens-MazeBuilder/include/MazeBuilder/<a class="el" href="writer_8h_source.html">writer.h</a></li>
+<li><a class="el" href="writer_8h_source.html">writer.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

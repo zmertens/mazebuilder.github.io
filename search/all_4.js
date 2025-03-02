@@ -1,5 +1,14 @@
 var searchData=
 [
-  ['factory_0',['factory',['../classmazes_1_1factory.html',1,'mazes']]],
-  ['for_20handling_20project_20includes_1',['class for handling project includes',['../group___primary.html',1,'']]]
+  ['background_5fcolor_5ffor_0',['background_color_for',['../classmazes_1_1colored__grid.html#a2ff568a535f87f1aec7b0eda420d7b80',1,'mazes::colored_grid::background_color_for()'],['../classmazes_1_1distance__grid.html#a3b2c8c975a91d8e2fcffad60dca0f5b1',1,'mazes::distance_grid::background_color_for()'],['../classmazes_1_1grid.html#a8fb4bc28ba4c00942869236e17918f67',1,'mazes::grid::background_color_for()']]],
+  ['base64_5fhelper_2eh_1',['base64_helper.h',['../base64__helper_8h.html',1,'']]],
+  ['base_5f64_5fhelper_2',['base_64_helper',['../classmazes_1_1base__64__helper.html',1,'mazes']]],
+  ['binary_5ftree_3',['binary_tree',['../classmazes_1_1binary__tree.html',1,'mazes::binary_tree'],['../classmazes_1_1grid.html#aadeb120c80f8a96593380750fb2e0bd4',1,'mazes::grid::binary_tree']]],
+  ['binary_5ftree_2eh_4',['binary_tree.h',['../binary__tree_8h.html',1,'']]],
+  ['build_5',['TODO | 6.0.1-build',['../index.html#autotoc_md18',1,'']]],
+  ['build_20for_20the_20web_6',['Build for the Web',['../index.html#autotoc_md12',1,'']]],
+  ['build_5finfo_7',['build_info',['../structmazes_1_1build__info.html',1,'mazes']]],
+  ['builder_8',['Maze Builder',['../index.html#autotoc_md0',1,'']]],
+  ['builder_20docs_9',['Maze Builder Docs',['../index.html',1,'']]],
+  ['buildinfo_2eh_10',['buildinfo.h',['../buildinfo_8h.html',1,'']]]
 ];

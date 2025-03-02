@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="General purpose grid class for maze generation.">
 <polygon fill="#999999" stroke="#666666" points="88.38,-20 21.38,-20 21.38,0 88.38,0 88.38,-20"/>
 <text text-anchor="middle" x="54.88" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">mazes::grid</text>
 </a>
@@ -20,8 +20,8 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="classmazes_1_1grid__interface.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="109.75,-76 0,-76 0,-56 109.75,-56 109.75,-76"/>
+<g id="a_Node000002"><a xlink:href="classmazes_1_1grid__interface.html" target="_top" xlink:title="Interface for the grid class.">
+<polygon fill="white" stroke="#666666" points="109.75,-76 0,-76 0,-56 109.75,-56 109.75,-76"/>
 <text text-anchor="middle" x="54.88" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">mazes::grid_interface</text>
 </a>
 </g>
