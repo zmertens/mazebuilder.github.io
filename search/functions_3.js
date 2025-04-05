@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['decode_0',['decode',['../classmazes_1_1base__64__helper.html#a2b3c1dde467cf8ddd6add35a059aea69',1,'mazes::base_64_helper']]],
-  ['del_1',['del',['../classmazes_1_1grid.html#acdfd8bfcc68609886d2711075ac91c7a',1,'mazes::grid']]]
+  ['elapsed_0',['elapsed',['../classmazes_1_1progress.html#a7b6c5de886d3b56829dbdebbc34b35e8',1,'mazes::progress']]],
+  ['encode_1',['encode',['../classmazes_1_1base64__helper.html#a555c3dfbd6a1a19542bde816b644ae93',1,'mazes::base64_helper']]]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Maze Builder Docs: mazes::progress Class Reference</title>
+<title>Maze Builder Docs: mazes::progress&lt; Time, Clock &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -101,8 +101,9 @@ $(function(){initNavTree('classmazes_1_1progress.html',''); initResizable(true);
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classmazes_1_1progress-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">mazes::progress Class Reference</div></div>
+  <div class="headertitle"><div class="title">mazes::progress&lt; Time, Clock &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -113,50 +114,113 @@ $(function(){initNavTree('classmazes_1_1progress.html',''); initResizable(true);
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa229785e1e1a4eb1acdab7f55ff2aed3" id="r_aa229785e1e1a4eb1acdab7f55ff2aed3"><td class="memItemLeft" align="right" valign="top"><a id="aa229785e1e1a4eb1acdab7f55ff2aed3" name="aa229785e1e1a4eb1acdab7f55ff2aed3"></a>
+<tr class="memitem:a051b3182f8d858be8bcf40291aa5ef05" id="r_a051b3182f8d858be8bcf40291aa5ef05"><td class="memItemLeft" align="right" valign="top"><a id="a051b3182f8d858be8bcf40291aa5ef05" name="a051b3182f8d858be8bcf40291aa5ef05"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>start</b> () noexcept</td></tr>
-<tr class="separator:aa229785e1e1a4eb1acdab7f55ff2aed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6b76bf90ba9ccdc0b260d8422823dc4" id="r_af6b76bf90ba9ccdc0b260d8422823dc4"><td class="memItemLeft" align="right" valign="top"><a id="af6b76bf90ba9ccdc0b260d8422823dc4" name="af6b76bf90ba9ccdc0b260d8422823dc4"></a>
+<tr class="separator:a051b3182f8d858be8bcf40291aa5ef05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7727bd3fe0958f2eb1ed4cb6052da9f" id="r_af7727bd3fe0958f2eb1ed4cb6052da9f"><td class="memItemLeft" align="right" valign="top"><a id="af7727bd3fe0958f2eb1ed4cb6052da9f" name="af7727bd3fe0958f2eb1ed4cb6052da9f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> () noexcept</td></tr>
-<tr class="memdesc:af6b76bf90ba9ccdc0b260d8422823dc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the clock. <br /></td></tr>
-<tr class="separator:af6b76bf90ba9ccdc0b260d8422823dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72d885d1876fec9426c730dbc90460c4" id="r_a72d885d1876fec9426c730dbc90460c4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72d885d1876fec9426c730dbc90460c4">elapsed_s</a> () const noexcept</td></tr>
-<tr class="memdesc:a72d885d1876fec9426c730dbc90460c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the elapsed time in seconds.  <br /></td></tr>
-<tr class="separator:a72d885d1876fec9426c730dbc90460c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15cfd26b5dfabb29daec059484b0fab1" id="r_a15cfd26b5dfabb29daec059484b0fab1"><td class="memItemLeft" align="right" valign="top"><a id="a15cfd26b5dfabb29daec059484b0fab1" name="a15cfd26b5dfabb29daec059484b0fab1"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>elapsed_ms</b> () const noexcept</td></tr>
-<tr class="memdesc:a15cfd26b5dfabb29daec059484b0fab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the elapsed time in milliseconds. <br /></td></tr>
-<tr class="separator:a15cfd26b5dfabb29daec059484b0fab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:af7727bd3fe0958f2eb1ed4cb6052da9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b6c5de886d3b56829dbdebbc34b35e8" id="r_a7b6c5de886d3b56829dbdebbc34b35e8"><td class="memTemplParams" colspan="2">template&lt;typename T  = double&gt; </td></tr>
+<tr class="memitem:a7b6c5de886d3b56829dbdebbc34b35e8"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a7b6c5de886d3b56829dbdebbc34b35e8">elapsed</a> () noexcept</td></tr>
+<tr class="memdesc:a7b6c5de886d3b56829dbdebbc34b35e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Capture the elapsed time.  <br /></td></tr>
+<tr class="separator:a7b6c5de886d3b56829dbdebbc34b35e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a8d69d45d8ee6f3582e2b258a59ecd1b0" id="r_a8d69d45d8ee6f3582e2b258a59ecd1b0"><td class="memTemplParams" colspan="2">template&lt;typename F , typename... Args, typename Duration  = Time&gt; </td></tr>
+<tr class="memitem:a8d69d45d8ee6f3582e2b258a59ecd1b0"><td class="memTemplItemLeft" align="right" valign="top">static Duration&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a8d69d45d8ee6f3582e2b258a59ecd1b0">duration</a> (F &amp;&amp;f, Args &amp;&amp;... <a class="el" href="structmazes_1_1args.html">args</a>)</td></tr>
+<tr class="separator:a8d69d45d8ee6f3582e2b258a59ecd1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Simple clock for elapsed events. </p>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename Time = std::chrono::microseconds, typename Clock = std::chrono::high_resolution_clock&gt;<br />
+class mazes::progress&lt; Time, Clock &gt;</div><p>Simple clock for elapsed events. </p>
 <p>This class is used to track the elapsed time between two events</p>
 <p>Thread safe with mutexes </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a72d885d1876fec9426c730dbc90460c4" name="a72d885d1876fec9426c730dbc90460c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72d885d1876fec9426c730dbc90460c4">&#9670;&#160;</a></span>elapsed_s()</h2>
+<a id="a8d69d45d8ee6f3582e2b258a59ecd1b0" name="a8d69d45d8ee6f3582e2b258a59ecd1b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d69d45d8ee6f3582e2b258a59ecd1b0">&#9670;&#160;</a></span>duration()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename Time  = std::chrono::microseconds, typename Clock  = std::chrono::high_resolution_clock&gt; </div>
+<div class="memtemplate">
+template&lt;typename F , typename... Args, typename Duration  = Time&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double mazes::progress::elapsed_s </td>
+          <td class="memname">static Duration <a class="el" href="classmazes_1_1progress.html">mazes::progress</a>&lt; Time, Clock &gt;::duration </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>args</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">F</td><td></td></tr>
+    <tr><td class="paramname">...Args</td><td></td></tr>
+    <tr><td class="paramname">Duration</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td></td></tr>
+    <tr><td class="paramname">...args</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="a7b6c5de886d3b56829dbdebbc34b35e8" name="a7b6c5de886d3b56829dbdebbc34b35e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b6c5de886d3b56829dbdebbc34b35e8">&#9670;&#160;</a></span>elapsed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Time  = std::chrono::microseconds, typename Clock  = std::chrono::high_resolution_clock&gt; </div>
+<div class="memtemplate">
+template&lt;typename T  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="classmazes_1_1progress.html">mazes::progress</a>&lt; Time, Clock &gt;::elapsed </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get the elapsed time in seconds. </p>
+<p>Capture the elapsed time. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd><br  />
  </dd></dl>
 

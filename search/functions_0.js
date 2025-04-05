@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['append_0',['append',['../classmazes_1_1grid.html#a9336b1a5bce6d2a452e5485fc2a45f47',1,'mazes::grid']]]
+  ['background_5fcolor_5ffor_0',['background_color_for',['../classmazes_1_1colored__grid.html#a2ff568a535f87f1aec7b0eda420d7b80',1,'mazes::colored_grid::background_color_for()'],['../classmazes_1_1distance__grid.html#a3b2c8c975a91d8e2fcffad60dca0f5b1',1,'mazes::distance_grid::background_color_for()'],['../classmazes_1_1grid.html#a8fb4bc28ba4c00942869236e17918f67',1,'mazes::grid::background_color_for(const std::shared_ptr&lt; cell &gt; &amp;c) const noexcept override']]],
+  ['build_5ffut_1',['build_fut',['../classmazes_1_1grid.html#a3015027a98b6442b9144049ba6717a76',1,'mazes::grid']]]
 ];

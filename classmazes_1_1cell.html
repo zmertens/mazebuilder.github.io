@@ -113,85 +113,604 @@ $(function(){initNavTree('classmazes_1_1cell.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad1d1654a13ff40b18d56ddd5d9fbf04d" id="r_ad1d1654a13ff40b18d56ddd5d9fbf04d"><td class="memItemLeft" align="right" valign="top"><a id="ad1d1654a13ff40b18d56ddd5d9fbf04d" name="ad1d1654a13ff40b18d56ddd5d9fbf04d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>cell</b> (int index)</td></tr>
-<tr class="separator:ad1d1654a13ff40b18d56ddd5d9fbf04d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58e31ff4194ab0a6e691895c8da0a1cf" id="r_a58e31ff4194ab0a6e691895c8da0a1cf"><td class="memItemLeft" align="right" valign="top"><a id="a58e31ff4194ab0a6e691895c8da0a1cf" name="a58e31ff4194ab0a6e691895c8da0a1cf"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>cell</b> (unsigned int row, unsigned int column, int index)</td></tr>
-<tr class="separator:a58e31ff4194ab0a6e691895c8da0a1cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f7fe3620ac45e92dc14df88b3b6bbb7" id="r_a5f7fe3620ac45e92dc14df88b3b6bbb7"><td class="memItemLeft" align="right" valign="top"><a id="a5f7fe3620ac45e92dc14df88b3b6bbb7" name="a5f7fe3620ac45e92dc14df88b3b6bbb7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>link</b> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; c1, std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; c2, bool bidi=true)</td></tr>
+<tr class="memitem:a7b297e0c3401edefdc0de48abd2b4cec" id="r_a7b297e0c3401edefdc0de48abd2b4cec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b297e0c3401edefdc0de48abd2b4cec">cell</a> (std::int32_t index=0)</td></tr>
+<tr class="memdesc:a7b297e0c3401edefdc0de48abd2b4cec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a cell object with an optional index.  <br /></td></tr>
+<tr class="separator:a7b297e0c3401edefdc0de48abd2b4cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f7fe3620ac45e92dc14df88b3b6bbb7" id="r_a5f7fe3620ac45e92dc14df88b3b6bbb7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f7fe3620ac45e92dc14df88b3b6bbb7">link</a> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; c1, std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; c2, bool bidi=true)</td></tr>
+<tr class="memdesc:a5f7fe3620ac45e92dc14df88b3b6bbb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Links two cell objects, optionally in both directions.  <br /></td></tr>
 <tr class="separator:a5f7fe3620ac45e92dc14df88b3b6bbb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e24f8b3c658c40672f43f5e3c42cf16" id="r_a6e24f8b3c658c40672f43f5e3c42cf16"><td class="memItemLeft" align="right" valign="top"><a id="a6e24f8b3c658c40672f43f5e3c42cf16" name="a6e24f8b3c658c40672f43f5e3c42cf16"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>unlink</b> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; c1, std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; c2, bool bidi=true)</td></tr>
+<tr class="memitem:a6e24f8b3c658c40672f43f5e3c42cf16" id="r_a6e24f8b3c658c40672f43f5e3c42cf16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e24f8b3c658c40672f43f5e3c42cf16">unlink</a> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; c1, std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; c2, bool bidi=true)</td></tr>
+<tr class="memdesc:a6e24f8b3c658c40672f43f5e3c42cf16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlinks two cells, optionally in both directions.  <br /></td></tr>
 <tr class="separator:a6e24f8b3c658c40672f43f5e3c42cf16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7aa58e21176f77d31265b4b751728043" id="r_a7aa58e21176f77d31265b4b751728043"><td class="memItemLeft" align="right" valign="top"><a id="a7aa58e21176f77d31265b4b751728043" name="a7aa58e21176f77d31265b4b751728043"></a>
-std::unordered_map&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_links</b> () const</td></tr>
-<tr class="separator:a7aa58e21176f77d31265b4b751728043"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09507ba67e13f4a0448428c8ec97f865" id="r_a09507ba67e13f4a0448428c8ec97f865"><td class="memItemLeft" align="right" valign="top"><a id="a09507ba67e13f4a0448428c8ec97f865" name="a09507ba67e13f4a0448428c8ec97f865"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_linked</b> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c) const</td></tr>
-<tr class="separator:a09507ba67e13f4a0448428c8ec97f865"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe5226c411210af7697d0b8dabc5cf77" id="r_afe5226c411210af7697d0b8dabc5cf77"><td class="memItemLeft" align="right" valign="top"><a id="afe5226c411210af7697d0b8dabc5cf77" name="afe5226c411210af7697d0b8dabc5cf77"></a>
-std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_neighbors</b> () const noexcept</td></tr>
+<tr class="memitem:a13c4bfca5c605364845f1d5d948aa7b5" id="r_a13c4bfca5c605364845f1d5d948aa7b5"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;, bool &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13c4bfca5c605364845f1d5d948aa7b5">get_links</a> ()</td></tr>
+<tr class="memdesc:a13c4bfca5c605364845f1d5d948aa7b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a constant reference to an unordered map of cell links and their boolean states.  <br /></td></tr>
+<tr class="separator:a13c4bfca5c605364845f1d5d948aa7b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0c04cb1675673c380f7f2b689e0104f" id="r_af0c04cb1675673c380f7f2b689e0104f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0c04cb1675673c380f7f2b689e0104f">is_linked</a> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c)</td></tr>
+<tr class="memdesc:af0c04cb1675673c380f7f2b689e0104f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a cell is linked.  <br /></td></tr>
+<tr class="separator:af0c04cb1675673c380f7f2b689e0104f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fa49c4b099a27f4b28e171d6bb601ab" id="r_a9fa49c4b099a27f4b28e171d6bb601ab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fa49c4b099a27f4b28e171d6bb601ab">has_northern_neighbor</a> () const noexcept</td></tr>
+<tr class="memdesc:a9fa49c4b099a27f4b28e171d6bb601ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the current object has a northern neighbor.  <br /></td></tr>
+<tr class="separator:a9fa49c4b099a27f4b28e171d6bb601ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b1dadbd7a7d9da21d800d54a6e4c367" id="r_a6b1dadbd7a7d9da21d800d54a6e4c367"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b1dadbd7a7d9da21d800d54a6e4c367">has_southern_neighbor</a> () const noexcept</td></tr>
+<tr class="memdesc:a6b1dadbd7a7d9da21d800d54a6e4c367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the current object has a southern neighbor.  <br /></td></tr>
+<tr class="separator:a6b1dadbd7a7d9da21d800d54a6e4c367"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a766bf405abdb78fc5b393831751c518b" id="r_a766bf405abdb78fc5b393831751c518b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a766bf405abdb78fc5b393831751c518b">has_eastern_neighbor</a> () const noexcept</td></tr>
+<tr class="memdesc:a766bf405abdb78fc5b393831751c518b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if there is an eastern neighbor.  <br /></td></tr>
+<tr class="separator:a766bf405abdb78fc5b393831751c518b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f3bda1329d5f399402ce2c2bf1eb03b" id="r_a2f3bda1329d5f399402ce2c2bf1eb03b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f3bda1329d5f399402ce2c2bf1eb03b">has_western_neighbor</a> () const noexcept</td></tr>
+<tr class="memdesc:a2f3bda1329d5f399402ce2c2bf1eb03b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if there is a western neighbor.  <br /></td></tr>
+<tr class="separator:a2f3bda1329d5f399402ce2c2bf1eb03b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe5226c411210af7697d0b8dabc5cf77" id="r_afe5226c411210af7697d0b8dabc5cf77"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe5226c411210af7697d0b8dabc5cf77">get_neighbors</a> () const noexcept</td></tr>
+<tr class="memdesc:afe5226c411210af7697d0b8dabc5cf77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a list of neighboring cells.  <br /></td></tr>
 <tr class="separator:afe5226c411210af7697d0b8dabc5cf77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa46222ae77560ede99d39d5dbd3bd614" id="r_aa46222ae77560ede99d39d5dbd3bd614"><td class="memItemLeft" align="right" valign="top"><a id="aa46222ae77560ede99d39d5dbd3bd614" name="aa46222ae77560ede99d39d5dbd3bd614"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>get_row</b> () const</td></tr>
-<tr class="separator:aa46222ae77560ede99d39d5dbd3bd614"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a629e94e40e7210fac3770027a9bcf230" id="r_a629e94e40e7210fac3770027a9bcf230"><td class="memItemLeft" align="right" valign="top"><a id="a629e94e40e7210fac3770027a9bcf230" name="a629e94e40e7210fac3770027a9bcf230"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>get_column</b> () const</td></tr>
-<tr class="separator:a629e94e40e7210fac3770027a9bcf230"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7dc8f3f4ab66d3981712a6efe1f80c0" id="r_aa7dc8f3f4ab66d3981712a6efe1f80c0"><td class="memItemLeft" align="right" valign="top"><a id="aa7dc8f3f4ab66d3981712a6efe1f80c0" name="aa7dc8f3f4ab66d3981712a6efe1f80c0"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>get_index</b> () const</td></tr>
-<tr class="separator:aa7dc8f3f4ab66d3981712a6efe1f80c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab03c4150ff52081109466243e613ce30" id="r_ab03c4150ff52081109466243e613ce30"><td class="memItemLeft" align="right" valign="top"><a id="ab03c4150ff52081109466243e613ce30" name="ab03c4150ff52081109466243e613ce30"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_index</b> (int next_index) noexcept</td></tr>
-<tr class="separator:ab03c4150ff52081109466243e613ce30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5328910d91eef61fb255dccb9d156155" id="r_a5328910d91eef61fb255dccb9d156155"><td class="memItemLeft" align="right" valign="top"><a id="a5328910d91eef61fb255dccb9d156155" name="a5328910d91eef61fb255dccb9d156155"></a>
-std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_north</b> () const</td></tr>
+<tr class="memitem:a91f58ee7d309bf33601de53c83200880" id="r_a91f58ee7d309bf33601de53c83200880"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91f58ee7d309bf33601de53c83200880">get_index</a> () const noexcept</td></tr>
+<tr class="memdesc:a91f58ee7d309bf33601de53c83200880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the index of the current cell.  <br /></td></tr>
+<tr class="separator:a91f58ee7d309bf33601de53c83200880"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c04499f0e1def466f2480bc0ffda844" id="r_a8c04499f0e1def466f2480bc0ffda844"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c04499f0e1def466f2480bc0ffda844">set_index</a> (std::int32_t next_index) noexcept</td></tr>
+<tr class="memdesc:a8c04499f0e1def466f2480bc0ffda844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the index to the specified value.  <br /></td></tr>
+<tr class="separator:a8c04499f0e1def466f2480bc0ffda844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5328910d91eef61fb255dccb9d156155" id="r_a5328910d91eef61fb255dccb9d156155"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5328910d91eef61fb255dccb9d156155">get_north</a> () const</td></tr>
+<tr class="memdesc:a5328910d91eef61fb255dccb9d156155"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a shared pointer to the cell located to the north.  <br /></td></tr>
 <tr class="separator:a5328910d91eef61fb255dccb9d156155"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2502db04a5b04e849a1c4b98fda45c85" id="r_a2502db04a5b04e849a1c4b98fda45c85"><td class="memItemLeft" align="right" valign="top"><a id="a2502db04a5b04e849a1c4b98fda45c85" name="a2502db04a5b04e849a1c4b98fda45c85"></a>
-std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_south</b> () const</td></tr>
+<tr class="memitem:a2502db04a5b04e849a1c4b98fda45c85" id="r_a2502db04a5b04e849a1c4b98fda45c85"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2502db04a5b04e849a1c4b98fda45c85">get_south</a> () const</td></tr>
+<tr class="memdesc:a2502db04a5b04e849a1c4b98fda45c85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a shared pointer to the cell located to the south.  <br /></td></tr>
 <tr class="separator:a2502db04a5b04e849a1c4b98fda45c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5175f884410feee3f446f3cffd14227" id="r_af5175f884410feee3f446f3cffd14227"><td class="memItemLeft" align="right" valign="top"><a id="af5175f884410feee3f446f3cffd14227" name="af5175f884410feee3f446f3cffd14227"></a>
-std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_east</b> () const</td></tr>
+<tr class="memitem:af5175f884410feee3f446f3cffd14227" id="r_af5175f884410feee3f446f3cffd14227"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5175f884410feee3f446f3cffd14227">get_east</a> () const</td></tr>
+<tr class="memdesc:af5175f884410feee3f446f3cffd14227"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a shared pointer to the cell located to the east.  <br /></td></tr>
 <tr class="separator:af5175f884410feee3f446f3cffd14227"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1711892821d375ef7aabf9b617c222b" id="r_ab1711892821d375ef7aabf9b617c222b"><td class="memItemLeft" align="right" valign="top"><a id="ab1711892821d375ef7aabf9b617c222b" name="ab1711892821d375ef7aabf9b617c222b"></a>
-std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_west</b> () const</td></tr>
+<tr class="memitem:ab1711892821d375ef7aabf9b617c222b" id="r_ab1711892821d375ef7aabf9b617c222b"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1711892821d375ef7aabf9b617c222b">get_west</a> () const</td></tr>
+<tr class="memdesc:ab1711892821d375ef7aabf9b617c222b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a shared pointer to the cell located to the west.  <br /></td></tr>
 <tr class="separator:ab1711892821d375ef7aabf9b617c222b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbdb0c63843e563a7c2498afc1ccee09" id="r_afbdb0c63843e563a7c2498afc1ccee09"><td class="memItemLeft" align="right" valign="top"><a id="afbdb0c63843e563a7c2498afc1ccee09" name="afbdb0c63843e563a7c2498afc1ccee09"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_north</b> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;other)</td></tr>
+<tr class="memitem:afbdb0c63843e563a7c2498afc1ccee09" id="r_afbdb0c63843e563a7c2498afc1ccee09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbdb0c63843e563a7c2498afc1ccee09">set_north</a> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;other)</td></tr>
+<tr class="memdesc:afbdb0c63843e563a7c2498afc1ccee09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the northern neighbor of the current cell.  <br /></td></tr>
 <tr class="separator:afbdb0c63843e563a7c2498afc1ccee09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1cf909c9a5d1ebea30b456f9ff0149c" id="r_ad1cf909c9a5d1ebea30b456f9ff0149c"><td class="memItemLeft" align="right" valign="top"><a id="ad1cf909c9a5d1ebea30b456f9ff0149c" name="ad1cf909c9a5d1ebea30b456f9ff0149c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_south</b> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;other)</td></tr>
+<tr class="memitem:ad1cf909c9a5d1ebea30b456f9ff0149c" id="r_ad1cf909c9a5d1ebea30b456f9ff0149c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1cf909c9a5d1ebea30b456f9ff0149c">set_south</a> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;other)</td></tr>
+<tr class="memdesc:ad1cf909c9a5d1ebea30b456f9ff0149c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the southern neighbor of the current cell.  <br /></td></tr>
 <tr class="separator:ad1cf909c9a5d1ebea30b456f9ff0149c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed6bc4138ce182cd5d3c131ffed5fe16" id="r_aed6bc4138ce182cd5d3c131ffed5fe16"><td class="memItemLeft" align="right" valign="top"><a id="aed6bc4138ce182cd5d3c131ffed5fe16" name="aed6bc4138ce182cd5d3c131ffed5fe16"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_east</b> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;other)</td></tr>
+<tr class="memitem:aed6bc4138ce182cd5d3c131ffed5fe16" id="r_aed6bc4138ce182cd5d3c131ffed5fe16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed6bc4138ce182cd5d3c131ffed5fe16">set_east</a> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;other)</td></tr>
+<tr class="memdesc:aed6bc4138ce182cd5d3c131ffed5fe16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the east neighbor of the current cell.  <br /></td></tr>
 <tr class="separator:aed6bc4138ce182cd5d3c131ffed5fe16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affff31fd85e91fc199f5ea0eb1f0fe4d" id="r_affff31fd85e91fc199f5ea0eb1f0fe4d"><td class="memItemLeft" align="right" valign="top"><a id="affff31fd85e91fc199f5ea0eb1f0fe4d" name="affff31fd85e91fc199f5ea0eb1f0fe4d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_west</b> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;other)</td></tr>
+<tr class="memitem:affff31fd85e91fc199f5ea0eb1f0fe4d" id="r_affff31fd85e91fc199f5ea0eb1f0fe4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affff31fd85e91fc199f5ea0eb1f0fe4d">set_west</a> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;other)</td></tr>
+<tr class="memdesc:affff31fd85e91fc199f5ea0eb1f0fe4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the west neighbor of the current cell.  <br /></td></tr>
 <tr class="separator:affff31fd85e91fc199f5ea0eb1f0fe4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa74fbe4a41a6fedf20641fa6240d8028" id="r_aa74fbe4a41a6fedf20641fa6240d8028"><td class="memItemLeft" align="right" valign="top"><a id="aa74fbe4a41a6fedf20641fa6240d8028" name="aa74fbe4a41a6fedf20641fa6240d8028"></a>
-std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_left</b> () const</td></tr>
-<tr class="separator:aa74fbe4a41a6fedf20641fa6240d8028"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd7205c9b6553c66a3031b2300d4b64a" id="r_afd7205c9b6553c66a3031b2300d4b64a"><td class="memItemLeft" align="right" valign="top"><a id="afd7205c9b6553c66a3031b2300d4b64a" name="afd7205c9b6553c66a3031b2300d4b64a"></a>
-std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_right</b> () const</td></tr>
-<tr class="separator:afd7205c9b6553c66a3031b2300d4b64a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b7928047530fe950a02031d6484b7c1" id="r_a5b7928047530fe950a02031d6484b7c1"><td class="memItemLeft" align="right" valign="top"><a id="a5b7928047530fe950a02031d6484b7c1" name="a5b7928047530fe950a02031d6484b7c1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_left</b> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;other_left)</td></tr>
-<tr class="separator:a5b7928047530fe950a02031d6484b7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6629a75c975b9390cddba9cc22caa3e" id="r_ad6629a75c975b9390cddba9cc22caa3e"><td class="memItemLeft" align="right" valign="top"><a id="ad6629a75c975b9390cddba9cc22caa3e" name="ad6629a75c975b9390cddba9cc22caa3e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_right</b> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;other_right)</td></tr>
-<tr class="separator:ad6629a75c975b9390cddba9cc22caa3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac791c8c1d480db81d4767a25152735f7" id="r_ac791c8c1d480db81d4767a25152735f7"><td class="memItemLeft" align="right" valign="top"><a id="ac791c8c1d480db81d4767a25152735f7" name="ac791c8c1d480db81d4767a25152735f7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_row</b> (unsigned int r) noexcept</td></tr>
-<tr class="separator:ac791c8c1d480db81d4767a25152735f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a220ab5ccc2a376b9f6fe290f3371b3a3" id="r_a220ab5ccc2a376b9f6fe290f3371b3a3"><td class="memItemLeft" align="right" valign="top"><a id="a220ab5ccc2a376b9f6fe290f3371b3a3" name="a220ab5ccc2a376b9f6fe290f3371b3a3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_column</b> (unsigned int c) noexcept</td></tr>
-<tr class="separator:a220ab5ccc2a376b9f6fe290f3371b3a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Cell class for maze generation. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a7b297e0c3401edefdc0de48abd2b4cec" name="a7b297e0c3401edefdc0de48abd2b4cec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b297e0c3401edefdc0de48abd2b4cec">&#9670;&#160;</a></span>cell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mazes::cell::cell </td>
+          <td>(</td>
+          <td class="paramtype">std::int32_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a cell object with an optional index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index to initialize the cell with. Defaults to 0. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="af5175f884410feee3f446f3cffd14227" name="af5175f884410feee3f446f3cffd14227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5175f884410feee3f446f3cffd14227">&#9670;&#160;</a></span>get_east()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; mazes::cell::get_east </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves a shared pointer to the cell located to the east. </p>
+<dl class="section return"><dt>Returns</dt><dd>A std::shared_ptr pointing to the cell located to the east. </dd></dl>
+
+</div>
+</div>
+<a id="a91f58ee7d309bf33601de53c83200880" name="a91f58ee7d309bf33601de53c83200880"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91f58ee7d309bf33601de53c83200880">&#9670;&#160;</a></span>get_index()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t mazes::cell::get_index </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the index of the current cell. </p>
+<dl class="section return"><dt>Returns</dt><dd>The index of the current cell. </dd></dl>
+
+</div>
+</div>
+<a id="a13c4bfca5c605364845f1d5d948aa7b5" name="a13c4bfca5c605364845f1d5d948aa7b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13c4bfca5c605364845f1d5d948aa7b5">&#9670;&#160;</a></span>get_links()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::unordered_map&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;, bool &gt; &amp; mazes::cell::get_links </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves a constant reference to an unordered map of cell links and their boolean states. </p>
+<dl class="section return"><dt>Returns</dt><dd>A constant reference to an unordered map where the keys are shared pointers to cell objects and the values are boolean states indicating the link status. </dd></dl>
+
+</div>
+</div>
+<a id="afe5226c411210af7697d0b8dabc5cf77" name="afe5226c411210af7697d0b8dabc5cf77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe5226c411210af7697d0b8dabc5cf77">&#9670;&#160;</a></span>get_neighbors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt; mazes::cell::get_neighbors </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves a list of neighboring cells. </p>
+<dl class="section return"><dt>Returns</dt><dd>A vector of shared pointers to neighboring cells. </dd></dl>
+
+</div>
+</div>
+<a id="a5328910d91eef61fb255dccb9d156155" name="a5328910d91eef61fb255dccb9d156155"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5328910d91eef61fb255dccb9d156155">&#9670;&#160;</a></span>get_north()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; mazes::cell::get_north </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves a shared pointer to the cell located to the north. </p>
+<dl class="section return"><dt>Returns</dt><dd>A shared pointer to the cell located to the north. </dd></dl>
+
+</div>
+</div>
+<a id="a2502db04a5b04e849a1c4b98fda45c85" name="a2502db04a5b04e849a1c4b98fda45c85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2502db04a5b04e849a1c4b98fda45c85">&#9670;&#160;</a></span>get_south()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; mazes::cell::get_south </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves a shared pointer to the cell located to the south. </p>
+<dl class="section return"><dt>Returns</dt><dd>A shared pointer to the cell located to the south. </dd></dl>
+
+</div>
+</div>
+<a id="ab1711892821d375ef7aabf9b617c222b" name="ab1711892821d375ef7aabf9b617c222b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1711892821d375ef7aabf9b617c222b">&#9670;&#160;</a></span>get_west()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; mazes::cell::get_west </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves a shared pointer to the cell located to the west. </p>
+<dl class="section return"><dt>Returns</dt><dd>A shared pointer to the cell located to the west. </dd></dl>
+
+</div>
+</div>
+<a id="a766bf405abdb78fc5b393831751c518b" name="a766bf405abdb78fc5b393831751c518b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a766bf405abdb78fc5b393831751c518b">&#9670;&#160;</a></span>has_eastern_neighbor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mazes::cell::has_eastern_neighbor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if there is an eastern neighbor. </p>
+<dl class="section return"><dt>Returns</dt><dd>A boolean value indicating whether there is an eastern neighbor. </dd></dl>
+
+</div>
+</div>
+<a id="a9fa49c4b099a27f4b28e171d6bb601ab" name="a9fa49c4b099a27f4b28e171d6bb601ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fa49c4b099a27f4b28e171d6bb601ab">&#9670;&#160;</a></span>has_northern_neighbor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mazes::cell::has_northern_neighbor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the current object has a northern neighbor. </p>
+<dl class="section return"><dt>Returns</dt><dd>A boolean value indicating whether the current object has a northern neighbor. </dd></dl>
+
+</div>
+</div>
+<a id="a6b1dadbd7a7d9da21d800d54a6e4c367" name="a6b1dadbd7a7d9da21d800d54a6e4c367"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b1dadbd7a7d9da21d800d54a6e4c367">&#9670;&#160;</a></span>has_southern_neighbor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mazes::cell::has_southern_neighbor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the current object has a southern neighbor. </p>
+<dl class="section return"><dt>Returns</dt><dd>A boolean value indicating whether the current object has a southern neighbor. </dd></dl>
+
+</div>
+</div>
+<a id="a2f3bda1329d5f399402ce2c2bf1eb03b" name="a2f3bda1329d5f399402ce2c2bf1eb03b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f3bda1329d5f399402ce2c2bf1eb03b">&#9670;&#160;</a></span>has_western_neighbor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mazes::cell::has_western_neighbor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if there is a western neighbor. </p>
+<dl class="section return"><dt>Returns</dt><dd>A boolean value indicating whether there is a western neighbor. </dd></dl>
+
+</div>
+</div>
+<a id="af0c04cb1675673c380f7f2b689e0104f" name="af0c04cb1675673c380f7f2b689e0104f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0c04cb1675673c380f7f2b689e0104f">&#9670;&#160;</a></span>is_linked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mazes::cell::is_linked </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if a cell is linked. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>A shared pointer to the cell to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the cell is linked, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a5f7fe3620ac45e92dc14df88b3b6bbb7" name="a5f7fe3620ac45e92dc14df88b3b6bbb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f7fe3620ac45e92dc14df88b3b6bbb7">&#9670;&#160;</a></span>link()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mazes::cell::link </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>c1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>c2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>bidi</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Links two cell objects, optionally in both directions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c1</td><td>A shared pointer to the first cell object. </td></tr>
+    <tr><td class="paramname">c2</td><td>A shared pointer to the second cell object. </td></tr>
+    <tr><td class="paramname">bidi</td><td>A boolean flag indicating if the link should be bidirectional. Defaults to true. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aed6bc4138ce182cd5d3c131ffed5fe16" name="aed6bc4138ce182cd5d3c131ffed5fe16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed6bc4138ce182cd5d3c131ffed5fe16">&#9670;&#160;</a></span>set_east()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mazes::cell::set_east </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the east neighbor of the current cell. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>A shared pointer to the cell that will be set as the east neighbor. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8c04499f0e1def466f2480bc0ffda844" name="a8c04499f0e1def466f2480bc0ffda844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c04499f0e1def466f2480bc0ffda844">&#9670;&#160;</a></span>set_index()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mazes::cell::set_index </td>
+          <td>(</td>
+          <td class="paramtype">std::int32_t</td>          <td class="paramname"><span class="paramname"><em>next_index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the index to the specified value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">next_index</td><td>The new index value to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afbdb0c63843e563a7c2498afc1ccee09" name="afbdb0c63843e563a7c2498afc1ccee09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbdb0c63843e563a7c2498afc1ccee09">&#9670;&#160;</a></span>set_north()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mazes::cell::set_north </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the northern neighbor of the current cell. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>A shared pointer to the cell that will be set as the northern neighbor. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad1cf909c9a5d1ebea30b456f9ff0149c" name="ad1cf909c9a5d1ebea30b456f9ff0149c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1cf909c9a5d1ebea30b456f9ff0149c">&#9670;&#160;</a></span>set_south()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mazes::cell::set_south </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the southern neighbor of the current cell. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>A shared pointer to the cell that will be set as the southern neighbor. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="affff31fd85e91fc199f5ea0eb1f0fe4d" name="affff31fd85e91fc199f5ea0eb1f0fe4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affff31fd85e91fc199f5ea0eb1f0fe4d">&#9670;&#160;</a></span>set_west()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mazes::cell::set_west </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the west neighbor of the current cell. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>A shared pointer to the cell that will be set as the west neighbor. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6e24f8b3c658c40672f43f5e3c42cf16" name="a6e24f8b3c658c40672f43f5e3c42cf16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e24f8b3c658c40672f43f5e3c42cf16">&#9670;&#160;</a></span>unlink()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mazes::cell::unlink </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>c1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>c2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>bidi</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unlinks two cells, optionally in both directions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c1</td><td>A shared pointer to the first cell. </td></tr>
+    <tr><td class="paramname">c2</td><td>A shared pointer to the second cell. </td></tr>
+    <tr><td class="paramname">bidi</td><td>A boolean indicating whether to unlink in both directions. Defaults to true. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="cell_8h_source.html">cell.h</a></li>
 </ul>
 </div><!-- contents -->

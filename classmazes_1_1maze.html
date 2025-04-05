@@ -100,7 +100,6 @@ $(function(){initNavTree('classmazes_1_1maze.html',''); initResizable(true); });
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classmazes_1_1maze-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mazes::maze Class Reference</div></div>
@@ -112,41 +111,26 @@ $(function(){initNavTree('classmazes_1_1maze.html',''); initResizable(true); });
 
 <p><code>#include &lt;<a class="el" href="maze_8h_source.html">maze.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a99892abedb226c26f1f923575e9fb821" id="r_a99892abedb226c26f1f923575e9fb821"><td class="memItemLeft" align="right" valign="top"><a id="a99892abedb226c26f1f923575e9fb821" name="a99892abedb226c26f1f923575e9fb821"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>pqmap</b> = std::unordered_map&lt;std::pair&lt;int, int&gt;, std::tuple&lt;int, int, int, int&gt;, <a class="el" href="structmazes_1_1pair__hash.html">pair_hash</a>&gt;</td></tr>
-<tr class="separator:a99892abedb226c26f1f923575e9fb821"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac9ef118b9baca58b5943e0aacca4b8e4" id="r_ac9ef118b9baca58b5943e0aacca4b8e4"><td class="memItemLeft" align="right" valign="top"><a id="ac9ef118b9baca58b5943e0aacca4b8e4" name="ac9ef118b9baca58b5943e0aacca4b8e4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>maze</b> (unsigned int rows, unsigned int columns, unsigned int levels=1)</td></tr>
-<tr class="separator:ac9ef118b9baca58b5943e0aacca4b8e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd04c3e29513555b17230d175304052a" id="r_afd04c3e29513555b17230d175304052a"><td class="memItemLeft" align="right" valign="top"><a id="afd04c3e29513555b17230d175304052a" name="afd04c3e29513555b17230d175304052a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>maze</b> (std::unique_ptr&lt; <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &gt; &amp;&amp;g)</td></tr>
-<tr class="separator:afd04c3e29513555b17230d175304052a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b903ce8efb38001a6e9cc95d7d40656" id="r_a5b903ce8efb38001a6e9cc95d7d40656"><td class="memItemLeft" align="right" valign="top"><a id="a5b903ce8efb38001a6e9cc95d7d40656" name="a5b903ce8efb38001a6e9cc95d7d40656"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>get_rows</b> () const noexcept</td></tr>
-<tr class="separator:a5b903ce8efb38001a6e9cc95d7d40656"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a414281dc3b4b793b48f80383ba461890" id="r_a414281dc3b4b793b48f80383ba461890"><td class="memItemLeft" align="right" valign="top"><a id="a414281dc3b4b793b48f80383ba461890" name="a414281dc3b4b793b48f80383ba461890"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>get_columns</b> () const noexcept</td></tr>
-<tr class="separator:a414281dc3b4b793b48f80383ba461890"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f8c849a5d7e3866252d510c67d4132a" id="r_a2f8c849a5d7e3866252d510c67d4132a"><td class="memItemLeft" align="right" valign="top"><a id="a2f8c849a5d7e3866252d510c67d4132a" name="a2f8c849a5d7e3866252d510c67d4132a"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>get_levels</b> () const noexcept</td></tr>
-<tr class="separator:a2f8c849a5d7e3866252d510c67d4132a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd022956040c112dcdc9c86d928ffd03" id="r_abd022956040c112dcdc9c86d928ffd03"><td class="memItemLeft" align="right" valign="top"><a id="abd022956040c112dcdc9c86d928ffd03" name="abd022956040c112dcdc9c86d928ffd03"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>has_distances</b> () const noexcept</td></tr>
-<tr class="separator:abd022956040c112dcdc9c86d928ffd03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b1da74a01c5a62e109344f261cb47bf" id="r_a8b1da74a01c5a62e109344f261cb47bf"><td class="memItemLeft" align="right" valign="top"><a id="a8b1da74a01c5a62e109344f261cb47bf" name="a8b1da74a01c5a62e109344f261cb47bf"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>maze</b> (std::unique_ptr&lt; <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &gt; g, <a class="el" href="classmazes_1_1configurator.html">configurator</a> const &amp;config) noexcept</td></tr>
+<tr class="separator:a8b1da74a01c5a62e109344f261cb47bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac52f3d6a6ab600f58d94abd249bafd16" id="r_ac52f3d6a6ab600f58d94abd249bafd16"><td class="memItemLeft" align="right" valign="top"><a id="ac52f3d6a6ab600f58d94abd249bafd16" name="ac52f3d6a6ab600f58d94abd249bafd16"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>get_block_id</b> () const noexcept</td></tr>
 <tr class="separator:ac52f3d6a6ab600f58d94abd249bafd16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8172e2f3d92af90aaca8a315b136938" id="r_aa8172e2f3d92af90aaca8a315b136938"><td class="memItemLeft" align="right" valign="top"><a id="aa8172e2f3d92af90aaca8a315b136938" name="aa8172e2f3d92af90aaca8a315b136938"></a>
-std::optional&lt; std::tuple&lt; int, int, int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>find_block</b> (int x, int z) const noexcept</td></tr>
-<tr class="separator:aa8172e2f3d92af90aaca8a315b136938"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acae574a9a11d345a31377cf7235353cd" id="r_acae574a9a11d345a31377cf7235353cd"><td class="memItemLeft" align="right" valign="top"><a id="acae574a9a11d345a31377cf7235353cd" name="acae574a9a11d345a31377cf7235353cd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>intopq</b> (int x, int y, int z, int w) noexcept</td></tr>
-<tr class="separator:acae574a9a11d345a31377cf7235353cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd022956040c112dcdc9c86d928ffd03" id="r_abd022956040c112dcdc9c86d928ffd03"><td class="memItemLeft" align="right" valign="top"><a id="abd022956040c112dcdc9c86d928ffd03" name="abd022956040c112dcdc9c86d928ffd03"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>has_distances</b> () const noexcept</td></tr>
+<tr class="separator:abd022956040c112dcdc9c86d928ffd03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ac7514c552a6fbc33a6f614cb67c5cc" id="r_a8ac7514c552a6fbc33a6f614cb67c5cc"><td class="memItemLeft" align="right" valign="top"><a id="a8ac7514c552a6fbc33a6f614cb67c5cc" name="a8ac7514c552a6fbc33a6f614cb67c5cc"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>get_rows</b> () const noexcept</td></tr>
+<tr class="separator:a8ac7514c552a6fbc33a6f614cb67c5cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8d69b2672c9f498b35fb603403642c8" id="r_ae8d69b2672c9f498b35fb603403642c8"><td class="memItemLeft" align="right" valign="top"><a id="ae8d69b2672c9f498b35fb603403642c8" name="ae8d69b2672c9f498b35fb603403642c8"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>get_columns</b> () const noexcept</td></tr>
+<tr class="separator:ae8d69b2672c9f498b35fb603403642c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4403321fd76c435abf0c7d2a54940ca0" id="r_a4403321fd76c435abf0c7d2a54940ca0"><td class="memItemLeft" align="right" valign="top"><a id="a4403321fd76c435abf0c7d2a54940ca0" name="a4403321fd76c435abf0c7d2a54940ca0"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>get_levels</b> () const noexcept</td></tr>
+<tr class="separator:a4403321fd76c435abf0c7d2a54940ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5019755a9f80422c9658fc01c1653515" id="r_a5019755a9f80422c9658fc01c1653515"><td class="memItemLeft" align="right" valign="top"><a id="a5019755a9f80422c9658fc01c1653515" name="a5019755a9f80422c9658fc01c1653515"></a>
 const std::unique_ptr&lt; <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>get_grid</b> () const noexcept</td></tr>
 <tr class="separator:a5019755a9f80422c9658fc01c1653515"><td class="memSeparator" colspan="2">&#160;</td></tr>

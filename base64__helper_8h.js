@@ -1,4 +1,4 @@
 var base64__helper_8h =
 [
-    [ "mazes::base_64_helper", "classmazes_1_1base__64__helper.html", "classmazes_1_1base__64__helper" ]
+    [ "mazes::base64_helper", "classmazes_1_1base64__helper.html", "classmazes_1_1base64__helper" ]
 ];

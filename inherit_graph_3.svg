@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="structmazes_1_1build__info.html" target="_top" xlink:title="Build information for the maze builder library.">
+<g id="a_Node000000"><a xlink:href="structmazes_1_1build__info.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="92.5,-20 0,-20 0,0 92.5,0 92.5,-20"/>
 <text text-anchor="middle" x="46.25" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">mazes::build_info</text>
 </a>

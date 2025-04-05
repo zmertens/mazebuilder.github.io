@@ -113,70 +113,24 @@ $(function(){initNavTree('classmazes_1_1writer.html',''); initResizable(true); }
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae68fc4fe1f856abeb03f9b66a18f91a7" id="r_ae68fc4fe1f856abeb03f9b66a18f91a7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae68fc4fe1f856abeb03f9b66a18f91a7">write</a> (const std::string &amp;filename, const std::string &amp;data, unsigned int w=1, unsigned int h=1) const noexcept</td></tr>
-<tr class="memdesc:ae68fc4fe1f856abeb03f9b66a18f91a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles writing to an image file.  <br /></td></tr>
-<tr class="separator:ae68fc4fe1f856abeb03f9b66a18f91a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46dc5e96556aaeec9fff969842c04960" id="r_a46dc5e96556aaeec9fff969842c04960"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46dc5e96556aaeec9fff969842c04960">write_png</a> (const std::string &amp;filename, const std::vector&lt; std::uint8_t &gt; &amp;data, unsigned int w=100, unsigned int h=100, unsigned int stride=4) const noexcept</td></tr>
+<tr class="memdesc:a46dc5e96556aaeec9fff969842c04960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write pixels to a PNG file.  <br /></td></tr>
+<tr class="separator:a46dc5e96556aaeec9fff969842c04960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1f93239d4171d55ab44ee81f84121fc" id="r_ad1f93239d4171d55ab44ee81f84121fc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1f93239d4171d55ab44ee81f84121fc">write_jpeg</a> (const std::string &amp;filename, const std::vector&lt; std::uint8_t &gt; &amp;data, unsigned int w=100, unsigned int h=100, unsigned int stride=4) const noexcept</td></tr>
+<tr class="memdesc:ad1f93239d4171d55ab44ee81f84121fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write pixels to a JPEG file.  <br /></td></tr>
+<tr class="separator:ad1f93239d4171d55ab44ee81f84121fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaff55ff8ac454bd3eb92089b5833500" id="r_abaff55ff8ac454bd3eb92089b5833500"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaff55ff8ac454bd3eb92089b5833500">write</a> (std::ostream &amp;oss, const std::string &amp;data) const noexcept</td></tr>
 <tr class="memdesc:abaff55ff8ac454bd3eb92089b5833500"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles writing to an output stream.  <br /></td></tr>
 <tr class="separator:abaff55ff8ac454bd3eb92089b5833500"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aae1cff32bf3e0f05ad8f1e1500eea5" id="r_a0aae1cff32bf3e0f05ad8f1e1500eea5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0aae1cff32bf3e0f05ad8f1e1500eea5">write_file</a> (const std::string &amp;filename, const std::string &amp;data) const noexcept</td></tr>
+<tr class="memdesc:a0aae1cff32bf3e0f05ad8f1e1500eea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write to a file.  <br /></td></tr>
+<tr class="separator:a0aae1cff32bf3e0f05ad8f1e1500eea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Handles file writing for text, stdout, images, and object files. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae68fc4fe1f856abeb03f9b66a18f91a7" name="ae68fc4fe1f856abeb03f9b66a18f91a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae68fc4fe1f856abeb03f9b66a18f91a7">&#9670;&#160;</a></span>write() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mazes::writer::write </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>w</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>h</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;) const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Handles writing to an image file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">filename</td><td></td></tr>
-    <tr><td class="paramname">data</td><td>the string to write to a file </td></tr>
-    <tr><td class="paramname">w</td><td>1 width in pixels </td></tr>
-    <tr><td class="paramname">h</td><td>1 height in pixels </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><br  />
- </dd></dl>
-
-</div>
-</div>
 <a id="abaff55ff8ac454bd3eb92089b5833500" name="abaff55ff8ac454bd3eb92089b5833500"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abaff55ff8ac454bd3eb92089b5833500">&#9670;&#160;</a></span>write() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abaff55ff8ac454bd3eb92089b5833500">&#9670;&#160;</a></span>write()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,6 +161,162 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">oss</td><td></td></tr>
     <tr><td class="paramname">data</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="a0aae1cff32bf3e0f05ad8f1e1500eea5" name="a0aae1cff32bf3e0f05ad8f1e1500eea5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aae1cff32bf3e0f05ad8f1e1500eea5">&#9670;&#160;</a></span>write_file()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mazes::writer::write_file </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write to a file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td></td></tr>
+    <tr><td class="paramname">data</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="ad1f93239d4171d55ab44ee81f84121fc" name="ad1f93239d4171d55ab44ee81f84121fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1f93239d4171d55ab44ee81f84121fc">&#9670;&#160;</a></span>write_jpeg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mazes::writer::write_jpeg </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::uint8_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>w</em></span><span class="paramdefsep"> = </span><span class="paramdefval">100</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>h</em></span><span class="paramdefsep"> = </span><span class="paramdefval">100</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>stride</em></span><span class="paramdefsep"> = </span><span class="paramdefval">4</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write pixels to a JPEG file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td></td></tr>
+    <tr><td class="paramname">data</td><td></td></tr>
+    <tr><td class="paramname">w</td><td>100 </td></tr>
+    <tr><td class="paramname">h</td><td>100 </td></tr>
+    <tr><td class="paramname">stride</td><td>4 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="a46dc5e96556aaeec9fff969842c04960" name="a46dc5e96556aaeec9fff969842c04960"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46dc5e96556aaeec9fff969842c04960">&#9670;&#160;</a></span>write_png()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mazes::writer::write_png </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::uint8_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>w</em></span><span class="paramdefsep"> = </span><span class="paramdefval">100</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>h</em></span><span class="paramdefsep"> = </span><span class="paramdefval">100</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>stride</em></span><span class="paramdefsep"> = </span><span class="paramdefval">4</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write pixels to a PNG file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td></td></tr>
+    <tr><td class="paramname">data</td><td></td></tr>
+    <tr><td class="paramname">w</td><td>100 </td></tr>
+    <tr><td class="paramname">h</td><td>100 </td></tr>
+    <tr><td class="paramname">stride</td><td>4 </td></tr>
   </table>
   </dd>
 </dl>

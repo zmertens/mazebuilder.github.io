@@ -1,5 +1,7 @@
 <map id="mazes::distance_grid" name="mazes::distance_grid">
 <area shape="rect" id="Node000001" title="A grid that can calculate distances between cells." alt="" coords="6,155,151,181"/>
+<area shape="rect" id="Node000004" href="$classmazes_1_1colored__grid.html" title="Extension of the grid class to include color information." alt="" coords="9,229,148,256"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="81,197,81,229,76,229,76,197"/>
 <area shape="rect" id="Node000002" href="$classmazes_1_1grid.html" title="General purpose grid class for maze generation." alt="" coords="34,80,123,107"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,122,81,154,76,154,76,122"/>
 <area shape="rect" id="Node000003" href="$classmazes_1_1grid__interface.html" title="Interface for the grid class." alt="" coords="5,5,152,32"/>

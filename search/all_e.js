@@ -1,11 +1,7 @@
 var searchData=
 [
-  ['maze_0',['maze',['../classmazes_1_1maze.html',1,'mazes']]],
-  ['maze_20builder_1',['Maze Builder',['../index.html#autotoc_md0',1,'']]],
-  ['maze_20builder_20docs_2',['Maze Builder Docs',['../index.html',1,'']]],
-  ['maze_2eh_3',['maze.h',['../maze_8h.html',1,'']]],
-  ['maze_5fbuilder_2eh_4',['maze_builder.h',['../maze__builder_8h.html',1,'']]],
-  ['mazes_5',['mazes',['../namespacemazes.html',1,'']]],
-  ['message_6',['Help Message',['../index.html#autotoc_md4',1,'']]],
-  ['more_20learning_20resources_7',['More Learning Resources',['../index.html#autotoc_md19',1,'']]]
+  ['randomizer_0',['randomizer',['../classmazes_1_1randomizer.html',1,'mazes::randomizer'],['../classmazes_1_1randomizer.html#ab6bc2f1615334e9315366763fa73d601',1,'mazes::randomizer::randomizer()']]],
+  ['randomizer_2eh_1',['randomizer.h',['../randomizer_8h.html',1,'']]],
+  ['resources_2',['More Learning Resources',['../index.html#autotoc_md19',1,'']]],
+  ['run_3',['run',['../classmazes_1_1algo__interface.html#a0822ad1a9d2c56432e7fae22d27cb91b',1,'mazes::algo_interface::run()'],['../classmazes_1_1binary__tree.html#a87fe0ff7a3704b4c9629ef3359382369',1,'mazes::binary_tree::run()'],['../classmazes_1_1dfs.html#a8e4fa5335544dc09a7f5891aa5cfd12b',1,'mazes::dfs::run()'],['../classmazes_1_1sidewinder.html#a35ec4044d574a9d255eba9f03e862be2',1,'mazes::sidewinder::run()']]]
 ];

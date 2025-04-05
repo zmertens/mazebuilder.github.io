@@ -113,9 +113,18 @@ $(function(){initNavTree('classmazes_1_1stringz.html',''); initResizable(true); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a035085da2e217c15a90493338eb70fc9" id="r_a035085da2e217c15a90493338eb70fc9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a035085da2e217c15a90493338eb70fc9">objectify</a> (const std::unique_ptr&lt; <a class="el" href="classmazes_1_1maze.html">maze</a> &gt; &amp;m, std::vector&lt; std::tuple&lt; int, int, int, int &gt; &gt; &amp;vertices, std::vector&lt; std::vector&lt; std::uint32_t &gt; &gt; &amp;faces) noexcept</td></tr>
-<tr class="memdesc:a035085da2e217c15a90493338eb70fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the 3D geometries of a maze.  <br /></td></tr>
-<tr class="separator:a035085da2e217c15a90493338eb70fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a591cbd3bc74ce13a4ebea6c6d051f323" id="r_a591cbd3bc74ce13a4ebea6c6d051f323"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a591cbd3bc74ce13a4ebea6c6d051f323">objectify</a> (const std::unique_ptr&lt; <a class="el" href="classmazes_1_1maze.html">maze</a> &gt; &amp;m, std::vector&lt; std::tuple&lt; int, int, int, int &gt; &gt; &amp;vertices, std::vector&lt; std::vector&lt; std::uint32_t &gt; &gt; &amp;faces, std::string_view sv=std::string_view{}) noexcept</td></tr>
+<tr class="memdesc:a591cbd3bc74ce13a4ebea6c6d051f323"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the 3D geometries of a maze.  <br /></td></tr>
+<tr class="separator:a591cbd3bc74ce13a4ebea6c6d051f323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedbc33dcb277af6b135c70bd122daa54" id="r_aedbc33dcb277af6b135c70bd122daa54"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedbc33dcb277af6b135c70bd122daa54">objectify</a> (<a class="el" href="classmazes_1_1lab.html">lab</a> &amp;labyrinth, std::string_view sv=std::string_view{}) noexcept</td></tr>
+<tr class="memdesc:aedbc33dcb277af6b135c70bd122daa54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the 3D geometries of a maze.  <br /></td></tr>
+<tr class="separator:aedbc33dcb277af6b135c70bd122daa54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefd2c9ee385902b8889c8a52a82d5779" id="r_aefd2c9ee385902b8889c8a52a82d5779"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefd2c9ee385902b8889c8a52a82d5779">to_pixels</a> (const std::string &amp;s, std::vector&lt; std::uint8_t &gt; &amp;pixels, int &amp;width, int &amp;height, int stride=4) noexcept</td></tr>
+<tr class="memdesc:aefd2c9ee385902b8889c8a52a82d5779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a string representation of an image to a pixel array.  <br /></td></tr>
+<tr class="separator:aefd2c9ee385902b8889c8a52a82d5779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af19a6384f46330f84ea4d94cc736e372" id="r_af19a6384f46330f84ea4d94cc736e372"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af19a6384f46330f84ea4d94cc736e372">to_pixels</a> (const std::unique_ptr&lt; <a class="el" href="classmazes_1_1maze.html">maze</a> &gt; &amp;m, std::vector&lt; std::uint8_t &gt; &amp;pixels, int &amp;width, int &amp;height, int stride=4) noexcept</td></tr>
+<tr class="memdesc:af19a6384f46330f84ea4d94cc736e372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a maze to a pixel representation.  <br /></td></tr>
+<tr class="separator:af19a6384f46330f84ea4d94cc736e372"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c500f194b26304411c49400c360d40e" id="r_a8c500f194b26304411c49400c360d40e"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c500f194b26304411c49400c360d40e">stringify</a> (const std::unique_ptr&lt; <a class="el" href="classmazes_1_1maze.html">maze</a> &gt; &amp;m) noexcept</td></tr>
 <tr class="memdesc:a8c500f194b26304411c49400c360d40e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a maze into a string representation.  <br /></td></tr>
 <tr class="separator:a8c500f194b26304411c49400c360d40e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,8 +133,8 @@ Static Public Member Functions</h2></td></tr>
 <div class="textblock"><p>String helper class. </p>
 <p>This class provides methods to convert mazes into string representations </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a035085da2e217c15a90493338eb70fc9" name="a035085da2e217c15a90493338eb70fc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a035085da2e217c15a90493338eb70fc9">&#9670;&#160;</a></span>objectify()</h2>
+<a id="a591cbd3bc74ce13a4ebea6c6d051f323" name="a591cbd3bc74ce13a4ebea6c6d051f323"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a591cbd3bc74ce13a4ebea6c6d051f323">&#9670;&#160;</a></span>objectify() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -146,7 +155,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; std::vector&lt; std::uint32_t &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>faces</em></span>&#160;)</td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; std::uint32_t &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>faces</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>sv</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::string_view{}</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -162,6 +176,46 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">m</td><td>the maze to convert </td></tr>
     <tr><td class="paramname">vertices</td><td>the vertices of the maze </td></tr>
     <tr><td class="paramname">faces</td><td>the faces of the maze </td></tr>
+    <tr><td class="paramname">s</td><td>the string representation of the maze </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aedbc33dcb277af6b135c70bd122daa54" name="aedbc33dcb277af6b135c70bd122daa54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedbc33dcb277af6b135c70bd122daa54">&#9670;&#160;</a></span>objectify() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mazes::stringz::objectify </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmazes_1_1lab.html">lab</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>labyrinth</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>sv</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::string_view{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute the 3D geometries of a maze. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">labyrinth</td><td>the collection of mazes </td></tr>
+    <tr><td class="paramname">sv</td><td><br  />
+ </td></tr>
   </table>
   </dd>
 </dl>
@@ -199,6 +253,117 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the string representation </dd></dl>
+
+</div>
+</div>
+<a id="aefd2c9ee385902b8889c8a52a82d5779" name="aefd2c9ee385902b8889c8a52a82d5779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefd2c9ee385902b8889c8a52a82d5779">&#9670;&#160;</a></span>to_pixels() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mazes::stringz::to_pixels </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::uint8_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>pixels</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;</td>          <td class="paramname"><span class="paramname"><em>height</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>stride</em></span><span class="paramdefsep"> = </span><span class="paramdefval">4</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts a string representation of an image to a pixel array. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td></td></tr>
+    <tr><td class="paramname">pixels</td><td>vector to store the resulting pixel data </td></tr>
+    <tr><td class="paramname">width</td><td>integer reference to store the width of the image </td></tr>
+    <tr><td class="paramname">height</td><td>integer reference to store the height of the image </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af19a6384f46330f84ea4d94cc736e372" name="af19a6384f46330f84ea4d94cc736e372"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af19a6384f46330f84ea4d94cc736e372">&#9670;&#160;</a></span>to_pixels() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mazes::stringz::to_pixels </td>
+          <td>(</td>
+          <td class="paramtype">const std::unique_ptr&lt; <a class="el" href="classmazes_1_1maze.html">maze</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::uint8_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>pixels</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;</td>          <td class="paramname"><span class="paramname"><em>height</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>stride</em></span><span class="paramdefsep"> = </span><span class="paramdefval">4</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts a maze to a pixel representation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m</td><td>A unique pointer to the maze object to be converted. </td></tr>
+    <tr><td class="paramname">pixels</td><td>A vector to store the resulting pixel data. </td></tr>
+    <tr><td class="paramname">width</td><td>An integer reference to store the width of the pixel data. </td></tr>
+    <tr><td class="paramname">height</td><td>An integer reference to store the height of the pixel data. </td></tr>
+    <tr><td class="paramname">stride</td><td>The number of bytes per row in the pixel data. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

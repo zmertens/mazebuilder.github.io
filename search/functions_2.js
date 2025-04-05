@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['contents_5fof_0',['contents_of',['../classmazes_1_1colored__grid.html#a9653a704079706b3aa68482bcf685e94',1,'mazes::colored_grid::contents_of()'],['../classmazes_1_1distance__grid.html#a74976f8dcd8b383de35f55f2f452b5ba',1,'mazes::distance_grid::contents_of()'],['../classmazes_1_1grid.html#a869e1ab7142a27fdf61519859f2f3bd1',1,'mazes::grid::contents_of()'],['../classmazes_1_1grid__interface.html#a9d0ce3181bb83d19c8869d1765881687',1,'mazes::grid_interface::contents_of()']]],
-  ['create_1',['create',['../classmazes_1_1factory.html#acb97107d66b9dc6b92ad7a753be95649',1,'mazes::factory']]]
+  ['decode_0',['decode',['../classmazes_1_1base64__helper.html#a2d58a81a19bf390443574c918b67a6f7',1,'mazes::base64_helper']]],
+  ['dist_1',['dist',['../classmazes_1_1distances.html#a0a417b9176f91ea60b87463c77f22772',1,'mazes::distances']]],
+  ['distances_2',['distances',['../classmazes_1_1distances.html#a818fdeb409858b9b14de95bd9b6c62e6',1,'mazes::distances']]],
+  ['duration_3',['duration',['../classmazes_1_1progress.html#a8d69d45d8ee6f3582e2b258a59ecd1b0',1,'mazes::progress']]]
 ];

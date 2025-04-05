@@ -1,11 +1,13 @@
 var searchData=
 [
-  ['algo_0',['algo',['../namespacemazes.html#aa61978cb14a922fcab3ffcc1889a7f8a',1,'mazes']]],
-  ['algo_5finterface_1',['algo_interface',['../classmazes_1_1algo__interface.html',1,'mazes']]],
-  ['algo_5finterface_2eh_2',['algo_interface.h',['../algo__interface_8h.html',1,'']]],
-  ['and_20testing_3',['CMake Configuration and Testing',['../index.html#autotoc_md8',1,'']]],
-  ['append_4',['append',['../classmazes_1_1grid.html#a9336b1a5bce6d2a452e5485fc2a45f47',1,'mazes::grid']]],
-  ['args_5',['args',['../structmazes_1_1args.html',1,'mazes']]],
-  ['args_2eh_6',['args.h',['../args_8h.html',1,'']]],
-  ['argspattern_7',['ArgsPattern',['../structmazes_1_1args.html#acdc44ca0198e6d356be41446a9e99a8b',1,'mazes::args']]]
+  ['decode_0',['decode',['../classmazes_1_1base64__helper.html#a2d58a81a19bf390443574c918b67a6f7',1,'mazes::base64_helper']]],
+  ['dfs_1',['dfs',['../classmazes_1_1dfs.html',1,'mazes']]],
+  ['dfs_2eh_2',['dfs.h',['../dfs_8h.html',1,'']]],
+  ['dist_3',['dist',['../classmazes_1_1distances.html#a0a417b9176f91ea60b87463c77f22772',1,'mazes::distances']]],
+  ['distance_5fgrid_4',['distance_grid',['../classmazes_1_1distance__grid.html',1,'mazes']]],
+  ['distance_5fgrid_2eh_5',['distance_grid.h',['../distance__grid_8h.html',1,'']]],
+  ['distances_6',['distances',['../classmazes_1_1distances.html',1,'mazes::distances'],['../classmazes_1_1distances.html#a818fdeb409858b9b14de95bd9b6c62e6',1,'mazes::distances::distances()']]],
+  ['distances_2eh_7',['distances.h',['../distances_8h.html',1,'']]],
+  ['docs_8',['Maze Builder Docs',['../index.html',1,'']]],
+  ['duration_9',['duration',['../classmazes_1_1progress.html#a8d69d45d8ee6f3582e2b258a59ecd1b0',1,'mazes::progress']]]
 ];

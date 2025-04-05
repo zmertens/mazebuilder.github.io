@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['maze_0',['maze',['../classmazes_1_1maze.html',1,'mazes']]]
+  ['lab_0',['lab',['../classmazes_1_1lab.html',1,'mazes']]]
 ];

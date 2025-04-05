@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['elapsed_5fms_0',['elapsed_ms',['../classmazes_1_1progress.html#a15cfd26b5dfabb29daec059484b0fab1',1,'mazes::progress']]],
-  ['elapsed_5fs_1',['elapsed_s',['../classmazes_1_1progress.html#a72d885d1876fec9426c730dbc90460c4',1,'mazes::progress']]],
-  ['encode_2',['encode',['../classmazes_1_1base__64__helper.html#a135b2413e2f301e4905be3254f8d8e77',1,'mazes::base_64_helper']]]
+  ['from_0',['from',['../classmazes_1_1json__helper.html#a996f4621f8870aacd2c541751bcef1d7',1,'mazes::json_helper::from(const std::unordered_map&lt; std::string, std::string &gt; &amp;map, int pretty_print=4) const noexcept'],['../classmazes_1_1json__helper.html#adce414b49e3f42101cae3994e3995484',1,'mazes::json_helper::from(const std::string &amp;s, std::unordered_map&lt; std::string, std::string &gt; &amp;m) const noexcept']]]
 ];

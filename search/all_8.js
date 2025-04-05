@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['factory_0',['factory',['../classmazes_1_1factory.html',1,'mazes']]],
-  ['factory_2eh_1',['factory.h',['../factory_8h.html',1,'']]],
-  ['for_20the_20web_2',['Build for the Web',['../index.html#autotoc_md12',1,'']]],
-  ['from_3',['from',['../classmazes_1_1json__helper.html#a996f4621f8870aacd2c541751bcef1d7',1,'mazes::json_helper']]]
+  ['interface_0',['Web Interface',['../index.html#autotoc_md18',1,'']]],
+  ['is_5flinked_1',['is_linked',['../classmazes_1_1cell.html#af0c04cb1675673c380f7f2b689e0104f',1,'mazes::cell']]]
 ];
