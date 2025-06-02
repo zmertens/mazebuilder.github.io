@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['randomizer_0',['randomizer',['../classmazes_1_1randomizer.html#ab6bc2f1615334e9315366763fa73d601',1,'mazes::randomizer']]],
-  ['run_1',['run',['../classmazes_1_1algo__interface.html#a0822ad1a9d2c56432e7fae22d27cb91b',1,'mazes::algo_interface::run()'],['../classmazes_1_1binary__tree.html#a87fe0ff7a3704b4c9629ef3359382369',1,'mazes::binary_tree::run()'],['../classmazes_1_1dfs.html#a8e4fa5335544dc09a7f5891aa5cfd12b',1,'mazes::dfs::run()'],['../classmazes_1_1sidewinder.html#a35ec4044d574a9d255eba9f03e862be2',1,'mazes::sidewinder::run()']]]
+  ['parse_0',['parse',['../structmazes_1_1args.html#a09c82286f61e78d5a1933f3be1ed2764',1,'mazes::args::parse(const std::vector&lt; std::string &gt; &amp;arguments) noexcept'],['../structmazes_1_1args.html#ac75c703e63c5cea22281f2042cd7adda',1,'mazes::args::parse(const std::string &amp;arguments) noexcept']]],
+  ['path_5fto_1',['path_to',['../classmazes_1_1distances.html#ad8ce85223c35a77b0f2d845621c0acc8',1,'mazes::distances']]]
 ];

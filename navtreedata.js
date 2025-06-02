@@ -26,17 +26,21 @@ var NAVTREE =
 [
   [ "Maze Builder Docs", "index.html", [
     [ "Maze Builder", "index.html#autotoc_md0", [
-      [ "Exports", "index.html#autotoc_md2", null ],
-      [ "Help Message", "index.html#autotoc_md4", null ],
-      [ "Examples", "index.html#autotoc_md6", null ],
-      [ "CMake Configuration and Testing", "index.html#autotoc_md8", [
-        [ "Example Commands", "index.html#autotoc_md10", null ],
-        [ "Testing", "index.html#autotoc_md12", null ],
-        [ "Build for the Web", "index.html#autotoc_md14", null ]
+      [ "Output Formats", "index.html#autotoc_md2", null ],
+      [ "Examples", "index.html#autotoc_md4", [
+        [ "Command-Line Interface", "index.html#autotoc_md5", null ],
+        [ "API", "index.html#autotoc_md6", null ],
+        [ "Web Interface - Voxels", "index.html#autotoc_md7", null ],
+        [ "Http", "index.html#autotoc_md8", null ],
+        [ "Physics", "index.html#autotoc_md9", null ]
       ] ],
-      [ "Scripts", "index.html#autotoc_md16", null ],
-      [ "Web Interface", "index.html#autotoc_md18", null ],
-      [ "More Learning Resources", "index.html#autotoc_md19", null ]
+      [ "CMake Configuration and Testing", "index.html#autotoc_md11", [
+        [ "Build Commands", "index.html#autotoc_md13", null ],
+        [ "Testing", "index.html#autotoc_md15", null ],
+        [ "Configure for the Web", "index.html#autotoc_md17", null ]
+      ] ],
+      [ "Scripts", "index.html#autotoc_md19", null ],
+      [ "More Learning Resources", "index.html#autotoc_md21", null ]
     ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -64,7 +68,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "algo__interface_8h.html",
-"index.html#autotoc_md16"
+"index.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

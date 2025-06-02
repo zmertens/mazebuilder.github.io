@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.0.1</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.3.5</span>
    </div>
   </td>
  </tr>
@@ -105,47 +105,52 @@ $(function(){initNavTree('colored__grid_8h_source.html',''); initResizable(true)
 <a href="colored__grid_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef COLORED_GRID_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define COLORED_GRID_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;cstdint&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;cstdint&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;<a class="code" href="distance__grid_8h.html">MazeBuilder/distance_grid.h</a>&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;<a class="code" href="grid_8h.html">MazeBuilder/grid.h</a>&gt;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacemazes.html">mazes</a> {</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span>cell;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="classmazes_1_1colored__grid.html">   18</a></span><span class="keyword">class </span><a class="code hl_class" href="classmazes_1_1colored__grid.html">colored_grid</a> : <span class="keyword">public</span> <a class="code hl_class" href="classmazes_1_1distance__grid.html">distance_grid</a> {</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_class" href="classmazes_1_1binary__tree.html">binary_tree</a>;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_class" href="classmazes_1_1dfs.html">dfs</a>;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_class" href="classmazes_1_1sidewinder.html">sidewinder</a>;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="classmazes_1_1colored__grid.html#aea3dc6c5cbee9c2ac87a72b119f9ffb8">   30</a></span>    <span class="keyword">explicit</span> <a class="code hl_function" href="classmazes_1_1colored__grid.html#aea3dc6c5cbee9c2ac87a72b119f9ffb8">colored_grid</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> width = 1u, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> length = 1u, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> levels = 1u);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="classmazes_1_1colored__grid.html#a9653a704079706b3aa68482bcf685e94">   35</a></span>    <span class="keyword">virtual</span> std::optional&lt;std::string&gt; <a class="code hl_function" href="classmazes_1_1colored__grid.html#a9653a704079706b3aa68482bcf685e94">contents_of</a>(<span class="keyword">const</span> std::shared_ptr&lt;cell&gt;&amp; c) <span class="keyword">const</span> <span class="keyword">noexcept</span> <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classmazes_1_1colored__grid.html#a2ff568a535f87f1aec7b0eda420d7b80">   40</a></span>    <span class="keyword">virtual</span> std::optional&lt;std::uint32_t&gt; <a class="code hl_function" href="classmazes_1_1colored__grid.html#a2ff568a535f87f1aec7b0eda420d7b80">background_color_for</a>(<span class="keyword">const</span> std::shared_ptr&lt;cell&gt;&amp; c) <span class="keyword">const</span> <span class="keyword">noexcept</span> <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>};</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>distances;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="classmazes_1_1colored__grid.html">   19</a></span><span class="keyword">class </span><a class="code hl_class" href="classmazes_1_1colored__grid.html">colored_grid</a> : <span class="keyword">public</span> <a class="code hl_class" href="classmazes_1_1grid.html">grid</a> {</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_class" href="classmazes_1_1binary__tree.html">binary_tree</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_class" href="classmazes_1_1dfs.html">dfs</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_class" href="classmazes_1_1sidewinder.html">sidewinder</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="classmazes_1_1colored__grid.html#aea3dc6c5cbee9c2ac87a72b119f9ffb8">   31</a></span>    <span class="keyword">explicit</span> <a class="code hl_function" href="classmazes_1_1colored__grid.html#aea3dc6c5cbee9c2ac87a72b119f9ffb8">colored_grid</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> width = 1u, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> length = 1u, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> levels = 1u);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="classmazes_1_1colored__grid.html#a1ae116d4ac2d0ff5922c68e41b753455">   33</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classmazes_1_1colored__grid.html#a1ae116d4ac2d0ff5922c68e41b753455">configure</a>(<span class="keyword">const</span> std::vector&lt;int&gt;&amp; indices) <span class="keyword">noexcept</span> <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classmazes_1_1colored__grid.html#afa6b41f2dd59c9a752ee546c3c8f46ac">   38</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classmazes_1_1colored__grid.html#afa6b41f2dd59c9a752ee546c3c8f46ac">contents_of</a>(<span class="keyword">const</span> std::shared_ptr&lt;cell&gt;&amp; c) <span class="keyword">const</span> <span class="keyword">noexcept</span> <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classmazes_1_1colored__grid.html#adcd46a58ed298040dc6806193ff57125">   43</a></span>    <span class="keyword">virtual</span> std::uint32_t <a class="code hl_function" href="classmazes_1_1colored__grid.html#adcd46a58ed298040dc6806193ff57125">background_color_for</a>(<span class="keyword">const</span> std::shared_ptr&lt;cell&gt;&amp; c) <span class="keyword">const</span> <span class="keyword">noexcept</span> <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    std::shared_ptr&lt;distances&gt; m_distances;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>};</div>
 </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>}</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif </span><span class="comment">// COLORED_GRID_H</span></div>
-<div class="ttc" id="aclassmazes_1_1binary__tree_html"><div class="ttname"><a href="classmazes_1_1binary__tree.html">mazes::binary_tree</a></div><div class="ttdoc">Binary tree algorithm for generating mazes.</div><div class="ttdef"><b>Definition</b> binary_tree.h:18</div></div>
-<div class="ttc" id="aclassmazes_1_1colored__grid_html"><div class="ttname"><a href="classmazes_1_1colored__grid.html">mazes::colored_grid</a></div><div class="ttdoc">Extension of the grid class to include color information.</div><div class="ttdef"><b>Definition</b> colored_grid.h:18</div></div>
-<div class="ttc" id="aclassmazes_1_1colored__grid_html_a2ff568a535f87f1aec7b0eda420d7b80"><div class="ttname"><a href="classmazes_1_1colored__grid.html#a2ff568a535f87f1aec7b0eda420d7b80">mazes::colored_grid::background_color_for</a></div><div class="ttdeci">virtual std::optional&lt; std::uint32_t &gt; background_color_for(const std::shared_ptr&lt; cell &gt; &amp;c) const noexcept override</div><div class="ttdoc">Retrieves the background color for a given cell, if available.</div></div>
-<div class="ttc" id="aclassmazes_1_1colored__grid_html_a9653a704079706b3aa68482bcf685e94"><div class="ttname"><a href="classmazes_1_1colored__grid.html#a9653a704079706b3aa68482bcf685e94">mazes::colored_grid::contents_of</a></div><div class="ttdeci">virtual std::optional&lt; std::string &gt; contents_of(const std::shared_ptr&lt; cell &gt; &amp;c) const noexcept override</div><div class="ttdoc">Retrieves the contents of a given cell, if available.</div></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>}</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#endif </span><span class="comment">// COLORED_GRID_H</span></div>
+<div class="ttc" id="aclassmazes_1_1binary__tree_html"><div class="ttname"><a href="classmazes_1_1binary__tree.html">mazes::binary_tree</a></div><div class="ttdoc">Binary tree algorithm for generating mazes.</div><div class="ttdef"><b>Definition</b> binary_tree.h:17</div></div>
+<div class="ttc" id="aclassmazes_1_1colored__grid_html"><div class="ttname"><a href="classmazes_1_1colored__grid.html">mazes::colored_grid</a></div><div class="ttdoc">Extension of the grid class to include color information.</div><div class="ttdef"><b>Definition</b> colored_grid.h:19</div></div>
+<div class="ttc" id="aclassmazes_1_1colored__grid_html_a1ae116d4ac2d0ff5922c68e41b753455"><div class="ttname"><a href="classmazes_1_1colored__grid.html#a1ae116d4ac2d0ff5922c68e41b753455">mazes::colored_grid::configure</a></div><div class="ttdeci">void configure(const std::vector&lt; int &gt; &amp;indices) noexcept override</div><div class="ttdoc">Configure the grid's cells' neighbors.</div></div>
+<div class="ttc" id="aclassmazes_1_1colored__grid_html_adcd46a58ed298040dc6806193ff57125"><div class="ttname"><a href="classmazes_1_1colored__grid.html#adcd46a58ed298040dc6806193ff57125">mazes::colored_grid::background_color_for</a></div><div class="ttdeci">virtual std::uint32_t background_color_for(const std::shared_ptr&lt; cell &gt; &amp;c) const noexcept override</div><div class="ttdoc">Get the background color for a cell in the grid.</div></div>
 <div class="ttc" id="aclassmazes_1_1colored__grid_html_aea3dc6c5cbee9c2ac87a72b119f9ffb8"><div class="ttname"><a href="classmazes_1_1colored__grid.html#aea3dc6c5cbee9c2ac87a72b119f9ffb8">mazes::colored_grid::colored_grid</a></div><div class="ttdeci">colored_grid(unsigned int width=1u, unsigned int length=1u, unsigned int levels=1u)</div><div class="ttdoc">Constructs a colored grid with specified dimensions.</div></div>
-<div class="ttc" id="aclassmazes_1_1dfs_html"><div class="ttname"><a href="classmazes_1_1dfs.html">mazes::dfs</a></div><div class="ttdoc">Depth-first search algorithm for generating mazes.</div><div class="ttdef"><b>Definition</b> dfs.h:19</div></div>
-<div class="ttc" id="aclassmazes_1_1distance__grid_html"><div class="ttname"><a href="classmazes_1_1distance__grid.html">mazes::distance_grid</a></div><div class="ttdoc">A grid that can calculate distances between cells.</div><div class="ttdef"><b>Definition</b> distance_grid.h:19</div></div>
+<div class="ttc" id="aclassmazes_1_1colored__grid_html_afa6b41f2dd59c9a752ee546c3c8f46ac"><div class="ttname"><a href="classmazes_1_1colored__grid.html#afa6b41f2dd59c9a752ee546c3c8f46ac">mazes::colored_grid::contents_of</a></div><div class="ttdeci">virtual std::string contents_of(const std::shared_ptr&lt; cell &gt; &amp;c) const noexcept override</div><div class="ttdoc">Retrieves the contents of a given cell, if available.</div></div>
+<div class="ttc" id="aclassmazes_1_1dfs_html"><div class="ttname"><a href="classmazes_1_1dfs.html">mazes::dfs</a></div><div class="ttdoc">Depth-first search algorithm for generating mazes.</div><div class="ttdef"><b>Definition</b> dfs.h:23</div></div>
+<div class="ttc" id="aclassmazes_1_1grid_html"><div class="ttname"><a href="classmazes_1_1grid.html">mazes::grid</a></div><div class="ttdoc">General purpose grid class for 2D maze generation.</div><div class="ttdef"><b>Definition</b> grid.h:23</div></div>
 <div class="ttc" id="aclassmazes_1_1sidewinder_html"><div class="ttname"><a href="classmazes_1_1sidewinder.html">mazes::sidewinder</a></div><div class="ttdoc">Sidewinder algorithm for generating mazes.</div><div class="ttdef"><b>Definition</b> sidewinder.h:17</div></div>
-<div class="ttc" id="adistance__grid_8h_html"><div class="ttname"><a href="distance__grid_8h.html">distance_grid.h</a></div></div>
+<div class="ttc" id="agrid_8h_html"><div class="ttname"><a href="grid_8h.html">grid.h</a></div></div>
 <div class="ttc" id="anamespacemazes_html"><div class="ttname"><a href="namespacemazes.html">mazes</a></div><div class="ttdoc">Namespace for the maze builder.</div><div class="ttdef"><b>Definition</b> algo_interface.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

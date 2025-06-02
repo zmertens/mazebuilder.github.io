@@ -10,7 +10,7 @@ var dir_a418965056074af1bfd647a03b2e4456 =
     [ "configurator.h", "configurator_8h.html", "configurator_8h" ],
     [ "dfs.h", "dfs_8h.html", "dfs_8h" ],
     [ "distance_grid.h", "distance__grid_8h.html", "distance__grid_8h" ],
-    [ "distances.h", "distances_8h.html", "distances_8h" ],
+    [ "distances.h", "distances_8h_source.html", null ],
     [ "enums.h", "enums_8h.html", "enums_8h" ],
     [ "factory.h", "factory_8h.html", "factory_8h" ],
     [ "grid.h", "grid_8h.html", "grid_8h" ],
@@ -23,6 +23,7 @@ var dir_a418965056074af1bfd647a03b2e4456 =
     [ "progress.h", "progress_8h.html", "progress_8h" ],
     [ "randomizer.h", "randomizer_8h.html", "randomizer_8h" ],
     [ "sidewinder.h", "sidewinder_8h.html", "sidewinder_8h" ],
+    [ "singleton_base.h", "singleton__base_8h_source.html", null ],
     [ "stringz.h", "stringz_8h.html", "stringz_8h" ],
     [ "wavefront_object_helper.h", "wavefront__object__helper_8h.html", "wavefront__object__helper_8h" ],
     [ "writer.h", "writer_8h.html", "writer_8h" ]

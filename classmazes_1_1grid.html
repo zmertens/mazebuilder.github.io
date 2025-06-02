@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.0.1</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.3.5</span>
    </div>
   </td>
  </tr>
@@ -101,22 +101,20 @@ $(function(){initNavTree('classmazes_1_1grid.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classmazes_1_1grid-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mazes::grid Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>General purpose grid class for maze generation.  
+<p>General purpose grid class for 2D maze generation.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="grid_8h_source.html">grid.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for mazes::grid:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmazes_1_1grid__inherit__graph.svg" width="158" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmazes_1_1grid__inherit__graph.svg" width="318" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for mazes::grid:</div>
@@ -126,12 +124,10 @@ Collaboration diagram for mazes::grid:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8843831f84052ab6118f1abb438b999f" id="r_a8843831f84052ab6118f1abb438b999f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8843831f84052ab6118f1abb438b999f">grid</a> (unsigned int rows=1u, unsigned int columns=1u, unsigned int height=1u)</td></tr>
-<tr class="memdesc:a8843831f84052ab6118f1abb438b999f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for grid.  <br /></td></tr>
-<tr class="separator:a8843831f84052ab6118f1abb438b999f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1c23f039cceefaaa2f889d57e34c18b" id="r_ae1c23f039cceefaaa2f889d57e34c18b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1c23f039cceefaaa2f889d57e34c18b">grid</a> (std::tuple&lt; unsigned int, unsigned int, unsigned int &gt; dimensions)</td></tr>
-<tr class="memdesc:ae1c23f039cceefaaa2f889d57e34c18b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for grid.  <br /></td></tr>
-<tr class="separator:ae1c23f039cceefaaa2f889d57e34c18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7803cafd11b015a2558a6639f5047ffa" id="r_a7803cafd11b015a2558a6639f5047ffa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7803cafd11b015a2558a6639f5047ffa">grid</a> (unsigned int r=1u, unsigned int c=1u, unsigned int l=1u)</td></tr>
+<tr class="separator:a7803cafd11b015a2558a6639f5047ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba7fe4583dc2455248275a7a7b016f22" id="r_aba7fe4583dc2455248275a7a7b016f22"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7fe4583dc2455248275a7a7b016f22">grid</a> (std::tuple&lt; unsigned int, unsigned int, unsigned int &gt; dimens)</td></tr>
+<tr class="separator:aba7fe4583dc2455248275a7a7b016f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a246c9706ef9126ebe14e190027bffec8" id="r_a246c9706ef9126ebe14e190027bffec8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a246c9706ef9126ebe14e190027bffec8">grid</a> (const <a class="el" href="classmazes_1_1grid.html">grid</a> &amp;other)</td></tr>
 <tr class="memdesc:a246c9706ef9126ebe14e190027bffec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
 <tr class="separator:a246c9706ef9126ebe14e190027bffec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,55 +140,52 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a84093016ed441e0820fc609b6e4dcd4c" id="r_a84093016ed441e0820fc609b6e4dcd4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1grid.html">grid</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84093016ed441e0820fc609b6e4dcd4c">operator=</a> (<a class="el" href="classmazes_1_1grid.html">grid</a> &amp;&amp;other) noexcept</td></tr>
 <tr class="memdesc:a84093016ed441e0820fc609b6e4dcd4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator.  <br /></td></tr>
 <tr class="separator:a84093016ed441e0820fc609b6e4dcd4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabd9555846bcc9248c9fc2223bd96d1e" id="r_aabd9555846bcc9248c9fc2223bd96d1e"><td class="memItemLeft" align="right" valign="top"><a id="aabd9555846bcc9248c9fc2223bd96d1e" name="aabd9555846bcc9248c9fc2223bd96d1e"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~grid</b> ()</td></tr>
-<tr class="memdesc:aabd9555846bcc9248c9fc2223bd96d1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
-<tr class="separator:aabd9555846bcc9248c9fc2223bd96d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7310ebeca91493135e765a713bd822d6" id="r_a7310ebeca91493135e765a713bd822d6"><td class="memItemLeft" align="right" valign="top">virtual std::future&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7310ebeca91493135e765a713bd822d6">get_future</a> () noexcept</td></tr>
-<tr class="memdesc:a7310ebeca91493135e765a713bd822d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize and configure.  <br /></td></tr>
-<tr class="separator:a7310ebeca91493135e765a713bd822d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5986c6107091765c3131e582f18c710" id="r_af5986c6107091765c3131e582f18c710"><td class="memItemLeft" align="right" valign="top"><a id="af5986c6107091765c3131e582f18c710" name="af5986c6107091765c3131e582f18c710"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>~grid</b> () override</td></tr>
+<tr class="memdesc:af5986c6107091765c3131e582f18c710"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="separator:af5986c6107091765c3131e582f18c710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a208c7b297d676716d7490fe8a7cfc520" id="r_a208c7b297d676716d7490fe8a7cfc520"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a208c7b297d676716d7490fe8a7cfc520">configure</a> (const std::vector&lt; int &gt; &amp;indices) noexcept</td></tr>
+<tr class="memdesc:a208c7b297d676716d7490fe8a7cfc520"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the grid's cells' neighbors.  <br /></td></tr>
+<tr class="separator:a208c7b297d676716d7490fe8a7cfc520"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada508507926b249e5600653afd6c6a8d" id="r_ada508507926b249e5600653afd6c6a8d"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada508507926b249e5600653afd6c6a8d">get_neighbor</a> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;c, <a class="el" href="namespacemazes.html#a729372da8296ec97f1a41425f42227df">Direction</a> dir) const noexcept</td></tr>
+<tr class="memdesc:ada508507926b249e5600653afd6c6a8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get neighbor by the cell's respective location.  <br /></td></tr>
+<tr class="separator:ada508507926b249e5600653afd6c6a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c841b68eb23a6c6c5529085747c494a" id="r_a0c841b68eb23a6c6c5529085747c494a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c841b68eb23a6c6c5529085747c494a">get_neighbors</a> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;c) const noexcept</td></tr>
+<tr class="memdesc:a0c841b68eb23a6c6c5529085747c494a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the neighbors by the cell.  <br /></td></tr>
+<tr class="separator:a0c841b68eb23a6c6c5529085747c494a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b48fda2b2be2758355ef8470e8f3023" id="r_a1b48fda2b2be2758355ef8470e8f3023"><td class="memItemLeft" align="right" valign="top"><a id="a1b48fda2b2be2758355ef8470e8f3023" name="a1b48fda2b2be2758355ef8470e8f3023"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>set_neighbor</b> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c, <a class="el" href="namespacemazes.html#a729372da8296ec97f1a41425f42227df">Direction</a> dir, std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;neighbor) noexcept</td></tr>
+<tr class="separator:a1b48fda2b2be2758355ef8470e8f3023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7a1e29b398389cade9532b4a7ca0ae2" id="r_ad7a1e29b398389cade9532b4a7ca0ae2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7a1e29b398389cade9532b4a7ca0ae2">get_north</a> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c) const noexcept override</td></tr>
+<tr class="separator:ad7a1e29b398389cade9532b4a7ca0ae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a199797cc9623b67e35a7e404f4fb7774" id="r_a199797cc9623b67e35a7e404f4fb7774"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a199797cc9623b67e35a7e404f4fb7774">get_south</a> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c) const noexcept override</td></tr>
+<tr class="separator:a199797cc9623b67e35a7e404f4fb7774"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3a3672845ea654abf01a607edf77e41" id="r_af3a3672845ea654abf01a607edf77e41"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3a3672845ea654abf01a607edf77e41">get_east</a> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c) const noexcept override</td></tr>
+<tr class="separator:af3a3672845ea654abf01a607edf77e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebf86db741c4422e69ea0a93e4a7da1c" id="r_aebf86db741c4422e69ea0a93e4a7da1c"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebf86db741c4422e69ea0a93e4a7da1c">get_west</a> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c) const noexcept override</td></tr>
+<tr class="separator:aebf86db741c4422e69ea0a93e4a7da1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a8ffb796313d09a2fec02c3f006dcb0" id="r_a2a8ffb796313d09a2fec02c3f006dcb0"><td class="memItemLeft" align="right" valign="top">virtual std::tuple&lt; unsigned int, unsigned int, unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a8ffb796313d09a2fec02c3f006dcb0">get_dimensions</a> () const noexcept override</td></tr>
 <tr class="memdesc:a2a8ffb796313d09a2fec02c3f006dcb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides dimensions of grid in no assumed ordering.  <br /></td></tr>
 <tr class="separator:a2a8ffb796313d09a2fec02c3f006dcb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ff83f72dd831cd3a52f510bad8cce7d" id="r_a2ff83f72dd831cd3a52f510bad8cce7d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ff83f72dd831cd3a52f510bad8cce7d">to_vec</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt; &amp;cells) const noexcept override</td></tr>
 <tr class="memdesc:a2ff83f72dd831cd3a52f510bad8cce7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a 2D grid to a vector of cells (sorted by row then column)  <br /></td></tr>
 <tr class="separator:a2ff83f72dd831cd3a52f510bad8cce7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9e1b0b733b8748195fff5c40fef02f3" id="r_ae9e1b0b733b8748195fff5c40fef02f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9e1b0b733b8748195fff5c40fef02f3">to_vec2</a> (std::vector&lt; std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt; &gt; &amp;cells) const noexcept override</td></tr>
-<tr class="memdesc:ae9e1b0b733b8748195fff5c40fef02f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a 2D grid to a vector of vectors of cells (sorted by row then column)  <br /></td></tr>
-<tr class="separator:ae9e1b0b733b8748195fff5c40fef02f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a869e1ab7142a27fdf61519859f2f3bd1" id="r_a869e1ab7142a27fdf61519859f2f3bd1"><td class="memItemLeft" align="right" valign="top">virtual std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a869e1ab7142a27fdf61519859f2f3bd1">contents_of</a> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c) const noexcept override</td></tr>
-<tr class="memdesc:a869e1ab7142a27fdf61519859f2f3bd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get detailed information of a cell in the grid.  <br /></td></tr>
-<tr class="separator:a869e1ab7142a27fdf61519859f2f3bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fb4bc28ba4c00942869236e17918f67" id="r_a8fb4bc28ba4c00942869236e17918f67"><td class="memItemLeft" align="right" valign="top">virtual std::optional&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fb4bc28ba4c00942869236e17918f67">background_color_for</a> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c) const noexcept override</td></tr>
-<tr class="memdesc:a8fb4bc28ba4c00942869236e17918f67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the background color for a cell in the grid.  <br /></td></tr>
-<tr class="separator:a8fb4bc28ba4c00942869236e17918f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad25f99a4d1747a773525cc79c12ba025" id="r_ad25f99a4d1747a773525cc79c12ba025"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad25f99a4d1747a773525cc79c12ba025">contents_of</a> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;const &amp;c) const noexcept override</td></tr>
+<tr class="memdesc:ad25f99a4d1747a773525cc79c12ba025"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get detailed information of a cell in the grid.  <br /></td></tr>
+<tr class="separator:ad25f99a4d1747a773525cc79c12ba025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fcc6adcae97ca3c016d69b65426a151" id="r_a3fcc6adcae97ca3c016d69b65426a151"><td class="memItemLeft" align="right" valign="top">virtual std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fcc6adcae97ca3c016d69b65426a151">background_color_for</a> (std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;c) const noexcept override</td></tr>
+<tr class="memdesc:a3fcc6adcae97ca3c016d69b65426a151"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the background color for a cell in the grid.  <br /></td></tr>
+<tr class="separator:a3fcc6adcae97ca3c016d69b65426a151"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af021316589d4f984b9eb8c303103d6d6" id="r_af021316589d4f984b9eb8c303103d6d6"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af021316589d4f984b9eb8c303103d6d6">search</a> (int index) const noexcept</td></tr>
 <tr class="separator:af021316589d4f984b9eb8c303103d6d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cd1e266449d0f7ba533d67b6fe4d55c" id="r_a3cd1e266449d0f7ba533d67b6fe4d55c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cd1e266449d0f7ba533d67b6fe4d55c">count</a> () const noexcept</td></tr>
-<tr class="memdesc:a3cd1e266449d0f7ba533d67b6fe4d55c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the count of cells in the grid.  <br /></td></tr>
-<tr class="separator:a3cd1e266449d0f7ba533d67b6fe4d55c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8bfe0acc6e750d5b48cd1f85a1b41b4" id="r_ab8bfe0acc6e750d5b48cd1f85a1b41b4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8bfe0acc6e750d5b48cd1f85a1b41b4">num_cells</a> () const noexcept</td></tr>
+<tr class="memdesc:ab8bfe0acc6e750d5b48cd1f85a1b41b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the count of cells in the grid.  <br /></td></tr>
+<tr class="separator:ab8bfe0acc6e750d5b48cd1f85a1b41b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bc5122a7ed21b055ac0f90a2152e129" id="r_a7bc5122a7ed21b055ac0f90a2152e129"><td class="memItemLeft" align="right" valign="top"><a id="a7bc5122a7ed21b055ac0f90a2152e129" name="a7bc5122a7ed21b055ac0f90a2152e129"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clear_cells</b> () noexcept</td></tr>
+<tr class="memdesc:a7bc5122a7ed21b055ac0f90a2152e129"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleanup cells by cleaning up links within cells. <br /></td></tr>
+<tr class="separator:a7bc5122a7ed21b055ac0f90a2152e129"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classmazes_1_1grid__interface"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmazes_1_1grid__interface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmazes_1_1grid__interface.html">mazes::grid_interface</a></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a3015027a98b6442b9144049ba6717a76" id="r_a3015027a98b6442b9144049ba6717a76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3015027a98b6442b9144049ba6717a76">build_fut</a> (std::vector&lt; int &gt; const &amp;indices) noexcept</td></tr>
-<tr class="memdesc:a3015027a98b6442b9144049ba6717a76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a future based on the provided indices.  <br /></td></tr>
-<tr class="separator:a3015027a98b6442b9144049ba6717a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97062484e5dd1cee56ec968fcbc34a90" id="r_a97062484e5dd1cee56ec968fcbc34a90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97062484e5dd1cee56ec968fcbc34a90">configure_cells</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt; &amp;cells) const noexcept</td></tr>
-<tr class="memdesc:a97062484e5dd1cee56ec968fcbc34a90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure cells by neighbors (N, S, E, W)  <br /></td></tr>
-<tr class="separator:a97062484e5dd1cee56ec968fcbc34a90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a322d7bd487cc173ff6fa5fa209c95780" id="r_a322d7bd487cc173ff6fa5fa209c95780"><td class="memItemLeft" align="right" valign="top"><a id="a322d7bd487cc173ff6fa5fa209c95780" name="a322d7bd487cc173ff6fa5fa209c95780"></a>
-std::promise&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_config_promise</b></td></tr>
-<tr class="separator:a322d7bd487cc173ff6fa5fa209c95780"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b762be225e839deefcf95450130f5eb" id="r_a0b762be225e839deefcf95450130f5eb"><td class="memItemLeft" align="right" valign="top"><a id="a0b762be225e839deefcf95450130f5eb" name="a0b762be225e839deefcf95450130f5eb"></a>
-std::mutex&#160;</td><td class="memItemRight" valign="bottom"><b>m_cells_mutex</b></td></tr>
-<tr class="separator:a0b762be225e839deefcf95450130f5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1cb3573961e89f164407d2341047551" id="r_af1cb3573961e89f164407d2341047551"><td class="memItemLeft" align="right" valign="top"><a id="af1cb3573961e89f164407d2341047551" name="af1cb3573961e89f164407d2341047551"></a>
-std::unordered_map&lt; int, std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_cells</b></td></tr>
-<tr class="separator:af1cb3573961e89f164407d2341047551"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -208,10 +201,10 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>sidewinder</b></td><
 <tr class="separator:acf987b7b97b0af44029ca003c1131152"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>General purpose grid class for maze generation. </p>
+<div class="textblock"><p>General purpose grid class for 2D maze generation. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8843831f84052ab6118f1abb438b999f" name="a8843831f84052ab6118f1abb438b999f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8843831f84052ab6118f1abb438b999f">&#9670;&#160;</a></span>grid() <span class="overload">[1/4]</span></h2>
+<a id="a7803cafd11b015a2558a6639f5047ffa" name="a7803cafd11b015a2558a6639f5047ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7803cafd11b015a2558a6639f5047ffa">&#9670;&#160;</a></span>grid() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -222,17 +215,17 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>sidewinder</b></td><
         <tr>
           <td class="memname">mazes::grid::grid </td>
           <td>(</td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>rows</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1u</span>, </td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>r</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1u</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>columns</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1u</span>, </td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>c</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1u</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>height</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1u</span>&#160;)</td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>l</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1u</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -241,13 +234,11 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>sidewinder</b></td><
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Constructor for grid. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">rows</td><td></td></tr>
-    <tr><td class="paramname">columns</td><td></td></tr>
-    <tr><td class="paramname">height</td><td><br  />
+    <tr><td class="paramname">r</td><td></td></tr>
+    <tr><td class="paramname">c</td><td></td></tr>
+    <tr><td class="paramname">l</td><td><br  />
  </td></tr>
   </table>
   </dd>
@@ -255,8 +246,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>sidewinder</b></td><
 
 </div>
 </div>
-<a id="ae1c23f039cceefaaa2f889d57e34c18b" name="ae1c23f039cceefaaa2f889d57e34c18b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1c23f039cceefaaa2f889d57e34c18b">&#9670;&#160;</a></span>grid() <span class="overload">[2/4]</span></h2>
+<a id="aba7fe4583dc2455248275a7a7b016f22" name="aba7fe4583dc2455248275a7a7b016f22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba7fe4583dc2455248275a7a7b016f22">&#9670;&#160;</a></span>grid() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,7 +258,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>sidewinder</b></td><
         <tr>
           <td class="memname">mazes::grid::grid </td>
           <td>(</td>
-          <td class="paramtype">std::tuple&lt; unsigned int, unsigned int, unsigned int &gt;</td>          <td class="paramname"><span class="paramname"><em>dimensions</em></span></td><td>)</td>
+          <td class="paramtype">std::tuple&lt; unsigned int, unsigned int, unsigned int &gt;</td>          <td class="paramname"><span class="paramname"><em>dimens</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -277,11 +268,9 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>sidewinder</b></td><
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Constructor for grid. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dimensions</td><td><br  />
+    <tr><td class="paramname">dimens</td><td><br  />
  </td></tr>
   </table>
   </dd>
@@ -350,8 +339,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>sidewinder</b></td><
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8fb4bc28ba4c00942869236e17918f67" name="a8fb4bc28ba4c00942869236e17918f67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fb4bc28ba4c00942869236e17918f67">&#9670;&#160;</a></span>background_color_for()</h2>
+<a id="a3fcc6adcae97ca3c016d69b65426a151" name="a3fcc6adcae97ca3c016d69b65426a151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fcc6adcae97ca3c016d69b65426a151">&#9670;&#160;</a></span>background_color_for()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -360,9 +349,9 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>sidewinder</b></td><
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::optional&lt; std::uint32_t &gt; mazes::grid::background_color_for </td>
+          <td class="memname">virtual std::uint32_t mazes::grid::background_color_for </td>
           <td>(</td>
-          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -383,14 +372,14 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>sidewinder</b></td><
 <dl class="section return"><dt>Returns</dt><dd><br  />
  </dd></dl>
 
-<p>Implements <a class="el" href="classmazes_1_1grid__interface.html">mazes::grid_interface</a>.</p>
+<p>Implements <a class="el" href="classmazes_1_1grid__interface.html#a8c7873b91c682a6c6f14a30b1f200f7b">mazes::grid_interface</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classmazes_1_1colored__grid.html#a2ff568a535f87f1aec7b0eda420d7b80">mazes::colored_grid</a>, and <a class="el" href="classmazes_1_1distance__grid.html#a3b2c8c975a91d8e2fcffad60dca0f5b1">mazes::distance_grid</a>.</p>
+<p>Reimplemented in <a class="el" href="classmazes_1_1colored__grid.html#adcd46a58ed298040dc6806193ff57125">mazes::colored_grid</a>, and <a class="el" href="classmazes_1_1distance__grid.html#ae788736444039e0d7d053ab4d6c4119c">mazes::distance_grid</a>.</p>
 
 </div>
 </div>
-<a id="a3015027a98b6442b9144049ba6717a76" name="a3015027a98b6442b9144049ba6717a76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3015027a98b6442b9144049ba6717a76">&#9670;&#160;</a></span>build_fut()</h2>
+<a id="a208c7b297d676716d7490fe8a7cfc520" name="a208c7b297d676716d7490fe8a7cfc520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a208c7b297d676716d7490fe8a7cfc520">&#9670;&#160;</a></span>configure()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -399,31 +388,35 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>sidewinder</b></td><
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void mazes::grid::build_fut </td>
+          <td class="memname">virtual void mazes::grid::configure </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; int &gt; const &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
+          <td class="paramtype">const std::vector&lt; int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Builds a future based on the provided indices. </p>
+<p>Configure the grid's cells' neighbors. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">indices</td><td>A constant reference to a vector of integers representing the indices. </td></tr>
+    <tr><td class="paramname">indices</td><td></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classmazes_1_1colored__grid.html#a1ae116d4ac2d0ff5922c68e41b753455">mazes::colored_grid</a>, and <a class="el" href="classmazes_1_1distance__grid.html#a43f9ce929270fa5c72151b955b36a73e">mazes::distance_grid</a>.</p>
 
 </div>
 </div>
-<a id="a97062484e5dd1cee56ec968fcbc34a90" name="a97062484e5dd1cee56ec968fcbc34a90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97062484e5dd1cee56ec968fcbc34a90">&#9670;&#160;</a></span>configure_cells()</h2>
+<a id="ad25f99a4d1747a773525cc79c12ba025" name="ad25f99a4d1747a773525cc79c12ba025"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad25f99a4d1747a773525cc79c12ba025">&#9670;&#160;</a></span>contents_of()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -432,43 +425,9 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>sidewinder</b></td><
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void mazes::grid::configure_cells </td>
+          <td class="memname">virtual std::string mazes::grid::contents_of </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cells</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Configure cells by neighbors (N, S, E, W) </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">cells</td><td><br  />
- </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a869e1ab7142a27fdf61519859f2f3bd1" name="a869e1ab7142a27fdf61519859f2f3bd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a869e1ab7142a27fdf61519859f2f3bd1">&#9670;&#160;</a></span>contents_of()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::optional&lt; std::string &gt; mazes::grid::contents_of </td>
-          <td>(</td>
-          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;const &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -489,37 +448,9 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>sidewinder</b></td><
 <dl class="section return"><dt>Returns</dt><dd><br  />
  </dd></dl>
 
-<p>Implements <a class="el" href="classmazes_1_1grid__interface.html#a9d0ce3181bb83d19c8869d1765881687">mazes::grid_interface</a>.</p>
+<p>Implements <a class="el" href="classmazes_1_1grid__interface.html#a3b82cd54a02187a4420c5855a19b0d5c">mazes::grid_interface</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classmazes_1_1colored__grid.html#a9653a704079706b3aa68482bcf685e94">mazes::colored_grid</a>, and <a class="el" href="classmazes_1_1distance__grid.html#a74976f8dcd8b383de35f55f2f452b5ba">mazes::distance_grid</a>.</p>
-
-</div>
-</div>
-<a id="a3cd1e266449d0f7ba533d67b6fe4d55c" name="a3cd1e266449d0f7ba533d67b6fe4d55c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3cd1e266449d0f7ba533d67b6fe4d55c">&#9670;&#160;</a></span>count()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int mazes::grid::count </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the count of cells in the grid. </p>
-<dl class="section return"><dt>Returns</dt><dd>The number of cells in the grid </dd></dl>
+<p>Reimplemented in <a class="el" href="classmazes_1_1colored__grid.html#afa6b41f2dd59c9a752ee546c3c8f46ac">mazes::colored_grid</a>, and <a class="el" href="classmazes_1_1distance__grid.html#a28c9e151f4754bcb644607e03deae578">mazes::distance_grid</a>.</p>
 
 </div>
 </div>
@@ -554,8 +485,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>sidewinder</b></td><
 
 </div>
 </div>
-<a id="a7310ebeca91493135e765a713bd822d6" name="a7310ebeca91493135e765a713bd822d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7310ebeca91493135e765a713bd822d6">&#9670;&#160;</a></span>get_future()</h2>
+<a id="af3a3672845ea654abf01a607edf77e41" name="af3a3672845ea654abf01a607edf77e41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3a3672845ea654abf01a607edf77e41">&#9670;&#160;</a></span>get_east()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -564,30 +495,204 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>sidewinder</b></td><
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::future&lt; bool &gt; mazes::grid::get_future </td>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; mazes::grid::get_east </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Initialize and configure. </p>
+<p>Implements <a class="el" href="classmazes_1_1grid__interface.html">mazes::grid_interface</a>.</p>
+
+</div>
+</div>
+<a id="ada508507926b249e5600653afd6c6a8d" name="ada508507926b249e5600653afd6c6a8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada508507926b249e5600653afd6c6a8d">&#9670;&#160;</a></span>get_neighbor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; mazes::grid::get_neighbor </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacemazes.html#a729372da8296ec97f1a41425f42227df">Direction</a></td>          <td class="paramname"><span class="paramname"><em>dir</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get neighbor by the cell's respective location. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">callback</td><td>notifies when configuration is complete </td></tr>
+    <tr><td class="paramname">c</td><td></td></tr>
+    <tr><td class="paramname">dir</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><br  />
  </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classmazes_1_1distance__grid.html#a4c82a9d97c7f997a9eaf44fc3df732c0">mazes::distance_grid</a>.</p>
+</div>
+</div>
+<a id="a0c841b68eb23a6c6c5529085747c494a" name="a0c841b68eb23a6c6c5529085747c494a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c841b68eb23a6c6c5529085747c494a">&#9670;&#160;</a></span>get_neighbors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt; mazes::grid::get_neighbors </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get all the neighbors by the cell. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="ad7a1e29b398389cade9532b4a7ca0ae2" name="ad7a1e29b398389cade9532b4a7ca0ae2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7a1e29b398389cade9532b4a7ca0ae2">&#9670;&#160;</a></span>get_north()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; mazes::grid::get_north </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classmazes_1_1grid__interface.html">mazes::grid_interface</a>.</p>
+
+</div>
+</div>
+<a id="a199797cc9623b67e35a7e404f4fb7774" name="a199797cc9623b67e35a7e404f4fb7774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a199797cc9623b67e35a7e404f4fb7774">&#9670;&#160;</a></span>get_south()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; mazes::grid::get_south </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classmazes_1_1grid__interface.html">mazes::grid_interface</a>.</p>
+
+</div>
+</div>
+<a id="aebf86db741c4422e69ea0a93e4a7da1c" name="aebf86db741c4422e69ea0a93e4a7da1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebf86db741c4422e69ea0a93e4a7da1c">&#9670;&#160;</a></span>get_west()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; mazes::grid::get_west </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classmazes_1_1grid__interface.html">mazes::grid_interface</a>.</p>
+
+</div>
+</div>
+<a id="ab8bfe0acc6e750d5b48cd1f85a1b41b4" name="ab8bfe0acc6e750d5b48cd1f85a1b41b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8bfe0acc6e750d5b48cd1f85a1b41b4">&#9670;&#160;</a></span>num_cells()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mazes::grid::num_cells </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the count of cells in the grid. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of cells in the grid </dd></dl>
 
 </div>
 </div>
@@ -718,41 +823,6 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>sidewinder</b></td><
 </dl>
 
 <p>Implements <a class="el" href="classmazes_1_1grid__interface.html#a9334d7227b0d2b7d33342c8be7ffcb98">mazes::grid_interface</a>.</p>
-
-</div>
-</div>
-<a id="ae9e1b0b733b8748195fff5c40fef02f3" name="ae9e1b0b733b8748195fff5c40fef02f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9e1b0b733b8748195fff5c40fef02f3">&#9670;&#160;</a></span>to_vec2()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void mazes::grid::to_vec2 </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cells</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Convert a 2D grid to a vector of vectors of cells (sorted by row then column) </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">cells</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implements <a class="el" href="classmazes_1_1grid__interface.html">mazes::grid_interface</a>.</p>
 
 </div>
 </div>

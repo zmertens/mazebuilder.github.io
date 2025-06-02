@@ -22,10 +22,12 @@ var annotated_dup =
       [ "progress", "classmazes_1_1progress.html", "classmazes_1_1progress" ],
       [ "randomizer", "classmazes_1_1randomizer.html", "classmazes_1_1randomizer" ],
       [ "sidewinder", "classmazes_1_1sidewinder.html", "classmazes_1_1sidewinder" ],
+      [ "singleton_base", "classmazes_1_1singleton__base.html", null ],
       [ "stringz", "classmazes_1_1stringz.html", null ],
       [ "tri_hash", "structmazes_1_1tri__hash.html", "structmazes_1_1tri__hash" ],
       [ "uni_hash", "structmazes_1_1uni__hash.html", "structmazes_1_1uni__hash" ],
       [ "wavefront_object_helper", "classmazes_1_1wavefront__object__helper.html", "classmazes_1_1wavefront__object__helper" ],
+      [ "weak_ptr_hash", "structmazes_1_1weak__ptr__hash.html", "structmazes_1_1weak__ptr__hash" ],
       [ "writer", "classmazes_1_1writer.html", "classmazes_1_1writer" ]
     ] ]
 ];

@@ -1,5 +1,5 @@
 <map id="mazes::grid" name="mazes::grid">
-<area shape="rect" id="Node000001" title="General purpose grid class for maze generation." alt="" coords="34,80,123,107"/>
+<area shape="rect" id="Node000001" title="General purpose grid class for 2D maze generation." alt="" coords="34,80,123,107"/>
 <area shape="rect" id="Node000002" href="$classmazes_1_1grid__interface.html" title="Interface for the grid class." alt="" coords="5,5,152,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,48,81,80,76,80,76,48"/>
 </map>

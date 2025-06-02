@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.0.1</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.3.5</span>
    </div>
   </td>
  </tr>
@@ -122,12 +122,18 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aefd2c9ee385902b8889c8a52a82d5779" id="r_aefd2c9ee385902b8889c8a52a82d5779"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefd2c9ee385902b8889c8a52a82d5779">to_pixels</a> (const std::string &amp;s, std::vector&lt; std::uint8_t &gt; &amp;pixels, int &amp;width, int &amp;height, int stride=4) noexcept</td></tr>
 <tr class="memdesc:aefd2c9ee385902b8889c8a52a82d5779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a string representation of an image to a pixel array.  <br /></td></tr>
 <tr class="separator:aefd2c9ee385902b8889c8a52a82d5779"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af19a6384f46330f84ea4d94cc736e372" id="r_af19a6384f46330f84ea4d94cc736e372"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af19a6384f46330f84ea4d94cc736e372">to_pixels</a> (const std::unique_ptr&lt; <a class="el" href="classmazes_1_1maze.html">maze</a> &gt; &amp;m, std::vector&lt; std::uint8_t &gt; &amp;pixels, int &amp;width, int &amp;height, int stride=4) noexcept</td></tr>
-<tr class="memdesc:af19a6384f46330f84ea4d94cc736e372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a maze to a pixel representation.  <br /></td></tr>
-<tr class="separator:af19a6384f46330f84ea4d94cc736e372"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81277c1f4e9cc1ecdb6804f30b13cfd2" id="r_a81277c1f4e9cc1ecdb6804f30b13cfd2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81277c1f4e9cc1ecdb6804f30b13cfd2">to_pixels_colored</a> (const std::string &amp;s, std::vector&lt; std::uint8_t &gt; &amp;pixels, int &amp;width, int &amp;height, int stride=4) noexcept</td></tr>
+<tr class="memdesc:a81277c1f4e9cc1ecdb6804f30b13cfd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a maze to a pixel representation.  <br /></td></tr>
+<tr class="separator:a81277c1f4e9cc1ecdb6804f30b13cfd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c500f194b26304411c49400c360d40e" id="r_a8c500f194b26304411c49400c360d40e"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c500f194b26304411c49400c360d40e">stringify</a> (const std::unique_ptr&lt; <a class="el" href="classmazes_1_1maze.html">maze</a> &gt; &amp;m) noexcept</td></tr>
 <tr class="memdesc:a8c500f194b26304411c49400c360d40e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a maze into a string representation.  <br /></td></tr>
 <tr class="separator:a8c500f194b26304411c49400c360d40e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71f3bbad51d70b32ca156cd57ff12c74" id="r_a71f3bbad51d70b32ca156cd57ff12c74"><td class="memItemLeft" align="right" valign="top">static std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71f3bbad51d70b32ca156cd57ff12c74">strip</a> (const std::string_view &amp;s, char to_strip_from_s) noexcept</td></tr>
+<tr class="memdesc:a71f3bbad51d70b32ca156cd57ff12c74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strip specific characters from the beginning and end of a string view.  <br /></td></tr>
+<tr class="separator:a71f3bbad51d70b32ca156cd57ff12c74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab76eb921b8b0950b879cc254985a4b5c" id="r_ab76eb921b8b0950b879cc254985a4b5c"><td class="memItemLeft" align="right" valign="top">static std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab76eb921b8b0950b879cc254985a4b5c">strip_json_quotes</a> (const std::string_view &amp;s) noexcept</td></tr>
+<tr class="memdesc:ab76eb921b8b0950b879cc254985a4b5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strip quotes from a JSON string value.  <br /></td></tr>
+<tr class="separator:ab76eb921b8b0950b879cc254985a4b5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>String helper class. </p>
@@ -256,8 +262,81 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a71f3bbad51d70b32ca156cd57ff12c74" name="a71f3bbad51d70b32ca156cd57ff12c74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71f3bbad51d70b32ca156cd57ff12c74">&#9670;&#160;</a></span>strip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string_view mazes::stringz::strip </td>
+          <td>(</td>
+          <td class="paramtype">const std::string_view &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>to_strip_from_s</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Strip specific characters from the beginning and end of a string view. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The string view to strip characters from </td></tr>
+    <tr><td class="paramname">to_strip_from_s</td><td>The character to strip </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A new string view with the specified characters removed from both ends </dd></dl>
+
+</div>
+</div>
+<a id="ab76eb921b8b0950b879cc254985a4b5c" name="ab76eb921b8b0950b879cc254985a4b5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab76eb921b8b0950b879cc254985a4b5c">&#9670;&#160;</a></span>strip_json_quotes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string_view mazes::stringz::strip_json_quotes </td>
+          <td>(</td>
+          <td class="paramtype">const std::string_view &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Strip quotes from a JSON string value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The string view potentially containing JSON quotes </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A string view with JSON quotes removed from both ends </dd></dl>
+
+</div>
+</div>
 <a id="aefd2c9ee385902b8889c8a52a82d5779" name="aefd2c9ee385902b8889c8a52a82d5779"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefd2c9ee385902b8889c8a52a82d5779">&#9670;&#160;</a></span>to_pixels() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aefd2c9ee385902b8889c8a52a82d5779">&#9670;&#160;</a></span>to_pixels()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,8 +390,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af19a6384f46330f84ea4d94cc736e372" name="af19a6384f46330f84ea4d94cc736e372"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af19a6384f46330f84ea4d94cc736e372">&#9670;&#160;</a></span>to_pixels() <span class="overload">[2/2]</span></h2>
+<a id="a81277c1f4e9cc1ecdb6804f30b13cfd2" name="a81277c1f4e9cc1ecdb6804f30b13cfd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81277c1f4e9cc1ecdb6804f30b13cfd2">&#9670;&#160;</a></span>to_pixels_colored()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -321,9 +400,9 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void mazes::stringz::to_pixels </td>
+          <td class="memname">static void mazes::stringz::to_pixels_colored </td>
           <td>(</td>
-          <td class="paramtype">const std::unique_ptr&lt; <a class="el" href="classmazes_1_1maze.html">maze</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span>, </td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

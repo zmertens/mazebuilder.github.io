@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['max_0',['max',['../classmazes_1_1distances.html#a303a897fcfbdfc41c666a29c62bbd17d',1,'mazes::distances']]]
+  ['max_0',['max',['../classmazes_1_1distances.html#a11c70389cd50106bd02efd1147e64be0',1,'mazes::distances']]]
 ];

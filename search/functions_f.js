@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['to_5fpixels_0',['to_pixels',['../classmazes_1_1stringz.html#aefd2c9ee385902b8889c8a52a82d5779',1,'mazes::stringz::to_pixels(const std::string &amp;s, std::vector&lt; std::uint8_t &gt; &amp;pixels, int &amp;width, int &amp;height, int stride=4) noexcept'],['../classmazes_1_1stringz.html#af19a6384f46330f84ea4d94cc736e372',1,'mazes::stringz::to_pixels(const std::unique_ptr&lt; maze &gt; &amp;m, std::vector&lt; std::uint8_t &gt; &amp;pixels, int &amp;width, int &amp;height, int stride=4) noexcept']]],
-  ['to_5fstr_1',['to_str',['../structmazes_1_1args.html#ac1b767c0bad97f9779e19ff074011f3b',1,'mazes::args']]],
-  ['to_5fvec_2',['to_vec',['../classmazes_1_1grid.html#a2ff83f72dd831cd3a52f510bad8cce7d',1,'mazes::grid::to_vec()'],['../classmazes_1_1grid__interface.html#a9334d7227b0d2b7d33342c8be7ffcb98',1,'mazes::grid_interface::to_vec()']]],
-  ['to_5fvec2_3',['to_vec2',['../classmazes_1_1grid.html#ae9e1b0b733b8748195fff5c40fef02f3',1,'mazes::grid']]],
-  ['to_5fwavefront_5fobject_5fstr_4',['to_wavefront_object_str',['../classmazes_1_1wavefront__object__helper.html#aa0f24e60f73547bc195799bd24e2adc3',1,'mazes::wavefront_object_helper']]],
-  ['trim_5',['trim',['../structmazes_1_1args.html#aa609b80fa6b68144a94db00534d2c9a4',1,'mazes::args']]]
+  ['search_0',['search',['../classmazes_1_1grid.html#af021316589d4f984b9eb8c303103d6d6',1,'mazes::grid']]],
+  ['seed_1',['seed',['../classmazes_1_1randomizer.html#a1abfd352227a277557e1ffaa2c136af3',1,'mazes::randomizer']]],
+  ['set_2',['set',['../structmazes_1_1args.html#aea89db4da4cfebbc6c379681235b4a17',1,'mazes::args::set()'],['../classmazes_1_1distances.html#a02617c34998720a92b1034f8bc06eb06',1,'mazes::distances::set()']]],
+  ['set_5findex_3',['set_index',['../classmazes_1_1cell.html#a8c04499f0e1def466f2480bc0ffda844',1,'mazes::cell']]],
+  ['stringify_4',['stringify',['../classmazes_1_1stringz.html#a8c500f194b26304411c49400c360d40e',1,'mazes::stringz']]],
+  ['strip_5',['strip',['../classmazes_1_1stringz.html#a71f3bbad51d70b32ca156cd57ff12c74',1,'mazes::stringz']]],
+  ['strip_5fjson_5fquotes_6',['strip_json_quotes',['../classmazes_1_1stringz.html#ab76eb921b8b0950b879cc254985a4b5c',1,'mazes::stringz']]]
 ];

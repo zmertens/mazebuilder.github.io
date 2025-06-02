@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Maze Builder Docs: Member List</title>
+<title>Maze Builder Docs: mazes::weak_ptr_hash Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.0.1</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.3.5</span>
    </div>
   </td>
  </tr>
@@ -73,7 +73,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('classmazes_1_1base__64__helper.html',''); initResizable(true); });
+$(function(){initNavTree('structmazes_1_1weak__ptr__hash.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -99,25 +99,80 @@ $(function(){initNavTree('classmazes_1_1base__64__helper.html',''); initResizabl
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">mazes::base_64_helper Member List</div></div>
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="structmazes_1_1weak__ptr__hash-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">mazes::weak_ptr_hash Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="classmazes_1_1base__64__helper.html">mazes::base_64_helper</a>, including all inherited members.</p>
-<table class="directory">
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>base_64_helper</b>() (defined in <a class="el" href="classmazes_1_1base__64__helper.html">mazes::base_64_helper</a>)</td><td class="entry"><a class="el" href="classmazes_1_1base__64__helper.html">mazes::base_64_helper</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>base_64_helper</b>(const base_64_helper &amp;other) (defined in <a class="el" href="classmazes_1_1base__64__helper.html">mazes::base_64_helper</a>)</td><td class="entry"><a class="el" href="classmazes_1_1base__64__helper.html">mazes::base_64_helper</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>base_64_helper</b>(base_64_helper &amp;&amp;other) noexcept=default (defined in <a class="el" href="classmazes_1_1base__64__helper.html">mazes::base_64_helper</a>)</td><td class="entry"><a class="el" href="classmazes_1_1base__64__helper.html">mazes::base_64_helper</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmazes_1_1base__64__helper.html#a2b3c1dde467cf8ddd6add35a059aea69">decode</a>(const std::string &amp;s) const noexcept</td><td class="entry"><a class="el" href="classmazes_1_1base__64__helper.html">mazes::base_64_helper</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmazes_1_1base__64__helper.html#a135b2413e2f301e4905be3254f8d8e77">encode</a>(const std::string &amp;s) const noexcept</td><td class="entry"><a class="el" href="classmazes_1_1base__64__helper.html">mazes::base_64_helper</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>operator=</b>(const base_64_helper &amp;other) (defined in <a class="el" href="classmazes_1_1base__64__helper.html">mazes::base_64_helper</a>)</td><td class="entry"><a class="el" href="classmazes_1_1base__64__helper.html">mazes::base_64_helper</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>operator=</b>(base_64_helper &amp;&amp;other) noexcept=default (defined in <a class="el" href="classmazes_1_1base__64__helper.html">mazes::base_64_helper</a>)</td><td class="entry"><a class="el" href="classmazes_1_1base__64__helper.html">mazes::base_64_helper</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>~base_64_helper</b>() (defined in <a class="el" href="classmazes_1_1base__64__helper.html">mazes::base_64_helper</a>)</td><td class="entry"><a class="el" href="classmazes_1_1base__64__helper.html">mazes::base_64_helper</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<p>Hashing function to store a weak_ptr.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="hash__funcs_8h_source.html">hash_funcs.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a0da8cd13eb61b5f0f9b706b0d2b418aa" id="r_a0da8cd13eb61b5f0f9b706b0d2b418aa"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0da8cd13eb61b5f0f9b706b0d2b418aa"><td class="memTemplItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a0da8cd13eb61b5f0f9b706b0d2b418aa">operator()</a> (const std::weak_ptr&lt; T &gt; &amp;weak) const</td></tr>
+<tr class="memdesc:a0da8cd13eb61b5f0f9b706b0d2b418aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hashing function.  <br /></td></tr>
+<tr class="separator:a0da8cd13eb61b5f0f9b706b0d2b418aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Hashing function to store a weak_ptr. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0da8cd13eb61b5f0f9b706b0d2b418aa" name="a0da8cd13eb61b5f0f9b706b0d2b418aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0da8cd13eb61b5f0f9b706b0d2b418aa">&#9670;&#160;</a></span>operator()()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t mazes::weak_ptr_hash::operator() </td>
+          <td>(</td>
+          <td class="paramtype">const std::weak_ptr&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>weak</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Hashing function. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">weak</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="hash__funcs_8h_source.html">hash_funcs.h</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="namespacemazes.html">mazes</a></li><li class="navelem"><a class="el" href="structmazes_1_1weak__ptr__hash.html">weak_ptr_hash</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>

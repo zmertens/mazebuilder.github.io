@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.0.1</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.3.5</span>
    </div>
   </td>
  </tr>
@@ -105,38 +105,58 @@ $(function(){initNavTree('randomizer_8h_source.html',''); initResizable(true); }
 <a href="randomizer_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef RANDOMIZER_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define RANDOMIZER_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacemazes.html">mazes</a> {</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="classmazes_1_1randomizer.html">   14</a></span><span class="keyword">class </span><a class="code hl_class" href="classmazes_1_1randomizer.html">randomizer</a> {</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="classmazes_1_1randomizer.html#ab6bc2f1615334e9315366763fa73d601">   18</a></span>    <a class="code hl_function" href="classmazes_1_1randomizer.html#ab6bc2f1615334e9315366763fa73d601">randomizer</a>();</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_class" href="classmazes_1_1randomizer.html">~randomizer</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacemazes.html">mazes</a> {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="classmazes_1_1randomizer.html">   15</a></span><span class="keyword">class </span><a class="code hl_class" href="classmazes_1_1randomizer.html">randomizer</a> {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="classmazes_1_1randomizer.html#ab6bc2f1615334e9315366763fa73d601">   19</a></span>    <a class="code hl_function" href="classmazes_1_1randomizer.html#ab6bc2f1615334e9315366763fa73d601">randomizer</a>();</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="comment">//int get_int(int low, int high) const noexcept;</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="comment">//void seed() noexcept;</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="comment">//void seed(unsigned long long seed) noexcept;</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="comment">//int operator()(int low, int high) const noexcept {</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="comment">//    return get_int(low, high);</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="comment">//}</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classmazes_1_1randomizer.html#a40f0ef9d6a1913ea821402afe90a32ec">   22</a></span>    <a class="code hl_function" href="classmazes_1_1randomizer.html#a40f0ef9d6a1913ea821402afe90a32ec">~randomizer</a>();</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="classmazes_1_1randomizer.html#afb6e183ae3979aa757dbd04389d0146f">   26</a></span>    <a class="code hl_function" href="classmazes_1_1randomizer.html#afb6e183ae3979aa757dbd04389d0146f">randomizer</a>(<span class="keyword">const</span> <a class="code hl_class" href="classmazes_1_1randomizer.html">randomizer</a>&amp; other);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="classmazes_1_1randomizer.html#ad8b60bbce42cd0f7dc18f798c9614812">   31</a></span>    <a class="code hl_class" href="classmazes_1_1randomizer.html">randomizer</a>&amp; <a class="code hl_function" href="classmazes_1_1randomizer.html#ad8b60bbce42cd0f7dc18f798c9614812">operator=</a>(<span class="keyword">const</span> <a class="code hl_class" href="classmazes_1_1randomizer.html">randomizer</a>&amp; other);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="classmazes_1_1randomizer.html#a8bf6fe45e790da5e53925ed3001d0fa0">   35</a></span>    <a class="code hl_function" href="classmazes_1_1randomizer.html#a8bf6fe45e790da5e53925ed3001d0fa0">randomizer</a>(<a class="code hl_class" href="classmazes_1_1randomizer.html">randomizer</a>&amp;&amp; other) <span class="keyword">noexcept</span>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classmazes_1_1randomizer.html#a96277d93eafa69cae93b19f9ebfc606d">   40</a></span>    <a class="code hl_class" href="classmazes_1_1randomizer.html">randomizer</a>&amp; <a class="code hl_function" href="classmazes_1_1randomizer.html#a96277d93eafa69cae93b19f9ebfc606d">operator=</a>(<a class="code hl_class" href="classmazes_1_1randomizer.html">randomizer</a>&amp;&amp; other) <span class="keyword">noexcept</span>;</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">class </span>randomizer_impl;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    std::unique_ptr&lt;randomizer_impl&gt; m_impl;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>};</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classmazes_1_1randomizer.html#a93998205b84a21580221440cd063bf71">   46</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classmazes_1_1randomizer.html#a93998205b84a21580221440cd063bf71">get_int_incl</a>(<span class="keywordtype">int</span> low, <span class="keywordtype">int</span> high) <span class="keyword">noexcept</span>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classmazes_1_1randomizer.html#ae89bd760acd8c578fde7c1d8a38cb769">   52</a></span>    std::vector&lt;int&gt; <a class="code hl_function" href="classmazes_1_1randomizer.html#ae89bd760acd8c578fde7c1d8a38cb769">get_num_ints_incl</a>(<span class="keywordtype">int</span> low = 0, <span class="keywordtype">int</span> high = 1) noexcept;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="classmazes_1_1randomizer.html#a1abfd352227a277557e1ffaa2c136af3">   56</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classmazes_1_1randomizer.html#a1abfd352227a277557e1ffaa2c136af3">seed</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> <a class="code hl_function" href="classmazes_1_1randomizer.html#a1abfd352227a277557e1ffaa2c136af3">seed</a> = 0) noexcept;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="foldopen" id="foldopen00062" data-start="{" data-end="}">
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="classmazes_1_1randomizer.html#ac63deb2c90d5487162d8155490e570c4">   62</a></span>    <span class="keywordtype">int</span> operator()(<span class="keywordtype">int</span> low, <span class="keywordtype">int</span> high) noexcept {</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="classmazes_1_1randomizer.html#a93998205b84a21580221440cd063bf71">get_int_incl</a>(low, high);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    }</div>
 </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>}</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#endif </span><span class="comment">// RANDOMIZER_H</span></div>
-<div class="ttc" id="aclassmazes_1_1randomizer_html"><div class="ttname"><a href="classmazes_1_1randomizer.html">mazes::randomizer</a></div><div class="ttdoc">Provides random-number generating capabilities.</div><div class="ttdef"><b>Definition</b> randomizer.h:14</div></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keyword">class </span>randomizer_impl;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    std::unique_ptr&lt;randomizer_impl&gt; m_impl;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>};</div>
+</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>}</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">#endif </span><span class="comment">// RANDOMIZER_H</span></div>
+<div class="ttc" id="aclassmazes_1_1randomizer_html"><div class="ttname"><a href="classmazes_1_1randomizer.html">mazes::randomizer</a></div><div class="ttdoc">Provides random-number generating capabilities.</div><div class="ttdef"><b>Definition</b> randomizer.h:15</div></div>
+<div class="ttc" id="aclassmazes_1_1randomizer_html_a1abfd352227a277557e1ffaa2c136af3"><div class="ttname"><a href="classmazes_1_1randomizer.html#a1abfd352227a277557e1ffaa2c136af3">mazes::randomizer::seed</a></div><div class="ttdeci">void seed(unsigned long long seed=0) noexcept</div><div class="ttdoc">Seeds the random number generator with the given seed value.</div></div>
+<div class="ttc" id="aclassmazes_1_1randomizer_html_a40f0ef9d6a1913ea821402afe90a32ec"><div class="ttname"><a href="classmazes_1_1randomizer.html#a40f0ef9d6a1913ea821402afe90a32ec">mazes::randomizer::~randomizer</a></div><div class="ttdeci">~randomizer()</div><div class="ttdoc">Destructor.</div></div>
+<div class="ttc" id="aclassmazes_1_1randomizer_html_a8bf6fe45e790da5e53925ed3001d0fa0"><div class="ttname"><a href="classmazes_1_1randomizer.html#a8bf6fe45e790da5e53925ed3001d0fa0">mazes::randomizer::randomizer</a></div><div class="ttdeci">randomizer(randomizer &amp;&amp;other) noexcept</div><div class="ttdoc">Move constructor.</div></div>
+<div class="ttc" id="aclassmazes_1_1randomizer_html_a93998205b84a21580221440cd063bf71"><div class="ttname"><a href="classmazes_1_1randomizer.html#a93998205b84a21580221440cd063bf71">mazes::randomizer::get_int_incl</a></div><div class="ttdeci">int get_int_incl(int low, int high) noexcept</div><div class="ttdoc">Generates a random integer within a specified range.</div></div>
+<div class="ttc" id="aclassmazes_1_1randomizer_html_a96277d93eafa69cae93b19f9ebfc606d"><div class="ttname"><a href="classmazes_1_1randomizer.html#a96277d93eafa69cae93b19f9ebfc606d">mazes::randomizer::operator=</a></div><div class="ttdeci">randomizer &amp; operator=(randomizer &amp;&amp;other) noexcept</div><div class="ttdoc">Move assignment operator.</div></div>
 <div class="ttc" id="aclassmazes_1_1randomizer_html_ab6bc2f1615334e9315366763fa73d601"><div class="ttname"><a href="classmazes_1_1randomizer.html#ab6bc2f1615334e9315366763fa73d601">mazes::randomizer::randomizer</a></div><div class="ttdeci">randomizer()</div><div class="ttdoc">Default constructor.</div></div>
+<div class="ttc" id="aclassmazes_1_1randomizer_html_ad8b60bbce42cd0f7dc18f798c9614812"><div class="ttname"><a href="classmazes_1_1randomizer.html#ad8b60bbce42cd0f7dc18f798c9614812">mazes::randomizer::operator=</a></div><div class="ttdeci">randomizer &amp; operator=(const randomizer &amp;other)</div><div class="ttdoc">Copy assignment operator.</div></div>
+<div class="ttc" id="aclassmazes_1_1randomizer_html_ae89bd760acd8c578fde7c1d8a38cb769"><div class="ttname"><a href="classmazes_1_1randomizer.html#ae89bd760acd8c578fde7c1d8a38cb769">mazes::randomizer::get_num_ints_incl</a></div><div class="ttdeci">std::vector&lt; int &gt; get_num_ints_incl(int low=0, int high=1) noexcept</div><div class="ttdoc">Generates a random vector of integers with an optional range.</div></div>
+<div class="ttc" id="aclassmazes_1_1randomizer_html_afb6e183ae3979aa757dbd04389d0146f"><div class="ttname"><a href="classmazes_1_1randomizer.html#afb6e183ae3979aa757dbd04389d0146f">mazes::randomizer::randomizer</a></div><div class="ttdeci">randomizer(const randomizer &amp;other)</div><div class="ttdoc">Copy constructor.</div></div>
 <div class="ttc" id="anamespacemazes_html"><div class="ttname"><a href="namespacemazes.html">mazes</a></div><div class="ttdoc">Namespace for the maze builder.</div><div class="ttdef"><b>Definition</b> algo_interface.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

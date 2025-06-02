@@ -1,3 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classmazes_1_1json__helper.html" title="JSON helper class." alt="" coords="5,5,140,32"/>
+<area shape="rect" id="Node000000" href="$classmazes_1_1grid__interface.html" title="Interface for the grid class." alt="" coords="5,31,152,57"/>
+<area shape="rect" id="Node000001" href="$classmazes_1_1grid.html" title="General purpose grid class for 2D maze generation." alt="" coords="200,31,289,57"/>
+<area shape="poly" id="edge4_Node000000_Node000001" title=" " alt="" coords="167,41,199,41,199,47,167,47"/>
+<area shape="rect" id="Node000002" href="$classmazes_1_1colored__grid.html" title="Extension of the grid class to include color information." alt="" coords="340,5,479,32"/>
+<area shape="poly" id="edge5_Node000001_Node000002" title=" " alt="" coords="304,32,340,27,341,32,305,38"/>
+<area shape="rect" id="Node000003" href="$classmazes_1_1distance__grid.html" title="A grid that can calculate distances between cells." alt="" coords="337,56,482,83"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="305,50,337,55,336,61,304,56"/>
 </map>

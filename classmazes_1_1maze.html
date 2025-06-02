@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.0.1</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.3.5</span>
    </div>
   </td>
  </tr>
@@ -113,27 +113,21 @@ $(function(){initNavTree('classmazes_1_1maze.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8b1da74a01c5a62e109344f261cb47bf" id="r_a8b1da74a01c5a62e109344f261cb47bf"><td class="memItemLeft" align="right" valign="top"><a id="a8b1da74a01c5a62e109344f261cb47bf" name="a8b1da74a01c5a62e109344f261cb47bf"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>maze</b> (std::unique_ptr&lt; <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &gt; g, <a class="el" href="classmazes_1_1configurator.html">configurator</a> const &amp;config) noexcept</td></tr>
-<tr class="separator:a8b1da74a01c5a62e109344f261cb47bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a358417d083342f19ff4b54a25768bdb3" id="r_a358417d083342f19ff4b54a25768bdb3"><td class="memItemLeft" align="right" valign="top"><a id="a358417d083342f19ff4b54a25768bdb3" name="a358417d083342f19ff4b54a25768bdb3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>maze</b> (<a class="el" href="classmazes_1_1configurator.html">configurator</a> const &amp;config, std::string_view s) noexcept</td></tr>
+<tr class="separator:a358417d083342f19ff4b54a25768bdb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac52f3d6a6ab600f58d94abd249bafd16" id="r_ac52f3d6a6ab600f58d94abd249bafd16"><td class="memItemLeft" align="right" valign="top"><a id="ac52f3d6a6ab600f58d94abd249bafd16" name="ac52f3d6a6ab600f58d94abd249bafd16"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>get_block_id</b> () const noexcept</td></tr>
 <tr class="separator:ac52f3d6a6ab600f58d94abd249bafd16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd022956040c112dcdc9c86d928ffd03" id="r_abd022956040c112dcdc9c86d928ffd03"><td class="memItemLeft" align="right" valign="top"><a id="abd022956040c112dcdc9c86d928ffd03" name="abd022956040c112dcdc9c86d928ffd03"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>has_distances</b> () const noexcept</td></tr>
 <tr class="separator:abd022956040c112dcdc9c86d928ffd03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ac7514c552a6fbc33a6f614cb67c5cc" id="r_a8ac7514c552a6fbc33a6f614cb67c5cc"><td class="memItemLeft" align="right" valign="top"><a id="a8ac7514c552a6fbc33a6f614cb67c5cc" name="a8ac7514c552a6fbc33a6f614cb67c5cc"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>get_rows</b> () const noexcept</td></tr>
-<tr class="separator:a8ac7514c552a6fbc33a6f614cb67c5cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8d69b2672c9f498b35fb603403642c8" id="r_ae8d69b2672c9f498b35fb603403642c8"><td class="memItemLeft" align="right" valign="top"><a id="ae8d69b2672c9f498b35fb603403642c8" name="ae8d69b2672c9f498b35fb603403642c8"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>get_columns</b> () const noexcept</td></tr>
-<tr class="separator:ae8d69b2672c9f498b35fb603403642c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4403321fd76c435abf0c7d2a54940ca0" id="r_a4403321fd76c435abf0c7d2a54940ca0"><td class="memItemLeft" align="right" valign="top"><a id="a4403321fd76c435abf0c7d2a54940ca0" name="a4403321fd76c435abf0c7d2a54940ca0"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>get_levels</b> () const noexcept</td></tr>
-<tr class="separator:a4403321fd76c435abf0c7d2a54940ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5019755a9f80422c9658fc01c1653515" id="r_a5019755a9f80422c9658fc01c1653515"><td class="memItemLeft" align="right" valign="top"><a id="a5019755a9f80422c9658fc01c1653515" name="a5019755a9f80422c9658fc01c1653515"></a>
-const std::unique_ptr&lt; <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>get_grid</b> () const noexcept</td></tr>
-<tr class="separator:a5019755a9f80422c9658fc01c1653515"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab82f2b4758d92999e22cf670580567c9" id="r_ab82f2b4758d92999e22cf670580567c9"><td class="memItemLeft" align="right" valign="top"><a id="ab82f2b4758d92999e22cf670580567c9" name="ab82f2b4758d92999e22cf670580567c9"></a>
+std::tuple&lt; int, int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_dimensions</b> () const noexcept</td></tr>
+<tr class="separator:ab82f2b4758d92999e22cf670580567c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fb9d5393ad6d6abd119f920d4df8387" id="r_a7fb9d5393ad6d6abd119f920d4df8387"><td class="memItemLeft" align="right" valign="top"><a id="a7fb9d5393ad6d6abd119f920d4df8387" name="a7fb9d5393ad6d6abd119f920d4df8387"></a>
+std::string_view&#160;</td><td class="memItemRight" valign="bottom"><b>str</b> () const noexcept</td></tr>
+<tr class="separator:a7fb9d5393ad6d6abd119f920d4df8387"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Data class representing a 2D or 3D maze. </p>

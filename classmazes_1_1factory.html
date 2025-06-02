@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.0.1</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.3.5</span>
    </div>
   </td>
  </tr>
@@ -113,15 +113,18 @@ $(function(){initNavTree('classmazes_1_1factory.html',''); initResizable(true); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:acb97107d66b9dc6b92ad7a753be95649" id="r_acb97107d66b9dc6b92ad7a753be95649"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; std::unique_ptr&lt; <a class="el" href="classmazes_1_1maze.html">maze</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb97107d66b9dc6b92ad7a753be95649">create</a> (<a class="el" href="classmazes_1_1configurator.html">configurator</a> const &amp;config) noexcept</td></tr>
-<tr class="memdesc:acb97107d66b9dc6b92ad7a753be95649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a maze pointer.  <br /></td></tr>
-<tr class="separator:acb97107d66b9dc6b92ad7a753be95649"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdc2308c829e80e9467d7f248f83e4c4" id="r_abdc2308c829e80e9467d7f248f83e4c4"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; std::unique_ptr&lt; <a class="el" href="classmazes_1_1maze.html">maze</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdc2308c829e80e9467d7f248f83e4c4">create_with_rows_columns</a> (unsigned int rows=10, unsigned int columns=10) noexcept</td></tr>
+<tr class="memdesc:abdc2308c829e80e9467d7f248f83e4c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a maze pointer.  <br /></td></tr>
+<tr class="separator:abdc2308c829e80e9467d7f248f83e4c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac9a5143c839aec24473160661c60466" id="r_aac9a5143c839aec24473160661c60466"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classmazes_1_1maze.html">maze</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac9a5143c839aec24473160661c60466">create</a> (<a class="el" href="classmazes_1_1configurator.html">configurator</a> const &amp;config) noexcept</td></tr>
+<tr class="memdesc:aac9a5143c839aec24473160661c60466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a maze pointer.  <br /></td></tr>
+<tr class="separator:aac9a5143c839aec24473160661c60466"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Factory provides a way to create mazes. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="acb97107d66b9dc6b92ad7a753be95649" name="acb97107d66b9dc6b92ad7a753be95649"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb97107d66b9dc6b92ad7a753be95649">&#9670;&#160;</a></span>create()</h2>
+<a id="aac9a5143c839aec24473160661c60466" name="aac9a5143c839aec24473160661c60466"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac9a5143c839aec24473160661c60466">&#9670;&#160;</a></span>create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -130,7 +133,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::optional&lt; std::unique_ptr&lt; <a class="el" href="classmazes_1_1maze.html">maze</a> &gt; &gt; mazes::factory::create </td>
+          <td class="memname">static std::unique_ptr&lt; <a class="el" href="classmazes_1_1maze.html">maze</a> &gt; mazes::factory::create </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classmazes_1_1configurator.html">configurator</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span></td><td>)</td>
           <td></td>
@@ -147,6 +150,46 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">config</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="abdc2308c829e80e9467d7f248f83e4c4" name="abdc2308c829e80e9467d7f248f83e4c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdc2308c829e80e9467d7f248f83e4c4">&#9670;&#160;</a></span>create_with_rows_columns()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::optional&lt; std::unique_ptr&lt; <a class="el" href="classmazes_1_1maze.html">maze</a> &gt; &gt; mazes::factory::create_with_rows_columns </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>rows</em></span><span class="paramdefsep"> = </span><span class="paramdefval">10</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>columns</em></span><span class="paramdefsep"> = </span><span class="paramdefval">10</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a maze pointer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rows</td><td></td></tr>
+    <tr><td class="paramname">columns</td><td></td></tr>
   </table>
   </dd>
 </dl>

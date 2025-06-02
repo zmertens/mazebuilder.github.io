@@ -1,14 +1,13 @@
 <map id="binary_tree.h" name="binary_tree.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="150,5,246,32"/>
-<area shape="rect" id="Node000002" href="$algo__interface_8h.html" title=" " alt="" coords="38,80,228,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,34,156,70,152,67,185,31"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="102,5,198,32"/>
+<area shape="rect" id="Node000002" href="$algo__interface_8h.html" title=" " alt="" coords="56,80,245,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,33,153,64,148,64,148,33"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,155,74,181"/>
-<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="150,25,118,30,84,41,53,57,28,82,23,95,22,110,29,140,24,141,16,110,17,94,24,78,50,53,82,36,116,25,149,20"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="116,155,193,181"/>
-<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="214,31,239,65,246,86,242,108,223,131,200,149,197,145,220,128,237,106,241,87,235,67,210,34"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="261,155,325,181"/>
-<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="216,30,239,51,262,79,278,109,288,139,283,140,273,111,257,81,235,55,212,34"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,109,69,147,66,143,115,105"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="139,106,149,139,144,141,134,108"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="162,105,252,145,250,150,160,110"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="109,35,74,53,58,66,46,81,37,110,37,140,32,140,31,109,41,79,54,62,71,49,106,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="225,155,302,181"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="193,30,229,49,246,62,259,79,270,109,270,139,265,140,264,110,255,81,242,66,226,53,191,35"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="132,109,73,148,70,144,129,105"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="171,105,232,144,229,148,168,109"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="118,155,182,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="153,107,153,139,148,139,148,107"/>
 </map>

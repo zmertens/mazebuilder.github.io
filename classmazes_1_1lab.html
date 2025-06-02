@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.0.1</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.3.5</span>
    </div>
   </td>
  </tr>
@@ -101,6 +101,7 @@ $(function(){initNavTree('classmazes_1_1lab.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classmazes_1_1lab-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mazes::lab Class Reference</div></div>
 </div><!--header-->
@@ -146,11 +147,109 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>set_levels</b> (int l
 <tr class="memitem:af35b70e347e3ebb0878e56dd067dd58d" id="r_af35b70e347e3ebb0878e56dd067dd58d"><td class="memItemLeft" align="right" valign="top"><a id="af35b70e347e3ebb0878e56dd067dd58d" name="af35b70e347e3ebb0878e56dd067dd58d"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>get_random_block_id</b> () const noexcept</td></tr>
 <tr class="separator:af35b70e347e3ebb0878e56dd067dd58d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a00f31f8a4285b098645717d149de155c" id="r_a00f31f8a4285b098645717d149de155c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00f31f8a4285b098645717d149de155c">link</a> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c1, const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c2, bool bidi=true) noexcept</td></tr>
+<tr class="memdesc:a00f31f8a4285b098645717d149de155c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Links two cell objects, optionally in both directions.  <br /></td></tr>
+<tr class="separator:a00f31f8a4285b098645717d149de155c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a227aed78c505c9d3c5b6fc987ec1d35d" id="r_a227aed78c505c9d3c5b6fc987ec1d35d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a227aed78c505c9d3c5b6fc987ec1d35d">unlink</a> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c1, const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c2, bool bidi=true) noexcept</td></tr>
+<tr class="memdesc:a227aed78c505c9d3c5b6fc987ec1d35d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlinks two cell objects, optionally in both directions.  <br /></td></tr>
+<tr class="separator:a227aed78c505c9d3c5b6fc987ec1d35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Holds mazes and provides search functions. </p>
 <p>Provides fast lookups of maze data </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a00f31f8a4285b098645717d149de155c" name="a00f31f8a4285b098645717d149de155c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00f31f8a4285b098645717d149de155c">&#9670;&#160;</a></span>link()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mazes::lab::link </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>bidi</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Links two cell objects, optionally in both directions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c1</td><td>A shared pointer to the first cell object. </td></tr>
+    <tr><td class="paramname">c2</td><td>A shared pointer to the second cell object. </td></tr>
+    <tr><td class="paramname">bidi</td><td>A boolean flag indicating if the link should be bidirectional. Defaults to true. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a227aed78c505c9d3c5b6fc987ec1d35d" name="a227aed78c505c9d3c5b6fc987ec1d35d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a227aed78c505c9d3c5b6fc987ec1d35d">&#9670;&#160;</a></span>unlink()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void mazes::lab::unlink </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>bidi</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Unlinks two cell objects, optionally in both directions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c1</td><td>A shared pointer to the first cell object. </td></tr>
+    <tr><td class="paramname">c2</td><td>A shared pointer to the second cell object. </td></tr>
+    <tr><td class="paramname">bidi</td><td>A boolean flag indicating if the unlink should be bidirectional. Defaults to true. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="lab_8h_source.html">lab.h</a></li>
 </ul>
 </div><!-- contents -->

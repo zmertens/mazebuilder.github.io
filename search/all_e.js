@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['randomizer_0',['randomizer',['../classmazes_1_1randomizer.html',1,'mazes::randomizer'],['../classmazes_1_1randomizer.html#ab6bc2f1615334e9315366763fa73d601',1,'mazes::randomizer::randomizer()']]],
-  ['randomizer_2eh_1',['randomizer.h',['../randomizer_8h.html',1,'']]],
-  ['resources_2',['More Learning Resources',['../index.html#autotoc_md19',1,'']]],
-  ['run_3',['run',['../classmazes_1_1algo__interface.html#a0822ad1a9d2c56432e7fae22d27cb91b',1,'mazes::algo_interface::run()'],['../classmazes_1_1binary__tree.html#a87fe0ff7a3704b4c9629ef3359382369',1,'mazes::binary_tree::run()'],['../classmazes_1_1dfs.html#a8e4fa5335544dc09a7f5891aa5cfd12b',1,'mazes::dfs::run()'],['../classmazes_1_1sidewinder.html#a35ec4044d574a9d255eba9f03e862be2',1,'mazes::sidewinder::run()']]]
+  ['pair_5fhash_0',['pair_hash',['../structmazes_1_1pair__hash.html',1,'mazes']]],
+  ['parse_1',['parse',['../structmazes_1_1args.html#a09c82286f61e78d5a1933f3be1ed2764',1,'mazes::args::parse(const std::vector&lt; std::string &gt; &amp;arguments) noexcept'],['../structmazes_1_1args.html#ac75c703e63c5cea22281f2042cd7adda',1,'mazes::args::parse(const std::string &amp;arguments) noexcept']]],
+  ['path_5fto_2',['path_to',['../classmazes_1_1distances.html#ad8ce85223c35a77b0f2d845621c0acc8',1,'mazes::distances']]],
+  ['physics_3',['Physics',['../index.html#autotoc_md9',1,'']]],
+  ['progress_4',['progress',['../classmazes_1_1progress.html',1,'mazes']]],
+  ['progress_2eh_5',['progress.h',['../progress_8h.html',1,'']]]
 ];
