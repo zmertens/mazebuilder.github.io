@@ -1,9 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classmazes_1_1grid__interface.html" title="Interface for the grid class." alt="" coords="5,31,152,57"/>
-<area shape="rect" id="Node000001" href="$classmazes_1_1grid.html" title="General purpose grid class for 2D maze generation." alt="" coords="200,31,289,57"/>
-<area shape="poly" id="edge4_Node000000_Node000001" title=" " alt="" coords="167,41,199,41,199,47,167,47"/>
-<area shape="rect" id="Node000002" href="$classmazes_1_1colored__grid.html" title="Extension of the grid class to include color information." alt="" coords="340,5,479,32"/>
-<area shape="poly" id="edge5_Node000001_Node000002" title=" " alt="" coords="304,32,340,27,341,32,305,38"/>
-<area shape="rect" id="Node000003" href="$classmazes_1_1distance__grid.html" title="A grid that can calculate distances between cells." alt="" coords="337,56,482,83"/>
-<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="305,50,337,55,336,61,304,56"/>
+<area shape="rect" id="Node000000" href="$classmazes_1_1grid__interface.html" title="Interface for the grid class." alt="" coords="10,56,157,83"/>
+<area shape="rect" id="Node000001" href="$classmazes_1_1colored__grid.html" title=" " alt="" coords="213,5,352,32"/>
+<area shape="poly" id="edge8_Node000000_Node000001" title=" " alt="" coords="153,49,226,30,228,35,154,54"/>
+<area shape="rect" id="Node000002" href="$classmazes_1_1distance__grid.html" title="A grid that can calculate distances between cells." alt="" coords="210,56,355,83"/>
+<area shape="poly" id="edge9_Node000000_Node000002" title=" " alt="" coords="172,67,209,67,209,72,172,72"/>
+<area shape="rect" id="Node000003" href="$classmazes_1_1grid.html" title="General purpose grid class for 2D maze generation." alt="" coords="238,107,327,133"/>
+<area shape="poly" id="edge10_Node000000_Node000003" title=" " alt="" coords="154,85,238,106,237,111,153,90"/>
+<area shape="rect" id="Node000004" href="$classmazes_1_1grid__operations.html" title="Interface for grid navigation and manipulation operations." alt="" coords="5,107,162,133"/>
+<area shape="poly" id="edge11_Node000004_Node000003" title=" " alt="" coords="177,117,237,117,237,123,177,123"/>
 </map>

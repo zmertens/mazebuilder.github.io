@@ -7,11 +7,11 @@ var enums_8h =
       [ "TOTAL", "enums_8h.html#aa61978cb14a922fcab3ffcc1889a7f8aa3af22b59f4641bc5501998297f9ac70d", null ]
     ] ],
     [ "Direction", "enums_8h.html#a729372da8296ec97f1a41425f42227df", [
-      [ "North", "enums_8h.html#a729372da8296ec97f1a41425f42227dfa601560b94fbb188919dd1d36c8ab70a4", null ],
-      [ "South", "enums_8h.html#a729372da8296ec97f1a41425f42227dfa263d7b2cf53802c9ed127b718c0bf9fd", null ],
-      [ "East", "enums_8h.html#a729372da8296ec97f1a41425f42227dfaa99dc62d017d04cf67266593f9c3761e", null ],
-      [ "West", "enums_8h.html#a729372da8296ec97f1a41425f42227dfabf495fc048d8d44b7f32536df5cf3930", null ],
-      [ "Count", "enums_8h.html#a729372da8296ec97f1a41425f42227dfae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+      [ "NORTH", "enums_8h.html#a729372da8296ec97f1a41425f42227dfa2bf8f791695c70efa9c14e6f1c326403", null ],
+      [ "SOUTH", "enums_8h.html#a729372da8296ec97f1a41425f42227dfa96e44fa82e5a5263fb92337be422d3eb", null ],
+      [ "EAST", "enums_8h.html#a729372da8296ec97f1a41425f42227dfa45ac78bf3d4882ac520f4e7fb08d55c5", null ],
+      [ "WEST", "enums_8h.html#a729372da8296ec97f1a41425f42227dfa83c9f5692281bf59471b13dfddb3af91", null ],
+      [ "COUNT", "enums_8h.html#a729372da8296ec97f1a41425f42227dfa4905ac9d6a22bdfc1ae096094ce6248d", null ]
     ] ],
     [ "output", "enums_8h.html#a3bed7fd7c2a046467f3b82789af9edc1", [
       [ "PLAIN_TEXT", "enums_8h.html#a3bed7fd7c2a046467f3b82789af9edc1aae7d3557f5e0b4e9cca075db3dfa7e9d", null ],

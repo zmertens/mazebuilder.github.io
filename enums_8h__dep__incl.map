@@ -1,24 +1,14 @@
 <map id="enums.h" name="enums.h">
-<area shape="rect" id="Node000001" title="Enumerations for the maze builder program." alt="" coords="129,5,201,32"/>
-<area shape="rect" id="Node000002" href="$configurator_8h.html" title=" " alt="" coords="27,80,127,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,44,94,82,90,78,136,40"/>
-<area shape="rect" id="Node000003" href="$factory_8h.html" title=" " alt="" coords="5,155,77,181"/>
-<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="115,28,88,35,61,45,36,61,17,81,11,99,14,119,33,153,29,156,9,120,6,99,12,79,33,57,58,41,86,30,114,23"/>
-<area shape="rect" id="Node000004" href="$maze__builder_8h.html" title="This file includes all the headers in the maze builder library." alt="" coords="136,304,245,331"/>
-<area shape="poly" id="edge14_Node000001_Node000004" title=" " alt="" coords="170,47,192,303,187,304,165,48"/>
-<area shape="rect" id="Node000005" href="$grid_8h.html" title=" " alt="" coords="277,155,330,181"/>
-<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="187,42,243,105,292,152,288,156,239,109,183,46"/>
-<area shape="rect" id="Node000008" href="$grid__interface_8h.html" title=" " alt="" coords="252,80,363,107"/>
-<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="205,37,284,77,281,82,202,42"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="66,122,50,155,45,153,62,119"/>
-<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="89,121,114,183,149,255,182,302,178,305,144,257,109,185,84,123"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="56,194,74,224,98,254,131,281,165,301,163,306,128,285,94,258,69,227,51,196"/>
-<area shape="poly" id="edge11_Node000005_Node000004" title=" " alt="" coords="279,194,243,231,217,270,199,305,194,302,212,268,239,228,275,190"/>
-<area shape="rect" id="Node000006" href="$colored__grid_8h.html" title=" " alt="" coords="252,229,355,256"/>
-<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="306,197,306,229,301,229,301,197"/>
-<area shape="rect" id="Node000007" href="$distance__grid_8h.html" title=" " alt="" coords="378,229,488,256"/>
-<area shape="poly" id="edge9_Node000005_Node000007" title=" " alt="" coords="341,187,412,226,409,231,338,192"/>
-<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="273,267,212,306,209,301,270,262"/>
-<area shape="poly" id="edge10_Node000007_Node000004" title=" " alt="" coords="377,263,234,306,232,301,376,258"/>
-<area shape="poly" id="edge13_Node000008_Node000005" title=" " alt="" coords="309,123,307,154,302,154,303,122"/>
+<area shape="rect" id="Node000001" title="Enumerations for the maze builder program." alt="" coords="133,5,204,32"/>
+<area shape="rect" id="Node000002" href="$configurator_8h.html" title=" " alt="" coords="5,155,106,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,46,67,156,63,153,148,43"/>
+<area shape="rect" id="Node000003" href="$maze__builder_8h.html" title="This file includes all the headers in the maze builder library." alt="" coords="89,229,198,256"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="168,48,148,229,142,229,163,47"/>
+<area shape="rect" id="Node000004" href="$grid_8h.html" title=" " alt="" coords="181,155,234,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="179,46,207,154,202,155,173,48"/>
+<area shape="rect" id="Node000005" href="$grid__operations_8h.html" title=" " alt="" coords="231,80,352,107"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="205,38,271,77,269,82,202,43"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,189,130,227,127,231,81,194"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="188,195,157,231,153,227,184,192"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="267,119,224,156,220,152,264,115"/>
 </map>

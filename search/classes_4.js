@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['factory_0',['factory',['../classmazes_1_1factory.html',1,'mazes']]]
+  ['factory_5finterface_0',['factory_interface',['../classmazes_1_1factory__interface.html',1,'mazes']]]
 ];

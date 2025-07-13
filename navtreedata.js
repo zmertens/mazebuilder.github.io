@@ -68,7 +68,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "algo__interface_8h.html",
-"index.html"
+"classmazes_1_1grid__factory.html#a1217c213bc5ccaee98bfd19f2a55a96f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

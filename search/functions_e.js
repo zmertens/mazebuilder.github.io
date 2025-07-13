@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['randomizer_0',['randomizer',['../classmazes_1_1randomizer.html#ab6bc2f1615334e9315366763fa73d601',1,'mazes::randomizer::randomizer()'],['../classmazes_1_1randomizer.html#afb6e183ae3979aa757dbd04389d0146f',1,'mazes::randomizer::randomizer(const randomizer &amp;other)'],['../classmazes_1_1randomizer.html#a8bf6fe45e790da5e53925ed3001d0fa0',1,'mazes::randomizer::randomizer(randomizer &amp;&amp;other) noexcept']]],
-  ['remove_5flink_1',['remove_link',['../classmazes_1_1cell.html#adaf8421253b1ce91037b93905c75df63',1,'mazes::cell']]],
-  ['run_2',['run',['../classmazes_1_1algo__interface.html#ac642444fc9c64868992c1c0701f2e2d1',1,'mazes::algo_interface::run()'],['../classmazes_1_1binary__tree.html#afc5766eaafc1289fcd4dc123e6be856e',1,'mazes::binary_tree::run()'],['../classmazes_1_1dfs.html#a15dc43c4045561397a16142cd2667c8d',1,'mazes::dfs::run()'],['../classmazes_1_1sidewinder.html#a47a828b02f049dfefdc619461f763c0a',1,'mazes::sidewinder::run()']]]
+  ['parse_0',['parse',['../classmazes_1_1args.html#a09c82286f61e78d5a1933f3be1ed2764',1,'mazes::args::parse(const std::vector&lt; std::string &gt; &amp;arguments) noexcept'],['../classmazes_1_1args.html#ac75c703e63c5cea22281f2042cd7adda',1,'mazes::args::parse(const std::string &amp;arguments) noexcept'],['../classmazes_1_1args.html#a3c638eb759bcf8bc5b8b43dfd60d015d',1,'mazes::args::parse(int argc, char **argv) noexcept']]],
+  ['path_5fto_1',['path_to',['../classmazes_1_1distances.html#a505ebb7103e06973735698271a0f4362',1,'mazes::distances']]]
 ];

@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.3.5</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.7.5</span>
    </div>
   </td>
  </tr>
@@ -106,7 +106,7 @@ $(function(){initNavTree('classmazes_1_1cell.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 
-<p>Cell class for maze generation - only stores its index and links to other cells.  
+<p>Cell class with links to other cells.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="cell_8h_source.html">cell.h</a>&gt;</code></p>
@@ -116,17 +116,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7b297e0c3401edefdc0de48abd2b4cec" id="r_a7b297e0c3401edefdc0de48abd2b4cec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b297e0c3401edefdc0de48abd2b4cec">cell</a> (std::int32_t index=0)</td></tr>
 <tr class="memdesc:a7b297e0c3401edefdc0de48abd2b4cec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a cell object with an optional index.  <br /></td></tr>
 <tr class="separator:a7b297e0c3401edefdc0de48abd2b4cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d932b486f78e83314cb3d1b75753fa2" id="r_a5d932b486f78e83314cb3d1b75753fa2"><td class="memItemLeft" align="right" valign="top"><a id="a5d932b486f78e83314cb3d1b75753fa2" name="a5d932b486f78e83314cb3d1b75753fa2"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>cell</b> (const <a class="el" href="classmazes_1_1cell.html">cell</a> &amp;other)</td></tr>
+<tr class="memitem:a6483b9cc5dffbde948d183aa2d217747" id="r_a6483b9cc5dffbde948d183aa2d217747"><td class="memItemLeft" align="right" valign="top"><a id="a6483b9cc5dffbde948d183aa2d217747" name="a6483b9cc5dffbde948d183aa2d217747"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>~cell</b> ()</td></tr>
+<tr class="memdesc:a6483b9cc5dffbde948d183aa2d217747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the cell object and releases any associated resources. <br /></td></tr>
+<tr class="separator:a6483b9cc5dffbde948d183aa2d217747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d932b486f78e83314cb3d1b75753fa2" id="r_a5d932b486f78e83314cb3d1b75753fa2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d932b486f78e83314cb3d1b75753fa2">cell</a> (const <a class="el" href="classmazes_1_1cell.html">cell</a> &amp;other)</td></tr>
+<tr class="memdesc:a5d932b486f78e83314cb3d1b75753fa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor for the cell class.  <br /></td></tr>
 <tr class="separator:a5d932b486f78e83314cb3d1b75753fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ef5ac78eda4c0bd69e96082a08da190" id="r_a2ef5ac78eda4c0bd69e96082a08da190"><td class="memItemLeft" align="right" valign="top"><a id="a2ef5ac78eda4c0bd69e96082a08da190" name="a2ef5ac78eda4c0bd69e96082a08da190"></a>
-<a class="el" href="classmazes_1_1cell.html">cell</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classmazes_1_1cell.html">cell</a> &amp;other)</td></tr>
+<tr class="memitem:a2ef5ac78eda4c0bd69e96082a08da190" id="r_a2ef5ac78eda4c0bd69e96082a08da190"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1cell.html">cell</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ef5ac78eda4c0bd69e96082a08da190">operator=</a> (const <a class="el" href="classmazes_1_1cell.html">cell</a> &amp;other)</td></tr>
+<tr class="memdesc:a2ef5ac78eda4c0bd69e96082a08da190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the value of another cell to this cell.  <br /></td></tr>
 <tr class="separator:a2ef5ac78eda4c0bd69e96082a08da190"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a113774438c3d45086171118549ed5d" id="r_a8a113774438c3d45086171118549ed5d"><td class="memItemLeft" align="right" valign="top"><a id="a8a113774438c3d45086171118549ed5d" name="a8a113774438c3d45086171118549ed5d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>cell</b> (<a class="el" href="classmazes_1_1cell.html">cell</a> &amp;&amp;other) noexcept</td></tr>
+<tr class="memitem:a8a113774438c3d45086171118549ed5d" id="r_a8a113774438c3d45086171118549ed5d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a113774438c3d45086171118549ed5d">cell</a> (<a class="el" href="classmazes_1_1cell.html">cell</a> &amp;&amp;other) noexcept</td></tr>
+<tr class="memdesc:a8a113774438c3d45086171118549ed5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor for the cell class. Transfers the resources from another cell to this one.  <br /></td></tr>
 <tr class="separator:a8a113774438c3d45086171118549ed5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae618a6f26ca2791e40cfca8f96cf6a4b" id="r_ae618a6f26ca2791e40cfca8f96cf6a4b"><td class="memItemLeft" align="right" valign="top"><a id="ae618a6f26ca2791e40cfca8f96cf6a4b" name="ae618a6f26ca2791e40cfca8f96cf6a4b"></a>
-<a class="el" href="classmazes_1_1cell.html">cell</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="classmazes_1_1cell.html">cell</a> &amp;&amp;other) noexcept</td></tr>
+<tr class="memitem:ae618a6f26ca2791e40cfca8f96cf6a4b" id="r_ae618a6f26ca2791e40cfca8f96cf6a4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1cell.html">cell</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae618a6f26ca2791e40cfca8f96cf6a4b">operator=</a> (<a class="el" href="classmazes_1_1cell.html">cell</a> &amp;&amp;other) noexcept</td></tr>
+<tr class="memdesc:ae618a6f26ca2791e40cfca8f96cf6a4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator for the cell class.  <br /></td></tr>
 <tr class="separator:ae618a6f26ca2791e40cfca8f96cf6a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25dd4743c6b7860faadab1d422bfaa95" id="r_a25dd4743c6b7860faadab1d422bfaa95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25dd4743c6b7860faadab1d422bfaa95">add_link</a> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;other)</td></tr>
 <tr class="memdesc:a25dd4743c6b7860faadab1d422bfaa95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a link to another cell (passage between cells)  <br /></td></tr>
@@ -152,10 +156,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>cleanup_links</b> ()<
 <tr class="separator:ac67d89d78f829a1f544445ffc8a00701"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Cell class for maze generation - only stores its index and links to other cells. </p>
+<div class="textblock"><p>Cell class with links to other cells. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7b297e0c3401edefdc0de48abd2b4cec" name="a7b297e0c3401edefdc0de48abd2b4cec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b297e0c3401edefdc0de48abd2b4cec">&#9670;&#160;</a></span>cell()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b297e0c3401edefdc0de48abd2b4cec">&#9670;&#160;</a></span>cell() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181,6 +185,64 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>cleanup_links</b> ()<
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>The index to initialize the cell with. Defaults to 0. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5d932b486f78e83314cb3d1b75753fa2" name="a5d932b486f78e83314cb3d1b75753fa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d932b486f78e83314cb3d1b75753fa2">&#9670;&#160;</a></span>cell() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mazes::cell::cell </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmazes_1_1cell.html">cell</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copy constructor for the cell class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The cell object to copy from. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8a113774438c3d45086171118549ed5d" name="a8a113774438c3d45086171118549ed5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a113774438c3d45086171118549ed5d">&#9670;&#160;</a></span>cell() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mazes::cell::cell </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmazes_1_1cell.html">cell</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move constructor for the cell class. Transfers the resources from another cell to this one. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The cell object to move from. </td></tr>
   </table>
   </dd>
 </dl>
@@ -284,6 +346,66 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>cleanup_links</b> ()<
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the cell is linked, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="ae618a6f26ca2791e40cfca8f96cf6a4b" name="ae618a6f26ca2791e40cfca8f96cf6a4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae618a6f26ca2791e40cfca8f96cf6a4b">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmazes_1_1cell.html">cell</a> &amp; mazes::cell::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmazes_1_1cell.html">cell</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move assignment operator for the cell class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The cell object to move from. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the assigned cell object (*this). </dd></dl>
+
+</div>
+</div>
+<a id="a2ef5ac78eda4c0bd69e96082a08da190" name="a2ef5ac78eda4c0bd69e96082a08da190"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ef5ac78eda4c0bd69e96082a08da190">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmazes_1_1cell.html">cell</a> &amp; mazes::cell::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmazes_1_1cell.html">cell</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Assigns the value of another cell to this cell. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The cell whose value will be assigned to this cell. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this cell after assignment. </dd></dl>
 
 </div>
 </div>

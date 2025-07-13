@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.3.5</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.7.5</span>
    </div>
   </td>
  </tr>
@@ -106,28 +106,28 @@ $(function(){initNavTree('classmazes_1_1algo__interface.html',''); initResizable
 </div><!--header-->
 <div class="contents">
 
-<p>Interface for the maze generation algorithms.  
+<p>Interface for runnable algorithms.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="algo__interface_8h_source.html">algo_interface.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for mazes::algo_interface:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmazes_1_1algo__interface__inherit__graph.svg" width="408" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmazes_1_1algo__interface__inherit__graph.svg" width="340" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac642444fc9c64868992c1c0701f2e2d1" id="r_ac642444fc9c64868992c1c0701f2e2d1"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac642444fc9c64868992c1c0701f2e2d1">run</a> (<a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> *g, <a class="el" href="classmazes_1_1randomizer.html">randomizer</a> &amp;rng) const noexcept=0</td></tr>
-<tr class="memdesc:ac642444fc9c64868992c1c0701f2e2d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface method that algorithms implement to generate a maze.  <br /></td></tr>
-<tr class="separator:ac642444fc9c64868992c1c0701f2e2d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9850d3a714f3d6e503d33689d3a41e0" id="r_af9850d3a714f3d6e503d33689d3a41e0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9850d3a714f3d6e503d33689d3a41e0">run</a> (std::unique_ptr&lt; <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &gt; const &amp;g, <a class="el" href="classmazes_1_1randomizer.html">randomizer</a> &amp;rng) const noexcept=0</td></tr>
+<tr class="memdesc:af9850d3a714f3d6e503d33689d3a41e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface method that algorithms must implement.  <br /></td></tr>
+<tr class="separator:af9850d3a714f3d6e503d33689d3a41e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Interface for the maze generation algorithms. </p>
-<p>This interface provides a method for generating a maze </p>
+<div class="textblock"><p>Interface for runnable algorithms. </p>
+<p>Uses the strategy design pattern </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac642444fc9c64868992c1c0701f2e2d1" name="ac642444fc9c64868992c1c0701f2e2d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac642444fc9c64868992c1c0701f2e2d1">&#9670;&#160;</a></span>run()</h2>
+<a id="af9850d3a714f3d6e503d33689d3a41e0" name="af9850d3a714f3d6e503d33689d3a41e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9850d3a714f3d6e503d33689d3a41e0">&#9670;&#160;</a></span>run()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138,7 +138,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual bool mazes::algo_interface::run </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> *</td>          <td class="paramname"><span class="paramname"><em>g</em></span>, </td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &gt; const &amp;</td>          <td class="paramname"><span class="paramname"><em>g</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -153,7 +153,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Interface method that algorithms implement to generate a maze. </p>
+<p>Interface method that algorithms must implement. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">g</td><td></td></tr>
@@ -164,7 +164,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd><br  />
  </dd></dl>
 
-<p>Implemented in <a class="el" href="classmazes_1_1binary__tree.html#afc5766eaafc1289fcd4dc123e6be856e">mazes::binary_tree</a>, <a class="el" href="classmazes_1_1dfs.html#a15dc43c4045561397a16142cd2667c8d">mazes::dfs</a>, and <a class="el" href="classmazes_1_1sidewinder.html#a47a828b02f049dfefdc619461f763c0a">mazes::sidewinder</a>.</p>
+<p>Implemented in <a class="el" href="classmazes_1_1binary__tree.html#aa151da44ae1dde53d665e881cc010595">mazes::binary_tree</a>, <a class="el" href="classmazes_1_1dfs.html#af85647060c1e23fd3490df5ffad9b808">mazes::dfs</a>, <a class="el" href="classmazes_1_1objectify.html#a37c0e4307b48136a02ba02f1766c51e1">mazes::objectify</a>, <a class="el" href="classmazes_1_1pixels.html#a6f5200cca219db8902c396a14dc01491">mazes::pixels</a>, <a class="el" href="classmazes_1_1sidewinder.html#a7bf857436ffb183bfad0a1ec8e94dfcb">mazes::sidewinder</a>, and <a class="el" href="classmazes_1_1stringify.html#a34c9ed65b8c6707d3140c4c88f810538">mazes::stringify</a>.</p>
 
 </div>
 </div>

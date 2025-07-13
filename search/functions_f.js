@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['search_0',['search',['../classmazes_1_1grid.html#af021316589d4f984b9eb8c303103d6d6',1,'mazes::grid']]],
-  ['seed_1',['seed',['../classmazes_1_1randomizer.html#a1abfd352227a277557e1ffaa2c136af3',1,'mazes::randomizer']]],
-  ['set_2',['set',['../structmazes_1_1args.html#aea89db4da4cfebbc6c379681235b4a17',1,'mazes::args::set()'],['../classmazes_1_1distances.html#a02617c34998720a92b1034f8bc06eb06',1,'mazes::distances::set()']]],
-  ['set_5findex_3',['set_index',['../classmazes_1_1cell.html#a8c04499f0e1def466f2480bc0ffda844',1,'mazes::cell']]],
-  ['stringify_4',['stringify',['../classmazes_1_1stringz.html#a8c500f194b26304411c49400c360d40e',1,'mazes::stringz']]],
-  ['strip_5',['strip',['../classmazes_1_1stringz.html#a71f3bbad51d70b32ca156cd57ff12c74',1,'mazes::stringz']]],
-  ['strip_5fjson_5fquotes_6',['strip_json_quotes',['../classmazes_1_1stringz.html#ab76eb921b8b0950b879cc254985a4b5c',1,'mazes::stringz']]]
+  ['randomizer_0',['randomizer',['../classmazes_1_1randomizer.html#ab6bc2f1615334e9315366763fa73d601',1,'mazes::randomizer::randomizer()'],['../classmazes_1_1randomizer.html#afb6e183ae3979aa757dbd04389d0146f',1,'mazes::randomizer::randomizer(const randomizer &amp;other)'],['../classmazes_1_1randomizer.html#a8bf6fe45e790da5e53925ed3001d0fa0',1,'mazes::randomizer::randomizer(randomizer &amp;&amp;other) noexcept']]],
+  ['remove_5flink_1',['remove_link',['../classmazes_1_1cell.html#adaf8421253b1ce91037b93905c75df63',1,'mazes::cell']]],
+  ['reset_5fto_5fdefaults_2',['reset_to_defaults',['../classmazes_1_1configurator.html#a079d0f463da8f17991b15a8885367efc',1,'mazes::configurator']]],
+  ['rows_3',['rows',['../classmazes_1_1configurator.html#aa6e08a9b73f94fa66bc47b2ee660a3a6',1,'mazes::configurator::rows(unsigned int rows) noexcept'],['../classmazes_1_1configurator.html#a16557b62d63dc36ff6d14783ed6e5d14',1,'mazes::configurator::rows() const noexcept']]],
+  ['run_4',['run',['../classmazes_1_1algo__interface.html#af9850d3a714f3d6e503d33689d3a41e0',1,'mazes::algo_interface::run()'],['../classmazes_1_1binary__tree.html#aa151da44ae1dde53d665e881cc010595',1,'mazes::binary_tree::run()'],['../classmazes_1_1dfs.html#af85647060c1e23fd3490df5ffad9b808',1,'mazes::dfs::run()'],['../classmazes_1_1objectify.html#a37c0e4307b48136a02ba02f1766c51e1',1,'mazes::objectify::run()'],['../classmazes_1_1pixels.html#a6f5200cca219db8902c396a14dc01491',1,'mazes::pixels::run()'],['../classmazes_1_1sidewinder.html#a7bf857436ffb183bfad0a1ec8e94dfcb',1,'mazes::sidewinder::run()'],['../classmazes_1_1stringify.html#a34c9ed65b8c6707d3140c4c88f810538',1,'mazes::stringify::run()']]]
 ];

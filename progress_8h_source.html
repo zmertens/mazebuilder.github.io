@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.3.5</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.7.5</span>
    </div>
   </td>
  </tr>
@@ -122,11 +122,11 @@ $(function(){initNavTree('progress_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> F, <span class="keyword">typename</span>... Args, <span class="keyword">typename</span> Duration = Time&gt;</div>
 <div class="foldopen" id="foldopen00031" data-start="{" data-end="}">
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="classmazes_1_1progress.html#a8d69d45d8ee6f3582e2b258a59ecd1b0">   31</a></span>    <span class="keyword">static</span> Duration <a class="code hl_function" href="classmazes_1_1progress.html#a8d69d45d8ee6f3582e2b258a59ecd1b0">duration</a>(F&amp;&amp; f, Args&amp;&amp;... <a class="code hl_class" href="structmazes_1_1args.html">args</a>) {</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="classmazes_1_1progress.html#a8d69d45d8ee6f3582e2b258a59ecd1b0">   31</a></span>    <span class="keyword">static</span> Duration <a class="code hl_function" href="classmazes_1_1progress.html#a8d69d45d8ee6f3582e2b258a59ecd1b0">duration</a>(F&amp;&amp; f, Args&amp;&amp;... <a class="code hl_class" href="classmazes_1_1args.html">args</a>) {</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <a class="code hl_class" href="classmazes_1_1progress.html">progress</a> p;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        p.start();</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keyword">auto</span> result = std::invoke(std::forward&lt;F&gt;(f), std::forward&lt;Args&gt;(<a class="code hl_class" href="structmazes_1_1args.html">args</a>)...);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keyword">auto</span> result = std::invoke(std::forward&lt;F&gt;(f), std::forward&lt;Args&gt;(<a class="code hl_class" href="classmazes_1_1args.html">args</a>)...);</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <span class="keywordflow">if</span> (!result) {</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>            <span class="keywordflow">return</span> Duration::zero();</div>
@@ -159,11 +159,11 @@ $(function(){initNavTree('progress_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>} <span class="comment">// namespace mazes</span></div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#endif </span><span class="comment">// PROGRESS_H</span></div>
+<div class="ttc" id="aclassmazes_1_1args_html"><div class="ttname"><a href="classmazes_1_1args.html">mazes::args</a></div><div class="ttdoc">Command-line argument handler with JSON support.</div><div class="ttdef"><b>Definition</b> args.h:17</div></div>
 <div class="ttc" id="aclassmazes_1_1progress_html"><div class="ttname"><a href="classmazes_1_1progress.html">mazes::progress</a></div><div class="ttdoc">Simple clock for elapsed events.</div><div class="ttdef"><b>Definition</b> progress.h:16</div></div>
 <div class="ttc" id="aclassmazes_1_1progress_html_a7b6c5de886d3b56829dbdebbc34b35e8"><div class="ttname"><a href="classmazes_1_1progress.html#a7b6c5de886d3b56829dbdebbc34b35e8">mazes::progress::elapsed</a></div><div class="ttdeci">T elapsed() noexcept</div><div class="ttdoc">Capture the elapsed time.</div><div class="ttdef"><b>Definition</b> progress.h:60</div></div>
 <div class="ttc" id="aclassmazes_1_1progress_html_a8d69d45d8ee6f3582e2b258a59ecd1b0"><div class="ttname"><a href="classmazes_1_1progress.html#a8d69d45d8ee6f3582e2b258a59ecd1b0">mazes::progress::duration</a></div><div class="ttdeci">static Duration duration(F &amp;&amp;f, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition</b> progress.h:31</div></div>
 <div class="ttc" id="anamespacemazes_html"><div class="ttname"><a href="namespacemazes.html">mazes</a></div><div class="ttdoc">Namespace for the maze builder.</div><div class="ttdef"><b>Definition</b> algo_interface.h:9</div></div>
-<div class="ttc" id="astructmazes_1_1args_html"><div class="ttname"><a href="structmazes_1_1args.html">mazes::args</a></div><div class="ttdoc">Simple argument handler.</div><div class="ttdef"><b>Definition</b> args.h:15</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

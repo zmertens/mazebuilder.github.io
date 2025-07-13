@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.3.5</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.7.5</span>
    </div>
   </td>
  </tr>
@@ -136,19 +136,28 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a996f4621f8870aacd2c541751bcef1d7" id="r_a996f4621f8870aacd2c541751bcef1d7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a996f4621f8870aacd2c541751bcef1d7">from</a> (const std::unordered_map&lt; std::string, std::string &gt; &amp;map, int pretty_print=4) const noexcept</td></tr>
 <tr class="memdesc:a996f4621f8870aacd2c541751bcef1d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the contents of a map as a string in JSON format.  <br /></td></tr>
 <tr class="separator:a996f4621f8870aacd2c541751bcef1d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0eab4ec21245c2d593d814a4b2ddf81" id="r_af0eab4ec21245c2d593d814a4b2ddf81"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0eab4ec21245c2d593d814a4b2ddf81">from</a> (const std::vector&lt; std::unordered_map&lt; std::string, std::string &gt; &gt; &amp;arr, int pretty_print=4) const noexcept</td></tr>
+<tr class="memdesc:af0eab4ec21245c2d593d814a4b2ddf81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the contents of a vector of maps as a JSON string.  <br /></td></tr>
+<tr class="separator:af0eab4ec21245c2d593d814a4b2ddf81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adce414b49e3f42101cae3994e3995484" id="r_adce414b49e3f42101cae3994e3995484"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adce414b49e3f42101cae3994e3995484">from</a> (const std::string &amp;s, std::unordered_map&lt; std::string, std::string &gt; &amp;m) const noexcept</td></tr>
 <tr class="memdesc:adce414b49e3f42101cae3994e3995484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse and set a JSON string into a C++ map.  <br /></td></tr>
 <tr class="separator:adce414b49e3f42101cae3994e3995484"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ad463d045c7b70f0959a8033edfc233" id="r_a1ad463d045c7b70f0959a8033edfc233"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ad463d045c7b70f0959a8033edfc233">load</a> (const std::string &amp;filename, std::unordered_map&lt; std::string, std::string &gt; &amp;m) const noexcept</td></tr>
 <tr class="memdesc:a1ad463d045c7b70f0959a8033edfc233"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a JSON file into a C++ map from a file on disk.  <br /></td></tr>
 <tr class="separator:a1ad463d045c7b70f0959a8033edfc233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c705963e335225813418c3cb8c63455" id="r_a3c705963e335225813418c3cb8c63455"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c705963e335225813418c3cb8c63455">from_array</a> (const std::string &amp;s, std::vector&lt; std::unordered_map&lt; std::string, std::string &gt; &gt; &amp;vm) const noexcept</td></tr>
+<tr class="memdesc:a3c705963e335225813418c3cb8c63455"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a JSON array string into a vector of maps.  <br /></td></tr>
+<tr class="separator:a3c705963e335225813418c3cb8c63455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54fae1852c8d6e9f0cb1c18e380ad197" id="r_a54fae1852c8d6e9f0cb1c18e380ad197"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54fae1852c8d6e9f0cb1c18e380ad197">load_array</a> (const std::string &amp;filename, std::vector&lt; std::unordered_map&lt; std::string, std::string &gt; &gt; &amp;vm) const noexcept</td></tr>
+<tr class="memdesc:a54fae1852c8d6e9f0cb1c18e380ad197"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a JSON array file into a vector of maps.  <br /></td></tr>
+<tr class="separator:a54fae1852c8d6e9f0cb1c18e380ad197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>JSON helper class. </p>
 <p>This class provides methods to convert a map of strings into a JSON string </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="adce414b49e3f42101cae3994e3995484" name="adce414b49e3f42101cae3994e3995484"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adce414b49e3f42101cae3994e3995484">&#9670;&#160;</a></span>from() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adce414b49e3f42101cae3994e3995484">&#9670;&#160;</a></span>from() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -187,7 +196,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a996f4621f8870aacd2c541751bcef1d7" name="a996f4621f8870aacd2c541751bcef1d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a996f4621f8870aacd2c541751bcef1d7">&#9670;&#160;</a></span>from() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a996f4621f8870aacd2c541751bcef1d7">&#9670;&#160;</a></span>from() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -223,6 +232,85 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><br  />
  </dd></dl>
+
+</div>
+</div>
+<a id="af0eab4ec21245c2d593d814a4b2ddf81" name="af0eab4ec21245c2d593d814a4b2ddf81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0eab4ec21245c2d593d814a4b2ddf81">&#9670;&#160;</a></span>from() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mazes::json_helper::from </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::unordered_map&lt; std::string, std::string &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>arr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>pretty_print</em></span><span class="paramdefsep"> = </span><span class="paramdefval">4</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the contents of a vector of maps as a JSON string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arr</td><td></td></tr>
+    <tr><td class="paramname">pretty_print</td><td>Number of spaces to use for indenting the JSON string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="a3c705963e335225813418c3cb8c63455" name="a3c705963e335225813418c3cb8c63455"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c705963e335225813418c3cb8c63455">&#9670;&#160;</a></span>from_array()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mazes::json_helper::from_array </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::unordered_map&lt; std::string, std::string &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vm</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parse a JSON array string into a vector of maps. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>JSON string containing an array of objects </td></tr>
+    <tr><td class="paramname">vm</td><td>Vector of maps to populate with parsed objects </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>success or failure on parse </dd></dl>
 
 </div>
 </div>
@@ -263,6 +351,45 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><br  />
  </dd></dl>
+
+</div>
+</div>
+<a id="a54fae1852c8d6e9f0cb1c18e380ad197" name="a54fae1852c8d6e9f0cb1c18e380ad197"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54fae1852c8d6e9f0cb1c18e380ad197">&#9670;&#160;</a></span>load_array()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mazes::json_helper::load_array </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::unordered_map&lt; std::string, std::string &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vm</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Load a JSON array file into a vector of maps. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>Path to JSON file containing an array of objects </td></tr>
+    <tr><td class="paramname">vm</td><td>Vector of maps to populate with parsed objects </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>success or failure on load/parse </dd></dl>
 
 </div>
 </div>

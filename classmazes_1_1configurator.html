@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.3.5</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.7.5</span>
    </div>
   </td>
  </tr>
@@ -106,65 +106,953 @@ $(function(){initNavTree('classmazes_1_1configurator.html',''); initResizable(tr
 </div><!--header-->
 <div class="contents">
 
-<p>Configuration class for the maze builder.  
+<p>Configuration class for arguments.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="configurator_8h_source.html">configurator.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afccd48f025b59add40c0ddf7f910caf8" id="r_afccd48f025b59add40c0ddf7f910caf8"><td class="memItemLeft" align="right" valign="top"><a id="afccd48f025b59add40c0ddf7f910caf8" name="afccd48f025b59add40c0ddf7f910caf8"></a>
-<a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>rows</b> (unsigned int r) noexcept</td></tr>
-<tr class="separator:afccd48f025b59add40c0ddf7f910caf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5d6417fd4ebcf81b974dd22f6d16209" id="r_ab5d6417fd4ebcf81b974dd22f6d16209"><td class="memItemLeft" align="right" valign="top"><a id="ab5d6417fd4ebcf81b974dd22f6d16209" name="ab5d6417fd4ebcf81b974dd22f6d16209"></a>
-<a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>columns</b> (unsigned int c) noexcept</td></tr>
-<tr class="separator:ab5d6417fd4ebcf81b974dd22f6d16209"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0b7102c90b119a74dd1a6f979e892fa" id="r_ae0b7102c90b119a74dd1a6f979e892fa"><td class="memItemLeft" align="right" valign="top"><a id="ae0b7102c90b119a74dd1a6f979e892fa" name="ae0b7102c90b119a74dd1a6f979e892fa"></a>
-<a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>levels</b> (unsigned int l) noexcept</td></tr>
-<tr class="separator:ae0b7102c90b119a74dd1a6f979e892fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c7e59faef4928430dc5c11c66a38181" id="r_a5c7e59faef4928430dc5c11c66a38181"><td class="memItemLeft" align="right" valign="top"><a id="a5c7e59faef4928430dc5c11c66a38181" name="a5c7e59faef4928430dc5c11c66a38181"></a>
-<a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_algo</b> (<a class="el" href="namespacemazes.html#aa61978cb14a922fcab3ffcc1889a7f8a">algo</a> _a) noexcept</td></tr>
-<tr class="separator:a5c7e59faef4928430dc5c11c66a38181"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15b4e1b1907cd8297db7356daa3d48b1" id="r_a15b4e1b1907cd8297db7356daa3d48b1"><td class="memItemLeft" align="right" valign="top"><a id="a15b4e1b1907cd8297db7356daa3d48b1" name="a15b4e1b1907cd8297db7356daa3d48b1"></a>
-<a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>block_id</b> (int val) noexcept</td></tr>
-<tr class="separator:a15b4e1b1907cd8297db7356daa3d48b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb856c4aa8558c1d04f7f1719933163a" id="r_aeb856c4aa8558c1d04f7f1719933163a"><td class="memItemLeft" align="right" valign="top"><a id="aeb856c4aa8558c1d04f7f1719933163a" name="aeb856c4aa8558c1d04f7f1719933163a"></a>
-<a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>seed</b> (unsigned int s) noexcept</td></tr>
-<tr class="separator:aeb856c4aa8558c1d04f7f1719933163a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0d4df4d99b29b646ee1c4a161e172d4" id="r_ab0d4df4d99b29b646ee1c4a161e172d4"><td class="memItemLeft" align="right" valign="top"><a id="ab0d4df4d99b29b646ee1c4a161e172d4" name="ab0d4df4d99b29b646ee1c4a161e172d4"></a>
-<a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>distances</b> (bool d) noexcept</td></tr>
-<tr class="separator:ab0d4df4d99b29b646ee1c4a161e172d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0952f7814754fedb6f44773eb1157c5" id="r_ac0952f7814754fedb6f44773eb1157c5"><td class="memItemLeft" align="right" valign="top"><a id="ac0952f7814754fedb6f44773eb1157c5" name="ac0952f7814754fedb6f44773eb1157c5"></a>
-<a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_output</b> (<a class="el" href="namespacemazes.html#a3bed7fd7c2a046467f3b82789af9edc1">output</a> o) noexcept</td></tr>
-<tr class="separator:ac0952f7814754fedb6f44773eb1157c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16557b62d63dc36ff6d14783ed6e5d14" id="r_a16557b62d63dc36ff6d14783ed6e5d14"><td class="memItemLeft" align="right" valign="top"><a id="a16557b62d63dc36ff6d14783ed6e5d14" name="a16557b62d63dc36ff6d14783ed6e5d14"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>rows</b> () const noexcept</td></tr>
+<tr class="memitem:aee8aef693ea5c267c6beb865c131e350" id="r_aee8aef693ea5c267c6beb865c131e350"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee8aef693ea5c267c6beb865c131e350">configurator</a> () noexcept</td></tr>
+<tr class="memdesc:aee8aef693ea5c267c6beb865c131e350"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor - initializes all values to safe defaults.  <br /></td></tr>
+<tr class="separator:aee8aef693ea5c267c6beb865c131e350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc2273bf2c509b1376f87f75c85218d" id="r_aefc2273bf2c509b1376f87f75c85218d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefc2273bf2c509b1376f87f75c85218d">configurator</a> (const <a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;other) noexcept=default</td></tr>
+<tr class="memdesc:aefc2273bf2c509b1376f87f75c85218d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
+<tr class="separator:aefc2273bf2c509b1376f87f75c85218d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb1fd37176ad71f65693313af838607f" id="r_acb1fd37176ad71f65693313af838607f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb1fd37176ad71f65693313af838607f">configurator</a> (<a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:acb1fd37176ad71f65693313af838607f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor <br  />
+  <br /></td></tr>
+<tr class="separator:acb1fd37176ad71f65693313af838607f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2709dc2e3e31b086deb864f596d2d7c" id="r_ac2709dc2e3e31b086deb864f596d2d7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2709dc2e3e31b086deb864f596d2d7c">operator=</a> (const <a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;other) noexcept=default</td></tr>
+<tr class="memdesc:ac2709dc2e3e31b086deb864f596d2d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator.  <br /></td></tr>
+<tr class="separator:ac2709dc2e3e31b086deb864f596d2d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a589a2c526c7d4c2717650491b933429d" id="r_a589a2c526c7d4c2717650491b933429d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a589a2c526c7d4c2717650491b933429d">operator=</a> (<a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a589a2c526c7d4c2717650491b933429d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator.  <br /></td></tr>
+<tr class="separator:a589a2c526c7d4c2717650491b933429d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ebdbbe1f57e3c0c2da2eb80fa59507e" id="r_a3ebdbbe1f57e3c0c2da2eb80fa59507e"><td class="memItemLeft" align="right" valign="top"><a id="a3ebdbbe1f57e3c0c2da2eb80fa59507e" name="a3ebdbbe1f57e3c0c2da2eb80fa59507e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>~configurator</b> () noexcept=default</td></tr>
+<tr class="memdesc:a3ebdbbe1f57e3c0c2da2eb80fa59507e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="separator:a3ebdbbe1f57e3c0c2da2eb80fa59507e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6e08a9b73f94fa66bc47b2ee660a3a6" id="r_aa6e08a9b73f94fa66bc47b2ee660a3a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6e08a9b73f94fa66bc47b2ee660a3a6">rows</a> (unsigned int rows) noexcept</td></tr>
+<tr class="memdesc:aa6e08a9b73f94fa66bc47b2ee660a3a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the number of rows.  <br /></td></tr>
+<tr class="separator:aa6e08a9b73f94fa66bc47b2ee660a3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a2b078de2a4845f0e05ce7ef87b7472" id="r_a3a2b078de2a4845f0e05ce7ef87b7472"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a2b078de2a4845f0e05ce7ef87b7472">columns</a> (unsigned int columns) noexcept</td></tr>
+<tr class="memdesc:a3a2b078de2a4845f0e05ce7ef87b7472"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the number of columns.  <br /></td></tr>
+<tr class="separator:a3a2b078de2a4845f0e05ce7ef87b7472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6891bc3eeb0b2e9dd007d4593c6e4ed0" id="r_a6891bc3eeb0b2e9dd007d4593c6e4ed0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6891bc3eeb0b2e9dd007d4593c6e4ed0">levels</a> (unsigned int levels) noexcept</td></tr>
+<tr class="memdesc:a6891bc3eeb0b2e9dd007d4593c6e4ed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the number of levels.  <br /></td></tr>
+<tr class="separator:a6891bc3eeb0b2e9dd007d4593c6e4ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73985fb2a19c9f1679f35fe1cfba10f4" id="r_a73985fb2a19c9f1679f35fe1cfba10f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73985fb2a19c9f1679f35fe1cfba10f4">algo_id</a> (<a class="el" href="namespacemazes.html#aa61978cb14a922fcab3ffcc1889a7f8a">algo</a> algorithm) noexcept</td></tr>
+<tr class="memdesc:a73985fb2a19c9f1679f35fe1cfba10f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maze generation algorithm.  <br /></td></tr>
+<tr class="separator:a73985fb2a19c9f1679f35fe1cfba10f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a458e4e16d7c749d21e23fcf4ae29b6bf" id="r_a458e4e16d7c749d21e23fcf4ae29b6bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a458e4e16d7c749d21e23fcf4ae29b6bf">block_id</a> (int block_id) noexcept</td></tr>
+<tr class="memdesc:a458e4e16d7c749d21e23fcf4ae29b6bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the block ID.  <br /></td></tr>
+<tr class="separator:a458e4e16d7c749d21e23fcf4ae29b6bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f9918f59b7d771f33b4df3c4077cd04" id="r_a8f9918f59b7d771f33b4df3c4077cd04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f9918f59b7d771f33b4df3c4077cd04">seed</a> (unsigned int seed) noexcept</td></tr>
+<tr class="memdesc:a8f9918f59b7d771f33b4df3c4077cd04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the random seed.  <br /></td></tr>
+<tr class="separator:a8f9918f59b7d771f33b4df3c4077cd04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69e89419260ada7ce3f3c44df63daf9e" id="r_a69e89419260ada7ce3f3c44df63daf9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69e89419260ada7ce3f3c44df63daf9e">distances</a> (bool <a class="el" href="classmazes_1_1distances.html">distances</a>) noexcept</td></tr>
+<tr class="memdesc:a69e89419260ada7ce3f3c44df63daf9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the distance calculation flag.  <br /></td></tr>
+<tr class="separator:a69e89419260ada7ce3f3c44df63daf9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46cd1d1f3628b9584f2a189ab96bc0ba" id="r_a46cd1d1f3628b9584f2a189ab96bc0ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46cd1d1f3628b9584f2a189ab96bc0ba">output_id</a> (<a class="el" href="namespacemazes.html#a3bed7fd7c2a046467f3b82789af9edc1">output</a> <a class="el" href="namespacemazes.html#a3bed7fd7c2a046467f3b82789af9edc1">output</a>) noexcept</td></tr>
+<tr class="memdesc:a46cd1d1f3628b9584f2a189ab96bc0ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the output ID.  <br /></td></tr>
+<tr class="separator:a46cd1d1f3628b9584f2a189ab96bc0ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e758d5d4c57b63e8c4d19e7d4b1e128" id="r_a0e758d5d4c57b63e8c4d19e7d4b1e128"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e758d5d4c57b63e8c4d19e7d4b1e128">help</a> (std::string help) noexcept</td></tr>
+<tr class="memdesc:a0e758d5d4c57b63e8c4d19e7d4b1e128"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the help message.  <br /></td></tr>
+<tr class="separator:a0e758d5d4c57b63e8c4d19e7d4b1e128"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a818bc3b326af398a5ae412a4fa91c817" id="r_a818bc3b326af398a5ae412a4fa91c817"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a818bc3b326af398a5ae412a4fa91c817">version</a> (std::string version) noexcept</td></tr>
+<tr class="memdesc:a818bc3b326af398a5ae412a4fa91c817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the version string.  <br /></td></tr>
+<tr class="separator:a818bc3b326af398a5ae412a4fa91c817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16557b62d63dc36ff6d14783ed6e5d14" id="r_a16557b62d63dc36ff6d14783ed6e5d14"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16557b62d63dc36ff6d14783ed6e5d14">rows</a> () const noexcept</td></tr>
+<tr class="memdesc:a16557b62d63dc36ff6d14783ed6e5d14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of rows.  <br /></td></tr>
 <tr class="separator:a16557b62d63dc36ff6d14783ed6e5d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf827c0e5ea0fa280e94d651728e24c5" id="r_aaf827c0e5ea0fa280e94d651728e24c5"><td class="memItemLeft" align="right" valign="top"><a id="aaf827c0e5ea0fa280e94d651728e24c5" name="aaf827c0e5ea0fa280e94d651728e24c5"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>columns</b> () const noexcept</td></tr>
+<tr class="memitem:aaf827c0e5ea0fa280e94d651728e24c5" id="r_aaf827c0e5ea0fa280e94d651728e24c5"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf827c0e5ea0fa280e94d651728e24c5">columns</a> () const noexcept</td></tr>
+<tr class="memdesc:aaf827c0e5ea0fa280e94d651728e24c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of columns <br  />
+  <br /></td></tr>
 <tr class="separator:aaf827c0e5ea0fa280e94d651728e24c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f11a448fbbd6f638f564dca39803aa7" id="r_a7f11a448fbbd6f638f564dca39803aa7"><td class="memItemLeft" align="right" valign="top"><a id="a7f11a448fbbd6f638f564dca39803aa7" name="a7f11a448fbbd6f638f564dca39803aa7"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>levels</b> () const noexcept</td></tr>
+<tr class="memitem:a7f11a448fbbd6f638f564dca39803aa7" id="r_a7f11a448fbbd6f638f564dca39803aa7"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f11a448fbbd6f638f564dca39803aa7">levels</a> () const noexcept</td></tr>
+<tr class="memdesc:a7f11a448fbbd6f638f564dca39803aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of levels.  <br /></td></tr>
 <tr class="separator:a7f11a448fbbd6f638f564dca39803aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9ba419e193c7316dcf1a9c5869b9361" id="r_ae9ba419e193c7316dcf1a9c5869b9361"><td class="memItemLeft" align="right" valign="top"><a id="ae9ba419e193c7316dcf1a9c5869b9361" name="ae9ba419e193c7316dcf1a9c5869b9361"></a>
-<a class="el" href="namespacemazes.html#aa61978cb14a922fcab3ffcc1889a7f8a">algo</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_algo</b> () const noexcept</td></tr>
-<tr class="separator:ae9ba419e193c7316dcf1a9c5869b9361"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49cbcc08baab580d5547492b150c9cb2" id="r_a49cbcc08baab580d5547492b150c9cb2"><td class="memItemLeft" align="right" valign="top"><a id="a49cbcc08baab580d5547492b150c9cb2" name="a49cbcc08baab580d5547492b150c9cb2"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>block_id</b> () const noexcept</td></tr>
+<tr class="memitem:a5c507ddf9276e96d954b3d49e7a0f4fd" id="r_a5c507ddf9276e96d954b3d49e7a0f4fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemazes.html#aa61978cb14a922fcab3ffcc1889a7f8a">algo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c507ddf9276e96d954b3d49e7a0f4fd">algo_id</a> () const noexcept</td></tr>
+<tr class="memdesc:a5c507ddf9276e96d954b3d49e7a0f4fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maze generation algorithm.  <br /></td></tr>
+<tr class="separator:a5c507ddf9276e96d954b3d49e7a0f4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49cbcc08baab580d5547492b150c9cb2" id="r_a49cbcc08baab580d5547492b150c9cb2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49cbcc08baab580d5547492b150c9cb2">block_id</a> () const noexcept</td></tr>
+<tr class="memdesc:a49cbcc08baab580d5547492b150c9cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the block ID.  <br /></td></tr>
 <tr class="separator:a49cbcc08baab580d5547492b150c9cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0536f9fa0ff2dab7b4bcf5f15792dc16" id="r_a0536f9fa0ff2dab7b4bcf5f15792dc16"><td class="memItemLeft" align="right" valign="top"><a id="a0536f9fa0ff2dab7b4bcf5f15792dc16" name="a0536f9fa0ff2dab7b4bcf5f15792dc16"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>seed</b> () const noexcept</td></tr>
+<tr class="memitem:a0536f9fa0ff2dab7b4bcf5f15792dc16" id="r_a0536f9fa0ff2dab7b4bcf5f15792dc16"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0536f9fa0ff2dab7b4bcf5f15792dc16">seed</a> () const noexcept</td></tr>
+<tr class="memdesc:a0536f9fa0ff2dab7b4bcf5f15792dc16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the random seed.  <br /></td></tr>
 <tr class="separator:a0536f9fa0ff2dab7b4bcf5f15792dc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ccefa1779ff873dbacaafc0fde0bc0d" id="r_a3ccefa1779ff873dbacaafc0fde0bc0d"><td class="memItemLeft" align="right" valign="top"><a id="a3ccefa1779ff873dbacaafc0fde0bc0d" name="a3ccefa1779ff873dbacaafc0fde0bc0d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>distances</b> () const noexcept</td></tr>
+<tr class="memitem:a3ccefa1779ff873dbacaafc0fde0bc0d" id="r_a3ccefa1779ff873dbacaafc0fde0bc0d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ccefa1779ff873dbacaafc0fde0bc0d">distances</a> () const noexcept</td></tr>
+<tr class="memdesc:a3ccefa1779ff873dbacaafc0fde0bc0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if distances are calculated.  <br /></td></tr>
 <tr class="separator:a3ccefa1779ff873dbacaafc0fde0bc0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0de8de3939e7648f26d9072ae46938e" id="r_af0de8de3939e7648f26d9072ae46938e"><td class="memItemLeft" align="right" valign="top"><a id="af0de8de3939e7648f26d9072ae46938e" name="af0de8de3939e7648f26d9072ae46938e"></a>
-<a class="el" href="namespacemazes.html#a3bed7fd7c2a046467f3b82789af9edc1">output</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_output</b> () const noexcept</td></tr>
-<tr class="separator:af0de8de3939e7648f26d9072ae46938e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c26d21956a6cb92cf516c34b9731b4d" id="r_a1c26d21956a6cb92cf516c34b9731b4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemazes.html#a3bed7fd7c2a046467f3b82789af9edc1">output</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c26d21956a6cb92cf516c34b9731b4d">output_id</a> () const noexcept</td></tr>
+<tr class="memdesc:a1c26d21956a6cb92cf516c34b9731b4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the output ID.  <br /></td></tr>
+<tr class="separator:a1c26d21956a6cb92cf516c34b9731b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c2799ed1a6dd44fd0a0d561d531970d" id="r_a8c2799ed1a6dd44fd0a0d561d531970d"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c2799ed1a6dd44fd0a0d561d531970d">help</a> () const noexcept</td></tr>
+<tr class="memdesc:a8c2799ed1a6dd44fd0a0d561d531970d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the help message.  <br /></td></tr>
+<tr class="separator:a8c2799ed1a6dd44fd0a0d561d531970d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ec68e4057eb9a50d4cd095e8f503d98" id="r_a2ec68e4057eb9a50d4cd095e8f503d98"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ec68e4057eb9a50d4cd095e8f503d98">version</a> () const noexcept</td></tr>
+<tr class="memdesc:a2ec68e4057eb9a50d4cd095e8f503d98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the version string.  <br /></td></tr>
+<tr class="separator:a2ec68e4057eb9a50d4cd095e8f503d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6189b30ff9501bef102f0857b2bd65ea" id="r_a6189b30ff9501bef102f0857b2bd65ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6189b30ff9501bef102f0857b2bd65ea">is_valid</a> () const noexcept</td></tr>
+<tr class="memdesc:a6189b30ff9501bef102f0857b2bd65ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate all configuration values are within safe limits.  <br /></td></tr>
+<tr class="separator:a6189b30ff9501bef102f0857b2bd65ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a079d0f463da8f17991b15a8885367efc" id="r_a079d0f463da8f17991b15a8885367efc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a079d0f463da8f17991b15a8885367efc">reset_to_defaults</a> () noexcept</td></tr>
+<tr class="memdesc:a079d0f463da8f17991b15a8885367efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset all values to safe defaults.  <br /></td></tr>
+<tr class="separator:a079d0f463da8f17991b15a8885367efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Configuration class for the maze builder. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+<div class="textblock"><p>Configuration class for arguments. </p>
+<p>This class stores maze generation parameters with safe default values </p><dl class="section warning"><dt>Warning</dt><dd>Always use the constructor or setter methods to ensure proper initialization </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aee8aef693ea5c267c6beb865c131e350" name="aee8aef693ea5c267c6beb865c131e350"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee8aef693ea5c267c6beb865c131e350">&#9670;&#160;</a></span>configurator() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mazes::configurator::configurator </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default constructor - initializes all values to safe defaults. </p>
+<p>Provides reasonable default values to prevent uninitialized memory access </p><dl class="section note"><dt>Note</dt><dd>Default values: rows=10, columns=10, levels=1, algo=BINARY_TREE, etc. </dd></dl>
+
+</div>
+</div>
+<a id="aefc2273bf2c509b1376f87f75c85218d" name="aefc2273bf2c509b1376f87f75c85218d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefc2273bf2c509b1376f87f75c85218d">&#9670;&#160;</a></span>configurator() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mazes::configurator::configurator </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copy constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The configurator object to copy from </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acb1fd37176ad71f65693313af838607f" name="acb1fd37176ad71f65693313af838607f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb1fd37176ad71f65693313af838607f">&#9670;&#160;</a></span>configurator() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mazes::configurator::configurator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move constructor <br  />
+ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The configurator object to move from </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5c507ddf9276e96d954b3d49e7a0f4fd" name="a5c507ddf9276e96d954b3d49e7a0f4fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c507ddf9276e96d954b3d49e7a0f4fd">&#9670;&#160;</a></span>algo_id() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacemazes.html#aa61978cb14a922fcab3ffcc1889a7f8a">algo</a> mazes::configurator::algo_id </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the maze generation algorithm. </p>
+<dl class="section return"><dt>Returns</dt><dd>The algorithm used for maze generation </dd></dl>
+
+</div>
+</div>
+<a id="a73985fb2a19c9f1679f35fe1cfba10f4" name="a73985fb2a19c9f1679f35fe1cfba10f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73985fb2a19c9f1679f35fe1cfba10f4">&#9670;&#160;</a></span>algo_id() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp; mazes::configurator::algo_id </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacemazes.html#aa61978cb14a922fcab3ffcc1889a7f8a">algo</a></td>          <td class="paramname"><span class="paramname"><em>algorithm</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the maze generation algorithm. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">algorithm</td><td>The algorithm to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this configurator </dd></dl>
+
+</div>
+</div>
+<a id="a49cbcc08baab580d5547492b150c9cb2" name="a49cbcc08baab580d5547492b150c9cb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49cbcc08baab580d5547492b150c9cb2">&#9670;&#160;</a></span>block_id() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mazes::configurator::block_id </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the block ID. </p>
+<dl class="section return"><dt>Returns</dt><dd>The block ID </dd></dl>
+
+</div>
+</div>
+<a id="a458e4e16d7c749d21e23fcf4ae29b6bf" name="a458e4e16d7c749d21e23fcf4ae29b6bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a458e4e16d7c749d21e23fcf4ae29b6bf">&#9670;&#160;</a></span>block_id() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp; mazes::configurator::block_id </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>block_id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the block ID. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">block_id</td><td>The block ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this configurator </dd></dl>
+
+</div>
+</div>
+<a id="aaf827c0e5ea0fa280e94d651728e24c5" name="aaf827c0e5ea0fa280e94d651728e24c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf827c0e5ea0fa280e94d651728e24c5">&#9670;&#160;</a></span>columns() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int mazes::configurator::columns </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the number of columns <br  />
+ </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of columns (guaranteed to be &gt; 0) </dd></dl>
+
+</div>
+</div>
+<a id="a3a2b078de2a4845f0e05ce7ef87b7472" name="a3a2b078de2a4845f0e05ce7ef87b7472"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a2b078de2a4845f0e05ce7ef87b7472">&#9670;&#160;</a></span>columns() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp; mazes::configurator::columns </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>columns</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the number of columns. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">columns</td><td>The number of columns (must be &gt; 0, will be clamped to reasonable limits) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this configurator </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Values &gt; 10000 will be clamped to prevent memory issues </dd></dl>
+
+</div>
+</div>
+<a id="a3ccefa1779ff873dbacaafc0fde0bc0d" name="a3ccefa1779ff873dbacaafc0fde0bc0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ccefa1779ff873dbacaafc0fde0bc0d">&#9670;&#160;</a></span>distances() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mazes::configurator::distances </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if distances are calculated. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if distances are calculated, false otherwise </dd></dl>
+
+</div>
+</div>
+<a id="a69e89419260ada7ce3f3c44df63daf9e" name="a69e89419260ada7ce3f3c44df63daf9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69e89419260ada7ce3f3c44df63daf9e">&#9670;&#160;</a></span>distances() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp; mazes::configurator::distances </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>distances</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the distance calculation flag. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">distances</td><td>The distance calculation flag </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this configurator </dd></dl>
+
+</div>
+</div>
+<a id="a8c2799ed1a6dd44fd0a0d561d531970d" name="a8c2799ed1a6dd44fd0a0d561d531970d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c2799ed1a6dd44fd0a0d561d531970d">&#9670;&#160;</a></span>help() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; mazes::configurator::help </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the help message. </p>
+<dl class="section return"><dt>Returns</dt><dd>The help message </dd></dl>
+
+</div>
+</div>
+<a id="a0e758d5d4c57b63e8c4d19e7d4b1e128" name="a0e758d5d4c57b63e8c4d19e7d4b1e128"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e758d5d4c57b63e8c4d19e7d4b1e128">&#9670;&#160;</a></span>help() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp; mazes::configurator::help </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>help</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the help message. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">help</td><td>The help message </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this configurator </dd></dl>
+
+</div>
+</div>
+<a id="a6189b30ff9501bef102f0857b2bd65ea" name="a6189b30ff9501bef102f0857b2bd65ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6189b30ff9501bef102f0857b2bd65ea">&#9670;&#160;</a></span>is_valid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mazes::configurator::is_valid </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Validate all configuration values are within safe limits. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if all values are valid, false if any are problematic</dd></dl>
+<p>Checks for potential infinite loop conditions and memory issues </p>
+
+</div>
+</div>
+<a id="a7f11a448fbbd6f638f564dca39803aa7" name="a7f11a448fbbd6f638f564dca39803aa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f11a448fbbd6f638f564dca39803aa7">&#9670;&#160;</a></span>levels() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int mazes::configurator::levels </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the number of levels. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of levels (guaranteed to be &gt; 0) </dd></dl>
+
+</div>
+</div>
+<a id="a6891bc3eeb0b2e9dd007d4593c6e4ed0" name="a6891bc3eeb0b2e9dd007d4593c6e4ed0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6891bc3eeb0b2e9dd007d4593c6e4ed0">&#9670;&#160;</a></span>levels() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp; mazes::configurator::levels </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>levels</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the number of levels. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">levels</td><td>The number of levels (must be &gt; 0, will be clamped to reasonable limits) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this configurator </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Values &gt; 1000 will be clamped to prevent memory issues </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Most mazes are 2D (levels=1), 3D mazes should use moderate level counts </dd></dl>
+
+</div>
+</div>
+<a id="a589a2c526c7d4c2717650491b933429d" name="a589a2c526c7d4c2717650491b933429d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a589a2c526c7d4c2717650491b933429d">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp; mazes::configurator::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move assignment operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The configurator object to move from <br  />
+ </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this configurator </dd></dl>
+
+</div>
+</div>
+<a id="ac2709dc2e3e31b086deb864f596d2d7c" name="ac2709dc2e3e31b086deb864f596d2d7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2709dc2e3e31b086deb864f596d2d7c">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp; mazes::configurator::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copy assignment operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The configurator object to copy from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this configurator </dd></dl>
+
+</div>
+</div>
+<a id="a1c26d21956a6cb92cf516c34b9731b4d" name="a1c26d21956a6cb92cf516c34b9731b4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c26d21956a6cb92cf516c34b9731b4d">&#9670;&#160;</a></span>output_id() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacemazes.html#a3bed7fd7c2a046467f3b82789af9edc1">output</a> mazes::configurator::output_id </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the output ID. </p>
+<dl class="section return"><dt>Returns</dt><dd>The output ID </dd></dl>
+
+</div>
+</div>
+<a id="a46cd1d1f3628b9584f2a189ab96bc0ba" name="a46cd1d1f3628b9584f2a189ab96bc0ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46cd1d1f3628b9584f2a189ab96bc0ba">&#9670;&#160;</a></span>output_id() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp; mazes::configurator::output_id </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacemazes.html#a3bed7fd7c2a046467f3b82789af9edc1">output</a></td>          <td class="paramname"><span class="paramname"><em>output</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the output ID. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">output</td><td>The output ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this configurator </dd></dl>
+
+</div>
+</div>
+<a id="a079d0f463da8f17991b15a8885367efc" name="a079d0f463da8f17991b15a8885367efc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a079d0f463da8f17991b15a8885367efc">&#9670;&#160;</a></span>reset_to_defaults()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mazes::configurator::reset_to_defaults </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reset all values to safe defaults. </p>
+<p>Useful for clearing potentially corrupted configuration </p>
+
+</div>
+</div>
+<a id="a16557b62d63dc36ff6d14783ed6e5d14" name="a16557b62d63dc36ff6d14783ed6e5d14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16557b62d63dc36ff6d14783ed6e5d14">&#9670;&#160;</a></span>rows() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int mazes::configurator::rows </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the number of rows. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of rows (guaranteed to be &gt; 0) </dd></dl>
+
+</div>
+</div>
+<a id="aa6e08a9b73f94fa66bc47b2ee660a3a6" name="aa6e08a9b73f94fa66bc47b2ee660a3a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6e08a9b73f94fa66bc47b2ee660a3a6">&#9670;&#160;</a></span>rows() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp; mazes::configurator::rows </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>rows</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the number of rows. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rows</td><td>The number of rows (must be &gt; 0, will be clamped to reasonable limits) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this configurator </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Values &gt; 10000 will be clamped to prevent memory issues </dd></dl>
+
+</div>
+</div>
+<a id="a0536f9fa0ff2dab7b4bcf5f15792dc16" name="a0536f9fa0ff2dab7b4bcf5f15792dc16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0536f9fa0ff2dab7b4bcf5f15792dc16">&#9670;&#160;</a></span>seed() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int mazes::configurator::seed </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the random seed. </p>
+<dl class="section return"><dt>Returns</dt><dd>The random seed </dd></dl>
+
+</div>
+</div>
+<a id="a8f9918f59b7d771f33b4df3c4077cd04" name="a8f9918f59b7d771f33b4df3c4077cd04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f9918f59b7d771f33b4df3c4077cd04">&#9670;&#160;</a></span>seed() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp; mazes::configurator::seed </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>seed</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the random seed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">seed</td><td>The random seed (0 = use random seed) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this configurator </dd></dl>
+
+</div>
+</div>
+<a id="a2ec68e4057eb9a50d4cd095e8f503d98" name="a2ec68e4057eb9a50d4cd095e8f503d98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ec68e4057eb9a50d4cd095e8f503d98">&#9670;&#160;</a></span>version() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; mazes::configurator::version </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the version string. </p>
+<dl class="section return"><dt>Returns</dt><dd>The version string </dd></dl>
+
+</div>
+</div>
+<a id="a818bc3b326af398a5ae412a4fa91c817" name="a818bc3b326af398a5ae412a4fa91c817"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a818bc3b326af398a5ae412a4fa91c817">&#9670;&#160;</a></span>version() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp; mazes::configurator::version </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>version</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the version string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">version</td><td>The version string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this configurator </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="configurator_8h_source.html">configurator.h</a></li>
 </ul>
 </div><!-- contents -->

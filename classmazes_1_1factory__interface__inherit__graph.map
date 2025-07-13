@@ -1,0 +1,5 @@
+<map id="mazes::factory_interface" name="mazes::factory_interface">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,171,32"/>
+<area shape="rect" id="Node000002" href="$classmazes_1_1grid__factory.html" title="grid_factory provides a way to create grids with algorithms applied" alt="" coords="20,80,156,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,48,91,80,85,80,85,48"/>
+</map>

@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="classmazes_1_1configurator.html" target="_top" xlink:title="Configuration class for the maze builder.">
+<g id="a_Node000000"><a xlink:href="classmazes_1_1configurator.html" target="_top" xlink:title="Configuration class for arguments.">
 <polygon fill="white" stroke="#666666" points="102.25,-20 0,-20 0,0 102.25,0 102.25,-20"/>
 <text text-anchor="middle" x="51.12" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">mazes::configurator</text>
 </a>
