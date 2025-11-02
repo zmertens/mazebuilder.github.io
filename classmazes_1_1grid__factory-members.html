@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.7.5</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;7.5.6</span>
    </div>
   </td>
  </tr>
@@ -105,8 +105,14 @@ $(function(){initNavTree('classmazes_1_1grid__factory.html',''); initResizable(t
 
 <p>This is the complete list of members for <a class="el" href="classmazes_1_1grid__factory.html">mazes::grid_factory</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classmazes_1_1grid__factory.html#a1217c213bc5ccaee98bfd19f2a55a96f">create</a>(configurator const &amp;config) const noexcept override</td><td class="entry"><a class="el" href="classmazes_1_1grid__factory.html">mazes::grid_factory</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>~factory_interface</b>()=default (defined in <a class="el" href="classmazes_1_1factory__interface.html">mazes::factory_interface</a>)</td><td class="entry"><a class="el" href="classmazes_1_1factory__interface.html">mazes::factory_interface</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmazes_1_1grid__factory.html#ac83c858032f564860021e802efa5a178">clear</a>() noexcept override</td><td class="entry"><a class="el" href="classmazes_1_1grid__factory.html">mazes::grid_factory</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmazes_1_1grid__factory.html#a69afefe889028fa13dfcdd7fd1d2774f">create</a>(const std::string &amp;key, const configurator &amp;config) const noexcept override</td><td class="entry"><a class="el" href="classmazes_1_1grid__factory.html">mazes::grid_factory</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmazes_1_1factory__interface.html#ade7dcc618afb8238a354fa4ae38e575f">factory_creator_t</a> typedef</td><td class="entry"><a class="el" href="classmazes_1_1factory__interface.html">mazes::factory_interface&lt; InterfaceType &gt;</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmazes_1_1grid__factory.html#a5eb8000a1fb44b3f07358b20ba876b91">get_registered_keys</a>() const override</td><td class="entry"><a class="el" href="classmazes_1_1grid__factory.html">mazes::grid_factory</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmazes_1_1grid__factory.html#aaac755fc39f3d72e94aeea1626f58c10">is_registered</a>(const std::string &amp;key) const override</td><td class="entry"><a class="el" href="classmazes_1_1grid__factory.html">mazes::grid_factory</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmazes_1_1grid__factory.html#ac94c3bf7c9454eb2509a68a0be289669">register_creator</a>(const std::string &amp;key, factory_creator_t creator) noexcept override</td><td class="entry"><a class="el" href="classmazes_1_1grid__factory.html">mazes::grid_factory</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmazes_1_1grid__factory.html#ad52a8ab229086ed4f39f036ac598eeba">unregister_creator</a>(const std::string &amp;key) noexcept override</td><td class="entry"><a class="el" href="classmazes_1_1grid__factory.html">mazes::grid_factory</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>~factory_interface</b>()=default (defined in <a class="el" href="classmazes_1_1factory__interface.html">mazes::factory_interface&lt; InterfaceType &gt;</a>)</td><td class="entry"><a class="el" href="classmazes_1_1factory__interface.html">mazes::factory_interface&lt; InterfaceType &gt;</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

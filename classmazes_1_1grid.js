@@ -1,25 +1,25 @@
 var classmazes_1_1grid =
 [
-    [ "grid", "classmazes_1_1grid.html#a7803cafd11b015a2558a6639f5047ffa", null ],
+    [ "grid", "classmazes_1_1grid.html#ad3c8e374626c64a08bf81388dd02cdcc", null ],
     [ "grid", "classmazes_1_1grid.html#aba7fe4583dc2455248275a7a7b016f22", null ],
     [ "grid", "classmazes_1_1grid.html#a246c9706ef9126ebe14e190027bffec8", null ],
     [ "grid", "classmazes_1_1grid.html#ac8a5678a961a2c8933c1d6fdec5295be", null ],
     [ "~grid", "classmazes_1_1grid.html#af5986c6107091765c3131e582f18c710", null ],
     [ "background_color_for", "classmazes_1_1grid.html#a3fcc6adcae97ca3c016d69b65426a151", null ],
     [ "clear_cells", "classmazes_1_1grid.html#a2f69e7daac23e89ee00084ca85e210f6", null ],
-    [ "contents_of", "classmazes_1_1grid.html#ad25f99a4d1747a773525cc79c12ba025", null ],
-    [ "get_cells", "classmazes_1_1grid.html#a705dc58d887ddb76a140b602aa93f677", null ],
+    [ "contents_of", "classmazes_1_1grid.html#a3608a7ced8678b91970308cb0aa1351e", null ],
     [ "get_dimensions", "classmazes_1_1grid.html#a8664f105b86201694a23ecc05c33f25b", null ],
+    [ "get_faces", "classmazes_1_1grid.html#a2b0d6e954e263329909a3ac269410003", null ],
     [ "get_neighbor", "classmazes_1_1grid.html#a8a25ef8d4240e7d25ed9027bc55fc377", null ],
     [ "get_neighbors", "classmazes_1_1grid.html#afbd0af4bb687d6733cad1e514319dd38", null ],
+    [ "get_vertices", "classmazes_1_1grid.html#a4d214b2b21cd593d77a3eed5a5e55288", null ],
     [ "num_cells", "classmazes_1_1grid.html#af1959d16507f4557619ace8e7b3983b3", null ],
     [ "operations", "classmazes_1_1grid.html#ac38ab2779ce66f3d44a3eb3cb0e96156", null ],
     [ "operations", "classmazes_1_1grid.html#a1cf1fbd5ad9b4ea4e3255ed378098396", null ],
     [ "operator=", "classmazes_1_1grid.html#a7902b999cbe04131d1796611f9725828", null ],
     [ "operator=", "classmazes_1_1grid.html#a84093016ed441e0820fc609b6e4dcd4c", null ],
     [ "search", "classmazes_1_1grid.html#a26ab953d8e9c9284d235eec2d92f089d", null ],
-    [ "set_cells", "classmazes_1_1grid.html#a6c8e1f3994db114fe1ddb70b02c21edb", null ],
+    [ "set_faces", "classmazes_1_1grid.html#a51ea3db7a640cb83e71ad3c0c2b7bce4", null ],
     [ "set_neighbor", "classmazes_1_1grid.html#af95be2a4f64d0f0f3aca4f380b6cb215", null ],
-    [ "sort", "classmazes_1_1grid.html#ae11d6cc9278bd022b1fdea281c81b172", null ],
-    [ "binary_tree", "classmazes_1_1grid.html#aadeb120c80f8a96593380750fb2e0bd4", null ]
+    [ "set_vertices", "classmazes_1_1grid.html#ac7178c6eae276c7f38939a6ca70e35c4", null ]
 ];

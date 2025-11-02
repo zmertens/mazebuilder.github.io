@@ -1,15 +1,7 @@
 var searchData=
 [
-  ['search_0',['search',['../classmazes_1_1grid.html#a26ab953d8e9c9284d235eec2d92f089d',1,'mazes::grid::search()'],['../classmazes_1_1grid__operations.html#aef444e2a7661a12b2b88f18a1552b0e5',1,'mazes::grid_operations::search()']]],
-  ['seed_1',['seed',['../classmazes_1_1configurator.html#a8f9918f59b7d771f33b4df3c4077cd04',1,'mazes::configurator::seed(unsigned int seed) noexcept'],['../classmazes_1_1configurator.html#a0536f9fa0ff2dab7b4bcf5f15792dc16',1,'mazes::configurator::seed() const noexcept'],['../classmazes_1_1randomizer.html#a1abfd352227a277557e1ffaa2c136af3',1,'mazes::randomizer::seed()']]],
-  ['set_2',['set',['../classmazes_1_1distances.html#a02617c34998720a92b1034f8bc06eb06',1,'mazes::distances']]],
-  ['set_5fcells_3',['set_cells',['../classmazes_1_1grid.html#a6c8e1f3994db114fe1ddb70b02c21edb',1,'mazes::grid::set_cells()'],['../classmazes_1_1grid__operations.html#a1f79d208e9d07b2e4c0443f68ef163e6',1,'mazes::grid_operations::set_cells()']]],
-  ['set_5findex_4',['set_index',['../classmazes_1_1cell.html#a8c04499f0e1def466f2480bc0ffda844',1,'mazes::cell']]],
-  ['set_5fneighbor_5',['set_neighbor',['../classmazes_1_1grid.html#af95be2a4f64d0f0f3aca4f380b6cb215',1,'mazes::grid::set_neighbor()'],['../classmazes_1_1grid__operations.html#ae1c555020f50f11983ce6516449aa2f9',1,'mazes::grid_operations::set_neighbor()']]],
-  ['set_5fneighbors_6',['set_neighbors',['../classmazes_1_1lab.html#a0ae9bf218dba05be273ff74366155901',1,'mazes::lab']]],
-  ['sort_7',['sort',['../classmazes_1_1grid.html#ae11d6cc9278bd022b1fdea281c81b172',1,'mazes::grid::sort()'],['../classmazes_1_1grid__operations.html#ae7f9763f45e0f414fb63815482cea2cf',1,'mazes::grid_operations::sort()']]],
-  ['split_8',['split',['../classmazes_1_1string__view__utils.html#aa4c0982d6740411d7db45d10def9a0b9',1,'mazes::string_view_utils']]],
-  ['stringify_9',['stringify',['../classmazes_1_1string__view__utils.html#a133d40cc2a6094851b5375b3b5c6487a',1,'mazes::string_view_utils']]],
-  ['strip_10',['strip',['../classmazes_1_1string__view__utils.html#a2b8b4fae3d598d202193d8c0b844ab14',1,'mazes::string_view_utils']]],
-  ['strip_5fjson_5fquotes_11',['strip_json_quotes',['../classmazes_1_1string__view__utils.html#a063f138e4e812ed97c7828fa23bc699c',1,'mazes::string_view_utils']]]
+  ['to_5falgo_5ffrom_5fsv_0',['to_algo_from_sv',['../namespacemazes.html#ac25c963342d3048400cc57829fb46520',1,'mazes']]],
+  ['to_5foutput_5fformat_5ffrom_5fsv_1',['to_output_format_from_sv',['../namespacemazes.html#a58cde30a9d986164112d36c558126891',1,'mazes']]],
+  ['to_5fsv_5ffrom_5falgo_2',['to_sv_from_algo',['../namespacemazes.html#acbd93c9b040a8afa2e2c4398900e708d',1,'mazes']]],
+  ['to_5fsv_5ffrom_5foutput_5fformat_3',['to_sv_from_output_format',['../namespacemazes.html#a0e2f85cb1043780d9f53db5402b8d79e',1,'mazes']]]
 ];

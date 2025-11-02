@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.7.5</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;7.5.6</span>
    </div>
   </td>
  </tr>
@@ -100,7 +100,7 @@ $(function(){initNavTree('classmazes_1_1base64__helper.html',''); initResizable(
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classmazes_1_1base64__helper-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mazes::base64_helper Class Reference</div></div>
 </div><!--header-->
@@ -111,34 +111,22 @@ $(function(){initNavTree('classmazes_1_1base64__helper.html',''); initResizable(
 
 <p><code>#include &lt;<a class="el" href="base64__helper_8h_source.html">base64_helper.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a2a21b48fbee33ae1f931a581c0739eec" id="r_a2a21b48fbee33ae1f931a581c0739eec"><td class="memItemLeft" align="right" valign="top"><a id="a2a21b48fbee33ae1f931a581c0739eec" name="a2a21b48fbee33ae1f931a581c0739eec"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>base64_helper</b> (const <a class="el" href="classmazes_1_1base64__helper.html">base64_helper</a> &amp;other)</td></tr>
-<tr class="separator:a2a21b48fbee33ae1f931a581c0739eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b5976d633293ef9968ddb4731d8cc4e" id="r_a3b5976d633293ef9968ddb4731d8cc4e"><td class="memItemLeft" align="right" valign="top"><a id="a3b5976d633293ef9968ddb4731d8cc4e" name="a3b5976d633293ef9968ddb4731d8cc4e"></a>
-<a class="el" href="classmazes_1_1base64__helper.html">base64_helper</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classmazes_1_1base64__helper.html">base64_helper</a> &amp;other)</td></tr>
-<tr class="separator:a3b5976d633293ef9968ddb4731d8cc4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4b2927e33cd7cac49ebecc1df9d9a98" id="r_ad4b2927e33cd7cac49ebecc1df9d9a98"><td class="memItemLeft" align="right" valign="top"><a id="ad4b2927e33cd7cac49ebecc1df9d9a98" name="ad4b2927e33cd7cac49ebecc1df9d9a98"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>base64_helper</b> (<a class="el" href="classmazes_1_1base64__helper.html">base64_helper</a> &amp;&amp;other) noexcept=default</td></tr>
-<tr class="separator:ad4b2927e33cd7cac49ebecc1df9d9a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf9a96a8b82a41170397edd3c1a3460b" id="r_aaf9a96a8b82a41170397edd3c1a3460b"><td class="memItemLeft" align="right" valign="top"><a id="aaf9a96a8b82a41170397edd3c1a3460b" name="aaf9a96a8b82a41170397edd3c1a3460b"></a>
-<a class="el" href="classmazes_1_1base64__helper.html">base64_helper</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="classmazes_1_1base64__helper.html">base64_helper</a> &amp;&amp;other) noexcept=default</td></tr>
-<tr class="separator:aaf9a96a8b82a41170397edd3c1a3460b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a555c3dfbd6a1a19542bde816b644ae93" id="r_a555c3dfbd6a1a19542bde816b644ae93"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a555c3dfbd6a1a19542bde816b644ae93">encode</a> (const std::string &amp;s) const noexcept</td></tr>
-<tr class="memdesc:a555c3dfbd6a1a19542bde816b644ae93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform an input string into base64 characters.  <br /></td></tr>
-<tr class="separator:a555c3dfbd6a1a19542bde816b644ae93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d58a81a19bf390443574c918b67a6f7" id="r_a2d58a81a19bf390443574c918b67a6f7"><td class="memItemLeft" align="right" valign="top"><a id="a2d58a81a19bf390443574c918b67a6f7" name="a2d58a81a19bf390443574c918b67a6f7"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>decode</b> (const std::string &amp;s) const noexcept</td></tr>
-<tr class="memdesc:a2d58a81a19bf390443574c918b67a6f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform an input string from from base64 characters. <br /></td></tr>
-<tr class="separator:a2d58a81a19bf390443574c918b67a6f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ab35e521ea03e69c2f2e80742bf5dea6d" id="r_ab35e521ea03e69c2f2e80742bf5dea6d"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab35e521ea03e69c2f2e80742bf5dea6d">encode</a> (std::string_view sv) noexcept</td></tr>
+<tr class="memdesc:ab35e521ea03e69c2f2e80742bf5dea6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform an input string into base64 characters.  <br /></td></tr>
+<tr class="separator:ab35e521ea03e69c2f2e80742bf5dea6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92b4812abe4e49771b75339900267051" id="r_a92b4812abe4e49771b75339900267051"><td class="memItemLeft" align="right" valign="top"><a id="a92b4812abe4e49771b75339900267051" name="a92b4812abe4e49771b75339900267051"></a>
+static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>decode</b> (std::string_view sv) noexcept</td></tr>
+<tr class="memdesc:a92b4812abe4e49771b75339900267051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform an input string from from base64 characters. <br /></td></tr>
+<tr class="separator:a92b4812abe4e49771b75339900267051"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base64 encoding and decoding helper class. </p>
 <p>This class provides methods to encode and decode strings using the Base64 encoding scheme </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a555c3dfbd6a1a19542bde816b644ae93" name="a555c3dfbd6a1a19542bde816b644ae93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a555c3dfbd6a1a19542bde816b644ae93">&#9670;&#160;</a></span>encode()</h2>
+<a id="ab35e521ea03e69c2f2e80742bf5dea6d" name="ab35e521ea03e69c2f2e80742bf5dea6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab35e521ea03e69c2f2e80742bf5dea6d">&#9670;&#160;</a></span>encode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -147,15 +135,15 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>decode</b> (co
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string mazes::base64_helper::encode </td>
+          <td class="memname">static std::string mazes::base64_helper::encode </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>sv</em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -163,12 +151,11 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>decode</b> (co
 <p>Transform an input string into base64 characters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">s</td><td></td></tr>
+    <tr><td class="paramname">sv</td><td></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><br  />
- </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>

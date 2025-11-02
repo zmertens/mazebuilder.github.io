@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.7.5</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;7.5.6</span>
    </div>
   </td>
  </tr>
@@ -105,6 +105,11 @@ $(function(){initNavTree('classmazes_1_1stringify.html',''); initResizable(true)
   <div class="headertitle"><div class="title">mazes::stringify Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Stringify algorithm for maze representation.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="stringify_8h_source.html">stringify.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for mazes::stringify:</div>
 <div class="dyncontent">
@@ -118,14 +123,16 @@ Collaboration diagram for mazes::stringify:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a34c9ed65b8c6707d3140c4c88f810538" id="r_a34c9ed65b8c6707d3140c4c88f810538"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34c9ed65b8c6707d3140c4c88f810538">run</a> (std::unique_ptr&lt; <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &gt; const &amp;g, <a class="el" href="classmazes_1_1randomizer.html">randomizer</a> &amp;rng) const noexcept override</td></tr>
-<tr class="memdesc:a34c9ed65b8c6707d3140c4c88f810538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface method that algorithms must implement.  <br /></td></tr>
-<tr class="separator:a34c9ed65b8c6707d3140c4c88f810538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a111512ab1a7375e84f3db672b9b88403" id="r_a111512ab1a7375e84f3db672b9b88403"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a111512ab1a7375e84f3db672b9b88403">run</a> (<a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> *g, <a class="el" href="classmazes_1_1randomizer.html">randomizer</a> &amp;rng) const noexcept override</td></tr>
+<tr class="memdesc:a111512ab1a7375e84f3db672b9b88403"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the stringify algorithm.  <br /></td></tr>
+<tr class="separator:a111512ab1a7375e84f3db672b9b88403"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classmazes_1_1algo__interface"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmazes_1_1algo__interface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmazes_1_1algo__interface.html">mazes::algo_interface</a></td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a34c9ed65b8c6707d3140c4c88f810538" name="a34c9ed65b8c6707d3140c4c88f810538"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34c9ed65b8c6707d3140c4c88f810538">&#9670;&#160;</a></span>run()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Stringify algorithm for maze representation. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a111512ab1a7375e84f3db672b9b88403" name="a111512ab1a7375e84f3db672b9b88403"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a111512ab1a7375e84f3db672b9b88403">&#9670;&#160;</a></span>run()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,7 +143,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual bool mazes::stringify::run </td>
           <td>(</td>
-          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &gt; const &amp;</td>          <td class="paramname"><span class="paramname"><em>g</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> *</td>          <td class="paramname"><span class="paramname"><em>g</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -151,18 +158,17 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Interface method that algorithms must implement. </p>
+<p>Run the stringify algorithm. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">g</td><td></td></tr>
-    <tr><td class="paramname">rng</td><td></td></tr>
+    <tr><td class="paramname">g</td><td>The grid to stringify </td></tr>
+    <tr><td class="paramname">rng</td><td>The randomizer to use </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><br  />
- </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>True if successful, false otherwise </dd></dl>
 
-<p>Implements <a class="el" href="classmazes_1_1algo__interface.html#af9850d3a714f3d6e503d33689d3a41e0">mazes::algo_interface</a>.</p>
+<p>Implements <a class="el" href="classmazes_1_1algo__interface.html#ac642444fc9c64868992c1c0701f2e2d1">mazes::algo_interface</a>.</p>
 
 </div>
 </div>

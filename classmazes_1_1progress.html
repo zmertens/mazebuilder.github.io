@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.7.5</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;7.5.6</span>
    </div>
   </td>
  </tr>
@@ -116,9 +116,11 @@ $(function(){initNavTree('classmazes_1_1progress.html',''); initResizable(true);
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a051b3182f8d858be8bcf40291aa5ef05" id="r_a051b3182f8d858be8bcf40291aa5ef05"><td class="memItemLeft" align="right" valign="top"><a id="a051b3182f8d858be8bcf40291aa5ef05" name="a051b3182f8d858be8bcf40291aa5ef05"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>start</b> () noexcept</td></tr>
+<tr class="memdesc:a051b3182f8d858be8bcf40291aa5ef05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the progress. <br /></td></tr>
 <tr class="separator:a051b3182f8d858be8bcf40291aa5ef05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7727bd3fe0958f2eb1ed4cb6052da9f" id="r_af7727bd3fe0958f2eb1ed4cb6052da9f"><td class="memItemLeft" align="right" valign="top"><a id="af7727bd3fe0958f2eb1ed4cb6052da9f" name="af7727bd3fe0958f2eb1ed4cb6052da9f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> () noexcept</td></tr>
+<tr class="memdesc:af7727bd3fe0958f2eb1ed4cb6052da9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the progress. <br /></td></tr>
 <tr class="separator:af7727bd3fe0958f2eb1ed4cb6052da9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b6c5de886d3b56829dbdebbc34b35e8" id="r_a7b6c5de886d3b56829dbdebbc34b35e8"><td class="memTemplParams" colspan="2">template&lt;typename T  = double&gt; </td></tr>
 <tr class="memitem:a7b6c5de886d3b56829dbdebbc34b35e8"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a7b6c5de886d3b56829dbdebbc34b35e8">elapsed</a> () noexcept</td></tr>
@@ -127,9 +129,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> () noexcept
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8d69d45d8ee6f3582e2b258a59ecd1b0" id="r_a8d69d45d8ee6f3582e2b258a59ecd1b0"><td class="memTemplParams" colspan="2">template&lt;typename F , typename... Args, typename Duration  = Time&gt; </td></tr>
-<tr class="memitem:a8d69d45d8ee6f3582e2b258a59ecd1b0"><td class="memTemplItemLeft" align="right" valign="top">static Duration&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a8d69d45d8ee6f3582e2b258a59ecd1b0">duration</a> (F &amp;&amp;f, Args &amp;&amp;... <a class="el" href="classmazes_1_1args.html">args</a>)</td></tr>
-<tr class="separator:a8d69d45d8ee6f3582e2b258a59ecd1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c3509ee38b633c3b5041d0032606575" id="r_a1c3509ee38b633c3b5041d0032606575"><td class="memTemplParams" colspan="2">template&lt;typename F , typename... Args, typename Duration  = Time&gt; </td></tr>
+<tr class="memitem:a1c3509ee38b633c3b5041d0032606575"><td class="memTemplItemLeft" align="right" valign="top">static Duration&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1c3509ee38b633c3b5041d0032606575">duration</a> (F &amp;&amp;f, Args &amp;&amp;...<a class="el" href="classmazes_1_1args.html">args</a>)</td></tr>
+<tr class="separator:a1c3509ee38b633c3b5041d0032606575"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename Time = std::chrono::microseconds, typename Clock = std::chrono::high_resolution_clock&gt;<br />
@@ -137,8 +139,8 @@ class mazes::progress&lt; Time, Clock &gt;</div><p>Simple clock for elapsed even
 <p>This class is used to track the elapsed time between two events</p>
 <p>Thread safe with mutexes </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8d69d45d8ee6f3582e2b258a59ecd1b0" name="a8d69d45d8ee6f3582e2b258a59ecd1b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d69d45d8ee6f3582e2b258a59ecd1b0">&#9670;&#160;</a></span>duration()</h2>
+<a id="a1c3509ee38b633c3b5041d0032606575" name="a1c3509ee38b633c3b5041d0032606575"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c3509ee38b633c3b5041d0032606575">&#9670;&#160;</a></span>duration()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -182,8 +184,7 @@ template&lt;typename F , typename... Args, typename Duration  = Time&gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><br  />
- </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -221,8 +222,7 @@ template&lt;typename T  = double&gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><br  />
- </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['direction_0',['Direction',['../namespacemazes.html#a729372da8296ec97f1a41425f42227df',1,'mazes']]]
+  ['barriers_0',['barriers',['../namespacemazes.html#a55194e41ed9c122dc4f5bf21657a9ad9',1,'mazes']]]
 ];

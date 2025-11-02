@@ -1,0 +1,5 @@
+<map id="mazes::wavefront_object_helper" name="mazes::wavefront_object_helper">
+<area shape="rect" id="Node000001" title="Transform a maze into a Wavefront object string." alt="" coords="5,80,173,123"/>
+<area shape="rect" id="Node000002" href="$classmazes_1_1algo__interface.html" title="Interface for runnable algorithms." alt="" coords="14,5,164,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,48,92,80,86,80,86,48"/>
+</map>

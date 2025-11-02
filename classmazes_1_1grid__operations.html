@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.7.5</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;7.5.6</span>
    </div>
   </td>
  </tr>
@@ -134,9 +134,6 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~grid_operations</
 <tr class="memitem:ae1c555020f50f11983ce6516449aa2f9" id="r_ae1c555020f50f11983ce6516449aa2f9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1c555020f50f11983ce6516449aa2f9">set_neighbor</a> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c, <a class="el" href="namespacemazes.html#a729372da8296ec97f1a41425f42227df">Direction</a> dir, std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; const &amp;neighbor) noexcept=0</td></tr>
 <tr class="memdesc:ae1c555020f50f11983ce6516449aa2f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set neighbor for a cell in a given direction.  <br /></td></tr>
 <tr class="separator:ae1c555020f50f11983ce6516449aa2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7f9763f45e0f414fb63815482cea2cf" id="r_ae7f9763f45e0f414fb63815482cea2cf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7f9763f45e0f414fb63815482cea2cf">sort</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt; &amp;cells) const noexcept=0</td></tr>
-<tr class="memdesc:ae7f9763f45e0f414fb63815482cea2cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transformation and display cells.  <br /></td></tr>
-<tr class="separator:ae7f9763f45e0f414fb63815482cea2cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bbe5fb5f375a902ccedafa85600855b" id="r_a4bbe5fb5f375a902ccedafa85600855b"><td class="memItemLeft" align="right" valign="top"><a id="a4bbe5fb5f375a902ccedafa85600855b" name="a4bbe5fb5f375a902ccedafa85600855b"></a>
 virtual std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_north</b> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c) const noexcept=0</td></tr>
 <tr class="separator:a4bbe5fb5f375a902ccedafa85600855b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,24 +149,30 @@ virtual std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a
 <tr class="memitem:aef444e2a7661a12b2b88f18a1552b0e5" id="r_aef444e2a7661a12b2b88f18a1552b0e5"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef444e2a7661a12b2b88f18a1552b0e5">search</a> (int index) const noexcept=0</td></tr>
 <tr class="memdesc:aef444e2a7661a12b2b88f18a1552b0e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search for a cell by index.  <br /></td></tr>
 <tr class="separator:aef444e2a7661a12b2b88f18a1552b0e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c4460927d7e5db007fd13c5c60be820" id="r_a3c4460927d7e5db007fd13c5c60be820"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c4460927d7e5db007fd13c5c60be820">get_cells</a> () const noexcept=0</td></tr>
-<tr class="memdesc:a3c4460927d7e5db007fd13c5c60be820"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a collection of cell objects.  <br /></td></tr>
-<tr class="separator:a3c4460927d7e5db007fd13c5c60be820"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54cd9e6842ca51f9488166f4efa7cb2e" id="r_a54cd9e6842ca51f9488166f4efa7cb2e"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54cd9e6842ca51f9488166f4efa7cb2e">num_cells</a> () const noexcept=0</td></tr>
 <tr class="memdesc:a54cd9e6842ca51f9488166f4efa7cb2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the count of cells in the grid.  <br /></td></tr>
 <tr class="separator:a54cd9e6842ca51f9488166f4efa7cb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e4df12c377fbbe9c4907c3c44847a89" id="r_a9e4df12c377fbbe9c4907c3c44847a89"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e4df12c377fbbe9c4907c3c44847a89">clear_cells</a> () noexcept=0</td></tr>
 <tr class="memdesc:a9e4df12c377fbbe9c4907c3c44847a89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleanup cells by cleaning up links within cells.  <br /></td></tr>
 <tr class="separator:a9e4df12c377fbbe9c4907c3c44847a89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f79d208e9d07b2e4c0443f68ef163e6" id="r_a1f79d208e9d07b2e4c0443f68ef163e6"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f79d208e9d07b2e4c0443f68ef163e6">set_cells</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt; &amp;cells) noexcept=0</td></tr>
-<tr class="memdesc:a1f79d208e9d07b2e4c0443f68ef163e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the cells in the grid.  <br /></td></tr>
-<tr class="separator:a1f79d208e9d07b2e4c0443f68ef163e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2dac66911b4b0f4300b713c20863fcd" id="r_ab2dac66911b4b0f4300b713c20863fcd"><td class="memItemLeft" align="right" valign="top"><a id="ab2dac66911b4b0f4300b713c20863fcd" name="ab2dac66911b4b0f4300b713c20863fcd"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>set_str</b> (std::string const &amp;str) noexcept=0</td></tr>
 <tr class="separator:ab2dac66911b4b0f4300b713c20863fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fcb79edfe8b9431589900fc45a0245f" id="r_a9fcb79edfe8b9431589900fc45a0245f"><td class="memItemLeft" align="right" valign="top"><a id="a9fcb79edfe8b9431589900fc45a0245f" name="a9fcb79edfe8b9431589900fc45a0245f"></a>
 virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_str</b> () const noexcept=0</td></tr>
 <tr class="separator:a9fcb79edfe8b9431589900fc45a0245f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a877b68575d0517215e69c407acf3d718" id="r_a877b68575d0517215e69c407acf3d718"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::tuple&lt; int, int, int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a877b68575d0517215e69c407acf3d718">get_vertices</a> () const noexcept=0</td></tr>
+<tr class="memdesc:a877b68575d0517215e69c407acf3d718"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the vertices for wavefront object file generation.  <br /></td></tr>
+<tr class="separator:a877b68575d0517215e69c407acf3d718"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7254815adf90814be4e20a08aad7a7e" id="r_ac7254815adf90814be4e20a08aad7a7e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7254815adf90814be4e20a08aad7a7e">set_vertices</a> (const std::vector&lt; std::tuple&lt; int, int, int, int &gt; &gt; &amp;vertices) noexcept=0</td></tr>
+<tr class="memdesc:ac7254815adf90814be4e20a08aad7a7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the vertices for wavefront object file generation.  <br /></td></tr>
+<tr class="separator:ac7254815adf90814be4e20a08aad7a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cd7b2e4ac0972e9d93a2cc27fe9c5a0" id="r_a9cd7b2e4ac0972e9d93a2cc27fe9c5a0"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::vector&lt; std::uint32_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cd7b2e4ac0972e9d93a2cc27fe9c5a0">get_faces</a> () const noexcept=0</td></tr>
+<tr class="memdesc:a9cd7b2e4ac0972e9d93a2cc27fe9c5a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the faces for wavefront object file generation.  <br /></td></tr>
+<tr class="separator:a9cd7b2e4ac0972e9d93a2cc27fe9c5a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affddf1064ae52a619a6ca78a9883b167" id="r_affddf1064ae52a619a6ca78a9883b167"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affddf1064ae52a619a6ca78a9883b167">set_faces</a> (const std::vector&lt; std::vector&lt; std::uint32_t &gt; &gt; &amp;faces) noexcept=0</td></tr>
+<tr class="memdesc:affddf1064ae52a619a6ca78a9883b167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the faces for wavefront object file generation.  <br /></td></tr>
+<tr class="separator:affddf1064ae52a619a6ca78a9883b167"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface for grid navigation and manipulation operations. </p>
@@ -203,36 +206,6 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_st
 
 </div>
 </div>
-<a id="a3c4460927d7e5db007fd13c5c60be820" name="a3c4460927d7e5db007fd13c5c60be820"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c4460927d7e5db007fd13c5c60be820">&#9670;&#160;</a></span>get_cells()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt; mazes::grid_operations::get_cells </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Retrieves a collection of cell objects. </p>
-<dl class="section return"><dt>Returns</dt><dd>A vector containing shared pointers to cell objects. </dd></dl>
-
-<p>Implemented in <a class="el" href="classmazes_1_1grid.html#a705dc58d887ddb76a140b602aa93f677">mazes::grid</a>.</p>
-
-</div>
-</div>
 <a id="a895fa10a55d74af425575a55dd2ac1e8" name="a895fa10a55d74af425575a55dd2ac1e8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a895fa10a55d74af425575a55dd2ac1e8">&#9670;&#160;</a></span>get_dimensions()</h2>
 
@@ -260,6 +233,36 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_st
 <dl class="section return"><dt>Returns</dt><dd>A tuple containing three unsigned integers representing the dimensions. </dd></dl>
 
 <p>Implemented in <a class="el" href="classmazes_1_1grid.html#a8664f105b86201694a23ecc05c33f25b">mazes::grid</a>.</p>
+
+</div>
+</div>
+<a id="a9cd7b2e4ac0972e9d93a2cc27fe9c5a0" name="a9cd7b2e4ac0972e9d93a2cc27fe9c5a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cd7b2e4ac0972e9d93a2cc27fe9c5a0">&#9670;&#160;</a></span>get_faces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::vector&lt; std::vector&lt; std::uint32_t &gt; &gt; mazes::grid_operations::get_faces </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the faces for wavefront object file generation. </p>
+<dl class="section return"><dt>Returns</dt><dd>A vector of faces, where each face is a vector of vertex indices </dd></dl>
+
+<p>Implemented in <a class="el" href="classmazes_1_1grid.html#a2b0d6e954e263329909a3ac269410003">mazes::grid</a>.</p>
 
 </div>
 </div>
@@ -298,8 +301,7 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_st
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><br  />
- </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 <p>Implemented in <a class="el" href="classmazes_1_1grid.html#a8a25ef8d4240e7d25ed9027bc55fc377">mazes::grid</a>.</p>
 
@@ -335,10 +337,39 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_st
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><br  />
- </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 <p>Implemented in <a class="el" href="classmazes_1_1grid.html#afbd0af4bb687d6733cad1e514319dd38">mazes::grid</a>.</p>
+
+</div>
+</div>
+<a id="a877b68575d0517215e69c407acf3d718" name="a877b68575d0517215e69c407acf3d718"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a877b68575d0517215e69c407acf3d718">&#9670;&#160;</a></span>get_vertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::vector&lt; std::tuple&lt; int, int, int, int &gt; &gt; mazes::grid_operations::get_vertices </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the vertices for wavefront object file generation. </p>
+<dl class="section return"><dt>Returns</dt><dd>A vector of vertices as tuples (x, y, z, w) </dd></dl>
+
+<p>Implemented in <a class="el" href="classmazes_1_1grid.html#a4d214b2b21cd593d77a3eed5a5e55288">mazes::grid</a>.</p>
 
 </div>
 </div>
@@ -408,8 +439,8 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_st
 
 </div>
 </div>
-<a id="a1f79d208e9d07b2e4c0443f68ef163e6" name="a1f79d208e9d07b2e4c0443f68ef163e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f79d208e9d07b2e4c0443f68ef163e6">&#9670;&#160;</a></span>set_cells()</h2>
+<a id="affddf1064ae52a619a6ca78a9883b167" name="affddf1064ae52a619a6ca78a9883b167"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affddf1064ae52a619a6ca78a9883b167">&#9670;&#160;</a></span>set_faces()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -418,9 +449,9 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_st
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool mazes::grid_operations::set_cells </td>
+          <td class="memname">virtual void mazes::grid_operations::set_faces </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cells</em></span></td><td>)</td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; std::uint32_t &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>faces</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -431,16 +462,15 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_st
 </table>
 </div><div class="memdoc">
 
-<p>Set the cells in the grid. </p>
+<p>Set the faces for wavefront object file generation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">cells</td><td>Vector of cells to set </td></tr>
+    <tr><td class="paramname">faces</td><td>A vector of faces, where each face is a vector of vertex indices </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>True if the cells were successfully set, false otherwise </dd></dl>
 
-<p>Implemented in <a class="el" href="classmazes_1_1grid.html#a6c8e1f3994db114fe1ddb70b02c21edb">mazes::grid</a>.</p>
+<p>Implemented in <a class="el" href="classmazes_1_1grid.html#a51ea3db7a640cb83e71ad3c0c2b7bce4">mazes::grid</a>.</p>
 
 </div>
 </div>
@@ -485,15 +515,14 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_st
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><br  />
- </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 <p>Implemented in <a class="el" href="classmazes_1_1grid.html#af95be2a4f64d0f0f3aca4f380b6cb215">mazes::grid</a>.</p>
 
 </div>
 </div>
-<a id="ae7f9763f45e0f414fb63815482cea2cf" name="ae7f9763f45e0f414fb63815482cea2cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7f9763f45e0f414fb63815482cea2cf">&#9670;&#160;</a></span>sort()</h2>
+<a id="ac7254815adf90814be4e20a08aad7a7e" name="ac7254815adf90814be4e20a08aad7a7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7254815adf90814be4e20a08aad7a7e">&#9670;&#160;</a></span>set_vertices()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -502,10 +531,10 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_st
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void mazes::grid_operations::sort </td>
+          <td class="memname">virtual void mazes::grid_operations::set_vertices </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cells</em></span></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const std::vector&lt; std::tuple&lt; int, int, int, int &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vertices</em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -515,15 +544,15 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_st
 </table>
 </div><div class="memdoc">
 
-<p>Transformation and display cells. </p>
+<p>Set the vertices for wavefront object file generation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">cells</td><td>Vector to fill with cells </td></tr>
+    <tr><td class="paramname">vertices</td><td>A vector of vertices as tuples (x, y, z, w) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classmazes_1_1grid.html#ae11d6cc9278bd022b1fdea281c81b172">mazes::grid</a>.</p>
+<p>Implemented in <a class="el" href="classmazes_1_1grid.html#ac7178c6eae276c7f38939a6ca70e35c4">mazes::grid</a>.</p>
 
 </div>
 </div>

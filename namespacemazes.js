@@ -2,9 +2,9 @@ var namespacemazes =
 [
     [ "algo_interface", "classmazes_1_1algo__interface.html", "classmazes_1_1algo__interface" ],
     [ "args", "classmazes_1_1args.html", "classmazes_1_1args" ],
-    [ "base64_helper", "classmazes_1_1base64__helper.html", "classmazes_1_1base64__helper" ],
+    [ "base64_helper", "classmazes_1_1base64__helper.html", null ],
     [ "binary_tree", "classmazes_1_1binary__tree.html", "classmazes_1_1binary__tree" ],
-    [ "build_info", "structmazes_1_1build__info.html", null ],
+    [ "buildinfo", "structmazes_1_1buildinfo.html", null ],
     [ "cell", "classmazes_1_1cell.html", "classmazes_1_1cell" ],
     [ "colored_grid", "classmazes_1_1colored__grid.html", "classmazes_1_1colored__grid" ],
     [ "configurator", "classmazes_1_1configurator.html", "classmazes_1_1configurator" ],
@@ -16,8 +16,12 @@ var namespacemazes =
     [ "grid_factory", "classmazes_1_1grid__factory.html", "classmazes_1_1grid__factory" ],
     [ "grid_interface", "classmazes_1_1grid__interface.html", "classmazes_1_1grid__interface" ],
     [ "grid_operations", "classmazes_1_1grid__operations.html", "classmazes_1_1grid__operations" ],
+    [ "io_utils", "classmazes_1_1io__utils.html", "classmazes_1_1io__utils" ],
     [ "json_helper", "classmazes_1_1json__helper.html", "classmazes_1_1json__helper" ],
     [ "lab", "classmazes_1_1lab.html", null ],
+    [ "maze_factory", "classmazes_1_1maze__factory.html", "classmazes_1_1maze__factory" ],
+    [ "maze_interface", "classmazes_1_1maze__interface.html", null ],
+    [ "maze_str", "structmazes_1_1maze__str.html", null ],
     [ "objectify", "classmazes_1_1objectify.html", "classmazes_1_1objectify" ],
     [ "pair_hash", "structmazes_1_1pair__hash.html", "structmazes_1_1pair__hash" ],
     [ "pixels", "classmazes_1_1pixels.html", "classmazes_1_1pixels" ],
@@ -25,18 +29,24 @@ var namespacemazes =
     [ "randomizer", "classmazes_1_1randomizer.html", "classmazes_1_1randomizer" ],
     [ "sidewinder", "classmazes_1_1sidewinder.html", "classmazes_1_1sidewinder" ],
     [ "singleton_base", "classmazes_1_1singleton__base.html", null ],
-    [ "string_view_utils", "classmazes_1_1string__view__utils.html", null ],
+    [ "string_utils", "classmazes_1_1string__utils.html", null ],
     [ "stringify", "classmazes_1_1stringify.html", "classmazes_1_1stringify" ],
     [ "tri_hash", "structmazes_1_1tri__hash.html", "structmazes_1_1tri__hash" ],
     [ "uni_hash", "structmazes_1_1uni__hash.html", "structmazes_1_1uni__hash" ],
     [ "wavefront_object_helper", "classmazes_1_1wavefront__object__helper.html", "classmazes_1_1wavefront__object__helper" ],
     [ "weak_ptr_hash", "structmazes_1_1weak__ptr__hash.html", "structmazes_1_1weak__ptr__hash" ],
-    [ "writer", "classmazes_1_1writer.html", "classmazes_1_1writer" ],
+    [ "grid_factory_interface", "namespacemazes.html#ad83a6fd33359a7f7689a6343a1c140c5", null ],
     [ "algo", "namespacemazes.html#aa61978cb14a922fcab3ffcc1889a7f8a", [
       [ "BINARY_TREE", "namespacemazes.html#aa61978cb14a922fcab3ffcc1889a7f8aa4db50743bc7f9b8e8e01cb2e03c098b1", null ],
       [ "SIDEWINDER", "namespacemazes.html#aa61978cb14a922fcab3ffcc1889a7f8aaab9bc277e3d0e208f8c68a869e8c5350", null ],
       [ "DFS", "namespacemazes.html#aa61978cb14a922fcab3ffcc1889a7f8aac1bb62b63c65be3760b715faad0bdf8d", null ],
       [ "TOTAL", "namespacemazes.html#aa61978cb14a922fcab3ffcc1889a7f8aa3af22b59f4641bc5501998297f9ac70d", null ]
+    ] ],
+    [ "barriers", "namespacemazes.html#a55194e41ed9c122dc4f5bf21657a9ad9", [
+      [ "HORIZONTAL", "namespacemazes.html#a55194e41ed9c122dc4f5bf21657a9ad9a86e5d0d8407ce71f7e2004ef3949894e", null ],
+      [ "VERTICAL", "namespacemazes.html#a55194e41ed9c122dc4f5bf21657a9ad9a3e1b74251c07310c5f1b968145bf00dc", null ],
+      [ "CORNER", "namespacemazes.html#a55194e41ed9c122dc4f5bf21657a9ad9ac411afd31d32cec664d372acc12f404a", null ],
+      [ "SINGLE_SPACE", "namespacemazes.html#a55194e41ed9c122dc4f5bf21657a9ad9ac6a4711a6e558ed4c1830f2a8e298de9", null ]
     ] ],
     [ "Direction", "namespacemazes.html#a729372da8296ec97f1a41425f42227df", [
       [ "NORTH", "namespacemazes.html#a729372da8296ec97f1a41425f42227dfa2bf8f791695c70efa9c14e6f1c326403", null ],
@@ -45,13 +55,17 @@ var namespacemazes =
       [ "WEST", "namespacemazes.html#a729372da8296ec97f1a41425f42227dfa83c9f5692281bf59471b13dfddb3af91", null ],
       [ "COUNT", "namespacemazes.html#a729372da8296ec97f1a41425f42227dfa4905ac9d6a22bdfc1ae096094ce6248d", null ]
     ] ],
-    [ "output", "namespacemazes.html#a3bed7fd7c2a046467f3b82789af9edc1", [
-      [ "PLAIN_TEXT", "namespacemazes.html#a3bed7fd7c2a046467f3b82789af9edc1aae7d3557f5e0b4e9cca075db3dfa7e9d", null ],
-      [ "JSON", "namespacemazes.html#a3bed7fd7c2a046467f3b82789af9edc1a0ecd11c1d7a287401d148a23bbd7a2f8", null ],
-      [ "WAVEFRONT_OBJECT_FILE", "namespacemazes.html#a3bed7fd7c2a046467f3b82789af9edc1af28e6301418ec1f79a020cdaed613b0d", null ],
-      [ "PNG", "namespacemazes.html#a3bed7fd7c2a046467f3b82789af9edc1a55505ba281b015ec31f03ccb151b2a34", null ],
-      [ "JPEG", "namespacemazes.html#a3bed7fd7c2a046467f3b82789af9edc1a907e06a16862d82ca6907a28a68d0ad6", null ],
-      [ "STDOUT", "namespacemazes.html#a3bed7fd7c2a046467f3b82789af9edc1aba8baa078f3e7c695afdac34fb3eb49c", null ],
-      [ "TOTAL", "namespacemazes.html#a3bed7fd7c2a046467f3b82789af9edc1a3af22b59f4641bc5501998297f9ac70d", null ]
-    ] ]
+    [ "output_format", "namespacemazes.html#ab83886a175470a8f190caa3b8415e2d2", [
+      [ "PLAIN_TEXT", "namespacemazes.html#ab83886a175470a8f190caa3b8415e2d2aae7d3557f5e0b4e9cca075db3dfa7e9d", null ],
+      [ "JSON", "namespacemazes.html#ab83886a175470a8f190caa3b8415e2d2a0ecd11c1d7a287401d148a23bbd7a2f8", null ],
+      [ "WAVEFRONT_OBJECT_FILE", "namespacemazes.html#ab83886a175470a8f190caa3b8415e2d2af28e6301418ec1f79a020cdaed613b0d", null ],
+      [ "PNG", "namespacemazes.html#ab83886a175470a8f190caa3b8415e2d2a55505ba281b015ec31f03ccb151b2a34", null ],
+      [ "JPEG", "namespacemazes.html#ab83886a175470a8f190caa3b8415e2d2a907e06a16862d82ca6907a28a68d0ad6", null ],
+      [ "STDOUT", "namespacemazes.html#ab83886a175470a8f190caa3b8415e2d2aba8baa078f3e7c695afdac34fb3eb49c", null ],
+      [ "TOTAL", "namespacemazes.html#ab83886a175470a8f190caa3b8415e2d2a3af22b59f4641bc5501998297f9ac70d", null ]
+    ] ],
+    [ "to_algo_from_sv", "namespacemazes.html#ac25c963342d3048400cc57829fb46520", null ],
+    [ "to_output_format_from_sv", "namespacemazes.html#a58cde30a9d986164112d36c558126891", null ],
+    [ "to_sv_from_algo", "namespacemazes.html#acbd93c9b040a8afa2e2c4398900e708d", null ],
+    [ "to_sv_from_output_format", "namespacemazes.html#a0e2f85cb1043780d9f53db5402b8d79e", null ]
 ];

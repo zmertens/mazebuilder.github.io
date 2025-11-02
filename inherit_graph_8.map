@@ -1,11 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classmazes_1_1grid__interface.html" title="Interface for the grid class." alt="" coords="10,56,157,83"/>
-<area shape="rect" id="Node000001" href="$classmazes_1_1colored__grid.html" title=" " alt="" coords="213,5,352,32"/>
-<area shape="poly" id="edge8_Node000000_Node000001" title=" " alt="" coords="153,49,226,30,228,35,154,54"/>
-<area shape="rect" id="Node000002" href="$classmazes_1_1distance__grid.html" title="A grid that can calculate distances between cells." alt="" coords="210,56,355,83"/>
-<area shape="poly" id="edge9_Node000000_Node000002" title=" " alt="" coords="172,67,209,67,209,72,172,72"/>
-<area shape="rect" id="Node000003" href="$classmazes_1_1grid.html" title="General purpose grid class for 2D maze generation." alt="" coords="238,107,327,133"/>
-<area shape="poly" id="edge10_Node000000_Node000003" title=" " alt="" coords="154,85,238,106,237,111,153,90"/>
-<area shape="rect" id="Node000004" href="$classmazes_1_1grid__operations.html" title="Interface for grid navigation and manipulation operations." alt="" coords="5,107,162,133"/>
-<area shape="poly" id="edge11_Node000004_Node000003" title=" " alt="" coords="177,117,237,117,237,123,177,123"/>
+<area shape="rect" id="Node000000" href="$classmazes_1_1factory__interface.html" title="Modern factory interface using registration pattern." alt="" coords="5,23,171,65"/>
+<area shape="rect" id="Node000001" href="$classmazes_1_1grid__factory.html" title="Modern grid grid_factory with registration capabilities." alt="" coords="224,5,360,32"/>
+<area shape="poly" id="edge8_Node000000_Node000001" title=" " alt="" coords="186,29,224,24,224,30,186,35"/>
+<area shape="rect" id="Node000002" href="$classmazes_1_1maze__factory.html" title=" " alt="" coords="219,56,366,83"/>
+<area shape="poly" id="edge9_Node000000_Node000002" title=" " alt="" coords="186,53,219,58,218,63,185,59"/>
 </map>

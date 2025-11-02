@@ -1,0 +1,5 @@
+<map id="mazes::maze_str" name="mazes::maze_str">
+<area shape="rect" id="Node000001" title="String representation of a maze." alt="" coords="23,80,145,107"/>
+<area shape="rect" id="Node000002" href="$classmazes_1_1maze__interface.html" title="Interface for the mazes." alt="" coords="5,5,163,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,48,87,80,81,80,81,48"/>
+</map>

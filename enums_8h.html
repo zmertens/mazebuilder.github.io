@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.7.5</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;7.5.6</span>
    </div>
   </td>
  </tr>
@@ -101,25 +101,27 @@ $(function(){initNavTree('enums_8h.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">enums.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Enumerations for the maze builder program.  
+<p>Enumerations and utilities for the maze builder program.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;cstdint&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
+<code>#include &lt;string_view&gt;</code><br />
 <code>#include &lt;stdexcept&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for enums.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="enums_8h__incl.svg" width="251" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="enums_8h__incl.svg" width="363" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="enums_8h__dep__incl.svg" width="358" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="enums_8h__dep__incl.svg" width="296" height="411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="enums_8h_source.html">Go to the source code of this file.</a></p>
@@ -132,7 +134,14 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a3bed7fd7c2a046467f3b82789af9edc1" id="r_a3bed7fd7c2a046467f3b82789af9edc1"><td class="memItemLeft" align="right" valign="top"><a id="a3bed7fd7c2a046467f3b82789af9edc1" name="a3bed7fd7c2a046467f3b82789af9edc1"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemazes.html#a3bed7fd7c2a046467f3b82789af9edc1">mazes::output</a> : unsigned int { <br />
+<tr class="memitem:a55194e41ed9c122dc4f5bf21657a9ad9" id="r_a55194e41ed9c122dc4f5bf21657a9ad9"><td class="memItemLeft" align="right" valign="top"><a id="a55194e41ed9c122dc4f5bf21657a9ad9" name="a55194e41ed9c122dc4f5bf21657a9ad9"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemazes.html#a55194e41ed9c122dc4f5bf21657a9ad9">mazes::barriers</a> : char { <b>HORIZONTAL</b> = '-'
+, <b>VERTICAL</b> = '|'
+, <b>CORNER</b> = '+'
+, <b>SINGLE_SPACE</b> = ' '
+ }</td></tr>
+<tr class="memdesc:a55194e41ed9c122dc4f5bf21657a9ad9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Character representations of walls and barriers in the maze. <br /></td></tr>
+<tr class="separator:a55194e41ed9c122dc4f5bf21657a9ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab83886a175470a8f190caa3b8415e2d2" id="r_ab83886a175470a8f190caa3b8415e2d2"><td class="memItemLeft" align="right" valign="top"><a id="ab83886a175470a8f190caa3b8415e2d2" name="ab83886a175470a8f190caa3b8415e2d2"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemazes.html#ab83886a175470a8f190caa3b8415e2d2">mazes::output_format</a> : unsigned int { <br />
 &#160;&#160;<b>PLAIN_TEXT</b> = 0
 , <b>JSON</b> = 1
 , <b>WAVEFRONT_OBJECT_FILE</b> = 2
@@ -143,8 +152,8 @@ Enumerations</h2></td></tr>
 , <b>TOTAL</b> = 6
 <br />
  }</td></tr>
-<tr class="memdesc:a3bed7fd7c2a046467f3b82789af9edc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum class for output types. <br /></td></tr>
-<tr class="separator:a3bed7fd7c2a046467f3b82789af9edc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ab83886a175470a8f190caa3b8415e2d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum class for output_format types. <br /></td></tr>
+<tr class="separator:ab83886a175470a8f190caa3b8415e2d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa61978cb14a922fcab3ffcc1889a7f8a" id="r_aa61978cb14a922fcab3ffcc1889a7f8a"><td class="memItemLeft" align="right" valign="top"><a id="aa61978cb14a922fcab3ffcc1889a7f8a" name="aa61978cb14a922fcab3ffcc1889a7f8a"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemazes.html#aa61978cb14a922fcab3ffcc1889a7f8a">mazes::algo</a> : unsigned int { <b>BINARY_TREE</b> = 0
 , <b>SIDEWINDER</b> = 1
 , <b>DFS</b> = 2
@@ -163,9 +172,24 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a729372da8296ec97f1a41425f42227df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Directional neighbors for grid topology. <br /></td></tr>
 <tr class="separator:a729372da8296ec97f1a41425f42227df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a0e2f85cb1043780d9f53db5402b8d79e" id="r_a0e2f85cb1043780d9f53db5402b8d79e"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemazes.html#a0e2f85cb1043780d9f53db5402b8d79e">mazes::to_sv_from_output_format</a> (<a class="el" href="namespacemazes.html#ab83886a175470a8f190caa3b8415e2d2">output_format</a> of)</td></tr>
+<tr class="memdesc:a0e2f85cb1043780d9f53db5402b8d79e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an output_format enum to a string.  <br /></td></tr>
+<tr class="separator:a0e2f85cb1043780d9f53db5402b8d79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58cde30a9d986164112d36c558126891" id="r_a58cde30a9d986164112d36c558126891"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemazes.html#ab83886a175470a8f190caa3b8415e2d2">output_format</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemazes.html#a58cde30a9d986164112d36c558126891">mazes::to_output_format_from_sv</a> (std::string_view sv)</td></tr>
+<tr class="memdesc:a58cde30a9d986164112d36c558126891"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a string to an output_format enum.  <br /></td></tr>
+<tr class="separator:a58cde30a9d986164112d36c558126891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbd93c9b040a8afa2e2c4398900e708d" id="r_acbd93c9b040a8afa2e2c4398900e708d"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemazes.html#acbd93c9b040a8afa2e2c4398900e708d">mazes::to_sv_from_algo</a> (<a class="el" href="namespacemazes.html#aa61978cb14a922fcab3ffcc1889a7f8a">algo</a> a)</td></tr>
+<tr class="memdesc:acbd93c9b040a8afa2e2c4398900e708d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the algo enum to a string.  <br /></td></tr>
+<tr class="separator:acbd93c9b040a8afa2e2c4398900e708d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac25c963342d3048400cc57829fb46520" id="r_ac25c963342d3048400cc57829fb46520"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemazes.html#aa61978cb14a922fcab3ffcc1889a7f8a">algo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemazes.html#ac25c963342d3048400cc57829fb46520">mazes::to_algo_from_sv</a> (std::string_view a)</td></tr>
+<tr class="memdesc:ac25c963342d3048400cc57829fb46520"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a string to an algo enum.  <br /></td></tr>
+<tr class="separator:ac25c963342d3048400cc57829fb46520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Enumerations for the maze builder program. </p>
+<div class="textblock"><p>Enumerations and utilities for the maze builder program. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;6.7.5</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;7.5.6</span>
    </div>
   </td>
  </tr>
@@ -133,12 +133,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a96277d93eafa69cae93b19f9ebfc606d" id="r_a96277d93eafa69cae93b19f9ebfc606d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1randomizer.html">randomizer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96277d93eafa69cae93b19f9ebfc606d">operator=</a> (<a class="el" href="classmazes_1_1randomizer.html">randomizer</a> &amp;&amp;other) noexcept</td></tr>
 <tr class="memdesc:a96277d93eafa69cae93b19f9ebfc606d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator.  <br /></td></tr>
 <tr class="separator:a96277d93eafa69cae93b19f9ebfc606d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93998205b84a21580221440cd063bf71" id="r_a93998205b84a21580221440cd063bf71"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93998205b84a21580221440cd063bf71">get_int_incl</a> (int low, int high) noexcept</td></tr>
-<tr class="memdesc:a93998205b84a21580221440cd063bf71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a random integer within a specified range.  <br /></td></tr>
-<tr class="separator:a93998205b84a21580221440cd063bf71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae89bd760acd8c578fde7c1d8a38cb769" id="r_ae89bd760acd8c578fde7c1d8a38cb769"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae89bd760acd8c578fde7c1d8a38cb769">get_num_ints_incl</a> (int low=0, int high=1) noexcept</td></tr>
-<tr class="memdesc:ae89bd760acd8c578fde7c1d8a38cb769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a random vector of integers with an optional range.  <br /></td></tr>
-<tr class="separator:ae89bd760acd8c578fde7c1d8a38cb769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b56a5d1a8d43f8dc3f5b0cec2035ac7" id="r_a1b56a5d1a8d43f8dc3f5b0cec2035ac7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b56a5d1a8d43f8dc3f5b0cec2035ac7">get_int</a> (int low=0, int high=1) noexcept</td></tr>
+<tr class="memdesc:a1b56a5d1a8d43f8dc3f5b0cec2035ac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a random integer within a specified range.  <br /></td></tr>
+<tr class="separator:a1b56a5d1a8d43f8dc3f5b0cec2035ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea9b6bb80de0e4eaf988f65755143d1f" id="r_aea9b6bb80de0e4eaf988f65755143d1f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea9b6bb80de0e4eaf988f65755143d1f">get_vector_ints</a> (int low=0, int high=1, int count=1) noexcept</td></tr>
+<tr class="memdesc:aea9b6bb80de0e4eaf988f65755143d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a shuffled vector of all integers in the specified range.  <br /></td></tr>
+<tr class="separator:aea9b6bb80de0e4eaf988f65755143d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1abfd352227a277557e1ffaa2c136af3" id="r_a1abfd352227a277557e1ffaa2c136af3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1abfd352227a277557e1ffaa2c136af3">seed</a> (unsigned long long seed=0) noexcept</td></tr>
 <tr class="memdesc:a1abfd352227a277557e1ffaa2c136af3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seeds the random number generator with the given seed value.  <br /></td></tr>
 <tr class="separator:a1abfd352227a277557e1ffaa2c136af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,8 +209,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a93998205b84a21580221440cd063bf71" name="a93998205b84a21580221440cd063bf71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93998205b84a21580221440cd063bf71">&#9670;&#160;</a></span>get_int_incl()</h2>
+<a id="a1b56a5d1a8d43f8dc3f5b0cec2035ac7" name="a1b56a5d1a8d43f8dc3f5b0cec2035ac7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b56a5d1a8d43f8dc3f5b0cec2035ac7">&#9670;&#160;</a></span>get_int()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,46 +219,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int mazes::randomizer::get_int_incl </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>low</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>high</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Generates a random integer within a specified range. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">low</td><td>The lower bound of the range (inclusive). </td></tr>
-    <tr><td class="paramname">high</td><td>The upper bound of the range (inclusive). </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A random integer between the specified range [low, high]. </dd></dl>
-
-</div>
-</div>
-<a id="ae89bd760acd8c578fde7c1d8a38cb769" name="ae89bd760acd8c578fde7c1d8a38cb769"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae89bd760acd8c578fde7c1d8a38cb769">&#9670;&#160;</a></span>get_num_ints_incl()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt; int &gt; mazes::randomizer::get_num_ints_incl </td>
+          <td class="memname">int mazes::randomizer::get_int </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>low</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
         </tr>
@@ -275,16 +236,60 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generates a random vector of integers with an optional range. </p>
+<p>Generates a random integer within a specified range. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">low</td><td>The lower bound of the range (inclusive). </td></tr>
-    <tr><td class="paramname">high</td><td>The upper bound of the range (inclusive). </td></tr>
+    <tr><td class="paramname">low</td><td>The lower bound of the integer (inclusive). </td></tr>
+    <tr><td class="paramname">high</td><td>The upper bound of the integer (inclusive). </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><br  />
- </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A random integer between the specified range [low, high]. </dd></dl>
+
+</div>
+</div>
+<a id="aea9b6bb80de0e4eaf988f65755143d1f" name="aea9b6bb80de0e4eaf988f65755143d1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea9b6bb80de0e4eaf988f65755143d1f">&#9670;&#160;</a></span>get_vector_ints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; int &gt; mazes::randomizer::get_vector_ints </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>low</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>high</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>count</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generates a shuffled vector of all integers in the specified range. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">low</td><td>The lower bound of the integer(s) (inclusive). </td></tr>
+    <tr><td class="paramname">high</td><td>The upper bound of the integer(s) (inclusive). </td></tr>
+    <tr><td class="paramname">count</td><td>The number of random integers to generate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A vector containing all integers in [low, high] in random order </dd></dl>
 
 </div>
 </div>
@@ -318,13 +323,12 @@ Public Member Functions</h2></td></tr>
 <p>Gets a random integer within a specified range. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">low</td><td></td></tr>
-    <tr><td class="paramname">high</td><td></td></tr>
+    <tr><td class="paramname">low</td><td>The lower bound of the integer (inclusive). </td></tr>
+    <tr><td class="paramname">high</td><td>The upper bound of the integer (inclusive). </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><br  />
- </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A random integer within the specified range. </dd></dl>
 
 </div>
 </div>

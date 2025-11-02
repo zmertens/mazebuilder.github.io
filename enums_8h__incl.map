@@ -1,9 +1,11 @@
 <map id="enums.h" name="enums.h">
-<area shape="rect" id="Node000001" title="Enumerations for the maze builder program." alt="" coords="81,5,152,32"/>
+<area shape="rect" id="Node000001" title="Enumerations and utilities for the maze builder program." alt="" coords="128,5,199,32"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,80,66,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,35,62,72,59,68,101,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,35,72,74,70,70,140,30"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="90,80,144,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="120,33,120,64,114,64,114,33"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="167,80,245,107"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="134,30,181,68,177,72,131,35"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,34,135,68,131,66,153,31"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="168,80,255,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="174,31,197,66,193,69,170,34"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="279,80,357,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="192,30,279,71,276,75,189,35"/>
 </map>

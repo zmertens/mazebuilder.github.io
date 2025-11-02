@@ -1,14 +1,5 @@
 <map id="dfs.h" name="dfs.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="235,5,285,32"/>
-<area shape="rect" id="Node000002" href="$algo__interface_8h.html" title=" " alt="" coords="33,80,223,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,35,165,75,163,70,236,30"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="215,155,284,181"/>
-<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="262,33,254,139,249,139,256,32"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="298,80,355,107"/>
-<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="274,31,307,67,303,70,270,34"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,83,181"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,109,72,146,68,142,112,105"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="150,105,216,144,214,149,148,110"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="106,155,171,181"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="132,107,137,139,132,140,127,108"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="75,5,125,32"/>
+<area shape="rect" id="Node000002" href="$algo__interface_8h.html" title=" " alt="" coords="5,80,195,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,33,103,64,97,64,97,33"/>
 </map>

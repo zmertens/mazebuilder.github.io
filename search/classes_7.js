@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lab_0',['lab',['../classmazes_1_1lab.html',1,'mazes']]]
+  ['json_5fhelper_0',['json_helper',['../classmazes_1_1json__helper.html',1,'mazes']]]
 ];
