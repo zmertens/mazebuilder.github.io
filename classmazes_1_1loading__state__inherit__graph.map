@@ -1,0 +1,5 @@
+<map id="mazes::loading_state" name="mazes::loading_state">
+<area shape="rect" id="Node000001" title="State for loading and pre&#45;generating mazes." alt="" coords="5,80,151,107"/>
+<area shape="rect" id="Node000002" href="$structmazes_1_1state.html" title="struct representing a state in the runtime stack" alt="" coords="29,5,127,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,48,81,80,75,80,75,48"/>
+</map>

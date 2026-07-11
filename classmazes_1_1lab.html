@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;7.5.6</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.2.1</span>
    </div>
   </td>
  </tr>
@@ -108,8 +108,6 @@ $(function(){initNavTree('classmazes_1_1lab.html',''); initResizable(true); });
 
 <p>Provides link operations.  
  <a href="#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="lab_8h_source.html">lab.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -119,13 +117,11 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a227aed78c505c9d3c5b6fc987ec1d35d" id="r_a227aed78c505c9d3c5b6fc987ec1d35d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a227aed78c505c9d3c5b6fc987ec1d35d">unlink</a> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c1, const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c2, bool bidi=true) noexcept</td></tr>
 <tr class="memdesc:a227aed78c505c9d3c5b6fc987ec1d35d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlinks two cell objects, optionally in both directions.  <br /></td></tr>
 <tr class="separator:a227aed78c505c9d3c5b6fc987ec1d35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ae9bf218dba05be273ff74366155901" id="r_a0ae9bf218dba05be273ff74366155901"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ae9bf218dba05be273ff74366155901">set_neighbors</a> (<a class="el" href="classmazes_1_1configurator.html">configurator</a> const &amp;config, const std::vector&lt; int &gt; &amp;indices, std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt; &amp;cells_to_set) noexcept</td></tr>
-<tr class="memdesc:a0ae9bf218dba05be273ff74366155901"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets neighbors for a collection of cells based on the provided indices.  <br /></td></tr>
-<tr class="separator:a0ae9bf218dba05be273ff74366155901"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides link operations. </p>
-<p>Provides link operations </p>
+<p>"labyrinth"</p>
+<p>This class provides methods to link and unlink cells in a maze. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a00f31f8a4285b098645717d149de155c" name="a00f31f8a4285b098645717d149de155c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a00f31f8a4285b098645717d149de155c">&#9670;&#160;</a></span>link()</h2>
@@ -168,51 +164,6 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a0ae9bf218dba05be273ff74366155901" name="a0ae9bf218dba05be273ff74366155901"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ae9bf218dba05be273ff74366155901">&#9670;&#160;</a></span>set_neighbors()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void mazes::lab::set_neighbors </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classmazes_1_1configurator.html">configurator</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cells_to_set</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets neighbors for a collection of cells based on the provided indices. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">config</td><td>The configurator containing maze configuration parameters. </td></tr>
-    <tr><td class="paramname">indices</td><td>A vector of indices representing the cells to set neighbors for. </td></tr>
-    <tr><td class="paramname">cells_to_set</td><td>A vector of cell objects to set neighbors for.</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>This function uses the configurator to determine the maze structure and sets neighbors accordingly. </p>
 
 </div>
 </div>
@@ -268,7 +219,7 @@ Static Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacemazes.html">mazes</a></li><li class="navelem"><a class="el" href="classmazes_1_1lab.html">lab</a></li>
+    <li class="navelem"><b>mazes</b></li><li class="navelem"><a class="el" href="classmazes_1_1lab.html">lab</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>

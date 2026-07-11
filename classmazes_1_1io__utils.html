@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;7.5.6</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.2.1</span>
    </div>
   </td>
  </tr>
@@ -100,44 +100,34 @@ $(function(){initNavTree('classmazes_1_1io__utils.html',''); initResizable(true)
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classmazes_1_1io__utils-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mazes::io_utils Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Handles file writing for text, stdout, images, and object files.  
+<p>Handles file writing for text, stdout, and object files.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="io__utils_8h_source.html">io_utils.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:afcb770ebc30bb4916192c1cfc1367241" id="r_afcb770ebc30bb4916192c1cfc1367241"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcb770ebc30bb4916192c1cfc1367241">write_png</a> (const std::string &amp;filename, const std::vector&lt; std::uint8_t &gt; &amp;data, unsigned int w=100, unsigned int h=100, unsigned int stride=4) const noexcept</td></tr>
-<tr class="memdesc:afcb770ebc30bb4916192c1cfc1367241"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write pixels to a PNG file.  <br /></td></tr>
-<tr class="separator:afcb770ebc30bb4916192c1cfc1367241"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77bd038f580ae53a61860cfe0d5563e9" id="r_a77bd038f580ae53a61860cfe0d5563e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77bd038f580ae53a61860cfe0d5563e9">write_jpeg</a> (const std::string &amp;filename, const std::vector&lt; std::uint8_t &gt; &amp;data, unsigned int w=100, unsigned int h=100, unsigned int stride=4) const noexcept</td></tr>
-<tr class="memdesc:a77bd038f580ae53a61860cfe0d5563e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write pixels to a JPEG file.  <br /></td></tr>
-<tr class="separator:a77bd038f580ae53a61860cfe0d5563e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a566a47cb492b572c497123daf87e22ef" id="r_a566a47cb492b572c497123daf87e22ef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a566a47cb492b572c497123daf87e22ef">write</a> (std::ostream &amp;oss, const std::string &amp;data) const noexcept</td></tr>
-<tr class="memdesc:a566a47cb492b572c497123daf87e22ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles writing to an output stream.  <br /></td></tr>
-<tr class="separator:a566a47cb492b572c497123daf87e22ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0213bcd515559a40f35d1bde88e61b9" id="r_ab0213bcd515559a40f35d1bde88e61b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0213bcd515559a40f35d1bde88e61b9">write_file</a> (const std::string &amp;filename, const std::string &amp;data) const noexcept</td></tr>
-<tr class="memdesc:ab0213bcd515559a40f35d1bde88e61b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write to a file.  <br /></td></tr>
-<tr class="separator:ab0213bcd515559a40f35d1bde88e61b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a78039084ad7f86cc092e83162dbaf958" id="r_a78039084ad7f86cc092e83162dbaf958"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78039084ad7f86cc092e83162dbaf958">getDirectoryPath</a> (const std::string &amp;filepath) noexcept</td></tr>
-<tr class="memdesc:a78039084ad7f86cc092e83162dbaf958"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the directory path from a full file path.  <br /></td></tr>
-<tr class="separator:a78039084ad7f86cc092e83162dbaf958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7b756c4e9424b4a739052a97b082338" id="r_ac7b756c4e9424b4a739052a97b082338"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7b756c4e9424b4a739052a97b082338">write</a> (std::ostream &amp;oss, const std::string &amp;data, std::string_view delimiter=&quot;\n&quot;) noexcept</td></tr>
+<tr class="memdesc:ac7b756c4e9424b4a739052a97b082338"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles writing to an output stream.  <br /></td></tr>
+<tr class="separator:ac7b756c4e9424b4a739052a97b082338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7526b74cc29d98cc29743dcc4b790d5" id="r_ae7526b74cc29d98cc29743dcc4b790d5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7526b74cc29d98cc29743dcc4b790d5">write_file</a> (const std::string &amp;filename, const std::string &amp;data) noexcept</td></tr>
+<tr class="memdesc:ae7526b74cc29d98cc29743dcc4b790d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write to a file.  <br /></td></tr>
+<tr class="separator:ae7526b74cc29d98cc29743dcc4b790d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe23e4e942391fdb97d38aaa4428da65" id="r_abe23e4e942391fdb97d38aaa4428da65"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe23e4e942391fdb97d38aaa4428da65">get_full_directory_path</a> (const std::string &amp;filepath) noexcept</td></tr>
+<tr class="memdesc:abe23e4e942391fdb97d38aaa4428da65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the directory path from a full file path.  <br /></td></tr>
+<tr class="separator:abe23e4e942391fdb97d38aaa4428da65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Handles file writing for text, stdout, images, and object files. </p>
+<div class="textblock"><p>Handles file writing for text, stdout, and object files. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a78039084ad7f86cc092e83162dbaf958" name="a78039084ad7f86cc092e83162dbaf958"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78039084ad7f86cc092e83162dbaf958">&#9670;&#160;</a></span>getDirectoryPath()</h2>
+<a id="abe23e4e942391fdb97d38aaa4428da65" name="abe23e4e942391fdb97d38aaa4428da65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe23e4e942391fdb97d38aaa4428da65">&#9670;&#160;</a></span>get_full_directory_path()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -146,7 +136,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::string mazes::io_utils::getDirectoryPath </td>
+          <td class="memname">static std::string mazes::io_utils::get_full_directory_path </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filepath</em></span></td><td>)</td>
           <td></td>
@@ -154,7 +144,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -170,8 +160,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a566a47cb492b572c497123daf87e22ef" name="a566a47cb492b572c497123daf87e22ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a566a47cb492b572c497123daf87e22ef">&#9670;&#160;</a></span>write()</h2>
+<a id="ac7b756c4e9424b4a739052a97b082338" name="ac7b756c4e9424b4a739052a97b082338"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7b756c4e9424b4a739052a97b082338">&#9670;&#160;</a></span>write()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,19 +170,24 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool mazes::io_utils::write </td>
+          <td class="memname">static bool mazes::io_utils::write </td>
           <td>(</td>
           <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>oss</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;) const</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>delimiter</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;\n&quot;</span>&#160;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -202,15 +197,16 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">oss</td><td></td></tr>
     <tr><td class="paramname">data</td><td></td></tr>
+    <tr><td class="paramname">delimiter</td><td>Delimiter to use between data entries </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the write was successful, false otherwise </dd></dl>
 
 </div>
 </div>
-<a id="ab0213bcd515559a40f35d1bde88e61b9" name="ab0213bcd515559a40f35d1bde88e61b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0213bcd515559a40f35d1bde88e61b9">&#9670;&#160;</a></span>write_file()</h2>
+<a id="ae7526b74cc29d98cc29743dcc4b790d5" name="ae7526b74cc29d98cc29743dcc4b790d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7526b74cc29d98cc29743dcc4b790d5">&#9670;&#160;</a></span>write_file()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,19 +215,19 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool mazes::io_utils::write_file </td>
+          <td class="memname">static bool mazes::io_utils::write_file </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;) const</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -239,126 +235,12 @@ Static Public Member Functions</h2></td></tr>
 <p>Write to a file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">filename</td><td></td></tr>
-    <tr><td class="paramname">data</td><td></td></tr>
+    <tr><td class="paramname">filename</td><td>Full file path </td></tr>
+    <tr><td class="paramname">data</td><td>Data to write </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
-<a id="a77bd038f580ae53a61860cfe0d5563e9" name="a77bd038f580ae53a61860cfe0d5563e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77bd038f580ae53a61860cfe0d5563e9">&#9670;&#160;</a></span>write_jpeg()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mazes::io_utils::write_jpeg </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; std::uint8_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>w</em></span><span class="paramdefsep"> = </span><span class="paramdefval">100</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>h</em></span><span class="paramdefsep"> = </span><span class="paramdefval">100</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>stride</em></span><span class="paramdefsep"> = </span><span class="paramdefval">4</span>&#160;) const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Write pixels to a JPEG file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">filename</td><td></td></tr>
-    <tr><td class="paramname">data</td><td></td></tr>
-    <tr><td class="paramname">w</td><td>100 </td></tr>
-    <tr><td class="paramname">h</td><td>100 </td></tr>
-    <tr><td class="paramname">stride</td><td>4 </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
-<a id="afcb770ebc30bb4916192c1cfc1367241" name="afcb770ebc30bb4916192c1cfc1367241"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcb770ebc30bb4916192c1cfc1367241">&#9670;&#160;</a></span>write_png()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mazes::io_utils::write_png </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; std::uint8_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>w</em></span><span class="paramdefsep"> = </span><span class="paramdefval">100</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>h</em></span><span class="paramdefsep"> = </span><span class="paramdefval">100</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>stride</em></span><span class="paramdefsep"> = </span><span class="paramdefval">4</span>&#160;) const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Write pixels to a PNG file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">filename</td><td></td></tr>
-    <tr><td class="paramname">data</td><td></td></tr>
-    <tr><td class="paramname">w</td><td>100 </td></tr>
-    <tr><td class="paramname">h</td><td>100 </td></tr>
-    <tr><td class="paramname">stride</td><td>4 </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the write was successful, false otherwise </dd></dl>
 
 </div>
 </div>
@@ -370,7 +252,7 @@ Static Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacemazes.html">mazes</a></li><li class="navelem"><a class="el" href="classmazes_1_1io__utils.html">io_utils</a></li>
+    <li class="navelem"><b>mazes</b></li><li class="navelem"><a class="el" href="classmazes_1_1io__utils.html">io_utils</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>

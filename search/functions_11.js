@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['unlink_0',['unlink',['../classmazes_1_1lab.html#a227aed78c505c9d3c5b6fc987ec1d35d',1,'mazes::lab']]],
-  ['unregister_5fcreator_1',['unregister_creator',['../classmazes_1_1factory__interface.html#ac955446dbf47d26d7b8ac3c18e7a4919',1,'mazes::factory_interface::unregister_creator()'],['../classmazes_1_1grid__factory.html#ad52a8ab229086ed4f39f036ac598eeba',1,'mazes::grid_factory::unregister_creator()'],['../classmazes_1_1maze__factory.html#aed98061dd4f3cd59a2249d4a57fced35',1,'mazes::maze_factory::unregister_creator()']]]
+  ['to_5falgo_5ffrom_5fsv_0',['to_algo_from_sv',['../algos_8h.html#ac25c963342d3048400cc57829fb46520',1,'mazes']]],
+  ['to_5fbase36_1',['to_base36',['../classmazes_1_1bytes.html#aade1e47bc0c2a42a15f37a2d181a84b3',1,'mazes::bytes']]],
+  ['to_5foutput_5fformat_5ffrom_5fsv_2',['to_output_format_from_sv',['../output__formats_8h.html#aee978babc9399189af3fe3255886db48',1,'mazes']]],
+  ['to_5fsv_5ffrom_5falgo_3',['to_sv_from_algo',['../algos_8h.html#acbd93c9b040a8afa2e2c4398900e708d',1,'mazes']]],
+  ['to_5fsv_5ffrom_5foutput_5fformat_4',['to_sv_from_output_format',['../output__formats_8h.html#a0e2f85cb1043780d9f53db5402b8d79e',1,'mazes']]]
 ];

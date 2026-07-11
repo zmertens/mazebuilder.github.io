@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;7.5.6</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.2.1</span>
    </div>
   </td>
  </tr>
@@ -131,9 +131,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ab834875ee8e272561759e484fd015b" id="r_a4ab834875ee8e272561759e484fd015b"><td class="memItemLeft" align="right" valign="top">static std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ab834875ee8e272561759e484fd015b">find_first_of</a> (const std::string_view &amp;s, const std::string_view &amp;chars) noexcept</td></tr>
 <tr class="memdesc:a4ab834875ee8e272561759e484fd015b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the first occurrence of any character from a set in a string view.  <br /></td></tr>
 <tr class="separator:a4ab834875ee8e272561759e484fd015b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a222bdfa287bd835b374ef45ebb14683c" id="r_a222bdfa287bd835b374ef45ebb14683c"><td class="memItemLeft" align="right" valign="top">static std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a222bdfa287bd835b374ef45ebb14683c">strip</a> (const std::string_view &amp;s, const std::string_view &amp;to_strip_from_s=&quot; &quot;) noexcept</td></tr>
-<tr class="memdesc:a222bdfa287bd835b374ef45ebb14683c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strip specific characters from the beginning and end of a string view.  <br /></td></tr>
-<tr class="separator:a222bdfa287bd835b374ef45ebb14683c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6bd41becd31fcbbb0138ef2d5fad6d7" id="r_ad6bd41becd31fcbbb0138ef2d5fad6d7"><td class="memTemplParams" colspan="2">template&lt;typename It , typename Oc , typename V , typename Pred &gt; </td></tr>
 <tr class="memitem:ad6bd41becd31fcbbb0138ef2d5fad6d7"><td class="memTemplItemLeft" align="right" valign="top">static It&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ad6bd41becd31fcbbb0138ef2d5fad6d7">split</a> (It it, const It end_it, Oc &amp;dest, const V &amp;sep, Pred f)</td></tr>
 <tr class="memdesc:ad6bd41becd31fcbbb0138ef2d5fad6d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits a range into slices based on a separator and stores the results in a destination container.  <br /></td></tr>
@@ -153,10 +150,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aac018f5c1fbea0d5bdf99cd86cd05198" id="r_aac018f5c1fbea0d5bdf99cd86cd05198"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac018f5c1fbea0d5bdf99cd86cd05198">strip_whitespace</a> (const std::string &amp;s)</td></tr>
 <tr class="memdesc:aac018f5c1fbea0d5bdf99cd86cd05198"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes consecutive whitespace characters from a string, leaving only single whitespace between non-whitespace characters.  <br /></td></tr>
 <tr class="separator:aac018f5c1fbea0d5bdf99cd86cd05198"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05d0f9d4b0ab26ac10b80b60438bcdda" id="r_a05d0f9d4b0ab26ac10b80b60438bcdda"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
-<tr class="memitem:a05d0f9d4b0ab26ac10b80b60438bcdda"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a05d0f9d4b0ab26ac10b80b60438bcdda">format</a> (std::string_view format_str, const Args &amp;...<a class="el" href="classmazes_1_1args.html">args</a>) noexcept</td></tr>
-<tr class="memdesc:a05d0f9d4b0ab26ac10b80b60438bcdda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple wrapper for fmt::format using runtime format strings (string_view)  <br /></td></tr>
-<tr class="separator:a05d0f9d4b0ab26ac10b80b60438bcdda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7be78fbae9299ba093b15d842834302f" id="r_a7be78fbae9299ba093b15d842834302f"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a7be78fbae9299ba093b15d842834302f"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a7be78fbae9299ba093b15d842834302f">format</a> (std::string_view format_str, const Args &amp;... <a class="el" href="classmazes_1_1args.html">args</a>) noexcept</td></tr>
+<tr class="memdesc:a7be78fbae9299ba093b15d842834302f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple wrapper for fmt::format using runtime format strings (string_view)  <br /></td></tr>
+<tr class="separator:a7be78fbae9299ba093b15d842834302f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>String helper class. </p>
@@ -357,8 +354,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a05d0f9d4b0ab26ac10b80b60438bcdda" name="a05d0f9d4b0ab26ac10b80b60438bcdda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05d0f9d4b0ab26ac10b80b60438bcdda">&#9670;&#160;</a></span>format()</h2>
+<a id="a7be78fbae9299ba093b15d842834302f" name="a7be78fbae9299ba093b15d842834302f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7be78fbae9299ba093b15d842834302f">&#9670;&#160;</a></span>format()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -609,45 +606,6 @@ template&lt;typename It , typename Oc , typename V , typename Pred &gt; </div>
 
 </div>
 </div>
-<a id="a222bdfa287bd835b374ef45ebb14683c" name="a222bdfa287bd835b374ef45ebb14683c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a222bdfa287bd835b374ef45ebb14683c">&#9670;&#160;</a></span>strip()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static std::string_view mazes::string_utils::strip </td>
-          <td>(</td>
-          <td class="paramtype">const std::string_view &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string_view &amp;</td>          <td class="paramname"><span class="paramname"><em>to_strip_from_s</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;&#160;&quot;</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Strip specific characters from the beginning and end of a string view. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">s</td><td>The string view to strip characters from </td></tr>
-    <tr><td class="paramname">to_strip_from_s</td><td>The character to strip </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A new string view with the specified characters removed from both ends </dd></dl>
-
-</div>
-</div>
 <a id="aac018f5c1fbea0d5bdf99cd86cd05198" name="aac018f5c1fbea0d5bdf99cd86cd05198"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac018f5c1fbea0d5bdf99cd86cd05198">&#9670;&#160;</a></span>strip_whitespace()</h2>
 
@@ -745,7 +703,7 @@ template&lt;typename Cin , typename Cout , typename V &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacemazes.html">mazes</a></li><li class="navelem"><a class="el" href="classmazes_1_1string__utils.html">string_utils</a></li>
+    <li class="navelem"><b>mazes</b></li><li class="navelem"><a class="el" href="classmazes_1_1string__utils.html">string_utils</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>

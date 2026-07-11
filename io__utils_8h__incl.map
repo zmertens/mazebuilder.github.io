@@ -1,11 +1,11 @@
 <map id="io_utils.h" name="io_utils.h">
-<area shape="rect" id="Node000001" title="Handles writing to files, stdout, and images." alt="" coords="141,5,215,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="151,5,224,32"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,80,87,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,35,83,75,81,70,154,30"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="111,80,165,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,34,155,68,150,65,169,31"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="189,80,247,107"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="187,31,206,65,201,68,183,34"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="270,80,331,107"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="201,30,267,69,265,74,198,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,35,85,75,83,70,162,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="110,80,179,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,34,162,68,157,65,178,31"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="203,80,257,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="197,31,217,65,213,68,192,34"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="281,80,368,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="212,30,288,70,286,75,210,35"/>
 </map>

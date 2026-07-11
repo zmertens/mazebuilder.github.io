@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;7.5.6</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.2.1</span>
    </div>
   </td>
  </tr>
@@ -105,6 +105,11 @@ $(function(){initNavTree('classmazes_1_1colored__grid.html',''); initResizable(t
   <div class="headertitle"><div class="title">mazes::colored_grid Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>A colored grid implementation that extends the <a class="el" href="classmazes_1_1grid__interface.html" title="Interface for the grid class.">grid_interface</a> to include distance-based coloring.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="colored__grid_8h_source.html">colored_grid.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for mazes::colored_grid:</div>
 <div class="dyncontent">
@@ -133,21 +138,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aea3dc6c5cbee9c2ac87a72b119f9ffb8" id="r_aea3dc6c5cbee9c2ac87a72b119f9ffb8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea3dc6c5cbee9c2ac87a72b119f9ffb8">colored_grid</a> (unsigned int width=1u, unsigned int length=1u, unsigned int levels=1u)</td></tr>
 <tr class="memdesc:aea3dc6c5cbee9c2ac87a72b119f9ffb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a colored grid with specified dimensions.  <br /></td></tr>
 <tr class="separator:aea3dc6c5cbee9c2ac87a72b119f9ffb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa6b41f2dd59c9a752ee546c3c8f46ac" id="r_afa6b41f2dd59c9a752ee546c3c8f46ac"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa6b41f2dd59c9a752ee546c3c8f46ac">contents_of</a> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c) const noexcept override</td></tr>
-<tr class="memdesc:afa6b41f2dd59c9a752ee546c3c8f46ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the contents of a given cell, if available.  <br /></td></tr>
-<tr class="separator:afa6b41f2dd59c9a752ee546c3c8f46ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcd46a58ed298040dc6806193ff57125" id="r_adcd46a58ed298040dc6806193ff57125"><td class="memItemLeft" align="right" valign="top">virtual std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcd46a58ed298040dc6806193ff57125">background_color_for</a> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c) const noexcept override</td></tr>
-<tr class="memdesc:adcd46a58ed298040dc6806193ff57125"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the background color for a given cell, if available.  <br /></td></tr>
-<tr class="separator:adcd46a58ed298040dc6806193ff57125"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44723b141ca8e4bdbfdbf263a0ef8107" id="r_a44723b141ca8e4bdbfdbf263a0ef8107"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44723b141ca8e4bdbfdbf263a0ef8107">contents_of</a> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c) const noexcept override</td></tr>
+<tr class="memdesc:a44723b141ca8e4bdbfdbf263a0ef8107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the contents of a given cell, if available.  <br /></td></tr>
+<tr class="separator:a44723b141ca8e4bdbfdbf263a0ef8107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95c6a52a73e1c9b4e2cfca472cadfebe" id="r_a95c6a52a73e1c9b4e2cfca472cadfebe"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95c6a52a73e1c9b4e2cfca472cadfebe">background_color_for</a> (const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;c) const noexcept override</td></tr>
+<tr class="memdesc:a95c6a52a73e1c9b4e2cfca472cadfebe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the background color for a given cell, if available.  <br /></td></tr>
+<tr class="separator:a95c6a52a73e1c9b4e2cfca472cadfebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f1eafd9f36c16bfb9bdfa61ff276bc3" id="r_a5f1eafd9f36c16bfb9bdfa61ff276bc3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f1eafd9f36c16bfb9bdfa61ff276bc3">initialize_distance_coloring</a> (int start_index, int goal_index) noexcept</td></tr>
+<tr class="memdesc:a5f1eafd9f36c16bfb9bdfa61ff276bc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize distance coloring from a starting cell index.  <br /></td></tr>
+<tr class="separator:a5f1eafd9f36c16bfb9bdfa61ff276bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae7485652aa95138cb1ff99513da7e88" id="r_aae7485652aa95138cb1ff99513da7e88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1grid__operations.html">grid_operations</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae7485652aa95138cb1ff99513da7e88">operations</a> () noexcept override</td></tr>
 <tr class="memdesc:aae7485652aa95138cb1ff99513da7e88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get access to grid operations interface.  <br /></td></tr>
 <tr class="separator:aae7485652aa95138cb1ff99513da7e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34c6a19e59b74780548bef5f9a941774" id="r_a34c6a19e59b74780548bef5f9a941774"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmazes_1_1grid__operations.html">grid_operations</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34c6a19e59b74780548bef5f9a941774">operations</a> () const noexcept override</td></tr>
 <tr class="memdesc:a34c6a19e59b74780548bef5f9a941774"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get access to const grid operations interface.  <br /></td></tr>
 <tr class="separator:a34c6a19e59b74780548bef5f9a941774"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a2757573e7f5ba05a81b7421333796f" id="r_a5a2757573e7f5ba05a81b7421333796f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a2757573e7f5ba05a81b7421333796f">resize</a> (unsigned int rows, unsigned int cols, unsigned int levels) const noexcept</td></tr>
+<tr class="memdesc:a5a2757573e7f5ba05a81b7421333796f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resize the grid to the specified dimensions.  <br /></td></tr>
+<tr class="separator:a5a2757573e7f5ba05a81b7421333796f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classmazes_1_1grid__interface"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmazes_1_1grid__interface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmazes_1_1grid__interface.html">mazes::grid_interface</a></td></tr>
+<tr class="memitem:ac204613721cc8013e00bdbbb8c272b4a inherit pub_methods_classmazes_1_1grid__interface" id="r_ac204613721cc8013e00bdbbb8c272b4a"><td class="memItemLeft" align="right" valign="top">
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~grid_interface</b> ()=default</td></tr>
+<tr class="memdesc:ac204613721cc8013e00bdbbb8c272b4a inherit pub_methods_classmazes_1_1grid__interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor for the <a class="el" href="classmazes_1_1grid__interface.html" title="Interface for the grid class.">grid_interface</a> class. <br /></td></tr>
+<tr class="separator:ac204613721cc8013e00bdbbb8c272b4a inherit pub_methods_classmazes_1_1grid__interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A colored grid implementation that extends the <a class="el" href="classmazes_1_1grid__interface.html" title="Interface for the grid class.">grid_interface</a> to include distance-based coloring. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aea3dc6c5cbee9c2ac87a72b119f9ffb8" name="aea3dc6c5cbee9c2ac87a72b119f9ffb8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aea3dc6c5cbee9c2ac87a72b119f9ffb8">&#9670;&#160;</a></span>colored_grid()</h2>
 
@@ -193,8 +210,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="adcd46a58ed298040dc6806193ff57125" name="adcd46a58ed298040dc6806193ff57125"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcd46a58ed298040dc6806193ff57125">&#9670;&#160;</a></span>background_color_for()</h2>
+<a id="a95c6a52a73e1c9b4e2cfca472cadfebe" name="a95c6a52a73e1c9b4e2cfca472cadfebe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95c6a52a73e1c9b4e2cfca472cadfebe">&#9670;&#160;</a></span>background_color_for()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,7 +220,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::uint32_t mazes::colored_grid::background_color_for </td>
+          <td class="memname">std::uint32_t mazes::colored_grid::background_color_for </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
           <td> const</td>
@@ -211,7 +228,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -229,8 +246,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="afa6b41f2dd59c9a752ee546c3c8f46ac" name="afa6b41f2dd59c9a752ee546c3c8f46ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa6b41f2dd59c9a752ee546c3c8f46ac">&#9670;&#160;</a></span>contents_of()</h2>
+<a id="a44723b141ca8e4bdbfdbf263a0ef8107" name="a44723b141ca8e4bdbfdbf263a0ef8107"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44723b141ca8e4bdbfdbf263a0ef8107">&#9670;&#160;</a></span>contents_of()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,7 +256,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::string mazes::colored_grid::contents_of </td>
+          <td class="memname">std::string mazes::colored_grid::contents_of </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classmazes_1_1cell.html">cell</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
           <td> const</td>
@@ -247,7 +264,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -262,6 +279,44 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>If the cell has no contents, the contents are considered empty </dd></dl>
 
 <p>Implements <a class="el" href="classmazes_1_1grid__interface.html#a3b82cd54a02187a4420c5855a19b0d5c">mazes::grid_interface</a>.</p>
+
+</div>
+</div>
+<a id="a5f1eafd9f36c16bfb9bdfa61ff276bc3" name="a5f1eafd9f36c16bfb9bdfa61ff276bc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f1eafd9f36c16bfb9bdfa61ff276bc3">&#9670;&#160;</a></span>initialize_distance_coloring()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mazes::colored_grid::initialize_distance_coloring </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>start_index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>goal_index</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize distance coloring from a starting cell index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start_index</td><td>The index of the starting cell for distance calculation. </td></tr>
+    <tr><td class="paramname">goal_index</td><td>The index of the goal cell for distance calculation. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -283,7 +338,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -291,7 +346,7 @@ Public Member Functions</h2></td></tr>
 <p>Get access to const grid operations interface. </p>
 <dl class="section return"><dt>Returns</dt><dd>A const reference to the grid operations interface </dd></dl>
 
-<p>Implements <a class="el" href="classmazes_1_1grid__interface.html#aceff177dd87b2f8fd8c914f954365c1b">mazes::grid_interface</a>.</p>
+<p>Implements <a class="el" href="classmazes_1_1grid__interface.html#a0e4e1d1aa7affc860a5f32c488177313">mazes::grid_interface</a>.</p>
 
 </div>
 </div>
@@ -313,7 +368,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -321,7 +376,51 @@ Public Member Functions</h2></td></tr>
 <p>Get access to grid operations interface. </p>
 <dl class="section return"><dt>Returns</dt><dd>A reference to the grid operations interface </dd></dl>
 
-<p>Implements <a class="el" href="classmazes_1_1grid__interface.html#a8656dee54e7661ad124be444fbec9503">mazes::grid_interface</a>.</p>
+<p>Implements <a class="el" href="classmazes_1_1grid__interface.html#a979773325f1ec0cf2a661ad9aea3a585">mazes::grid_interface</a>.</p>
+
+</div>
+</div>
+<a id="a5a2757573e7f5ba05a81b7421333796f" name="a5a2757573e7f5ba05a81b7421333796f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a2757573e7f5ba05a81b7421333796f">&#9670;&#160;</a></span>resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mazes::colored_grid::resize </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>rows</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>cols</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>levels</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resize the grid to the specified dimensions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rows</td><td></td></tr>
+    <tr><td class="paramname">cols</td><td></td></tr>
+    <tr><td class="paramname">levels</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -333,7 +432,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacemazes.html">mazes</a></li><li class="navelem"><a class="el" href="classmazes_1_1colored__grid.html">colored_grid</a></li>
+    <li class="navelem"><b>mazes</b></li><li class="navelem"><a class="el" href="classmazes_1_1colored__grid.html">colored_grid</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>

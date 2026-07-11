@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;7.5.6</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.2.1</span>
    </div>
   </td>
  </tr>
@@ -101,6 +101,7 @@ $(function(){initNavTree('classmazes_1_1distances.html',''); initResizable(true)
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classmazes_1_1distances-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mazes::distances Class Reference</div></div>
 </div><!--header-->
@@ -113,37 +114,40 @@ $(function(){initNavTree('classmazes_1_1distances.html',''); initResizable(true)
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2fd94f920ae230ce7a6467e709209fc7" id="r_a2fd94f920ae230ce7a6467e709209fc7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fd94f920ae230ce7a6467e709209fc7">distances</a> (int32_t root_index)</td></tr>
-<tr class="memdesc:a2fd94f920ae230ce7a6467e709209fc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor that initializes the distances object with a given root index.  <br /></td></tr>
-<tr class="separator:a2fd94f920ae230ce7a6467e709209fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3adc5b1d162a40eaec3756159227c33d" id="r_a3adc5b1d162a40eaec3756159227c33d"><td class="memItemLeft" align="right" valign="top">int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3adc5b1d162a40eaec3756159227c33d">operator[]</a> (int32_t index) noexcept</td></tr>
-<tr class="memdesc:a3adc5b1d162a40eaec3756159227c33d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overloaded operator to access the distance of a cell by index.  <br /></td></tr>
-<tr class="separator:a3adc5b1d162a40eaec3756159227c33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9b68e1ebeac5a6a5a8f13c12ee573b0" id="r_ab9b68e1ebeac5a6a5a8f13c12ee573b0"><td class="memItemLeft" align="right" valign="top">const int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9b68e1ebeac5a6a5a8f13c12ee573b0">operator[]</a> (int32_t index) const noexcept</td></tr>
-<tr class="memdesc:ab9b68e1ebeac5a6a5a8f13c12ee573b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accesses the value associated with a given cell index.  <br /></td></tr>
-<tr class="separator:ab9b68e1ebeac5a6a5a8f13c12ee573b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02617c34998720a92b1034f8bc06eb06" id="r_a02617c34998720a92b1034f8bc06eb06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02617c34998720a92b1034f8bc06eb06">set</a> (int32_t index, int distance) noexcept</td></tr>
-<tr class="memdesc:a02617c34998720a92b1034f8bc06eb06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the distance of a cell by index.  <br /></td></tr>
-<tr class="separator:a02617c34998720a92b1034f8bc06eb06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73f0b9c85c61b2a5947f8706213312a1" id="r_a73f0b9c85c61b2a5947f8706213312a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73f0b9c85c61b2a5947f8706213312a1">contains</a> (int32_t index) const noexcept</td></tr>
-<tr class="memdesc:a73f0b9c85c61b2a5947f8706213312a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a given cell index is contained in the distances object.  <br /></td></tr>
-<tr class="separator:a73f0b9c85c61b2a5947f8706213312a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a505ebb7103e06973735698271a0f4362" id="r_a505ebb7103e06973735698271a0f4362"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classmazes_1_1distances.html">distances</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a505ebb7103e06973735698271a0f4362">path_to</a> (std::unique_ptr&lt; <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &gt; const &amp;g, int32_t goal_index) const noexcept</td></tr>
-<tr class="memdesc:a505ebb7103e06973735698271a0f4362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the shortest path to a goal cell index within a distances object.  <br /></td></tr>
-<tr class="separator:a505ebb7103e06973735698271a0f4362"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11c70389cd50106bd02efd1147e64be0" id="r_a11c70389cd50106bd02efd1147e64be0"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int32_t, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11c70389cd50106bd02efd1147e64be0">max</a> () const noexcept</td></tr>
-<tr class="memdesc:a11c70389cd50106bd02efd1147e64be0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the maximum distance and cell index in a distances object.  <br /></td></tr>
-<tr class="separator:a11c70389cd50106bd02efd1147e64be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af784212052b21f1a8944289770d0e249" id="r_af784212052b21f1a8944289770d0e249"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af784212052b21f1a8944289770d0e249">collect_keys</a> (std::vector&lt; int32_t &gt; &amp;indices) const noexcept</td></tr>
-<tr class="memdesc:af784212052b21f1a8944289770d0e249"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects all cell indices stored in the distances object.  <br /></td></tr>
-<tr class="separator:af784212052b21f1a8944289770d0e249"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae9ad19c619a3780bcf18463ea40ee2f" id="r_aae9ad19c619a3780bcf18463ea40ee2f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae9ad19c619a3780bcf18463ea40ee2f">distances</a> (std::int32_t root_index)</td></tr>
+<tr class="memdesc:aae9ad19c619a3780bcf18463ea40ee2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor that initializes the distances object with a given root index.  <br /></td></tr>
+<tr class="separator:aae9ad19c619a3780bcf18463ea40ee2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee987e2bdf1cc70be5b92ba6fae6d581" id="r_aee987e2bdf1cc70be5b92ba6fae6d581"><td class="memItemLeft" align="right" valign="top">int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee987e2bdf1cc70be5b92ba6fae6d581">operator[]</a> (std::int32_t index) noexcept</td></tr>
+<tr class="memdesc:aee987e2bdf1cc70be5b92ba6fae6d581"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overloaded operator to access the distance of a cell by index.  <br /></td></tr>
+<tr class="separator:aee987e2bdf1cc70be5b92ba6fae6d581"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a0917b00052b2e2b779bade5bd2212d" id="r_a8a0917b00052b2e2b779bade5bd2212d"><td class="memItemLeft" align="right" valign="top">const int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a0917b00052b2e2b779bade5bd2212d">operator[]</a> (std::int32_t index) const noexcept</td></tr>
+<tr class="memdesc:a8a0917b00052b2e2b779bade5bd2212d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accesses the value associated with a given cell index.  <br /></td></tr>
+<tr class="separator:a8a0917b00052b2e2b779bade5bd2212d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1b03b4049803be1a290877e6b637869" id="r_ad1b03b4049803be1a290877e6b637869"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1b03b4049803be1a290877e6b637869">set</a> (std::int32_t index, int distance) noexcept</td></tr>
+<tr class="memdesc:ad1b03b4049803be1a290877e6b637869"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the distance of a cell by index.  <br /></td></tr>
+<tr class="separator:ad1b03b4049803be1a290877e6b637869"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91856c90d21ca90cb15cfa0b37ecbec8" id="r_a91856c90d21ca90cb15cfa0b37ecbec8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91856c90d21ca90cb15cfa0b37ecbec8">contains</a> (std::int32_t index) const noexcept</td></tr>
+<tr class="memdesc:a91856c90d21ca90cb15cfa0b37ecbec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a given cell index is contained in the distances object.  <br /></td></tr>
+<tr class="separator:a91856c90d21ca90cb15cfa0b37ecbec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e7d25d87830e8917ffe13b1c0fdb74d" id="r_a6e7d25d87830e8917ffe13b1c0fdb74d"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::int32_t, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e7d25d87830e8917ffe13b1c0fdb74d">max</a> () const noexcept</td></tr>
+<tr class="memdesc:a6e7d25d87830e8917ffe13b1c0fdb74d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the maximum distance and cell index in a distances object.  <br /></td></tr>
+<tr class="separator:a6e7d25d87830e8917ffe13b1c0fdb74d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5b43089e4a59e34e56311d5dd30cced" id="r_ad5b43089e4a59e34e56311d5dd30cced"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5b43089e4a59e34e56311d5dd30cced">collect_keys</a> (std::vector&lt; std::int32_t &gt; &amp;indices) const noexcept</td></tr>
+<tr class="memdesc:ad5b43089e4a59e34e56311d5dd30cced"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects all cell indices stored in the distances object.  <br /></td></tr>
+<tr class="separator:ad5b43089e4a59e34e56311d5dd30cced"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a4cfae090b7df5aeaf4e4ae385416a3db" id="r_a4cfae090b7df5aeaf4e4ae385416a3db"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classmazes_1_1distances.html">distances</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cfae090b7df5aeaf4e4ae385416a3db">path_to</a> (<a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> *g, std::int32_t start_index, std::int32_t goal_index) noexcept</td></tr>
+<tr class="memdesc:a4cfae090b7df5aeaf4e4ae385416a3db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the shortest path to a goal cell index within a distances object.  <br /></td></tr>
+<tr class="separator:a4cfae090b7df5aeaf4e4ae385416a3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class that manages distances associated with cells in a grid. </p>
 <p>This class provides functionality to initialize distances from a root cell, </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a2fd94f920ae230ce7a6467e709209fc7" name="a2fd94f920ae230ce7a6467e709209fc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fd94f920ae230ce7a6467e709209fc7">&#9670;&#160;</a></span>distances()</h2>
+<a id="aae9ad19c619a3780bcf18463ea40ee2f" name="aae9ad19c619a3780bcf18463ea40ee2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae9ad19c619a3780bcf18463ea40ee2f">&#9670;&#160;</a></span>distances()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154,7 +158,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">mazes::distances::distances </td>
           <td>(</td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>root_index</em></span></td><td>)</td>
+          <td class="paramtype">std::int32_t</td>          <td class="paramname"><span class="paramname"><em>root_index</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -176,8 +180,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af784212052b21f1a8944289770d0e249" name="af784212052b21f1a8944289770d0e249"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af784212052b21f1a8944289770d0e249">&#9670;&#160;</a></span>collect_keys()</h2>
+<a id="ad5b43089e4a59e34e56311d5dd30cced" name="ad5b43089e4a59e34e56311d5dd30cced"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5b43089e4a59e34e56311d5dd30cced">&#9670;&#160;</a></span>collect_keys()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,7 +192,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void mazes::distances::collect_keys </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; int32_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
+          <td class="paramtype">std::vector&lt; std::int32_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -209,8 +213,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a73f0b9c85c61b2a5947f8706213312a1" name="a73f0b9c85c61b2a5947f8706213312a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73f0b9c85c61b2a5947f8706213312a1">&#9670;&#160;</a></span>contains()</h2>
+<a id="a91856c90d21ca90cb15cfa0b37ecbec8" name="a91856c90d21ca90cb15cfa0b37ecbec8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91856c90d21ca90cb15cfa0b37ecbec8">&#9670;&#160;</a></span>contains()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,13 +225,13 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool mazes::distances::contains </td>
           <td>(</td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td class="paramtype">std::int32_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -242,8 +246,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a11c70389cd50106bd02efd1147e64be0" name="a11c70389cd50106bd02efd1147e64be0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11c70389cd50106bd02efd1147e64be0">&#9670;&#160;</a></span>max()</h2>
+<a id="a6e7d25d87830e8917ffe13b1c0fdb74d" name="a6e7d25d87830e8917ffe13b1c0fdb74d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e7d25d87830e8917ffe13b1c0fdb74d">&#9670;&#160;</a></span>max()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -252,7 +256,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::pair&lt; int32_t, int &gt; mazes::distances::max </td>
+          <td class="memname">std::pair&lt; std::int32_t, int &gt; mazes::distances::max </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -260,7 +264,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -270,8 +274,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab9b68e1ebeac5a6a5a8f13c12ee573b0" name="ab9b68e1ebeac5a6a5a8f13c12ee573b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9b68e1ebeac5a6a5a8f13c12ee573b0">&#9670;&#160;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
+<a id="a8a0917b00052b2e2b779bade5bd2212d" name="a8a0917b00052b2e2b779bade5bd2212d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a0917b00052b2e2b779bade5bd2212d">&#9670;&#160;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -282,7 +286,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">const int &amp; mazes::distances::operator[] </td>
           <td>(</td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td class="paramtype">std::int32_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -304,8 +308,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3adc5b1d162a40eaec3756159227c33d" name="a3adc5b1d162a40eaec3756159227c33d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3adc5b1d162a40eaec3756159227c33d">&#9670;&#160;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
+<a id="aee987e2bdf1cc70be5b92ba6fae6d581" name="aee987e2bdf1cc70be5b92ba6fae6d581"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee987e2bdf1cc70be5b92ba6fae6d581">&#9670;&#160;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -316,7 +320,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">int &amp; mazes::distances::operator[] </td>
           <td>(</td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td class="paramtype">std::int32_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -338,8 +342,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a505ebb7103e06973735698271a0f4362" name="a505ebb7103e06973735698271a0f4362"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a505ebb7103e06973735698271a0f4362">&#9670;&#160;</a></span>path_to()</h2>
+<a id="a4cfae090b7df5aeaf4e4ae385416a3db" name="a4cfae090b7df5aeaf4e4ae385416a3db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cfae090b7df5aeaf4e4ae385416a3db">&#9670;&#160;</a></span>path_to()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -348,19 +352,24 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="classmazes_1_1distances.html">distances</a> &gt; mazes::distances::path_to </td>
+          <td class="memname">static std::shared_ptr&lt; <a class="el" href="classmazes_1_1distances.html">distances</a> &gt; mazes::distances::path_to </td>
           <td>(</td>
-          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> &gt; const &amp;</td>          <td class="paramname"><span class="paramname"><em>g</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmazes_1_1grid__interface.html">grid_interface</a> *</td>          <td class="paramname"><span class="paramname"><em>g</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>goal_index</em></span>&#160;) const</td>
+          <td class="paramtype">std::int32_t</td>          <td class="paramname"><span class="paramname"><em>start_index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::int32_t</td>          <td class="paramname"><span class="paramname"><em>goal_index</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -368,8 +377,9 @@ Public Member Functions</h2></td></tr>
 <p>Computes the shortest path to a goal cell index within a distances object. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">g</td><td>A pointer to the grid </td></tr>
+    <tr><td class="paramname">start_index</td><td>The index of the starting cell. </td></tr>
     <tr><td class="paramname">goal_index</td><td>The index of the goal cell. </td></tr>
-    <tr><td class="paramname">grid</td><td>A reference to the grid object for retrieving cell pointers. </td></tr>
   </table>
   </dd>
 </dl>
@@ -377,8 +387,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a02617c34998720a92b1034f8bc06eb06" name="a02617c34998720a92b1034f8bc06eb06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02617c34998720a92b1034f8bc06eb06">&#9670;&#160;</a></span>set()</h2>
+<a id="ad1b03b4049803be1a290877e6b637869" name="ad1b03b4049803be1a290877e6b637869"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1b03b4049803be1a290877e6b637869">&#9670;&#160;</a></span>set()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -389,7 +399,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void mazes::distances::set </td>
           <td>(</td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+          <td class="paramtype">std::int32_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -408,6 +418,7 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>The index of the cell whose distance is to be set. </td></tr>
+    <tr><td class="paramname">distance</td><td>The distance value to be set for the specified cell index. </td></tr>
   </table>
   </dd>
 </dl>
@@ -422,7 +433,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacemazes.html">mazes</a></li><li class="navelem"><a class="el" href="classmazes_1_1distances.html">distances</a></li>
+    <li class="navelem"><b>mazes</b></li><li class="navelem"><a class="el" href="classmazes_1_1distances.html">distances</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>

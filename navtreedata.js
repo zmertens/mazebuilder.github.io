@@ -25,38 +25,14 @@
 var NAVTREE =
 [
   [ "Maze Builder Docs", "index.html", [
-    [ "Maze Builder", "index.html#autotoc_md0", [
-      [ "Data Formats", "index.html#autotoc_md1", null ]
-    ] ],
-    [ "Examples", "index.html#autotoc_md3", [
-      [ "Command-Line Interface (CLI)", "index.html#autotoc_md4", null ],
-      [ "C++ API", "index.html#autotoc_md5", null ],
-      [ "Voxels", "index.html#autotoc_md7", null ],
-      [ "HTTP Network", "index.html#autotoc_md8", null ],
-      [ "Physics", "index.html#autotoc_md9", null ],
-      [ "CMake Configuration and Testing", "index.html#autotoc_md11", [
-        [ "Build Commands", "index.html#autotoc_md13", null ],
-        [ "Testing", "index.html#autotoc_md15", null ],
-        [ "Configure for the Web", "index.html#autotoc_md17", null ]
-      ] ],
-      [ "Scripts", "index.html#autotoc_md19", null ]
-    ] ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ]
-      ] ]
-    ] ],
+    [ "Maze Builder", "index.html", "index" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ],
         [ "Typedefs", "functions_type.html", null ]
       ] ]
     ] ],
@@ -68,9 +44,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"algo__interface_8h.html",
-"classmazes_1_1grid__factory.html#ad52a8ab229086ed4f39f036ac598eeba",
-"namespacemazes.html#ab83886a175470a8f190caa3b8415e2d2a907e06a16862d82ca6907a28a68d0ad6"
+"algos_8h.html",
+"classmazes_1_1randomizer.html#ab6bc2f1615334e9315366763fa73d601"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

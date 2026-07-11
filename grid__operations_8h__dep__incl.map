@@ -1,13 +1,9 @@
 <map id="grid_operations.h" name="grid_operations.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="72,5,192,32"/>
-<area shape="rect" id="Node000002" href="$grid_8h.html" title=" " alt="" coords="106,80,159,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,48,135,80,130,80,130,48"/>
-<area shape="rect" id="Node000003" href="$create_8h.html" title=" " alt="" coords="62,155,130,181"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="122,122,105,155,100,153,117,119"/>
-<area shape="rect" id="Node000005" href="$maze__builder_8h.html" title="This file includes all the headers in the maze builder library." alt="" coords="63,304,172,331"/>
-<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="141,121,146,154,146,198,140,240,124,304,119,303,135,239,140,198,140,155,136,122"/>
-<area shape="rect" id="Node000004" href="$create2_8h.html" title=" " alt="" coords="5,229,81,256"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="80,196,54,231,50,227,76,192"/>
-<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="103,197,118,303,113,304,98,197"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="69,265,107,302,103,306,65,269"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="56,5,176,32"/>
+<area shape="rect" id="Node000002" href="$grid_8h.html" title=" " alt="" coords="32,80,85,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,46,70,81,66,78,94,43"/>
+<area shape="rect" id="Node000004" href="$maze__state__utils_8h_source.html" title=" " alt="" coords="109,80,240,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="138,43,166,78,162,81,134,46"/>
+<area shape="rect" id="Node000003" href="$masked__grid_8h.html" title=" " alt="" coords="5,155,112,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="61,122,61,154,56,154,56,122"/>
 </map>

@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;7.5.6</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.2.1</span>
    </div>
   </td>
  </tr>
@@ -129,9 +129,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> () noexcept
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a1c3509ee38b633c3b5041d0032606575" id="r_a1c3509ee38b633c3b5041d0032606575"><td class="memTemplParams" colspan="2">template&lt;typename F , typename... Args, typename Duration  = Time&gt; </td></tr>
-<tr class="memitem:a1c3509ee38b633c3b5041d0032606575"><td class="memTemplItemLeft" align="right" valign="top">static Duration&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1c3509ee38b633c3b5041d0032606575">duration</a> (F &amp;&amp;f, Args &amp;&amp;...<a class="el" href="classmazes_1_1args.html">args</a>)</td></tr>
-<tr class="separator:a1c3509ee38b633c3b5041d0032606575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d69d45d8ee6f3582e2b258a59ecd1b0" id="r_a8d69d45d8ee6f3582e2b258a59ecd1b0"><td class="memTemplParams" colspan="2">template&lt;typename F , typename... Args, typename Duration  = Time&gt; </td></tr>
+<tr class="memitem:a8d69d45d8ee6f3582e2b258a59ecd1b0"><td class="memTemplItemLeft" align="right" valign="top">static Duration&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a8d69d45d8ee6f3582e2b258a59ecd1b0">duration</a> (F &amp;&amp;f, Args &amp;&amp;... <a class="el" href="classmazes_1_1args.html">args</a>)</td></tr>
+<tr class="memdesc:a8d69d45d8ee6f3582e2b258a59ecd1b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measures the duration of a callable object.  <br /></td></tr>
+<tr class="separator:a8d69d45d8ee6f3582e2b258a59ecd1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename Time = std::chrono::microseconds, typename Clock = std::chrono::high_resolution_clock&gt;<br />
@@ -139,8 +140,8 @@ class mazes::progress&lt; Time, Clock &gt;</div><p>Simple clock for elapsed even
 <p>This class is used to track the elapsed time between two events</p>
 <p>Thread safe with mutexes </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1c3509ee38b633c3b5041d0032606575" name="a1c3509ee38b633c3b5041d0032606575"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c3509ee38b633c3b5041d0032606575">&#9670;&#160;</a></span>duration()</h2>
+<a id="a8d69d45d8ee6f3582e2b258a59ecd1b0" name="a8d69d45d8ee6f3582e2b258a59ecd1b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d69d45d8ee6f3582e2b258a59ecd1b0">&#9670;&#160;</a></span>duration()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -169,22 +170,25 @@ template&lt;typename F , typename... Args, typename Duration  = Time&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Measures the duration of a callable object. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">F</td><td></td></tr>
-    <tr><td class="paramname">...Args</td><td></td></tr>
-    <tr><td class="paramname">Duration</td><td></td></tr>
+    <tr><td class="paramname">F</td><td>The type of the callable object </td></tr>
+    <tr><td class="paramname">...Args</td><td>The types of the arguments to the callable object </td></tr>
+    <tr><td class="paramname">Duration</td><td>The type of the duration to return </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">f</td><td></td></tr>
-    <tr><td class="paramname">...args</td><td></td></tr>
+    <tr><td class="paramname">f</td><td>The callable object </td></tr>
+    <tr><td class="paramname">args</td><td></td></tr>
+    <tr><td class="paramname">...args</td><td>The arguments to pass to the callable object </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The duration of the callable object </dd></dl>
 
 </div>
 </div>
@@ -234,7 +238,7 @@ template&lt;typename T  = double&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacemazes.html">mazes</a></li><li class="navelem"><a class="el" href="classmazes_1_1progress.html">progress</a></li>
+    <li class="navelem"><b>mazes</b></li><li class="navelem"><a class="el" href="classmazes_1_1progress.html">progress</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>

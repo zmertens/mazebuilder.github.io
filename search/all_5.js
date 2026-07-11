@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['factory_5fcreator_5ft_0',['factory_creator_t',['../classmazes_1_1factory__interface.html#ade7dcc618afb8238a354fa4ae38e575f',1,'mazes::factory_interface']]],
-  ['factory_5finterface_1',['factory_interface',['../classmazes_1_1factory__interface.html',1,'mazes']]],
-  ['factory_5finterface_2eh_2',['factory_interface.h',['../factory__interface_8h.html',1,'']]],
-  ['find_3',['find',['../classmazes_1_1string__utils.html#a2061e19b69c546aad60e968c05004c48',1,'mazes::string_utils']]],
-  ['find_5ffirst_5fof_4',['find_first_of',['../classmazes_1_1string__utils.html#a4ab834875ee8e272561759e484fd015b',1,'mazes::string_utils']]],
-  ['for_20the_20web_5',['Configure for the Web',['../index.html#autotoc_md17',1,'']]],
-  ['format_6',['format',['../classmazes_1_1string__utils.html#a05d0f9d4b0ab26ac10b80b60438bcdda',1,'mazes::string_utils']]],
-  ['formats_7',['Data Formats',['../index.html#autotoc_md1',1,'']]],
-  ['from_8',['from',['../classmazes_1_1json__helper.html#a996f4621f8870aacd2c541751bcef1d7',1,'mazes::json_helper::from(const std::unordered_map&lt; std::string, std::string &gt; &amp;map, int pretty_print=4) const noexcept'],['../classmazes_1_1json__helper.html#af0eab4ec21245c2d593d814a4b2ddf81',1,'mazes::json_helper::from(const std::vector&lt; std::unordered_map&lt; std::string, std::string &gt; &gt; &amp;arr, int pretty_print=4) const noexcept'],['../classmazes_1_1json__helper.html#adce414b49e3f42101cae3994e3995484',1,'mazes::json_helper::from(const std::string &amp;s, std::unordered_map&lt; std::string, std::string &gt; &amp;m) const noexcept']]],
-  ['from_5farray_9',['from_array',['../classmazes_1_1json__helper.html#a3c705963e335225813418c3cb8c63455',1,'mazes::json_helper']]]
+  ['find_0',['find',['../classmazes_1_1string__utils.html#a2061e19b69c546aad60e968c05004c48',1,'mazes::string_utils']]],
+  ['find_5ffirst_5fof_1',['find_first_of',['../classmazes_1_1string__utils.html#a4ab834875ee8e272561759e484fd015b',1,'mazes::string_utils']]],
+  ['flush_2',['flush',['../classmazes_1_1async__logger.html#a9afdbdbefd597eb2dd69c60d3624b01e',1,'mazes::async_logger']]],
+  ['flush_5fprinter_3',['flush_printer',['../async__logger_8h.html#a5e6f27015d45378429034ad45c07548a',1,'mazes']]],
+  ['for_20the_20web_4',['Configure for the Web',['../index.html#autotoc_md8',1,'']]],
+  ['format_5',['format',['../classmazes_1_1string__utils.html#a7be78fbae9299ba093b15d842834302f',1,'mazes::string_utils']]],
+  ['formats_6',['Data Formats',['../index.html#autotoc_md2',1,'']]],
+  ['from_7',['from',['../classmazes_1_1json__helper.html#a0f48cf1afc690480b4d217f4d77df3e5',1,'mazes::json_helper::from(const std::unordered_map&lt; std::string, std::string &gt; &amp;map, int pretty_print=4) noexcept'],['../classmazes_1_1json__helper.html#a1b3d04ab3b76e549aff4bcdd8b06660a',1,'mazes::json_helper::from(const std::vector&lt; std::unordered_map&lt; std::string, std::string &gt; &gt; &amp;arr, int pretty_print=4) noexcept'],['../classmazes_1_1json__helper.html#ad858962d8db104475233a2852d88c438',1,'mazes::json_helper::from(const std::string &amp;s, std::unordered_map&lt; std::string, std::string &gt; &amp;m) noexcept']]],
+  ['from_5farray_8',['from_array',['../classmazes_1_1json__helper.html#a22ef1b4135ec91861742f8d1cb4c1f08',1,'mazes::json_helper']]],
+  ['from_5ftxt_9',['from_txt',['../classmazes_1_1mask.html#a83ae9cc10a55d8410882be9ddaa38dee',1,'mazes::mask']]]
 ];

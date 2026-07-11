@@ -1,5 +1,5 @@
 <map id="mazes::colored_grid" name="mazes::colored_grid">
-<area shape="rect" id="Node000001" title=" " alt="" coords="9,80,148,107"/>
+<area shape="rect" id="Node000001" title="A colored grid implementation that extends the grid_interface to include distance&#45;based coloring." alt="" coords="9,80,148,107"/>
 <area shape="rect" id="Node000002" href="$classmazes_1_1grid__interface.html" title="Interface for the grid class." alt="" coords="5,5,152,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,48,81,80,76,80,76,48"/>
 </map>

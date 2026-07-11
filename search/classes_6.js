@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['io_5futils_0',['io_utils',['../classmazes_1_1io__utils.html',1,'mazes']]]
+  ['json_5fhelper_0',['json_helper',['../classmazes_1_1json__helper.html',1,'mazes']]]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Maze Builder Docs: Maze Builder Docs</title>
+<title>Maze Builder Docs: Maze Builder</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;7.5.6</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.2.1</span>
    </div>
   </td>
  </tr>
@@ -99,13 +99,14 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Maze Builder Docs </div></div>
+  <div class="headertitle"><div class="title">Maze Builder </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md__c_1_2_users_2zachm_2_desktop_2zmertens-_maze_builder_2_r_e_a_d_m_e"></a> <img src="maze_in_green_32x32.bmp" alt="" class="inline" title="Release screenshot"/>    </p>
-<h1><a class="anchor" id="autotoc_md0"></a>
-Maze Builder</h1>
-<p>Create and customize mazes on multiple platforms and languages. An example output string is shown here:</p>
+<div class="textblock"><p><a class="anchor" id="md__c_1_2_users_2zachm_2_desktop_2zmertens-_maze_builder_2_r_e_a_d_m_e"></a></p>
+<p>A text-processing tool that represents mazes as strings on multiple platforms and languages.</p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+Examples</h1>
+<p>The CLI lets you build mazes with configurable row, column, and a maze-generating algorithm.</p>
 <div class="fragment"><div class="line">+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+</div>
 <div class="line">|                 |                       |                 |</div>
 <div class="line">+-----+-----+     +     +-----+-----+     +     +     +     +</div>
@@ -127,87 +128,59 @@ Maze Builder</h1>
 <div class="line">+     +-----+-----+     +     +     +-----+     +     +     +</div>
 <div class="line">|                             |                 |           |</div>
 <div class="line">+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md1"></a>
-Data Formats</h2>
-<p>The library provides support for different export formats like Wavefront object format, JSON, and plain text or stdout.</p>
-<p>There is an included example for parsing command-line arguments and creating JSON output:</p>
+</div><!-- fragment --><p>Run the <code>binary_tree</code> algorithm with long arguments and put the results in <a href="https://en.wikipedia.org/wiki/Wavefront_.obj_file">Wavefront Object format</a>: </p><div class="fragment"><div class="line">mazebuildercli.exe --rows=25 --columns=25 --seed=42 --algo=binary_tree --output=bt.obj</div>
+</div><!-- fragment --><p>Run the <code>dfs</code> algorithm with short arguments: </p><div class="fragment"><div class="line">mazebuildercli.exe -r 25 -c 25 -s 42 -a dfs -o 25x25.obj</div>
+</div><!-- fragment --><p>Ask for help and print to standard output: </p><div class="fragment"><div class="line">mazebuildercli.exe --help</div>
+</div><!-- fragment --><p><b>Commands are case-sensitive!</b></p>
+<h3><a class="anchor" id="autotoc_md2"></a>
+Data Formats</h3>
+<p>The library supports different export formats like Wavefront object format, JSON, and plain text or stdout.</p>
+<p>Creating JSON output is easy:</p>
 <p><code>mazebuildercli.exe -r 2 -c 5 -o 2x5.json</code></p>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  &quot;rows&quot;: 2,</div>
+<div class="line">  &quot;rows&quot;: 3,</div>
 <div class="line">  &quot;columns&quot;: 5,</div>
 <div class="line">  &quot;seed&quot;: 2,</div>
 <div class="line">  &quot;algo&quot;: &quot;dfs&quot;,</div>
+<div class="line">  &quot;distances&quot;: true,</div>
 <div class="line">  &quot;output&quot;: &quot;+---+---+---+---+---+\n</div>
-<div class="line">             |           |       |\n</div>
-<div class="line">             +   +---+   +---+   +\n</div>
-<div class="line">             |       |           |\n</div>
+<div class="line">             | 0   1   2 | 9   A |\n</div>
+<div class="line">             +   +---+   +   +---+\n</div>
+<div class="line">             | 1   2 | 3 | 8   7 |\n</div>
+<div class="line">             +---+   +---+---+   +\n</div>
+<div class="line">             | 4   3   4   5   6 |\n</div>
 <div class="line">             +---+---+---+---+---+\n&quot;</div>
 <div class="line">}</div>
-</div><!-- fragment --><hr  />
-<h1><a class="anchor" id="autotoc_md3"></a>
-Examples</h1>
-<h2><a class="anchor" id="autotoc_md4"></a>
-Command-Line Interface (CLI)</h2>
-<p>This example lets you build mazes with all the functionality of the computer terminal.</p>
-<p>Run the <code>binary_tree</code> algorithm with long arguments and make a Wavefront object maze:</p>
-<div class="fragment"><div class="line">mazebuildercli.exe --rows=25 --columns=25 --seed=42 --algo=binary_tree --output=bt.obj</div>
-</div><!-- fragment --><p>Run the <code>dfs</code> algorithm with short arguments:</p>
-<div class="fragment"><div class="line">mazebuildercli.exe -r 25 -c 25 -s 42 -a dfs -o dfs.obj</div>
-</div><!-- fragment --><p>Get some help and print to standard output: </p><div class="fragment"><div class="line">mazebuildercli.exe --help</div>
-</div><!-- fragment --><p><b>Commands are case-sensitive!</b></p>
-<h2><a class="anchor" id="autotoc_md5"></a>
-C++ API</h2>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md3"></a>
+C++ API</h3>
 <p>Interface with the C++ API in a modern C++ program:</p>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line">    </div>
-<div class="line"><span class="comment">// Get all the headers from Maze Builder</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="maze__builder_8h.html">MazeBuilder/maze_builder.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="runtime__app_8h.html">MazeBuilder/runtime_app.h</a>&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> main() {</div>
-<div class="line">  </div>
-<div class="line">  <span class="keyword">auto</span> rows{10}, cols{10};</div>
+<div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">void</span>) {</div>
+<div class="line">  <span class="comment">// Get the runtime instance / singleton</span></div>
+<div class="line">  <span class="keywordflow">if</span> (<span class="keyword">auto</span> app = <a class="code hl_class" href="classmazes_1_1singleton__base.html">mazes::singleton_base&lt;mazes::runtime_app&gt;::instance</a>()) {</div>
 <div class="line"> </div>
-<div class="line">  <span class="keyword">auto</span> maze_str = mazes::create(rows, cols);</div>
-<div class="line"> </div>
-<div class="line">  std::cout &lt;&lt; <a class="code hl_function" href="classmazes_1_1string__utils.html#a05d0f9d4b0ab26ac10b80b60438bcdda">mazes::string_utils::format</a>(<span class="stringliteral">&quot;output: {}\n&quot;</span>, maze_str);</div>
-<div class="line"> </div>
+<div class="line">    std::cout &lt;&lt; app-&gt;apply(<span class="stringliteral">&quot;--algo=binary_tree -r50 -c50 -s2&quot;</span>) &lt;&lt; std::endl;</div>
+<div class="line">  }</div>
 <div class="line">  <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
-<div class="ttc" id="aclassmazes_1_1string__utils_html_a05d0f9d4b0ab26ac10b80b60438bcdda"><div class="ttname"><a href="classmazes_1_1string__utils.html#a05d0f9d4b0ab26ac10b80b60438bcdda">mazes::string_utils::format</a></div><div class="ttdeci">static std::string format(std::string_view format_str, const Args &amp;...args) noexcept</div><div class="ttdoc">Simple wrapper for fmt::format using runtime format strings (string_view)</div></div>
-<div class="ttc" id="amaze__builder_8h_html"><div class="ttname"><a href="maze__builder_8h.html">maze_builder.h</a></div><div class="ttdoc">This file includes all the headers in the maze builder library.</div></div>
-</div><!-- fragment --><hr  />
-<h2><a class="anchor" id="autotoc_md7"></a>
-Voxels</h2>
-<p><img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjlnbjl6NmZ3c3hmMW05MDV1YXg1NjFuOW5ydHRlYW5xdjVvY3BsMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iO02l5jhramJ43olgE/giphy.gif" alt="" class="inline"/></p>
-<ul>
-<li>The Voxels app is set in a 3D voxel world and enables interactive maze generation and downloading of Wavefront object files.</li>
-</ul>
-<p><a href="https://jade-semifreddo-f24ef0.netlify.app/">Check out the this example in a live app!</a></p>
-<p>The web app can be run locally with the provided <a href="scripts/secure_http_server.py">secure_http_server.py</a> script. Once the script is running, open the browser to <code><a href="http://localhost:8000">http://localhost:8000</a></code>.</p>
-<h2><a class="anchor" id="autotoc_md8"></a>
-HTTP Network</h2>
-<ul>
-<li>User can connect with <a href="https://github.com/zmertens/Corners">Corners</a>, the maze building service, to create mazes</li>
-</ul>
-<h2><a class="anchor" id="autotoc_md9"></a>
-Physics</h2>
-<ul>
-<li>Simple scoring system that includes maintaining a string of highlighted bricks</li>
-<li>Balls interact with the bricks and break them after repeated bounces</li>
-<li>Updated event handling (mouse, touch, keyboard)</li>
-<li>Maintains high scores via a network connection with <a href="https://github.com/zmertens/Corners">Corners</a> or locally on harddrive</li>
-<li>Spatialized sound effects in 2D</li>
-</ul>
-<hr  />
-<h2><a class="anchor" id="autotoc_md11"></a>
+<div class="ttc" id="aclassmazes_1_1singleton__base_html"><div class="ttname"><a href="classmazes_1_1singleton__base.html">mazes::singleton_base</a></div><div class="ttdoc">Base class for implementing the singleton pattern.</div><div class="ttdef"><b>Definition</b> singleton_base.h:14</div></div>
+<div class="ttc" id="aruntime__app_8h_html"><div class="ttname"><a href="runtime__app_8h.html">runtime_app.h</a></div></div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md4"></a>
+Images and Media</h2>
+<p><img src="scripts/sample_icon.bmp" alt="Sample" class="inline"/></p>
+<p><img src="https://imgur.com/vB006Ok.jpg" alt="Maze Preview 1" class="inline"/></p>
+<p><img src="https://imgur.com/CvMsCZs.jpg" alt="Maze Preview 3" class="inline"/></p>
+<p><img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjEwNzU4aTBjamE0aDhtN281YW11N2QxYWhxM2F2eGU3a3RpdGg5NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VOT4sVJVxgK2RXADkZ/giphy.gif" alt="" class="inline"/></p>
+<p>Build on the Web in a 3D voxel world and download scenes.</p>
+<p><a href="https://flipsandale.itch.io/maze-builder">Check out the live Web app on itch.io!</a></p>
+<h2><a class="anchor" id="autotoc_md5"></a>
 CMake Configuration and Testing</h2>
-<p><a href="https://cmake.org">CMake</a> is used for project configuration.</p>
+<p><a href="https://cmake.org">CMake</a> is used for project configuration. Only <a href="https://github.com/fmtlib/fmt">fmtlib</a> is required for the core lib, and <a href="https://github.com/catchorg/Catch2">catch2</a> for tests, and the rest are dependencies for the examples.</p>
 <p>Here are the external dependencies which can be grabbed from the Internet by CMake:</p>
 <ul>
 <li><a href="https://box2d.org/documentation/hello.html">box2d</a></li>
-<li><a href="https://github.com/catchorg/Catch2">catch2</a></li>
-<li><a href="https://fmt.dev/latest/index.html">fmt</a></li>
 <li><a href="https://libsdl.org">SDL</a></li>
 <li><a href="https://sfml-dev.org">SFML</a></li>
 </ul>
@@ -226,10 +199,9 @@ CMake Configuration and Testing</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">MAZE_BUILDER_MEMCHECK   </td><td class="markdownTableBodyNone">OFF   </td><td class="markdownTableBodyNone">Build with <code>Valgrind</code> and <code>Memcheck</code> support   </td></tr>
 </table>
-<hr  />
-<h3><a class="anchor" id="autotoc_md13"></a>
+<h3><a class="anchor" id="autotoc_md6"></a>
 Build Commands</h3>
-<p>Configure it with <a href="https://ninja-build.org/">Ninja</a> generator: <code>cmake -G"Ninja Multi-Config" -S . -B build-examples -DMAZE_BUILDER_EXAMPLES:BOOL=ON</code></p>
+<p>Configure with <a href="https://ninja-build.org/">Ninja</a>: <code>cmake -G"Ninja Multi-Config" -S . -B build-examples -DMAZE_BUILDER_EXAMPLES:BOOL=ON</code></p>
 <p>Build it: <code>cmake --build build-examples --config Release</code></p>
 <p>By default, both a shared-object library and static library are produced. The shared and static files have different naming conventions depending on the platform:</p>
 <table class="markdownTable">
@@ -242,29 +214,22 @@ Build Commands</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">MacOS   </td><td class="markdownTableBodyNone"><code>libmazebuildercore_static.a</code>   </td><td class="markdownTableBodyNone"><code>libmazebuildercore_shared.dylib</code>   </td></tr>
 </table>
-<hr  />
-<h3><a class="anchor" id="autotoc_md15"></a>
+<h3><a class="anchor" id="autotoc_md7"></a>
 Testing</h3>
 <p>Configure the project for testing: <code>cmake -S . -B build-tests -DMAZE_BUILDER_TESTS:BOOL=ON</code></p>
 <p>Run the tests: <code>ctest --test-dir build-tests/tests --verbose -C Debug</code></p>
-<hr  />
-<h3><a class="anchor" id="autotoc_md17"></a>
+<h3><a class="anchor" id="autotoc_md8"></a>
 Configure for the Web</h3>
 <p>Configure the examples for the Web using <a href="https://emscripten.org/">Emscripten</a> and their toolchain file (or <code>emcmake</code>).</p>
-<div class="fragment"><div class="line">cmake -S . -B build-web -DCMAKE_TOOLCHAIN_FILE:FILEPATH=${my/emsdk/repo}/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake</div>
-</div><!-- fragment --><hr  />
-<h2><a class="anchor" id="autotoc_md19"></a>
+<div class="fragment"><div class="line">cmake -S . -B build-web -DCMAKE_TOOLCHAIN_FILE:FILEPATH=${EMSDK_ROOT}/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md9"></a>
 Scripts</h2>
-<p>The Ruby script <code>mazes.rb</code> generates PNG images of mazes using algorithms and methods similar to the C++ library. It is a good place to start learning about the maze-generating algorithms. The Python script <code>solver.py</code> plays with the maze generation by loading PNG files and finding paths and networks.</p>
-<p><b>Script dependencies:</b></p><ul>
-<li><code>gem install chunky_png</code></li>
-<li><code>pip install numpy pillow networkx</code></li>
-</ul>
-<hr  />
-<h4><a class="anchor" id="autotoc_md21"></a>
-Helpful Resources on Mazes</h4>
+<p>See README Scripts</p>
+<h2><a class="anchor" id="autotoc_md10"></a>
+Helpful Resources on Mazes</h2>
 <ul>
-<li><a href="https://www.jamisbuck.org/mazes/">Mazes for Programmers Book</a> </li>
+<li><a href="https://www.jamisbuck.org/mazes/">Mazes for Programmers Book</a></li>
+<li><a href="https://codebox.net/pages/maze-generator/online">codebox maze generator</a> </li>
 </ul>
 </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>

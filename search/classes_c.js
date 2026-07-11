@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['randomizer_0',['randomizer',['../classmazes_1_1randomizer.html',1,'mazes']]]
+  ['tri_5fhash_0',['tri_hash',['../structmazes_1_1tri__hash.html',1,'mazes']]]
 ];

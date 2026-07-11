@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;7.5.6</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.2.1</span>
    </div>
   </td>
  </tr>
@@ -106,45 +106,30 @@ $(function(){initNavTree('io__utils_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define IO_UTILS_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;cstdint&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;ostream&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;string_view&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacemazes.html">mazes</a></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="classmazes_1_1io__utils.html">   17</a></span>    <span class="keyword">class </span><a class="code hl_class" href="classmazes_1_1io__utils.html">io_utils</a></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    {</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="classmazes_1_1io__utils.html#afcb770ebc30bb4916192c1cfc1367241">   27</a></span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="classmazes_1_1io__utils.html#afcb770ebc30bb4916192c1cfc1367241">write_png</a>(<span class="keyword">const</span> std::string &amp;filename, <span class="keyword">const</span> std::vector&lt;std::uint8_t&gt; &amp;data, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> w = 100, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> h = 100, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> stride = 4) const noexcept;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classmazes_1_1io__utils.html#a77bd038f580ae53a61860cfe0d5563e9">   36</a></span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="classmazes_1_1io__utils.html#a77bd038f580ae53a61860cfe0d5563e9">write_jpeg</a>(const std::<span class="keywordtype">string</span> &amp;filename, const std::vector&lt;std::uint8_t&gt; &amp;data, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> w = 100, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> h = 100, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> stride = 4) const noexcept;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span>mazes</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
+<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="classmazes_1_1io__utils.html">   15</a></span>    <span class="keyword">class </span><a class="code hl_class" href="classmazes_1_1io__utils.html">io_utils</a></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="classmazes_1_1io__utils.html#ac7b756c4e9424b4a739052a97b082338">   23</a></span>        <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classmazes_1_1io__utils.html#ac7b756c4e9424b4a739052a97b082338">write</a>(std::ostream&amp; oss, <span class="keyword">const</span> std::string&amp; data, std::string_view delimiter = <span class="stringliteral">&quot;\n&quot;</span>) noexcept;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="classmazes_1_1io__utils.html#ae7526b74cc29d98cc29743dcc4b790d5">   29</a></span>        static <span class="keywordtype">bool</span> <a class="code hl_function" href="classmazes_1_1io__utils.html#ae7526b74cc29d98cc29743dcc4b790d5">write_file</a>(const std::<span class="keywordtype">string</span>&amp; filename, const std::<span class="keywordtype">string</span>&amp; data) noexcept;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classmazes_1_1io__utils.html#abe23e4e942391fdb97d38aaa4428da65">   34</a></span>        static std::<span class="keywordtype">string</span> <a class="code hl_function" href="classmazes_1_1io__utils.html#abe23e4e942391fdb97d38aaa4428da65">get_full_directory_path</a>(const std::<span class="keywordtype">string</span>&amp; filepath) noexcept;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }; <span class="comment">// io_utils</span></div>
+</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>}</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="classmazes_1_1io__utils.html#a566a47cb492b572c497123daf87e22ef">   42</a></span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="classmazes_1_1io__utils.html#a566a47cb492b572c497123daf87e22ef">write</a>(std::ostream &amp;oss, const std::<span class="keywordtype">string</span> &amp;data) const noexcept;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classmazes_1_1io__utils.html#ab0213bcd515559a40f35d1bde88e61b9">   48</a></span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="classmazes_1_1io__utils.html#ab0213bcd515559a40f35d1bde88e61b9">write_file</a>(const std::<span class="keywordtype">string</span> &amp;filename, const std::<span class="keywordtype">string</span> &amp;data) const noexcept;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="foldopen" id="foldopen00053" data-start="{" data-end="}">
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="classmazes_1_1io__utils.html#a78039084ad7f86cc092e83162dbaf958">   53</a></span>        static std::<span class="keywordtype">string</span> <a class="code hl_function" href="classmazes_1_1io__utils.html#a78039084ad7f86cc092e83162dbaf958">getDirectoryPath</a>(const std::<span class="keywordtype">string</span>&amp; filepath) noexcept {</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            std::filesystem::path p(filepath);</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            <span class="keywordflow">return</span> p.parent_path().string();</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        }</div>
-</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    }; <span class="comment">// io_utils</span></div>
-</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>}</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#endif </span><span class="comment">// IO_UTILS_H</span></div>
-<div class="ttc" id="aclassmazes_1_1io__utils_html"><div class="ttname"><a href="classmazes_1_1io__utils.html">mazes::io_utils</a></div><div class="ttdoc">Handles file writing for text, stdout, images, and object files.</div><div class="ttdef"><b>Definition</b> io_utils.h:18</div></div>
-<div class="ttc" id="aclassmazes_1_1io__utils_html_a566a47cb492b572c497123daf87e22ef"><div class="ttname"><a href="classmazes_1_1io__utils.html#a566a47cb492b572c497123daf87e22ef">mazes::io_utils::write</a></div><div class="ttdeci">bool write(std::ostream &amp;oss, const std::string &amp;data) const noexcept</div><div class="ttdoc">Handles writing to an output stream.</div></div>
-<div class="ttc" id="aclassmazes_1_1io__utils_html_a77bd038f580ae53a61860cfe0d5563e9"><div class="ttname"><a href="classmazes_1_1io__utils.html#a77bd038f580ae53a61860cfe0d5563e9">mazes::io_utils::write_jpeg</a></div><div class="ttdeci">bool write_jpeg(const std::string &amp;filename, const std::vector&lt; std::uint8_t &gt; &amp;data, unsigned int w=100, unsigned int h=100, unsigned int stride=4) const noexcept</div><div class="ttdoc">Write pixels to a JPEG file.</div></div>
-<div class="ttc" id="aclassmazes_1_1io__utils_html_a78039084ad7f86cc092e83162dbaf958"><div class="ttname"><a href="classmazes_1_1io__utils.html#a78039084ad7f86cc092e83162dbaf958">mazes::io_utils::getDirectoryPath</a></div><div class="ttdeci">static std::string getDirectoryPath(const std::string &amp;filepath) noexcept</div><div class="ttdoc">Get the directory path from a full file path.</div><div class="ttdef"><b>Definition</b> io_utils.h:53</div></div>
-<div class="ttc" id="aclassmazes_1_1io__utils_html_ab0213bcd515559a40f35d1bde88e61b9"><div class="ttname"><a href="classmazes_1_1io__utils.html#ab0213bcd515559a40f35d1bde88e61b9">mazes::io_utils::write_file</a></div><div class="ttdeci">bool write_file(const std::string &amp;filename, const std::string &amp;data) const noexcept</div><div class="ttdoc">Write to a file.</div></div>
-<div class="ttc" id="aclassmazes_1_1io__utils_html_afcb770ebc30bb4916192c1cfc1367241"><div class="ttname"><a href="classmazes_1_1io__utils.html#afcb770ebc30bb4916192c1cfc1367241">mazes::io_utils::write_png</a></div><div class="ttdeci">bool write_png(const std::string &amp;filename, const std::vector&lt; std::uint8_t &gt; &amp;data, unsigned int w=100, unsigned int h=100, unsigned int stride=4) const noexcept</div><div class="ttdoc">Write pixels to a PNG file.</div></div>
-<div class="ttc" id="anamespacemazes_html"><div class="ttname"><a href="namespacemazes.html">mazes</a></div><div class="ttdoc">Namespace for the maze builder.</div><div class="ttdef"><b>Definition</b> algo_interface.h:6</div></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#endif </span><span class="comment">// IO_UTILS_H</span></div>
+<div class="ttc" id="aclassmazes_1_1io__utils_html"><div class="ttname"><a href="classmazes_1_1io__utils.html">mazes::io_utils</a></div><div class="ttdoc">Handles file writing for text, stdout, and object files.</div><div class="ttdef"><b>Definition</b> io_utils.h:16</div></div>
+<div class="ttc" id="aclassmazes_1_1io__utils_html_abe23e4e942391fdb97d38aaa4428da65"><div class="ttname"><a href="classmazes_1_1io__utils.html#abe23e4e942391fdb97d38aaa4428da65">mazes::io_utils::get_full_directory_path</a></div><div class="ttdeci">static std::string get_full_directory_path(const std::string &amp;filepath) noexcept</div><div class="ttdoc">Get the directory path from a full file path.</div></div>
+<div class="ttc" id="aclassmazes_1_1io__utils_html_ac7b756c4e9424b4a739052a97b082338"><div class="ttname"><a href="classmazes_1_1io__utils.html#ac7b756c4e9424b4a739052a97b082338">mazes::io_utils::write</a></div><div class="ttdeci">static bool write(std::ostream &amp;oss, const std::string &amp;data, std::string_view delimiter=&quot;\n&quot;) noexcept</div><div class="ttdoc">Handles writing to an output stream.</div></div>
+<div class="ttc" id="aclassmazes_1_1io__utils_html_ae7526b74cc29d98cc29743dcc4b790d5"><div class="ttname"><a href="classmazes_1_1io__utils.html#ae7526b74cc29d98cc29743dcc4b790d5">mazes::io_utils::write_file</a></div><div class="ttdeci">static bool write_file(const std::string &amp;filename, const std::string &amp;data) noexcept</div><div class="ttdoc">Write to a file.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

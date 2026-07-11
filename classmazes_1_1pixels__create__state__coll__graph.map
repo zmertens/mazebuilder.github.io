@@ -1,0 +1,7 @@
+<map id="mazes::pixels_create_state" name="mazes::pixels_create_state">
+<area shape="rect" id="Node000001" title="State for creating a maze using the pixels algorithm." alt="" coords="88,80,233,123"/>
+<area shape="rect" id="Node000002" href="$classmazes_1_1create__contract.html" title="Contract for the create function in the runtime." alt="" coords="5,5,164,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,42,143,78,139,82,105,45"/>
+<area shape="rect" id="Node000003" href="$structmazes_1_1state.html" title="struct representing a state in the runtime stack" alt="" coords="188,5,285,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,45,182,82,178,78,212,42"/>
+</map>

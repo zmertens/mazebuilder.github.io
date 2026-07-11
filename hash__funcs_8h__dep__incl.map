@@ -1,19 +1,15 @@
 <map id="hash_funcs.h" name="hash_funcs.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="188,5,287,32"/>
-<area shape="rect" id="Node000002" href="$cell_8h.html" title=" " alt="" coords="180,80,232,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,47,214,81,209,79,224,45"/>
-<area shape="rect" id="Node000007" href="$maze__builder_8h.html" title="This file includes all the headers in the maze builder library." alt="" coords="114,453,223,480"/>
-<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="250,46,265,101,272,167,272,319,270,341,263,362,240,401,212,432,187,455,183,451,209,429,236,398,258,360,265,340,267,319,267,167,259,102,245,47"/>
-<area shape="rect" id="Node000003" href="$grid__operations_8h.html" title=" " alt="" coords="62,155,182,181"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="181,119,138,156,134,152,178,115"/>
-<area shape="poly" id="edge9_Node000002_Node000007" title=" " alt="" coords="212,122,218,177,222,241,222,319,217,359,205,397,178,454,173,452,200,395,212,358,216,319,216,241,213,177,207,122"/>
-<area shape="rect" id="Node000004" href="$grid_8h.html" title=" " alt="" coords="95,229,148,256"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="124,197,124,229,119,229,119,197"/>
-<area shape="rect" id="Node000005" href="$create_8h.html" title=" " alt="" coords="62,304,130,331"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="115,272,103,304,98,303,110,270"/>
-<area shape="poly" id="edge8_Node000004_Node000007" title=" " alt="" coords="135,270,146,303,162,388,170,453,165,453,157,389,140,305,130,271"/>
-<area shape="rect" id="Node000006" href="$create2_8h.html" title=" " alt="" coords="5,379,81,405"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="80,345,54,380,50,377,76,342"/>
-<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="112,344,165,452,160,454,107,346"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="79,411,148,450,145,455,76,416"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="64,5,163,32"/>
+<area shape="rect" id="Node000002" href="$cell_8h.html" title=" " alt="" coords="87,80,140,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,48,116,80,111,80,111,48"/>
+<area shape="rect" id="Node000003" href="$distances_8h.html" title=" " alt="" coords="5,155,94,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,120,63,156,59,152,90,117"/>
+<area shape="rect" id="Node000004" href="$grid__operations_8h.html" title=" " alt="" coords="117,155,238,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="137,117,168,152,164,156,133,120"/>
+<area shape="rect" id="Node000005" href="$grid_8h.html" title=" " alt="" coords="92,229,146,256"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="160,195,131,231,127,227,156,192"/>
+<area shape="rect" id="Node000007" href="$maze__state__utils_8h_source.html" title=" " alt="" coords="169,229,300,256"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="199,192,227,227,223,231,195,195"/>
+<area shape="rect" id="Node000006" href="$masked__grid_8h.html" title=" " alt="" coords="66,304,172,331"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="122,272,122,304,116,304,116,272"/>
 </map>
