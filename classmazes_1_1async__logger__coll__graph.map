@@ -1,0 +1,5 @@
+<map id="mazes::async_logger" name="mazes::async_logger">
+<area shape="rect" id="Node000001" title=" " alt="" coords="11,98,170,126"/>
+<area shape="rect" id="Node000002" href="$classmazes_1_1singleton__base.html" title=" " alt="" coords="5,5,176,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,64,93,98,88,96,89,68"/>
+</map>

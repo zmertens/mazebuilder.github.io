@@ -1,5 +1,0 @@
-<map id="mazes::grid_factory" name="mazes::grid_factory">
-<area shape="rect" id="Node000001" title="Modern grid grid_factory with registration capabilities." alt="" coords="10,80,147,107"/>
-<area shape="rect" id="Node000002" href="$classmazes_1_1factory__interface.html" title="Modern factory interface using registration pattern." alt="" coords="5,5,152,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,48,81,80,76,80,76,48"/>
-</map>

@@ -1,7 +1,9 @@
 <map id="mazes::wavefront_object_create_state" name="mazes::wavefront_object_create_state">
-<area shape="rect" id="Node000001" title="State for creating a maze using the Wavefront Object algorithm." alt="" coords="77,80,244,123"/>
-<area shape="rect" id="Node000002" href="$classmazes_1_1create__contract.html" title="Contract for the create function in the runtime." alt="" coords="5,5,164,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,42,143,78,139,82,105,45"/>
-<area shape="rect" id="Node000003" href="$structmazes_1_1state.html" title="struct representing a state in the runtime stack" alt="" coords="188,5,285,32"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,45,182,82,178,78,212,42"/>
+<area shape="rect" id="Node000001" title="State for creating a maze using the Wavefront Object algorithm." alt="" coords="81,174,266,218"/>
+<area shape="rect" id="Node000002" href="$classmazes_1_1write__to__output__state.html" title="Base state for creating output from mazes (pixels, stringify, OBJ) This state encapsulates the common..." alt="" coords="86,81,260,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,139,176,175,171,172,172,143"/>
+<area shape="rect" id="Node000003" href="$classmazes_1_1create__contract.html" title="Contract for the create function in the runtime." alt="" coords="5,5,179,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="116,41,154,80,149,81,115,47"/>
+<area shape="rect" id="Node000004" href="$structmazes_1_1state.html" title="struct representing a state in the runtime stack" alt="" coords="203,5,309,33"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="234,42,197,82,194,78,230,46"/>
 </map>

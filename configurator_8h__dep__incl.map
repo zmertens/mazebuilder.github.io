@@ -1,7 +1,5 @@
 <map id="configurator.h" name="configurator.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="126,5,226,32"/>
-<area shape="rect" id="Node000002" href="$dfs__maze__create__state_8h.html" title=" " alt="" coords="5,80,174,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,44,106,82,103,78,148,40"/>
-<area shape="rect" id="Node000003" href="$maze__state__utils_8h_source.html" title=" " alt="" coords="197,80,328,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,40,250,78,246,82,201,44"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,116,33"/>
+<area shape="rect" id="Node000002" href="$state__utils_8h.html" title="Namespace containing utility functions for maze builder states." alt="" coords="10,81,111,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,47,63,81,58,80,59,51"/>
 </map>

@@ -1,5 +1,0 @@
-<map id="mazes::sidewinder" name="mazes::sidewinder">
-<area shape="rect" id="Node000001" title="Sidewinder algorithm for generating mazes." alt="" coords="15,80,145,107"/>
-<area shape="rect" id="Node000002" href="$classmazes_1_1algo__interface.html" title="Interface for runnable algorithms." alt="" coords="5,5,155,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,48,83,80,77,80,77,48"/>
-</map>

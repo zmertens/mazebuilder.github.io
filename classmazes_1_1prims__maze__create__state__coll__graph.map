@@ -1,0 +1,13 @@
+<map id="mazes::prims_maze_create_state" name="mazes::prims_maze_create_state">
+<area shape="rect" id="Node000001" title=" " alt="" coords="676,80,877,124"/>
+<area shape="rect" id="Node000002" href="$classmazes_1_1link__maze__and__create__state.html" title="Base state for creating mazes using algorithms that link cells This state encapsulates the common set..." alt="" coords="457,80,627,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="643,99,678,102,673,102,643,104"/>
+<area shape="rect" id="Node000003" href="$classmazes_1_1create__contract.html" title="Contract for the create function in the runtime." alt="" coords="38,5,212,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="227,27,328,42,433,63,480,79,475,79,432,68,327,47,228,33"/>
+<area shape="rect" id="Node000004" href="$structmazes_1_1state.html" title="struct representing a state in the runtime stack" alt="" coords="72,57,178,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="193,72,433,87,459,92,454,92,432,92,193,77"/>
+<area shape="rect" id="Node000005" href="$classmazes_1_1resource__management.html" title=" " alt="" coords="5,109,245,154"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="260,123,432,112,459,112,454,113,433,117,261,129"/>
+<area shape="rect" id="Node000006" href="$classmazes_1_1resource__management.html" title=" " alt="" coords="14,178,236,239"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="251,193,341,177,432,154,468,139,500,125,505,124,470,144,434,159,342,183,252,198"/>
+</map>

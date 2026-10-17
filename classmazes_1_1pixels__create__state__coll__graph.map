@@ -1,7 +1,13 @@
 <map id="mazes::pixels_create_state" name="mazes::pixels_create_state">
-<area shape="rect" id="Node000001" title="State for creating a maze using the pixels algorithm." alt="" coords="88,80,233,123"/>
-<area shape="rect" id="Node000002" href="$classmazes_1_1create__contract.html" title="Contract for the create function in the runtime." alt="" coords="5,5,164,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,42,143,78,139,82,105,45"/>
-<area shape="rect" id="Node000003" href="$structmazes_1_1state.html" title="struct representing a state in the runtime stack" alt="" coords="188,5,285,32"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,45,182,82,178,78,212,42"/>
+<area shape="rect" id="Node000001" title="State for creating a maze using the pixels algorithm." alt="" coords="680,80,839,124"/>
+<area shape="rect" id="Node000002" href="$classmazes_1_1write__to__output__state.html" title="Base state for creating output from mazes (pixels, stringify, OBJ) This state encapsulates the common..." alt="" coords="457,80,631,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="646,99,682,102,677,102,647,104"/>
+<area shape="rect" id="Node000003" href="$classmazes_1_1create__contract.html" title="Contract for the create function in the runtime." alt="" coords="38,5,212,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="227,28,327,42,433,63,481,79,476,79,432,68,327,47,227,33"/>
+<area shape="rect" id="Node000004" href="$structmazes_1_1state.html" title="struct representing a state in the runtime stack" alt="" coords="72,57,178,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="193,72,433,87,459,92,454,92,432,92,193,77"/>
+<area shape="rect" id="Node000005" href="$classmazes_1_1resource__management.html" title=" " alt="" coords="5,109,245,154"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="260,123,432,112,459,112,454,113,433,117,261,129"/>
+<area shape="rect" id="Node000006" href="$classmazes_1_1resource__management.html" title=" " alt="" coords="14,178,236,239"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="251,193,341,177,432,154,468,139,501,125,506,124,471,144,433,159,342,182,252,198"/>
 </map>

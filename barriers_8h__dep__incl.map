@@ -1,11 +1,13 @@
 <map id="barriers.h" name="barriers.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="78,5,154,32"/>
-<area shape="rect" id="Node000002" href="$grid__operations_8h.html" title=" " alt="" coords="56,80,176,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,48,118,80,113,80,113,48"/>
-<area shape="rect" id="Node000003" href="$grid_8h.html" title=" " alt="" coords="32,155,85,181"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,121,70,156,66,153,94,117"/>
-<area shape="rect" id="Node000005" href="$maze__state__utils_8h_source.html" title=" " alt="" coords="109,155,240,181"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="138,117,166,153,162,156,134,121"/>
-<area shape="rect" id="Node000004" href="$masked__grid_8h.html" title=" " alt="" coords="5,229,112,256"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="61,197,61,229,56,229,56,197"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="142,5,225,33"/>
+<area shape="rect" id="Node000002" href="$grid__operations_8h.html" title=" " alt="" coords="48,81,183,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,47,130,82,126,79,163,43"/>
+<area shape="rect" id="Node000006" href="$topology_8h.html" title=" " alt="" coords="207,81,296,109"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="206,42,242,80,237,81,206,47"/>
+<area shape="rect" id="Node000003" href="$grid_8h.html" title=" " alt="" coords="34,157,93,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,124,75,158,71,155,99,119"/>
+<area shape="rect" id="Node000005" href="$state__utils_8h.html" title="Namespace containing utility functions for maze builder states." alt="" coords="117,157,218,184"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="134,119,161,156,156,156,133,124"/>
+<area shape="rect" id="Node000004" href="$masked__grid_8h.html" title=" " alt="" coords="5,232,122,260"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="65,198,66,233,61,231,62,202"/>
 </map>

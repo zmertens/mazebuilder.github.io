@@ -1,5 +1,5 @@
 <map id="lab.h" name="lab.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="15,5,64,32"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,74,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="42,33,42,64,37,64,37,33"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="17,5,70,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,82,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="45,31,46,66,41,65,42,36"/>
 </map>

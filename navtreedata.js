@@ -26,6 +26,7 @@ var NAVTREE =
 [
   [ "Maze Builder Docs", "index.html", [
     [ "Maze Builder", "index.html", "index" ],
+    [ "Deprecated List", "deprecated.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -33,6 +34,7 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Variables", "functions_vars.html", null ],
         [ "Typedefs", "functions_type.html", null ]
       ] ]
     ] ],
@@ -45,8 +47,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "algos_8h.html",
-"classmazes_1_1randomizer.html#ab6bc2f1615334e9315366763fa73d601"
+"classmazes_1_1write__to__output__state.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'click to disable panel synchronization';
+var SYNCOFFMSG = 'click to enable panel synchronization';
+var LISTOFALLMEMBERS = 'List of all members';

@@ -1,5 +1,7 @@
 <map id="barriers.h" name="barriers.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="9,5,84,32"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,88,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="49,33,49,64,44,64,44,33"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="70,5,154,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,102,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,32,75,71,71,67,99,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="125,81,216,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="124,31,154,69,148,69,122,36"/>
 </map>

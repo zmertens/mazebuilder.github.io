@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sink_5ftype_0',['sink_type',['../classmazes_1_1async__logger.html#a24eb7de0eb8cfeb1a7d06342b01e2437',1,'mazes::async_logger']]]
+  ['neighbor_5fbuffer_0',['neighbor_buffer',['../classmazes_1_1grid__operations.html#ab484c56e05e448c35856caa6deb63503',1,'mazes::grid_operations']]]
 ];

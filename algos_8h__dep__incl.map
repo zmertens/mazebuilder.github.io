@@ -1,22 +1,24 @@
 <map id="algos.h" name="algos.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="395,5,459,32"/>
-<area shape="rect" id="Node000002" href="$configurator_8h.html" title=" " alt="" coords="194,80,294,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="382,41,277,82,275,77,380,36"/>
-<area shape="rect" id="Node000005" href="$create__contract_8h.html" title=" " alt="" coords="550,80,672,107"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="474,36,580,77,578,82,472,41"/>
-<area shape="rect" id="Node000003" href="$dfs__maze__create__state_8h.html" title=" " alt="" coords="160,163,328,189"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="247,122,247,163,242,163,242,122"/>
-<area shape="rect" id="Node000004" href="$maze__state__utils_8h_source.html" title=" " alt="" coords="5,163,137,189"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="205,116,99,165,97,160,203,111"/>
-<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="539,113,303,165,302,159,538,108"/>
-<area shape="rect" id="Node000006" href="$bt__maze__create__state_8h.html" title=" " alt="" coords="353,163,514,189"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="570,116,462,165,460,160,568,111"/>
-<area shape="rect" id="Node000007" href="$pixels__create__state_8h.html" title=" " alt="" coords="538,163,684,189"/>
-<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="614,122,614,163,608,163,608,122"/>
-<area shape="rect" id="Node000008" href="$stringify__create__state_8h.html" title=" " alt="" coords="708,163,866,189"/>
-<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="653,111,761,160,759,165,651,116"/>
-<area shape="rect" id="Node000009" href="$sw__maze__create__state_8h.html" title=" " alt="" coords="890,163,1057,189"/>
-<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="684,108,917,159,916,165,682,113"/>
-<area shape="rect" id="Node000010" href="$wavefront__object__create__state_8h.html" title=" " alt="" coords="1081,155,1245,197"/>
-<area shape="poly" id="edge10_Node000005_Node000010" title=" " alt="" coords="688,100,863,121,1070,152,1082,154,1081,159,1069,157,863,127,688,105"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="578,5,647,33"/>
+<area shape="rect" id="Node000002" href="$bt__maze__create__state_8h.html" title=" " alt="" coords="5,182,183,210"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="561,36,418,84,131,184,129,179,416,78,566,34"/>
+<area shape="rect" id="Node000003" href="$configurator_8h.html" title=" " alt="" coords="982,90,1092,117"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="662,27,984,91,978,92,662,33"/>
+<area shape="rect" id="Node000005" href="$dfs__maze__create__state_8h.html" title=" " alt="" coords="207,182,392,210"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="577,40,501,83,323,184,321,179,498,79,572,42"/>
+<area shape="rect" id="Node000006" href="$link__maze__and__create__state_8h.html" title=" " alt="" coords="529,81,696,126"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="614,47,615,82,611,79,611,51"/>
+<area shape="rect" id="Node000007" href="$masked__maze__and__create__state_8h.html" title=" " alt="" coords="416,174,610,218"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="567,38,539,59,519,82,510,105,507,129,510,175,506,172,502,129,505,103,514,80,536,55,562,40"/>
+<area shape="rect" id="Node000008" href="$prims__maze__create__state_8h_source.html" title=" " alt="" coords="633,182,835,210"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="660,38,688,56,711,79,724,106,732,134,736,183,732,180,727,135,719,108,707,83,684,60,659,43"/>
+<area shape="rect" id="Node000009" href="$sw__maze__create__state_8h.html" title=" " alt="" coords="859,182,1041,210"/>
+<area shape="poly" id="edge13_Node000001_Node000009" title=" " alt="" coords="654,37,738,79,929,182,924,182,735,83,653,43"/>
+<area shape="rect" id="Node000004" href="$state__utils_8h.html" title="Namespace containing utility functions for maze builder states." alt="" coords="1065,182,1166,210"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1059,126,1107,183,1102,181,1057,131"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="514,123,196,176,156,184,154,179,195,171,513,117"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="526,130,346,184,345,179,521,131"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="580,135,538,176,535,171,575,137"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="654,132,719,182,714,181,653,137"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="709,128,903,181,898,182,708,133"/>
 </map>

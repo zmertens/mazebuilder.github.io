@@ -1,6 +1,16 @@
 var searchData=
 [
-  ['uni_5fhash_0',['uni_hash',['../structmazes_1_1uni__hash.html',1,'mazes']]],
-  ['unlink_1',['unlink',['../classmazes_1_1lab.html#a227aed78c505c9d3c5b6fc987ec1d35d',1,'mazes::lab']]],
-  ['update_2',['update',['../classmazes_1_1bt__maze__create__state.html#ab32eb3d128cb8a0cc7f1a74823fb5d24',1,'mazes::bt_maze_create_state::update()'],['../classmazes_1_1dfs__maze__create__state.html#aa0e7c23483c52a9d30c29191ffbf0cee',1,'mazes::dfs_maze_create_state::update()'],['../classmazes_1_1loading__state.html#afc37408c6d6c0daf45db46678b8ae2ae',1,'mazes::loading_state::update()'],['../classmazes_1_1parsing__state.html#a4bbed6baa521b71e5b2a2400239ac243',1,'mazes::parsing_state::update()'],['../classmazes_1_1pixels__create__state.html#a1a80f21231aaeb5eab50ed5f9d9d4a15',1,'mazes::pixels_create_state::update()'],['../structmazes_1_1state.html#a77bed7e942157c34418f6148ed1b6063',1,'mazes::state::update()'],['../classmazes_1_1stringify__create__state.html#a3b35340e6639f5c52e57919b64da9ebc',1,'mazes::stringify_create_state::update()'],['../classmazes_1_1sw__maze__create__state.html#aa551eee66ba925481ba8ab306530e968',1,'mazes::sw_maze_create_state::update()'],['../classmazes_1_1wavefront__object__create__state.html#a0db71cc26e2da74177739dda92c94f22',1,'mazes::wavefront_object_create_state::update()']]]
+  ['test_0',['Build and test',['../index.html#autotoc_md11',1,'']]],
+  ['testing_1',['Testing',['../index.html#autotoc_md14',1,'']]],
+  ['text_20example_2',['Text example',['../index.html#autotoc_md5',1,'']]],
+  ['the_20library_20provides_3',['What the library provides',['../index.html#autotoc_md2',1,'']]],
+  ['the_20web_4',['Configure for the Web',['../index.html#autotoc_md15',1,'']]],
+  ['to_5falgo_5ffrom_5fsv_5',['to_algo_from_sv',['../algos_8h.html#ac25c963342d3048400cc57829fb46520',1,'mazes']]],
+  ['to_5fbase36_6',['to_base36',['../classmazes_1_1bytes.html#aade1e47bc0c2a42a15f37a2d181a84b3',1,'mazes::bytes']]],
+  ['to_5foutput_5fformat_5ffrom_5fsv_7',['to_output_format_from_sv',['../output__formats_8h.html#aee978babc9399189af3fe3255886db48',1,'mazes']]],
+  ['to_5fsv_5ffrom_5falgo_8',['to_sv_from_algo',['../algos_8h.html#acbd93c9b040a8afa2e2c4398900e708d',1,'mazes']]],
+  ['to_5fsv_5ffrom_5foutput_5fformat_9',['to_sv_from_output_format',['../output__formats_8h.html#a0e2f85cb1043780d9f53db5402b8d79e',1,'mazes']]],
+  ['topology_10',['topology',['../classmazes_1_1topology.html',1,'mazes']]],
+  ['topology_2eh_11',['topology.h',['../topology_8h.html',1,'']]],
+  ['tri_5fhash_12',['tri_hash',['../structmazes_1_1tri__hash.html',1,'mazes']]]
 ];
