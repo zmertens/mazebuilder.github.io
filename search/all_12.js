@@ -10,7 +10,5 @@ var searchData=
   ['to_5foutput_5fformat_5ffrom_5fsv_7',['to_output_format_from_sv',['../output__formats_8h.html#aee978babc9399189af3fe3255886db48',1,'mazes']]],
   ['to_5fsv_5ffrom_5falgo_8',['to_sv_from_algo',['../algos_8h.html#acbd93c9b040a8afa2e2c4398900e708d',1,'mazes']]],
   ['to_5fsv_5ffrom_5foutput_5fformat_9',['to_sv_from_output_format',['../output__formats_8h.html#a0e2f85cb1043780d9f53db5402b8d79e',1,'mazes']]],
-  ['topology_10',['topology',['../classmazes_1_1topology.html',1,'mazes']]],
-  ['topology_2eh_11',['topology.h',['../topology_8h.html',1,'']]],
-  ['tri_5fhash_12',['tri_hash',['../structmazes_1_1tri__hash.html',1,'mazes']]]
+  ['tri_5fhash_10',['tri_hash',['../structmazes_1_1tri__hash.html',1,'mazes']]]
 ];

@@ -27,8 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="icon.bmp"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.7.2</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.8.13</span>
    </div>
   </td>
  </tr>
@@ -101,18 +102,22 @@ $(function(){initNavTree('classmazes_1_1create__contract.html','','classmazes_1_
 <div class="dynheader">
 Inheritance diagram for mazes::create_contract:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmazes_1_1create__contract__inherit__graph.svg" width="655" height="542"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmazes_1_1create__contract__inherit__graph.svg" width="666" height="403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a290e9551d3b4c612da5a600c309b0c64" id="r_a290e9551d3b4c612da5a600c309b0c64"><td class="memItemLeft" align="right" valign="top">virtual std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a290e9551d3b4c612da5a600c309b0c64">create</a> (const <a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;config, <a class="el" href="classmazes_1_1randomizer.html">randomizer</a> &amp;rng) noexcept=0</td></tr>
+<tr class="memitem:aec5a000bbffbe8dfb789ec51b6bfb60b" id="r_aec5a000bbffbe8dfb789ec51b6bfb60b"><td class="memItemLeft" align="right" valign="top">virtual std::any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec5a000bbffbe8dfb789ec51b6bfb60b">create</a> (const <a class="el" href="classmazes_1_1args.html">args</a> &amp;a, <a class="el" href="classmazes_1_1randomizer.html">randomizer</a> &amp;rng) noexcept=0</td></tr>
+<tr class="memitem:a9bd44b66dc86db7fc3e62ab42edff2d7" id="r_a9bd44b66dc86db7fc3e62ab42edff2d7"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a9bd44b66dc86db7fc3e62ab42edff2d7 template"><td class="memItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bd44b66dc86db7fc3e62ab42edff2d7">create_as</a> (const <a class="el" href="classmazes_1_1args.html">args</a> &amp;a, <a class="el" href="classmazes_1_1randomizer.html">randomizer</a> &amp;rng) noexcept</td></tr>
+<tr class="memdesc:a9bd44b66dc86db7fc3e62ab42edff2d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls create and extracts the result as T.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contract for the create function in the runtime. </p>
+<p>Implementations return their result type-erased in a std::any. Results must be owning values (e.g. std::string, never std::string_view) and an empty std::any signals failure. Callers should use <a class="el" href="#a9bd44b66dc86db7fc3e62ab42edff2d7" title="Calls create and extracts the result as T.">create_as&lt;T&gt;()</a> to retrieve the result with a type check. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a290e9551d3b4c612da5a600c309b0c64" name="a290e9551d3b4c612da5a600c309b0c64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a290e9551d3b4c612da5a600c309b0c64">&#9670;&#160;</a></span>create()</h2>
+<a id="aec5a000bbffbe8dfb789ec51b6bfb60b" name="aec5a000bbffbe8dfb789ec51b6bfb60b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec5a000bbffbe8dfb789ec51b6bfb60b">&#9670;&#160;</a></span>create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -121,9 +126,9 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::string_view mazes::create_contract::create </td>
+          <td class="memname">virtual std::any mazes::create_contract::create </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classmazes_1_1args.html">args</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -138,7 +143,41 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classmazes_1_1bt__maze__create__state.html#adcd85aa692f46e7a7196cfecedaa2755">mazes::bt_maze_create_state</a>, <a class="el" href="classmazes_1_1dfs__maze__create__state.html#ab1b833c126cd58b3188de2c2ebb75472">mazes::dfs_maze_create_state</a>, <a class="el" href="classmazes_1_1link__maze__and__create__state.html#a161b949e00578dfa0bb984f1af12b4e7">mazes::link_maze_and_create_state</a>, <a class="el" href="classmazes_1_1masked__maze__and__create__state.html#afacab83206a49faaaf1dbdfaf7bfd0e1">mazes::masked_maze_and_create_state</a>, <a class="el" href="classmazes_1_1pixels__create__state.html#a1320663df71eb0159dcdb7fdc6d9aee4">mazes::pixels_create_state</a>, <a class="el" href="classmazes_1_1prims__maze__create__state.html#a6e9d552cbe996b2808ad8432007df5b9">mazes::prims_maze_create_state</a>, <a class="el" href="classmazes_1_1stringify__create__state.html#a81823ab7702e9d89dd570893f7c5f578">mazes::stringify_create_state</a>, <a class="el" href="classmazes_1_1sw__maze__create__state.html#a7200c3ead3db7e45a7949fd08577d619">mazes::sw_maze_create_state</a>, <a class="el" href="classmazes_1_1wavefront__object__create__state.html#aa29d43624a906320d42632a4348d0aa0">mazes::wavefront_object_create_state</a>, and <a class="el" href="classmazes_1_1write__to__output__state.html#ada4fde1231d3a7204ddf74abca7eb51e">mazes::write_to_output_state</a>.</p>
+<p>Implemented in <a class="el" href="classmazes_1_1bt__maze__create__state.html#a63b5099c325af46eeecc8a13e6aa5760">mazes::bt_maze_create_state</a>, <a class="el" href="classmazes_1_1dfs__maze__create__state.html#a696b8a1a9b946bdf280b9cd3f46ae1b9">mazes::dfs_maze_create_state</a>, <a class="el" href="classmazes_1_1link__maze__and__create__state.html#afa06b56c3839c49ef5f51dc3767b84ba">mazes::link_maze_and_create_state</a>, <a class="el" href="classmazes_1_1masked__maze__and__create__state.html#af7ba79323e383d7f969d40327964332f">mazes::masked_maze_and_create_state</a>, <a class="el" href="classmazes_1_1pixels__create__state.html#a0c6eff2056610e27cff288d8e6803f7a">mazes::pixels_create_state</a>, <a class="el" href="classmazes_1_1prims__maze__create__state.html#a6fd80e3b41357dac14f15471b646d07c">mazes::prims_maze_create_state</a>, <a class="el" href="classmazes_1_1sw__maze__create__state.html#afd03d01bb407449b772538dc1a5ef718">mazes::sw_maze_create_state</a>, and <a class="el" href="classmazes_1_1wavefront__object__create__state.html#a0e5bb1bc182329bf83dac002048a6bed">mazes::wavefront_object_create_state</a>.</p>
+
+</div>
+</div>
+<a id="a9bd44b66dc86db7fc3e62ab42edff2d7" name="a9bd44b66dc86db7fc3e62ab42edff2d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bd44b66dc86db7fc3e62ab42edff2d7">&#9670;&#160;</a></span>create_as()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; T &gt; mazes::create_contract::create_as </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmazes_1_1args.html">args</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmazes_1_1randomizer.html">randomizer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rng</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calls create and extracts the result as T. </p>
+<dl class="section return"><dt>Returns</dt><dd>The result, or std::nullopt if creation failed or produced a different type </dd></dl>
 
 </div>
 </div>

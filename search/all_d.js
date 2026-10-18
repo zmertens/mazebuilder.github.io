@@ -10,5 +10,5 @@ var searchData=
   ['output_5fformat_7',['output_format',['../output__formats_8h.html#ab83886a175470a8f190caa3b8415e2d2',1,'mazes']]],
   ['output_5fformat_5for_5fdefault_8',['output_format_or_default',['../output__formats_8h.html#a0a953d51cb8dfd30b88b680e36b0902f',1,'mazes']]],
   ['output_5fformats_2eh_9',['output_formats.h',['../output__formats_8h.html',1,'']]],
-  ['output_5fstate_5ffor_10',['output_state_for',['../state__utils_8h.html#a7ff05e2b69ff2527e6ea4b0bac7213fc',1,'mazes::state_utils']]]
+  ['output_5fstate_5ffor_10',['output_state_for',['../classmazes_1_1state__utils.html#a33b3810b73a6dd6672cfc596ecd3a2a1',1,'mazes::state_utils']]]
 ];

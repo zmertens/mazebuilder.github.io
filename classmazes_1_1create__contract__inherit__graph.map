@@ -1,23 +1,21 @@
 <map id="mazes::create_contract" name="mazes::create_contract">
-<area shape="rect" id="Node000001" title="Contract for the create function in the runtime." alt="" coords="5,326,179,354"/>
-<area shape="rect" id="Node000002" href="$classmazes_1_1link__maze__and__create__state.html" title="Base state for creating mazes using algorithms that link cells This state encapsulates the common set..." alt="" coords="229,179,399,223"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,315,277,221,275,226,130,319"/>
-<area shape="rect" id="Node000008" href="$classmazes_1_1write__to__output__state.html" title="Base state for creating output from mazes (pixels, stringify, OBJ) This state encapsulates the common..." alt="" coords="227,387,401,431"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="153,356,242,385,238,387,153,361"/>
-<area shape="rect" id="Node000003" href="$classmazes_1_1bt__maze__create__state.html" title="State for creating a maze using the binary tree algorithm." alt="" coords="461,5,637,50"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="339,164,386,111,416,84,448,60,473,49,469,52,450,65,419,88,390,115,343,168"/>
-<area shape="rect" id="Node000004" href="$classmazes_1_1dfs__maze__create__state.html" title="State for creating a maze using the depth&#45;first search algorithm." alt="" coords="458,75,641,119"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="367,169,448,129,481,118,477,121,450,134,370,173"/>
-<area shape="rect" id="Node000005" href="$classmazes_1_1masked__maze__and__create__state.html" title="State for creating a maze with a mask applied." alt="" coords="466,144,632,189"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="413,184,468,177,463,180,415,189"/>
-<area shape="rect" id="Node000006" href="$classmazes_1_1prims__maze__create__state.html" title=" " alt="" coords="449,213,649,258"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="413,213,451,220,446,222,415,218"/>
-<area shape="rect" id="Node000007" href="$classmazes_1_1sw__maze__create__state.html" title="State for creating a maze using the sidewinder algorithm." alt="" coords="458,283,640,327"/>
-<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="369,228,450,268,481,282,476,282,448,273,369,234"/>
-<area shape="rect" id="Node000009" href="$classmazes_1_1pixels__create__state.html" title="State for creating a maze using the pixels algorithm." alt="" coords="470,352,628,397"/>
-<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="415,391,472,385,467,387,417,397"/>
-<area shape="rect" id="Node000010" href="$classmazes_1_1stringify__create__state.html" title="State for creating a maze using the stringify algorithm." alt="" coords="462,421,636,466"/>
-<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="416,421,465,431,460,431,416,427"/>
-<area shape="rect" id="Node000011" href="$classmazes_1_1wavefront__object__create__state.html" title="State for creating a maze using the Wavefront Object algorithm." alt="" coords="456,491,642,535"/>
-<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="369,436,450,476,481,490,476,490,448,481,368,442"/>
+<area shape="rect" id="Node000001" title="Contract for the create function in the runtime." alt="" coords="5,256,179,284"/>
+<area shape="rect" id="Node000002" href="$classmazes_1_1link__maze__and__create__state.html" title="Base state for creating mazes using algorithms that link cells This state encapsulates the common set..." alt="" coords="234,144,404,189"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,246,226,199,257,188,252,191,228,203,134,251"/>
+<area shape="rect" id="Node000008" href="$classmazes_1_1pixels__create__state.html" title="State for creating a maze using the pixels algorithm." alt="" coords="240,213,398,258"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="193,252,242,247,237,249,195,257"/>
+<area shape="rect" id="Node000009" href="$classmazes_1_1stringify__create__state.html" title="State for creating a maze using the stringify algorithm." alt="" coords="233,283,406,327"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="194,283,235,291,230,292,194,288"/>
+<area shape="rect" id="Node000010" href="$classmazes_1_1wavefront__object__create__state.html" title="State for creating a maze using the Wavefront Object algorithm." alt="" coords="227,352,412,397"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="133,289,228,337,257,351,252,351,226,342,132,295"/>
+<area shape="rect" id="Node000003" href="$classmazes_1_1bt__maze__create__state.html" title="State for creating a maze using the binary tree algorithm." alt="" coords="472,5,648,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="356,132,404,95,459,60,488,49,483,52,461,65,407,99,359,136"/>
+<area shape="rect" id="Node000004" href="$classmazes_1_1dfs__maze__create__state.html" title="State for creating a maze using the depth&#45;first search algorithm." alt="" coords="468,75,652,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="412,137,482,119,477,121,415,142"/>
+<area shape="rect" id="Node000005" href="$classmazes_1_1masked__maze__and__create__state.html" title="State for creating a maze with a mask applied." alt="" coords="477,144,643,189"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="419,164,479,166,474,167,420,169"/>
+<area shape="rect" id="Node000006" href="$classmazes_1_1prims__maze__create__state.html" title=" " alt="" coords="460,213,660,258"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="413,191,483,212,477,213,414,196"/>
+<area shape="rect" id="Node000007" href="$classmazes_1_1sw__maze__create__state.html" title="State for creating a maze using the sidewinder algorithm." alt="" coords="470,283,651,327"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="407,194,414,199,430,217,438,235,446,252,462,268,481,282,476,282,458,272,442,255,433,237,426,220,410,203,406,200"/>
 </map>

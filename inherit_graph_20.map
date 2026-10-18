@@ -1,3 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$structmazes_1_1runtime__app_1_1context.html" title="struct representing the context passed to states in the runtime_app stack" alt="" coords="5,5,160,50"/>
+<area shape="rect" id="Node000000" href="$classmazes_1_1runtime__stack.html" title="Class representing the runtime stack of states in the maze builder application." alt="" coords="5,5,171,33"/>
 </map>

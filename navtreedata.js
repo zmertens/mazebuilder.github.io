@@ -47,7 +47,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "algos_8h.html",
-"classmazes_1_1write__to__output__state.html"
+"colored__grid_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

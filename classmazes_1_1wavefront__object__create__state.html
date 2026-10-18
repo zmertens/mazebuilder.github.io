@@ -27,8 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="icon.bmp"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.7.2</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.8.13</span>
    </div>
   </td>
  </tr>
@@ -101,20 +102,24 @@ $(function(){initNavTree('classmazes_1_1wavefront__object__create__state.html','
 <div class="dynheader">
 Inheritance diagram for mazes::wavefront_object_create_state:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmazes_1_1wavefront__object__create__state__inherit__graph.svg" width="315" height="224"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmazes_1_1wavefront__object__create__state__inherit__graph.svg" width="382" height="224"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for mazes::wavefront_object_create_state:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmazes_1_1wavefront__object__create__state__coll__graph.svg" width="871" height="246"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="classmazes_1_1wavefront__object__create__state__coll__graph.svg" width="871" height="263"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3ae5534bec157d684472e25ba3be0b61" id="r_a3ae5534bec157d684472e25ba3be0b61"><td class="memItemLeft" align="right" valign="top"><a id="a3ae5534bec157d684472e25ba3be0b61" name="a3ae5534bec157d684472e25ba3be0b61"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>wavefront_object_create_state</b> (const <a class="el" href="structmazes_1_1runtime__app_1_1context.html">runtime_app::context</a> &amp;ctx, <a class="el" href="classmazes_1_1runtime__stack.html">runtime_stack</a> *rs)</td></tr>
-<tr class="memitem:aa29d43624a906320d42632a4348d0aa0" id="r_aa29d43624a906320d42632a4348d0aa0"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa29d43624a906320d42632a4348d0aa0">create</a> (const <a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;config, <a class="el" href="classmazes_1_1randomizer.html">randomizer</a> &amp;rng) noexcept override</td></tr>
-<tr class="memdesc:aa29d43624a906320d42632a4348d0aa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a maze using the Wavefront Object algorithm.  <br /></td></tr>
+<tr class="memitem:a0e5bb1bc182329bf83dac002048a6bed" id="r_a0e5bb1bc182329bf83dac002048a6bed"><td class="memItemLeft" align="right" valign="top">std::any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e5bb1bc182329bf83dac002048a6bed">create</a> (const <a class="el" href="classmazes_1_1args.html">args</a> &amp;a, <a class="el" href="classmazes_1_1randomizer.html">randomizer</a> &amp;rng) noexcept override</td></tr>
+<tr class="memdesc:a0e5bb1bc182329bf83dac002048a6bed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a maze using the Wavefront Object algorithm.  <br /></td></tr>
+<tr class="inherit_header pub_methods_classmazes_1_1create__contract"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmazes_1_1create__contract')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmazes_1_1create__contract.html">mazes::create_contract</a></td></tr>
+<tr class="memitem:a9bd44b66dc86db7fc3e62ab42edff2d7 inherit pub_methods_classmazes_1_1create__contract" id="r_a9bd44b66dc86db7fc3e62ab42edff2d7"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a9bd44b66dc86db7fc3e62ab42edff2d7 inherit pub_methods_classmazes_1_1create__contract template"><td class="memItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmazes_1_1create__contract.html#a9bd44b66dc86db7fc3e62ab42edff2d7">create_as</a> (const <a class="el" href="classmazes_1_1args.html">args</a> &amp;a, <a class="el" href="classmazes_1_1randomizer.html">randomizer</a> &amp;rng) noexcept</td></tr>
+<tr class="memdesc:a9bd44b66dc86db7fc3e62ab42edff2d7 inherit pub_methods_classmazes_1_1create__contract"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls create and extracts the result as T.  <br /></td></tr>
 <tr class="inherit_header pub_methods_classmazes_1_1write__to__output__state"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmazes_1_1write__to__output__state')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmazes_1_1write__to__output__state.html">mazes::write_to_output_state</a></td></tr>
 <tr class="memitem:a7460fc2667eca147e36c48149c2d36c3 inherit pub_methods_classmazes_1_1write__to__output__state" id="r_a7460fc2667eca147e36c48149c2d36c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmazes_1_1write__to__output__state.html#a7460fc2667eca147e36c48149c2d36c3">write_to_output_state</a> (const <a class="el" href="structmazes_1_1runtime__app_1_1context.html">runtime_app::context</a> &amp;ctx, <a class="el" href="classmazes_1_1runtime__stack.html">runtime_stack</a> *stack)</td></tr>
 <tr class="memdesc:a7460fc2667eca147e36c48149c2d36c3 inherit pub_methods_classmazes_1_1write__to__output__state"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new write to output state.  <br /></td></tr>
@@ -129,6 +134,9 @@ Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:afcadd5c51fcab5f7479e9b78b7426da5" id="r_afcadd5c51fcab5f7479e9b78b7426da5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcadd5c51fcab5f7479e9b78b7426da5">write_output</a> (const std::string &amp;output_target, const std::string &amp;output_content) noexcept override</td></tr>
 <tr class="memdesc:afcadd5c51fcab5f7479e9b78b7426da5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write OBJ content to output file.  <br /></td></tr>
+<tr class="inherit_header pro_methods_classmazes_1_1write__to__output__state"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classmazes_1_1write__to__output__state')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classmazes_1_1write__to__output__state.html">mazes::write_to_output_state</a></td></tr>
+<tr class="memitem:a65fc3394758784285f2bbfa63aa9ba5c inherit pro_methods_classmazes_1_1write__to__output__state" id="r_a65fc3394758784285f2bbfa63aa9ba5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmazes_1_1configurator.html">configurator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmazes_1_1write__to__output__state.html#a65fc3394758784285f2bbfa63aa9ba5c">make_config</a> (const <a class="el" href="classmazes_1_1args.html">args</a> &amp;a) noexcept</td></tr>
+<tr class="memdesc:a65fc3394758784285f2bbfa63aa9ba5c inherit pro_methods_classmazes_1_1write__to__output__state"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the configuration for create(), sizing it to the current grid.  <br /></td></tr>
 <tr class="inherit_header pro_methods_structmazes_1_1state"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_structmazes_1_1state')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="structmazes_1_1state.html">mazes::state</a></td></tr>
 <tr class="memitem:a2d13a52aeabf5c0a398381c2b193c080 inherit pro_methods_structmazes_1_1state" id="r_a2d13a52aeabf5c0a398381c2b193c080"><td class="memItemLeft" align="right" valign="top">
 void&#160;</td><td class="memItemRight" valign="bottom"><b>request_stack_push</b> (ID state_id) const noexcept</td></tr>
@@ -162,6 +170,8 @@ Additional Inherited Members</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="inherit_header pro_attribs_classmazes_1_1write__to__output__state"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classmazes_1_1write__to__output__state')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Attributes inherited from <a class="el" href="classmazes_1_1write__to__output__state.html">mazes::write_to_output_state</a></td></tr>
+<tr class="memitem:a0b75626978a3f6f9f513976e71ebcebb inherit pro_attribs_classmazes_1_1write__to__output__state" id="r_a0b75626978a3f6f9f513976e71ebcebb"><td class="memItemLeft" align="right" valign="top">
+args_manager *&#160;</td><td class="memItemRight" valign="bottom"><b>args_mapper</b></td></tr>
 <tr class="memitem:ac4fea2a47bb611161f4da4785bfd47ee inherit pro_attribs_classmazes_1_1write__to__output__state" id="r_ac4fea2a47bb611161f4da4785bfd47ee"><td class="memItemLeft" align="right" valign="top">
 grid_manager *&#160;</td><td class="memItemRight" valign="bottom"><b>grid_mapper</b></td></tr>
 <tr class="memitem:a35d32c67d1863c91ae06024c28ceae68 inherit pro_attribs_classmazes_1_1write__to__output__state" id="r_a35d32c67d1863c91ae06024c28ceae68"><td class="memItemLeft" align="right" valign="top">
@@ -174,8 +184,8 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_result</b></
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>State for creating a maze using the Wavefront Object algorithm. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="aa29d43624a906320d42632a4348d0aa0" name="aa29d43624a906320d42632a4348d0aa0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa29d43624a906320d42632a4348d0aa0">&#9670;&#160;</a></span>create()</h2>
+<a id="a0e5bb1bc182329bf83dac002048a6bed" name="a0e5bb1bc182329bf83dac002048a6bed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e5bb1bc182329bf83dac002048a6bed">&#9670;&#160;</a></span>create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -184,9 +194,9 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_result</b></
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string_view mazes::wavefront_object_create_state::create </td>
+          <td class="memname">std::any mazes::wavefront_object_create_state::create </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classmazes_1_1configurator.html">configurator</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classmazes_1_1args.html">args</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -211,7 +221,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_result</b></
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A string view with the OBJ content </dd></dl>
 
-<p>Implements <a class="el" href="classmazes_1_1write__to__output__state.html#ada4fde1231d3a7204ddf74abca7eb51e">mazes::write_to_output_state</a>.</p>
+<p>Implements <a class="el" href="classmazes_1_1create__contract.html">mazes::create_contract</a>.</p>
 
 </div>
 </div>

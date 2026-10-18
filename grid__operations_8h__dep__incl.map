@@ -1,9 +1,7 @@
 <map id="grid_operations.h" name="grid_operations.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="48,5,183,33"/>
-<area shape="rect" id="Node000002" href="$grid_8h.html" title=" " alt="" coords="34,81,93,109"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,48,75,82,71,79,99,44"/>
-<area shape="rect" id="Node000004" href="$state__utils_8h.html" title="Namespace containing utility functions for maze builder states." alt="" coords="117,81,218,109"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="134,43,161,80,156,81,133,48"/>
-<area shape="rect" id="Node000003" href="$masked__grid_8h.html" title=" " alt="" coords="5,157,122,184"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="65,123,66,157,61,155,62,126"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,140,33"/>
+<area shape="rect" id="Node000002" href="$grid_8h.html" title=" " alt="" coords="43,81,102,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,46,75,81,70,80,72,51"/>
+<area shape="rect" id="Node000003" href="$masked__grid_8h.html" title=" " alt="" coords="14,157,131,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="74,123,75,157,70,155,71,126"/>
 </map>

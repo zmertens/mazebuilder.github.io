@@ -6,10 +6,8 @@
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="98,123,67,158,63,155,101,118"/>
 <area shape="rect" id="Node000004" href="$grid__operations_8h.html" title=" " alt="" coords="124,157,259,184"/>
 <area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="146,118,182,156,177,157,145,123"/>
-<area shape="rect" id="Node000005" href="$grid_8h.html" title=" " alt="" coords="110,232,169,260"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="176,195,151,234,147,230,172,199"/>
-<area shape="rect" id="Node000007" href="$state__utils_8h.html" title="Namespace containing utility functions for maze builder states." alt="" coords="193,232,294,260"/>
-<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="211,195,237,232,232,232,209,200"/>
-<area shape="rect" id="Node000006" href="$masked__grid_8h.html" title=" " alt="" coords="82,308,198,336"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="142,274,142,309,137,306,138,278"/>
+<area shape="rect" id="Node000005" href="$grid_8h.html" title=" " alt="" coords="162,232,221,260"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="193,198,194,233,189,231,190,202"/>
+<area shape="rect" id="Node000006" href="$masked__grid_8h.html" title=" " alt="" coords="134,308,250,336"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="194,274,194,309,189,306,190,278"/>
 </map>

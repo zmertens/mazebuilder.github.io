@@ -27,8 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="icon.bmp"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.7.2</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.8.13</span>
    </div>
   </td>
  </tr>
@@ -280,13 +281,13 @@ $(function(){initNavTree('string__utils_8h_source.html','',''); });
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>            }</div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>            <span class="keywordflow">return</span> result;</div>
 <div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>        }</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span> </div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>        <span class="keyword">static</span> std::string file_extension(std::string_view filename) <span class="keyword">noexcept</span>;</div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    }; <span class="comment">// class</span></div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span></div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno"><a class="line" href="classmazes_1_1string__utils.html#abfc286ee4dc06467921ac584012a01ef">  236</a></span>        <span class="keyword">static</span> std::string <a class="code hl_function" href="classmazes_1_1string__utils.html#abfc286ee4dc06467921ac584012a01ef">f_ext_str</a>(std::string_view filename, std::size_t pos = 1) noexcept;</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>    }; <span class="comment">// class</span></div>
 </div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>} <span class="comment">// namespace</span></div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span><span class="preprocessor">#endif </span><span class="comment">// STRING_UTILS_H</span></div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>} <span class="comment">// namespace</span></div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="preprocessor">#endif </span><span class="comment">// STRING_UTILS_H</span></div>
 <div class="ttc" id="aclassmazes_1_1string__utils_html"><div class="ttname"><a href="classmazes_1_1string__utils.html">mazes::string_utils</a></div><div class="ttdoc">String helper class.</div><div class="ttdef"><b>Definition</b> string_utils.h:18</div></div>
 <div class="ttc" id="aclassmazes_1_1string__utils_html_a32d09ad993d0302893c7ed685e8dec6d"><div class="ttname"><a href="classmazes_1_1string__utils.html#a32d09ad993d0302893c7ed685e8dec6d">mazes::string_utils::contains</a></div><div class="ttdeci">static bool contains(const std::string &amp;str, const std::string &amp;substr) noexcept</div><div class="ttdoc">Check if a string contains a substring.</div></div>
 <div class="ttc" id="aclassmazes_1_1string__utils_html_a57525f338bfef805704d080e8b875041"><div class="ttname"><a href="classmazes_1_1string__utils.html#a57525f338bfef805704d080e8b875041">mazes::string_utils::concat</a></div><div class="ttdeci">static std::string concat(const std::string &amp;a, const std::string &amp;b) noexcept</div><div class="ttdoc">Combine and return two strings.</div></div>
@@ -294,6 +295,7 @@ $(function(){initNavTree('string__utils_8h_source.html','',''); });
 <div class="ttc" id="aclassmazes_1_1string__utils_html_a5b5f971abcaf8843a28cc410a6c91ff0"><div class="ttname"><a href="classmazes_1_1string__utils.html#a5b5f971abcaf8843a28cc410a6c91ff0">mazes::string_utils::is_whitespace</a></div><div class="ttdeci">static bool is_whitespace(const T &amp;c)</div><div class="ttdoc">Checks if a character is a whitespace character.</div><div class="ttdef"><b>Definition</b> string_utils.h:172</div></div>
 <div class="ttc" id="aclassmazes_1_1string__utils_html_a9e7bfdf8a4f2d5be673494eca0de4881"><div class="ttname"><a href="classmazes_1_1string__utils.html#a9e7bfdf8a4f2d5be673494eca0de4881">mazes::string_utils::strsplit</a></div><div class="ttdeci">static Cout &amp; strsplit(const Cin &amp;str, Cout &amp;dest, const V &amp;sep)</div><div class="ttdoc">High-level string split function using containers.</div><div class="ttdef"><b>Definition</b> string_utils.h:161</div></div>
 <div class="ttc" id="aclassmazes_1_1string__utils_html_aa01cb0a4bd686968b2a98b8e5277e411"><div class="ttname"><a href="classmazes_1_1string__utils.html#aa01cb0a4bd686968b2a98b8e5277e411">mazes::string_utils::ends_with</a></div><div class="ttdeci">static bool ends_with(const std::string &amp;str, const std::string &amp;suffix) noexcept</div><div class="ttdoc">Check if a string ends with a specific suffix.</div></div>
+<div class="ttc" id="aclassmazes_1_1string__utils_html_abfc286ee4dc06467921ac584012a01ef"><div class="ttname"><a href="classmazes_1_1string__utils.html#abfc286ee4dc06467921ac584012a01ef">mazes::string_utils::f_ext_str</a></div><div class="ttdeci">static std::string f_ext_str(std::string_view filename, std::size_t pos=1) noexcept</div><div class="ttdoc">Extracts the file extension from a filename, excluding the dot.</div></div>
 <div class="ttc" id="aclassmazes_1_1string__utils_html_ad6bd41becd31fcbbb0138ef2d5fad6d7"><div class="ttname"><a href="classmazes_1_1string__utils.html#ad6bd41becd31fcbbb0138ef2d5fad6d7">mazes::string_utils::split</a></div><div class="ttdeci">static It split(It it, const It end_it, Oc &amp;dest, const V &amp;sep, Pred f)</div><div class="ttdoc">Splits a range into slices based on a separator and stores the results in a destination container.</div><div class="ttdef"><b>Definition</b> string_utils.h:89</div></div>
 <div class="ttc" id="aclassmazes_1_1string__utils_html_ae11d7385dff7d50d9b619a46355ada97"><div class="ttname"><a href="classmazes_1_1string__utils.html#ae11d7385dff7d50d9b619a46355ada97">mazes::string_utils::split</a></div><div class="ttdeci">static It split(It it, const It end_it, Oc &amp;dest, const V &amp;sep)</div><div class="ttdoc">Generic split function with default equality predicate.</div><div class="ttdef"><b>Definition</b> string_utils.h:147</div></div>
 </div><!-- fragment --></div><!-- contents -->

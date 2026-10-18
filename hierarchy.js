@@ -7,7 +7,6 @@ var hierarchy =
     [ "mazes::buildinfo", "structmazes_1_1buildinfo.html", null ],
     [ "mazes::bytes", "classmazes_1_1bytes.html", null ],
     [ "mazes::cell", "classmazes_1_1cell.html", null ],
-    [ "mazes::cell_walls", "structmazes_1_1cell__walls.html", null ],
     [ "mazes::configurator", "classmazes_1_1configurator.html", null ],
     [ "mazes::runtime_app::context", "structmazes_1_1runtime__app_1_1context.html", null ],
     [ "mazes::create_contract", "classmazes_1_1create__contract.html", [
@@ -18,13 +17,10 @@ var hierarchy =
         [ "mazes::prims_maze_create_state", "classmazes_1_1prims__maze__create__state.html", null ],
         [ "mazes::sw_maze_create_state", "classmazes_1_1sw__maze__create__state.html", null ]
       ] ],
-      [ "mazes::write_to_output_state", "classmazes_1_1write__to__output__state.html", [
-        [ "mazes::pixels_create_state", "classmazes_1_1pixels__create__state.html", null ],
-        [ "mazes::stringify_create_state", "classmazes_1_1stringify__create__state.html", null ],
-        [ "mazes::wavefront_object_create_state", "classmazes_1_1wavefront__object__create__state.html", null ]
-      ] ]
+      [ "mazes::pixels_create_state", "classmazes_1_1pixels__create__state.html", null ],
+      [ "mazes::stringify_create_state", "classmazes_1_1stringify__create__state.html", null ],
+      [ "mazes::wavefront_object_create_state", "classmazes_1_1wavefront__object__create__state.html", null ]
     ] ],
-    [ "mazes::state_utils::distance_settings", "structmazes_1_1state__utils_1_1distance__settings.html", null ],
     [ "mazes::distances", "classmazes_1_1distances.html", null ],
     [ "mazes::grid_interface", "classmazes_1_1grid__interface.html", [
       [ "mazes::colored_grid", "classmazes_1_1colored__grid.html", null ],
@@ -58,10 +54,14 @@ var hierarchy =
       [ "mazes::link_maze_and_create_state", "classmazes_1_1link__maze__and__create__state.html", null ],
       [ "mazes::loading_state", "classmazes_1_1loading__state.html", null ],
       [ "mazes::parsing_state", "classmazes_1_1parsing__state.html", null ],
-      [ "mazes::write_to_output_state", "classmazes_1_1write__to__output__state.html", null ]
+      [ "mazes::write_to_output_state", "classmazes_1_1write__to__output__state.html", [
+        [ "mazes::pixels_create_state", "classmazes_1_1pixels__create__state.html", null ],
+        [ "mazes::stringify_create_state", "classmazes_1_1stringify__create__state.html", null ],
+        [ "mazes::wavefront_object_create_state", "classmazes_1_1wavefront__object__create__state.html", null ]
+      ] ]
     ] ],
+    [ "mazes::state_utils", "classmazes_1_1state__utils.html", null ],
     [ "mazes::string_utils", "classmazes_1_1string__utils.html", null ],
-    [ "mazes::topology", "classmazes_1_1topology.html", null ],
     [ "mazes::tri_hash", "structmazes_1_1tri__hash.html", null ],
     [ "mazes::uni_hash", "structmazes_1_1uni__hash.html", null ],
     [ "mazes::weak_ptr_hash", "structmazes_1_1weak__ptr__hash.html", null ]

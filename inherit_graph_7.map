@@ -1,30 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classmazes_1_1create__contract.html" title="Contract for the create function in the runtime." alt="" coords="5,332,179,360"/>
-<area shape="rect" id="Node000001" href="$classmazes_1_1link__maze__and__create__state.html" title="Base state for creating mazes using algorithms that link cells This state encapsulates the common set..." alt="" coords="229,213,399,258"/>
-<area shape="poly" id="edge3_Node000000_Node000001" title=" " alt="" coords="134,323,268,256,266,261,137,327"/>
-<area shape="rect" id="Node000010" href="$classmazes_1_1write__to__output__state.html" title="Base state for creating output from mazes (pixels, stringify, OBJ) This state encapsulates the common..." alt="" coords="227,352,401,397"/>
-<area shape="poly" id="edge9_Node000000_Node000010" title=" " alt="" coords="194,357,229,362,224,364,195,362"/>
-<area shape="rect" id="Node000002" href="$classmazes_1_1bt__maze__create__state.html" title="State for creating a maze using the binary tree algorithm." alt="" coords="461,283,637,327"/>
-<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="406,260,473,281,468,283,407,266"/>
-<area shape="rect" id="Node000003" href="$classmazes_1_1dfs__maze__create__state.html" title="State for creating a maze using the depth&#45;first search algorithm." alt="" coords="458,5,641,50"/>
-<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="332,198,379,129,411,92,447,60,471,49,467,52,451,64,415,96,383,132,336,202"/>
-<area shape="rect" id="Node000004" href="$classmazes_1_1masked__maze__and__create__state.html" title="State for creating a maze with a mask applied." alt="" coords="466,75,632,119"/>
-<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="349,201,395,164,448,129,476,118,472,121,450,134,398,168,353,205"/>
-<area shape="rect" id="Node000005" href="$classmazes_1_1prims__maze__create__state.html" title=" " alt="" coords="449,144,649,189"/>
-<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="405,206,473,188,468,191,408,211"/>
-<area shape="rect" id="Node000006" href="$classmazes_1_1sw__maze__create__state.html" title="State for creating a maze using the sidewinder algorithm." alt="" coords="458,213,640,258"/>
-<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="413,233,461,235,456,237,415,238"/>
-<area shape="rect" id="Node000011" href="$classmazes_1_1pixels__create__state.html" title="State for creating a maze using the pixels algorithm." alt="" coords="470,352,628,397"/>
-<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="416,372,472,374,467,375,416,377"/>
-<area shape="rect" id="Node000012" href="$classmazes_1_1stringify__create__state.html" title="State for creating a maze using the stringify algorithm." alt="" coords="462,421,636,466"/>
-<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="407,399,473,420,468,421,406,404"/>
-<area shape="rect" id="Node000013" href="$classmazes_1_1wavefront__object__create__state.html" title="State for creating a maze using the Wavefront Object algorithm." alt="" coords="456,491,642,535"/>
-<area shape="poly" id="edge12_Node000010_Node000013" title=" " alt="" coords="396,402,403,407,419,425,427,443,435,460,451,476,470,491,465,490,447,480,431,463,422,445,414,428,399,411,395,408"/>
-<area shape="rect" id="Node000007" href="$structmazes_1_1state.html" title="struct representing a state in the runtime stack" alt="" coords="39,388,145,416"/>
-<area shape="poly" id="edge13_Node000007_Node000001" title=" " alt="" coords="158,380,177,369,213,343,245,313,294,260,297,257,249,316,216,347,180,374,161,384"/>
-<area shape="poly" id="edge16_Node000007_Node000010" title=" " alt="" coords="159,391,229,384,224,387,161,396"/>
-<area shape="rect" id="Node000008" href="$classmazes_1_1loading__state.html" title="State for loading and pre&#45;generating mazes." alt="" coords="234,420,394,448"/>
-<area shape="poly" id="edge14_Node000007_Node000008" title=" " alt="" coords="160,409,235,422,231,424,160,415"/>
-<area shape="rect" id="Node000009" href="$classmazes_1_1parsing__state.html" title="State for parsing arguments." alt="" coords="234,472,394,500"/>
-<area shape="poly" id="edge15_Node000007_Node000009" title=" " alt="" coords="138,420,228,457,265,472,260,472,226,462,138,426"/>
+<area shape="rect" id="Node000000" href="$classmazes_1_1distances.html" title="A class that manages distances associated with cells in a grid." alt="" coords="5,5,140,33"/>
 </map>

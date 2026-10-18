@@ -1,9 +1,6 @@
 var annotated_dup =
 [
     [ "mazes", null, [
-      [ "state_utils", null, [
-        [ "distance_settings", "structmazes_1_1state__utils_1_1distance__settings.html", null ]
-      ] ],
       [ "app_contract", "classmazes_1_1app__contract.html", "classmazes_1_1app__contract" ],
       [ "args", "classmazes_1_1args.html", "classmazes_1_1args" ],
       [ "async_logger", "classmazes_1_1async__logger.html", "classmazes_1_1async__logger" ],
@@ -13,7 +10,7 @@ var annotated_dup =
       [ "cell", "classmazes_1_1cell.html", "classmazes_1_1cell" ],
       [ "colored_grid", "classmazes_1_1colored__grid.html", "classmazes_1_1colored__grid" ],
       [ "configurator", "classmazes_1_1configurator.html", "classmazes_1_1configurator" ],
-      [ "create_contract", "classmazes_1_1create__contract.html", null ],
+      [ "create_contract", "classmazes_1_1create__contract.html", "classmazes_1_1create__contract" ],
       [ "dfs_maze_create_state", "classmazes_1_1dfs__maze__create__state.html", "classmazes_1_1dfs__maze__create__state" ],
       [ "distance_grid", "classmazes_1_1distance__grid.html", "classmazes_1_1distance__grid" ],
       [ "distances", "classmazes_1_1distances.html", "classmazes_1_1distances" ],
@@ -44,11 +41,10 @@ var annotated_dup =
       [ "runtime_stack", "classmazes_1_1runtime__stack.html", "classmazes_1_1runtime__stack" ],
       [ "singleton_base", "classmazes_1_1singleton__base.html", null ],
       [ "state", "structmazes_1_1state.html", "structmazes_1_1state" ],
+      [ "state_utils", "classmazes_1_1state__utils.html", null ],
       [ "string_utils", "classmazes_1_1string__utils.html", null ],
       [ "stringify_create_state", "classmazes_1_1stringify__create__state.html", "classmazes_1_1stringify__create__state" ],
       [ "sw_maze_create_state", "classmazes_1_1sw__maze__create__state.html", "classmazes_1_1sw__maze__create__state" ],
-      [ "cell_walls", "structmazes_1_1cell__walls.html", null ],
-      [ "topology", "classmazes_1_1topology.html", "classmazes_1_1topology" ],
       [ "wavefront_object_create_state", "classmazes_1_1wavefront__object__create__state.html", "classmazes_1_1wavefront__object__create__state" ],
       [ "write_to_output_state", "classmazes_1_1write__to__output__state.html", "classmazes_1_1write__to__output__state" ]
     ] ]

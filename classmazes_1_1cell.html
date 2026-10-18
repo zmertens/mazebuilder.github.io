@@ -27,8 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="icon.bmp"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.7.2</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.8.13</span>
    </div>
   </td>
  </tr>
@@ -118,17 +119,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a25dd4743c6b7860faadab1d422bfaa95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a link to another cell (passage between cells).  <br /></td></tr>
 <tr class="memitem:adaf8421253b1ce91037b93905c75df63" id="r_adaf8421253b1ce91037b93905c75df63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaf8421253b1ce91037b93905c75df63">remove_link</a> (const std::shared_ptr&lt; <a class="el" href="#a7b297e0c3401edefdc0de48abd2b4cec">cell</a> &gt; &amp;other)</td></tr>
 <tr class="memdesc:adaf8421253b1ce91037b93905c75df63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a link to another cell.  <br /></td></tr>
-<tr class="memitem:ade5e15a3328c694d92913f52ccd39697" id="r_ade5e15a3328c694d92913f52ccd39697"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; std::shared_ptr&lt; <a class="el" href="#a7b297e0c3401edefdc0de48abd2b4cec">cell</a> &gt;, bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade5e15a3328c694d92913f52ccd39697">get_links</a> () const</td></tr>
-<tr class="memdesc:ade5e15a3328c694d92913f52ccd39697"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves links to other cells.  <br /></td></tr>
 <tr class="memitem:af0c04cb1675673c380f7f2b689e0104f" id="r_af0c04cb1675673c380f7f2b689e0104f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0c04cb1675673c380f7f2b689e0104f">is_linked</a> (const std::shared_ptr&lt; <a class="el" href="#a7b297e0c3401edefdc0de48abd2b4cec">cell</a> &gt; &amp;c)</td></tr>
 <tr class="memdesc:af0c04cb1675673c380f7f2b689e0104f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a cell is linked.  <br /></td></tr>
 <tr class="memitem:a91f58ee7d309bf33601de53c83200880" id="r_a91f58ee7d309bf33601de53c83200880"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91f58ee7d309bf33601de53c83200880">get_index</a> () const noexcept</td></tr>
 <tr class="memdesc:a91f58ee7d309bf33601de53c83200880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the index of the current cell.  <br /></td></tr>
 <tr class="memitem:a8c04499f0e1def466f2480bc0ffda844" id="r_a8c04499f0e1def466f2480bc0ffda844"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c04499f0e1def466f2480bc0ffda844">set_index</a> (std::int32_t next_index) noexcept</td></tr>
 <tr class="memdesc:a8c04499f0e1def466f2480bc0ffda844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the index to the specified value.  <br /></td></tr>
-<tr class="memitem:ac67d89d78f829a1f544445ffc8a00701" id="r_ac67d89d78f829a1f544445ffc8a00701"><td class="memItemLeft" align="right" valign="top"><a id="ac67d89d78f829a1f544445ffc8a00701" name="ac67d89d78f829a1f544445ffc8a00701"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>cleanup_links</b> ()</td></tr>
-<tr class="memdesc:ac67d89d78f829a1f544445ffc8a00701"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleans up or removes links, typically as part of a resource management or shutdown process. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Cell class with links to other cells. </p>
@@ -275,26 +271,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>cleanup_links</b> ()<
 
 <p>Retrieves the index of the current cell. </p>
 <dl class="section return"><dt>Returns</dt><dd>The index of the current cell. </dd></dl>
-
-</div>
-</div>
-<a id="ade5e15a3328c694d92913f52ccd39697" name="ade5e15a3328c694d92913f52ccd39697"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade5e15a3328c694d92913f52ccd39697">&#9670;&#160;</a></span>get_links()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt; std::pair&lt; std::shared_ptr&lt; <a class="el" href="#a7b297e0c3401edefdc0de48abd2b4cec">cell</a> &gt;, bool &gt; &gt; mazes::cell::get_links </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Retrieves links to other cells. </p>
-<dl class="section return"><dt>Returns</dt><dd>A vector of pairs containing linked cells and their link status </dd></dl>
 
 </div>
 </div>

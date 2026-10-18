@@ -27,8 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="icon.bmp"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.7.2</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.8.13</span>
    </div>
   </td>
  </tr>
@@ -96,45 +97,49 @@ $(function(){initNavTree('pixels__create__state_8h_source.html','',''); });
 <a href="pixels__create__state_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef PIXELS_CREATE_STATE_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define PIXELS_CREATE_STATE_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="write__to__output__state_8h.html">MazeBuilder/write_to_output_state.h</a>&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;string_view&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">class </span>configurator;</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">class </span>randomizer;</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">class </span>runtime_stack;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span>mazes</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
-<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="classmazes_1_1pixels__create__state.html">   19</a></span>    <span class="keyword">class </span><a class="code hl_function" href="classmazes_1_1pixels__create__state.html#af26a6ea76cce47195cd2d7c8c5f0c1e5">pixels_create_state</a> final : <span class="keyword">public</span> <a class="code hl_function" href="classmazes_1_1write__to__output__state.html#a7460fc2667eca147e36c48149c2d36c3">write_to_output_state</a></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    {</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="classmazes_1_1pixels__create__state.html#af26a6ea76cce47195cd2d7c8c5f0c1e5">   25</a></span>        <span class="keyword">explicit</span> <a class="code hl_function" href="classmazes_1_1pixels__create__state.html#af26a6ea76cce47195cd2d7c8c5f0c1e5">pixels_create_state</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structmazes_1_1runtime__app_1_1context.html">runtime_app::context</a> &amp;ctx, <a class="code hl_class" href="classmazes_1_1runtime__stack.html">runtime_stack</a> *stack);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="classmazes_1_1pixels__create__state.html#a1320663df71eb0159dcdb7fdc6d9aee4">   31</a></span>        [[nodiscard]] std::string_view <a class="code hl_function" href="classmazes_1_1pixels__create__state.html#a1320663df71eb0159dcdb7fdc6d9aee4">create</a>(<span class="keyword">const</span> <a class="code hl_class" href="classmazes_1_1configurator.html">configurator</a> &amp;config, <a class="code hl_class" href="classmazes_1_1randomizer.html">randomizer</a> &amp;rng) <span class="keyword">noexcept</span> <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="classmazes_1_1pixels__create__state.html#a070ede00beaf7ff6c6b50c99d8d9e32e">   35</a></span>        [[nodiscard]] <span class="keywordtype">bool</span> <a class="code hl_function" href="classmazes_1_1pixels__create__state.html#a070ede00beaf7ff6c6b50c99d8d9e32e">write_output</a>(<span class="keyword">const</span> std::string&amp; output_target, <span class="keyword">const</span> std::string&amp; output_content) <span class="keyword">noexcept</span> <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordtype">int</span> m_image_width{0};</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keywordtype">int</span> m_image_height{0};</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        std::optional&lt;unsigned long long&gt; m_palette_seed;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    };</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="create__contract_8h.html">MazeBuilder/create_contract.h</a>&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;<a class="code" href="write__to__output__state_8h.html">MazeBuilder/write_to_output_state.h</a>&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;string_view&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">namespace </span>mazes</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keyword">class </span><a class="code hl_class" href="classmazes_1_1configurator.html">configurator</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">class </span><a class="code hl_class" href="classmazes_1_1randomizer.html">randomizer</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">class </span><a class="code hl_class" href="classmazes_1_1runtime__stack.html">runtime_stack</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
+<div class="foldopen" id="foldopen00020" data-start="{" data-end="};">
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="classmazes_1_1pixels__create__state.html">   20</a></span>    <span class="keyword">class </span><a class="code hl_function" href="classmazes_1_1pixels__create__state.html#ab986f150d82f0ff109b16f072fc6715c">pixels_create_state</a> final : <span class="keyword">public</span> <a class="code hl_class" href="classmazes_1_1create__contract.html">create_contract</a>, <span class="keyword">public</span> <a class="code hl_function" href="classmazes_1_1write__to__output__state.html#a7460fc2667eca147e36c48149c2d36c3">write_to_output_state</a></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="classmazes_1_1pixels__create__state.html#ab986f150d82f0ff109b16f072fc6715c">   26</a></span>        <span class="keyword">explicit</span> <a class="code hl_function" href="classmazes_1_1pixels__create__state.html#ab986f150d82f0ff109b16f072fc6715c">pixels_create_state</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structmazes_1_1runtime__app_1_1context.html">runtime_app::context</a> &amp;ctx, <a class="code hl_class" href="classmazes_1_1runtime__stack.html">mazes::runtime_stack</a> *stack);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="classmazes_1_1pixels__create__state.html#a0c6eff2056610e27cff288d8e6803f7a">   32</a></span>        [[nodiscard]] std::any <a class="code hl_function" href="classmazes_1_1pixels__create__state.html#a0c6eff2056610e27cff288d8e6803f7a">create</a>(<span class="keyword">const</span> <a class="code hl_class" href="classmazes_1_1args.html">args</a> &amp;a, <a class="code hl_class" href="classmazes_1_1randomizer.html">randomizer</a> &amp;rng) <span class="keyword">noexcept</span> <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classmazes_1_1pixels__create__state.html#a070ede00beaf7ff6c6b50c99d8d9e32e">   36</a></span>        [[nodiscard]] <span class="keywordtype">bool</span> <a class="code hl_function" href="classmazes_1_1pixels__create__state.html#a070ede00beaf7ff6c6b50c99d8d9e32e">write_output</a>(<span class="keyword">const</span> std::string &amp;output_target, <span class="keyword">const</span> std::string &amp;output_content) <span class="keyword">noexcept</span> <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keywordtype">int</span> m_image_width{0};</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordtype">int</span> m_image_height{0};</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        std::optional&lt;unsigned long long&gt; m_palette_seed;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    };</div>
 </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>} <span class="comment">// namespace mazes</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#endif </span><span class="comment">// PIXELS_CREATE_STATE_H</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>} <span class="comment">// namespace mazes</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#endif </span><span class="comment">// PIXELS_CREATE_STATE_H</span></div>
+<div class="ttc" id="aclassmazes_1_1args_html"><div class="ttname"><a href="classmazes_1_1args.html">mazes::args</a></div><div class="ttdoc">Command-line argument handler with JSON support.</div><div class="ttdef"><b>Definition</b> args.h:19</div></div>
 <div class="ttc" id="aclassmazes_1_1configurator_html"><div class="ttname"><a href="classmazes_1_1configurator.html">mazes::configurator</a></div><div class="ttdoc">Configuration class for arguments.</div><div class="ttdef"><b>Definition</b> configurator.h:21</div></div>
+<div class="ttc" id="aclassmazes_1_1create__contract_html"><div class="ttname"><a href="classmazes_1_1create__contract.html">mazes::create_contract</a></div><div class="ttdoc">Contract for the create function in the runtime.</div><div class="ttdef"><b>Definition</b> create_contract.h:21</div></div>
 <div class="ttc" id="aclassmazes_1_1pixels__create__state_html_a070ede00beaf7ff6c6b50c99d8d9e32e"><div class="ttname"><a href="classmazes_1_1pixels__create__state.html#a070ede00beaf7ff6c6b50c99d8d9e32e">mazes::pixels_create_state::write_output</a></div><div class="ttdeci">bool write_output(const std::string &amp;output_target, const std::string &amp;output_content) noexcept override</div><div class="ttdoc">Write pixel data to image file in appropriate format.</div></div>
-<div class="ttc" id="aclassmazes_1_1pixels__create__state_html_a1320663df71eb0159dcdb7fdc6d9aee4"><div class="ttname"><a href="classmazes_1_1pixels__create__state.html#a1320663df71eb0159dcdb7fdc6d9aee4">mazes::pixels_create_state::create</a></div><div class="ttdeci">std::string_view create(const configurator &amp;config, randomizer &amp;rng) noexcept override</div><div class="ttdoc">Creates a maze using the specified algorithm and parameters.</div></div>
-<div class="ttc" id="aclassmazes_1_1pixels__create__state_html_af26a6ea76cce47195cd2d7c8c5f0c1e5"><div class="ttname"><a href="classmazes_1_1pixels__create__state.html#af26a6ea76cce47195cd2d7c8c5f0c1e5">mazes::pixels_create_state::pixels_create_state</a></div><div class="ttdeci">pixels_create_state(const runtime_app::context &amp;ctx, runtime_stack *stack)</div><div class="ttdoc">Construct a new pixels maze creation state.</div></div>
+<div class="ttc" id="aclassmazes_1_1pixels__create__state_html_a0c6eff2056610e27cff288d8e6803f7a"><div class="ttname"><a href="classmazes_1_1pixels__create__state.html#a0c6eff2056610e27cff288d8e6803f7a">mazes::pixels_create_state::create</a></div><div class="ttdeci">std::any create(const args &amp;a, randomizer &amp;rng) noexcept override</div><div class="ttdoc">Creates a maze using the specified algorithm and parameters.</div></div>
+<div class="ttc" id="aclassmazes_1_1pixels__create__state_html_ab986f150d82f0ff109b16f072fc6715c"><div class="ttname"><a href="classmazes_1_1pixels__create__state.html#ab986f150d82f0ff109b16f072fc6715c">mazes::pixels_create_state::pixels_create_state</a></div><div class="ttdeci">pixels_create_state(const runtime_app::context &amp;ctx, mazes::runtime_stack *stack)</div><div class="ttdoc">Construct a new pixels maze creation state.</div></div>
 <div class="ttc" id="aclassmazes_1_1randomizer_html"><div class="ttname"><a href="classmazes_1_1randomizer.html">mazes::randomizer</a></div><div class="ttdoc">Provides random-number generating capabilities.</div><div class="ttdef"><b>Definition</b> randomizer.h:16</div></div>
 <div class="ttc" id="aclassmazes_1_1runtime__stack_html"><div class="ttname"><a href="classmazes_1_1runtime__stack.html">mazes::runtime_stack</a></div><div class="ttdoc">Class representing the runtime stack of states in the maze builder application.</div><div class="ttdef"><b>Definition</b> runtime_stack.h:26</div></div>
 <div class="ttc" id="aclassmazes_1_1write__to__output__state_html_a7460fc2667eca147e36c48149c2d36c3"><div class="ttname"><a href="classmazes_1_1write__to__output__state.html#a7460fc2667eca147e36c48149c2d36c3">mazes::write_to_output_state::write_to_output_state</a></div><div class="ttdeci">write_to_output_state(const runtime_app::context &amp;ctx, runtime_stack *stack)</div><div class="ttdoc">Construct a new write to output state.</div></div>
+<div class="ttc" id="acreate__contract_8h_html"><div class="ttname"><a href="create__contract_8h.html">create_contract.h</a></div></div>
 <div class="ttc" id="astructmazes_1_1runtime__app_1_1context_html"><div class="ttname"><a href="structmazes_1_1runtime__app_1_1context.html">mazes::runtime_app::context</a></div><div class="ttdoc">struct representing the context passed to states in the runtime_app stack</div><div class="ttdef"><b>Definition</b> runtime_app.h:34</div></div>
 <div class="ttc" id="awrite__to__output__state_8h_html"><div class="ttname"><a href="write__to__output__state_8h.html">write_to_output_state.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

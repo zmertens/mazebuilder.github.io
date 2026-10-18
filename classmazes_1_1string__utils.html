@@ -27,8 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="icon.bmp"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.7.2</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.8.13</span>
    </div>
   </td>
  </tr>
@@ -125,8 +126,8 @@ Static Public Member Functions</h2></td></tr>
 static std::string_view&#160;</td><td class="memItemRight" valign="bottom"><b>strip_backticks</b> (const std::string &amp;s)</td></tr>
 <tr class="memitem:a0e0cc432c724f2d14262d7fdb00eaeff" id="r_a0e0cc432c724f2d14262d7fdb00eaeff"><td class="memItemLeft" align="right" valign="top"><a id="a0e0cc432c724f2d14262d7fdb00eaeff" name="a0e0cc432c724f2d14262d7fdb00eaeff"></a>
 static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>replace_all</b> (const std::string &amp;s, const std::string &amp;from, const std::string &amp;to)</td></tr>
-<tr class="memitem:a08cc46573496abb3c407aa7f5eafc973" id="r_a08cc46573496abb3c407aa7f5eafc973"><td class="memItemLeft" align="right" valign="top"><a id="a08cc46573496abb3c407aa7f5eafc973" name="a08cc46573496abb3c407aa7f5eafc973"></a>
-static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>file_extension</b> (std::string_view filename) noexcept</td></tr>
+<tr class="memitem:abfc286ee4dc06467921ac584012a01ef" id="r_abfc286ee4dc06467921ac584012a01ef"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfc286ee4dc06467921ac584012a01ef">f_ext_str</a> (std::string_view filename, std::size_t pos=1) noexcept</td></tr>
+<tr class="memdesc:abfc286ee4dc06467921ac584012a01ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extracts the file extension from a filename, excluding the dot.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>String helper class. </p>
@@ -246,6 +247,45 @@ static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>file_ex
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if str ends with suffix, false otherwise </dd></dl>
+
+</div>
+</div>
+<a id="abfc286ee4dc06467921ac584012a01ef" name="abfc286ee4dc06467921ac584012a01ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfc286ee4dc06467921ac584012a01ef">&#9670;&#160;</a></span>f_ext_str()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mazes::string_utils::f_ext_str </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>pos</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Extracts the file extension from a filename, excluding the dot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>The filename from which to extract the extension. </td></tr>
+    <tr><td class="paramname">pos</td><td>The position of the path substring within the filename. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The file extension string </dd></dl>
 
 </div>
 </div>

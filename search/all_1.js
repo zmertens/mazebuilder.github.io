@@ -7,10 +7,11 @@ var searchData=
   ['bt_5fmaze_5fcreate_5fstate_2eh_4',['bt_maze_create_state.h',['../bt__maze__create__state_8h.html',1,'']]],
   ['build_20and_20test_5',['Build and test',['../index.html#autotoc_md11',1,'']]],
   ['build_20commands_6',['Build commands',['../index.html#autotoc_md13',1,'']]],
-  ['builder_7',['Maze Builder',['../index.html',1,'']]],
-  ['buildinfo_8',['buildinfo',['../structmazes_1_1buildinfo.html',1,'mazes']]],
-  ['buildinfo_2eh_9',['buildinfo.h',['../buildinfo_8h.html',1,'']]],
-  ['bytes_10',['bytes',['../classmazes_1_1bytes.html',1,'mazes']]],
-  ['bytes_2eh_11',['bytes.h',['../bytes_8h.html',1,'']]],
-  ['bytes_5fto_5fstring_12',['bytes_to_string',['../classmazes_1_1bytes.html#a6a1f9b970674c3345aaefff3b0ccfc10',1,'mazes::bytes']]]
+  ['build_5fconfigurator_7',['build_configurator',['../classmazes_1_1state__utils.html#a263b6ae69880bc698fdc82cb0fad782d',1,'mazes::state_utils']]],
+  ['builder_8',['Maze Builder',['../index.html',1,'']]],
+  ['buildinfo_9',['buildinfo',['../structmazes_1_1buildinfo.html',1,'mazes']]],
+  ['buildinfo_2eh_10',['buildinfo.h',['../buildinfo_8h.html',1,'']]],
+  ['bytes_11',['bytes',['../classmazes_1_1bytes.html',1,'mazes']]],
+  ['bytes_2eh_12',['bytes.h',['../bytes_8h.html',1,'']]],
+  ['bytes_5fto_5fstring_13',['bytes_to_string',['../classmazes_1_1bytes.html#a6a1f9b970674c3345aaefff3b0ccfc10',1,'mazes::bytes']]]
 ];

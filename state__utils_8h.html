@@ -27,8 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="icon.bmp"/></td>
   <td id="projectalign">
-   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.7.2</span>
+   <div id="projectname">Maze Builder Docs<span id="projectnumber">&#160;8.8.13</span>
    </div>
   </td>
  </tr>
@@ -96,264 +97,27 @@ $(function(){initNavTree('state__utils_8h.html','',''); });
 
 <p>Namespace containing utility functions for maze builder states.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;<a class="el" href="args_8h_source.html">MazeBuilder/args.h</a>&gt;</code><br />
-<code>#include &lt;MazeBuilder/async_logger.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;MazeBuilder/async_logger.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="configurator_8h_source.html">MazeBuilder/configurator.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="grid__interface_8h_source.html">MazeBuilder/grid_interface.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="grid__operations_8h_source.html">MazeBuilder/grid_operations.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="output__formats_8h_source.html">MazeBuilder/output_formats.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="randomizer_8h_source.html">MazeBuilder/randomizer.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="resource__identifiers_8h_source.html">MazeBuilder/resource_identifiers.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="state_8h_source.html">MazeBuilder/state.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="string__utils_8h_source.html">MazeBuilder/string_utils.h</a>&gt;</code><br />
-<code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;filesystem&gt;</code><br />
-<code>#include &lt;optional&gt;</code><br />
-<code>#include &lt;ranges&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for state_utils.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="state__utils_8h__incl.svg" width="3715" height="468"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="state__utils_8h__incl.svg" width="2594" height="468"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="state__utils_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:mazes_3A_3Astate_5Futils_3A_3Adistance_5Fsettings" id="r_mazes_3A_3Astate_5Futils_3A_3Adistance_5Fsettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmazes_1_1state__utils_1_1distance__settings.html">mazes::state_utils::distance_settings</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct to hold distance settings parsed from arguments.  <a href="structmazes_1_1state__utils_1_1distance__settings.html#details">More...</a><br /></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ad85bee0584e735a9f07c065ef9485b94" id="r_ad85bee0584e735a9f07c065ef9485b94"><td class="memItemLeft" align="right" valign="top"><a id="ad85bee0584e735a9f07c065ef9485b94" name="ad85bee0584e735a9f07c065ef9485b94"></a>
-state::ID&#160;</td><td class="memItemRight" valign="bottom"><b>mazes::state_utils::details::to_state_from_output_format</b> (<a class="el" href="output__formats_8h.html#ab83886a175470a8f190caa3b8415e2d2">output_format</a> of) noexcept</td></tr>
-<tr class="memitem:aebd64f4332df7aa9920541fc615234d6" id="r_aebd64f4332df7aa9920541fc615234d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebd64f4332df7aa9920541fc615234d6">mazes::state_utils::parse_dimensions</a> (const std::unordered_map&lt; std::string, std::string &gt; &amp;<a class="el" href="classmazes_1_1args.html">args</a>, unsigned int &amp;rows, unsigned int &amp;cols, unsigned int &amp;levels) noexcept</td></tr>
-<tr class="memdesc:aebd64f4332df7aa9920541fc615234d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses the maze dimensions from the given arguments.  <br /></td></tr>
-<tr class="memitem:ab427ddedfbc238907c30877e80ba5096" id="r_ab427ddedfbc238907c30877e80ba5096"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmazes_1_1state__utils_1_1distance__settings.html">distance_settings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab427ddedfbc238907c30877e80ba5096">mazes::state_utils::parse_distance_settings</a> (const std::unordered_map&lt; std::string, std::string &gt; &amp;<a class="el" href="classmazes_1_1args.html">args</a>) noexcept</td></tr>
-<tr class="memdesc:ab427ddedfbc238907c30877e80ba5096"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses the distance settings from the given arguments.  <br /></td></tr>
-<tr class="memitem:a23c1da546526b017d2b8be3a8440d2f3" id="r_a23c1da546526b017d2b8be3a8440d2f3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23c1da546526b017d2b8be3a8440d2f3">mazes::state_utils::has_distances</a> (const std::unordered_map&lt; std::string, std::string &gt; &amp;<a class="el" href="classmazes_1_1args.html">args</a>) noexcept</td></tr>
-<tr class="memdesc:a23c1da546526b017d2b8be3a8440d2f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the "distances" argument is present in the given arguments.  <br /></td></tr>
-<tr class="memitem:a7ff05e2b69ff2527e6ea4b0bac7213fc" id="r_a7ff05e2b69ff2527e6ea4b0bac7213fc"><td class="memItemLeft" align="right" valign="top">state::ID&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ff05e2b69ff2527e6ea4b0bac7213fc">mazes::state_utils::output_state_for</a> (const std::unordered_map&lt; std::string, std::string &gt; &amp;<a class="el" href="classmazes_1_1args.html">args</a>) noexcept</td></tr>
-<tr class="memdesc:a7ff05e2b69ff2527e6ea4b0bac7213fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the output state based on the given arguments.  <br /></td></tr>
-<tr class="memitem:a4128e60a8b2c60a4f3b3b8555bfaa121" id="r_a4128e60a8b2c60a4f3b3b8555bfaa121"><td class="memItemLeft" align="right" valign="top"><a id="a4128e60a8b2c60a4f3b3b8555bfaa121" name="a4128e60a8b2c60a4f3b3b8555bfaa121"></a>
-std::unordered_map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>mazes::state_utils::get_args_at_front</b> (const <a class="el" href="structmazes_1_1runtime__app_1_1context.html">runtime_app::context</a> &amp;ctx) noexcept</td></tr>
-<tr class="memitem:a3defe3b4abd5645690e0279af6c3822d" id="r_a3defe3b4abd5645690e0279af6c3822d"><td class="memItemLeft" align="right" valign="top"><a id="a3defe3b4abd5645690e0279af6c3822d" name="a3defe3b4abd5645690e0279af6c3822d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>mazes::state_utils::advance_args</b> (const <a class="el" href="structmazes_1_1runtime__app_1_1context.html">runtime_app::context</a> &amp;ctx) noexcept</td></tr>
-<tr class="memitem:a6f98bc955018aa1024c35542f4bdb572" id="r_a6f98bc955018aa1024c35542f4bdb572"><td class="memItemLeft" align="right" valign="top"><a id="a6f98bc955018aa1024c35542f4bdb572" name="a6f98bc955018aa1024c35542f4bdb572"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>mazes::state_utils::reseed_from_args</b> (const std::unordered_map&lt; std::string, std::string &gt; &amp;<a class="el" href="classmazes_1_1args.html">args</a>, <a class="el" href="classmazes_1_1randomizer.html">randomizer</a> &amp;rng) noexcept</td></tr>
-<tr class="memitem:af48ee18e7ac7674cc776ab70bf7a6ef5" id="r_af48ee18e7ac7674cc776ab70bf7a6ef5"><td class="memTemplParams" colspan="2"><a id="af48ee18e7ac7674cc776ab70bf7a6ef5" name="af48ee18e7ac7674cc776ab70bf7a6ef5"></a>
-template&lt;typename... Mappers&gt; </td></tr>
-<tr class="memitem:af48ee18e7ac7674cc776ab70bf7a6ef5 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><b>mazes::state_utils::validate_mappers</b> (Mappers &amp;&amp;...mapper) noexcept</td></tr>
-<tr class="memitem:a2d587590e3de8e3a90854de13405cffa" id="r_a2d587590e3de8e3a90854de13405cffa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d587590e3de8e3a90854de13405cffa">mazes::state_utils::check_before_resize</a> (<a class="el" href="classmazes_1_1grid__operations.html">grid_operations</a> *ops, unsigned int rows, unsigned int cols, unsigned int levels) noexcept</td></tr>
-<tr class="memdesc:a2d587590e3de8e3a90854de13405cffa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the grid's topology (links) before each generation.  <br /></td></tr>
+<tr class="memitem:mazes_3A_3Astate_5Futils" id="r_mazes_3A_3Astate_5Futils"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmazes_1_1state__utils.html">mazes::state_utils</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Namespace containing utility functions for maze builder states. </p>
-</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a2d587590e3de8e3a90854de13405cffa" name="a2d587590e3de8e3a90854de13405cffa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d587590e3de8e3a90854de13405cffa">&#9670;&#160;</a></span>check_before_resize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mazes::state_utils::check_before_resize </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classmazes_1_1grid__operations.html">grid_operations</a> *</td>          <td class="paramname"><span class="paramname"><em>ops</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>rows</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>cols</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>levels</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Resets the grid's topology (links) before each generation. </p>
-<p>resize() always clears cell links even when dimensions are unchanged; without this, repeated maze generation at the same size (e.g. rebuilding on keypress) would keep linking new random walls on top of the previous maze's links, so the maze gradually loses walls / becomes fully open over time. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ops</td><td>Pointer to the grid operations. </td></tr>
-    <tr><td class="paramname">rows</td><td>Desired number of rows. </td></tr>
-    <tr><td class="paramname">cols</td><td>Desired number of columns. </td></tr>
-    <tr><td class="paramname">levels</td><td>Desired number of levels. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a23c1da546526b017d2b8be3a8440d2f3" name="a23c1da546526b017d2b8be3a8440d2f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23c1da546526b017d2b8be3a8440d2f3">&#9670;&#160;</a></span>has_distances()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mazes::state_utils::has_distances </td>
-          <td>(</td>
-          <td class="paramtype">const std::unordered_map&lt; std::string, std::string &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>args</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Checks if the "distances" argument is present in the given arguments. </p>
-<p>This function checks if the "distances" argument is present in the provided </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">args</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
-<a id="a7ff05e2b69ff2527e6ea4b0bac7213fc" name="a7ff05e2b69ff2527e6ea4b0bac7213fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ff05e2b69ff2527e6ea4b0bac7213fc">&#9670;&#160;</a></span>output_state_for()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">state::ID mazes::state_utils::output_state_for </td>
-          <td>(</td>
-          <td class="paramtype">const std::unordered_map&lt; std::string, std::string &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>args</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Determines the output state based on the given arguments. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">args</td><td>The arguments containing the output information. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The corresponding state::ID for the output. </dd></dl>
-
-</div>
-</div>
-<a id="aebd64f4332df7aa9920541fc615234d6" name="aebd64f4332df7aa9920541fc615234d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebd64f4332df7aa9920541fc615234d6">&#9670;&#160;</a></span>parse_dimensions()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mazes::state_utils::parse_dimensions </td>
-          <td>(</td>
-          <td class="paramtype">const std::unordered_map&lt; std::string, std::string &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int &amp;</td>          <td class="paramname"><span class="paramname"><em>rows</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int &amp;</td>          <td class="paramname"><span class="paramname"><em>cols</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int &amp;</td>          <td class="paramname"><span class="paramname"><em>levels</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Parses the maze dimensions from the given arguments. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">args</td><td>The arguments containing the dimension information. </td></tr>
-    <tr><td class="paramname">rows</td><td>Reference to store the number of rows. </td></tr>
-    <tr><td class="paramname">cols</td><td>Reference to store the number of columns. </td></tr>
-    <tr><td class="paramname">levels</td><td>Reference to store the number of levels. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ab427ddedfbc238907c30877e80ba5096" name="ab427ddedfbc238907c30877e80ba5096"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab427ddedfbc238907c30877e80ba5096">&#9670;&#160;</a></span>parse_distance_settings()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">distance_settings mazes::state_utils::parse_distance_settings </td>
-          <td>(</td>
-          <td class="paramtype">const std::unordered_map&lt; std::string, std::string &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>args</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Parses the distance settings from the given arguments. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">args</td><td>The arguments containing the distance settings. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A distance_settings struct populated with the parsed values. </dd></dl>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>
